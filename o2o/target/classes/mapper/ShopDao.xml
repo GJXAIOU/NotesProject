@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace：告诉 Mapper 扫描哪一个类-->
+<mapper namespace="com.gjxaiou.dao.ShopDao">
+        <!--userGenertedKeys = "true" 表示一旦插入成功，就使用 jdbc 获取主键值，然后将其插入传入的实体类 shop对象中 -->
+        <!--后面表示数据库中的主键，以及主键对应的实体类-->
+    <insert id="insertShop" useGeneratedKeys="true" keyColumn="shop_id"
+            keyProperty="shopId" >
+        INSERT INTO
+        tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone,
+        shop_img, priority, create_time, last_edit_time, enable_status, advice)
+        VALUES
+        (#{owner.userId},#{area.areaId},#{shopCategory.shopCategoryId},
+        #{shopName},#{shopDesc},#{shopAddr},#{phone},#{shopImg}, #{priority},#{createTime},#{lastEditTime},#{enableStatus},#{advice})
+        <!--上行注释：因为这里传入的是 shop 对象，shop 对象中有一个 owner，其对应的 userId 就是ownerId;因此使用 实体类.成员变量名 即可-->
+    </insert>
+
+
+    <!--更新店铺，这里使用动态 SQL-->
+    <update id="updateShop" parameterType="com.gjxaiou.entity.Shop">
+        UPDATE tb_shop
+        <set>
+            <if test="shopName != null">shop_name=#{shopName},</if>
+            <if test="shopDesc != null">shop_desc=#{shopDesc},</if>
+            <if test="shopAddr != null">shop_addr=#{shopAddr},</if>
+            <if test="phone != null">phone=#{phone},</if>
+            <if test="shopImg != null">shop_img=#{shopImg},</if>
+            <if test="priority != null">priority=#{priority},</if>
+            <if test="lastEditTime != null">last_edit_time=#{lastEditTime},</if>
+            <if test="enableStatus != null">enable_status=#{enableStatus},</if>
+            <if test="advice != null">advice=#{advice},</if>
+            <if test="area != null">area_id=#{area.areaId},</if>
+            <if test="shopCategory != null">shop_category_id=#{shopCategory.shopCategoryId}</if>
+        </set>
+        where shop_id=#{shopId}
+    </update>
+</mapper>
