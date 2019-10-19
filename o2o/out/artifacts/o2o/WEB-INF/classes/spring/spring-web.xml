@@ -12,7 +12,7 @@
 	<!-- 1.开启SpringMVC注解模式 -->
 	<!-- 简化配置： (1)自动注册DefaultAnootationHandlerMapping,AnotationMethodHandlerAdapter 
 		(2)提供一些列：数据绑定，数字和日期的format @NumberFormat, @DateTimeFormat, xml,json默认读写支持 -->
-<!--	<mvc:annotation-driven />-->
+	<mvc:annotation-driven />
 
 	<!-- 2.静态资源默认servlet配置 (1)加入对静态资源的处理：js,gif,png (2)允许使用"/"做整体映射 -->
 	<mvc:resources mapping="/resources/**" location="/resources/" />
@@ -31,7 +31,7 @@
 		<property name="maxUploadSize" value="10485760000"></property><!-- 最大上传文件大小 -->
 		<property name="maxInMemorySize" value="10960"></property>
 	</bean>
-	<!-- 在spring-mvc.xml文件中加入这段配置后，spring返回给页面的都是utf-8编码了 -->
+	<!--- 在spring-mvc.xml文件中加入这段配置后，spring返回给页面的都是utf-8编码了-->
 <!--	<bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">-->
 <!--		<property name="messageConverters">-->
 <!--			<list>-->

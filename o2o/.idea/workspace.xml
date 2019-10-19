@@ -2,11 +2,97 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="o2o" />
+      <artifact name="o2o:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c4b3e42-6fab-48b4-b3bc-2203179eccdd" name="Default Changelist" comment="" />
+    <list default="true" id="7c4b3e42-6fab-48b4-b3bc-2203179eccdd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Algorithm/Algorithm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Books/BookJavaCoreAndInterview/BookJavaCoreAndInterview.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatternCode/DesignPattern/DesignPattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ForkFromGitHub/JDK/Demo/Demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ForkFromGitHub/mybatis-master/src/main/main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ForkFromGitHub/mybatis-master/src/test/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/main/main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/test/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaotaoMall/.idea/TaotaoMall.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaotaoMall/taotao_common/taotao_common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaotaoMall/taotao_manager/taotao_manager.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaotaoMall/taotao_manager/taotao_manager_mapper/taotao_manager_dao.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaotaoMall/taotao_manager/taotao_manager_pojo/taotao_manager_pojo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaotaoMall/taotao_manager/taotao_manager_service/taotao_manager_service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaotaoMall/taotao_manager/taotao_manager_web/taotao_manager_web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaotaoMall/taotao_parent/taotao_parent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/.idea/VideoClass.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/FramePromotion/Demo/SpringAop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/FramePromotion/MathModel/MathModel.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/FramePromotion/MyBatis1/.idea/MyBatis1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/FramePromotion/MyBatis1/Frower/Frower.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/FramePromotion/MyBatis1/Mybatis2/Mybatis2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/FramePromotion/MyBatisDemo2/MyBatisDemo2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/FramePromotion/ServletDemo/ServletDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/FramePromotion/SpringAop/SpringAop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/FramePromotion/SpringDemo1/SpringDemo1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/FramePromotion/SpringMVCInterceptor/SpringMVCInterceptor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/FramePromotion/SpringWithMyBatis/SpringWithMyBatis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/FramePromotion/StandardHibernateProject/StandardHibernateProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/FramePromotion/StandardHibernateProject2/StandardHibernateProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/FramePromotion/StandardHibernateProject2/StandardHibernateProject2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/FramePromotion/StandardHibernateProject3/StandardHibernateProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/FramePromotion/StandardHibernateProject3/StandardHibernateProject3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/FramePromotion/StandardMyBatisProject/StandardMyBatisProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/FramePromotion/StandardStrutsProject/StandardStrutsProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/FramePromotion/StandardStrutsProject2/StandardStrutsProject2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/FramePromotion/StandardStrutsProject3/StandardStrutsProject3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/JavaEEDay26Reflet/JavaEEDay26Reflect.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/JavaEEDay27Page/JavaEEDay27Page.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/JavaEEDay34/JavaEEDay34.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/JavaEEDay36/JavaEEDay36.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/JavaEEDay39/JavaEEDay39.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/JavaEEDay40_41/JavaEEDay40_41.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/JavaEEDay42ContactSystem/JavaEEDay42ContactSystem.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/JavaEEDay43ContactSystemJSP/JavaEEDay43ContactSystemJSP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/JavaEEDay43JSP/JavaEEDay43JSP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/JavaEEDay45Decorate/JavaEEDay45Filter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/JavaEEDay46Download/JavaEEDay46Download.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/JavaEEDay46FileUpload/JavaEEDay46FileUpload.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/JavaEEDay46Test/JavaEEDay46Test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/JavaEEDay47Icard/JavaEEDay47Icard.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/JavaEEDay48Ajax/JavaEEDay48Ajax.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/JavaEEDay48AjaxHomework/JavaEEDay48AjaxHomework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/JavaEEDay48Listener/JavaEEDay48Listener.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/JavaEEDay49CascadeAction/JavaEEDay49CascadeAction.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/JavaEEDay50jQueryHomework/JavaEEDay50jQueryHomework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/JavaEEDay53DispatcherAndRedirect/JavaEEDay53DispatcherAndRedirect.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/JavaEEDay54ShopManager/JavaEEDay54ShopManager.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/JavaEEday35/JavaEEday35.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmcrud/src/main/main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmcrud/ssmcrud2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../u1tigt/myo2o.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/o2o/WEB-INF/classes/mapper/AreaDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/o2o/WEB-INF/classes/mapper/AreaDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/o2o/WEB-INF/classes/spring/spring-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/o2o/WEB-INF/classes/spring/spring-web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/o2o/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/o2o/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/o2o/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/o2o_war_exploded/WEB-INF/classes/META-INF/o2o.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/o2o_war_exploded/WEB-INF/classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/o2o_war_exploded/WEB-INF/classes/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/o2o_war_exploded/WEB-INF/classes/mapper/AreaDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/o2o_war_exploded/WEB-INF/classes/mapper/ShopDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/o2o_war_exploded/WEB-INF/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/o2o_war_exploded/WEB-INF/classes/spring/spring-dao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/o2o_war_exploded/WEB-INF/classes/spring/spring-service.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/o2o_war_exploded/WEB-INF/classes/spring/spring-web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/o2o_war_exploded/WEB-INF/classes/watermark.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/o2o_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/o2o_war_exploded/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/o2o_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gjxaiou/web/shopadmin/ShopManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/web/shopadmin/ShopManagerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring-web.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +109,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -48,8 +137,10 @@
     </option>
   </component>
   <component name="ProjectId" id="1S0Fyoupg6SnJbRLm2sPbruJDT8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/gjxaiou/interceptor" />
@@ -94,7 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShopServiceTest.AddShopTest">
+  <component name="RunManager" selected="Tomcat Server.o2o">
     <configuration name="ShopCategoryDaoTest.testBQueryShopCategory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="o2o" />
       <extension name="coverage">
@@ -131,7 +222,7 @@
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/o2o_war_exploded/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="o2o">
+        <artifact name="o2o:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/o2o_war_exploded" />
           </settings>
@@ -196,14 +287,14 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="o2o" />
+          <artifact name="o2o:war exploded" />
         </option>
       </method>
     </configuration>
     <configuration name="o2o" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.43" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="o2o">
+        <artifact name="o2o:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/o2o_war_exploded" />
           </settings>
@@ -268,7 +359,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="o2o" />
+          <artifact name="o2o:war exploded" />
         </option>
       </method>
     </configuration>
@@ -299,11 +390,22 @@
       <updated>1570692864059</updated>
       <workItem from="1570692865283" duration="8016000" />
       <workItem from="1570857726284" duration="8892000" />
-      <workItem from="1571274725515" duration="66496000" />
+      <workItem from="1571274725515" duration="71565000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -1,6 +1,6 @@
 # 项目说明
 
-该小项目仅仅作为自己 SSM 框架整合的 Demo，部分功能因为涉及到 SpringBoot，还在学习过程中，将在后期补充。
+该小项目仅仅作为自己熟悉 SSM 框架整合的 Demo，部分功能因为涉及到 SpringBoot，还在学习过程中，将在后期补充。先熟练使用，再探究原理，从实践中弄懂如何做，从源码中弄懂为什么，加油😆
 
 ## 一、整体说明
 
@@ -63,44 +63,76 @@
 - LocalAuth.java
 - PersonInfo.java
 - Product.java
-- 
+- ProductCategory.java
+- ProductImg.java
+- Shop.java
+- ShopCategory.java
+- WeChatAuth.java
 
 
 
+### （二）Maven 配置
 
+- 统一配置 Spring 版本为：5.1.19.RELEASE；
+- 因为是 Demo，会经常对自己代码进行调试，需要引入：junit；
+- 一定要有的日志，这里使用 logback（log4j 的改良版）；
+- 数据库驱动以及 c3p0 连接池；
+- Mybatis 依赖以及 Mybatis 与 Spring依赖；
+- Servlet 方面的以及 jstl 以及使用 Jackson 作为 json 解析；
+- Map 工具类，对标准的 Java collection 的拓展；
+- Spring 的依赖；
+- kaptcha：用于生成验证码；
+- 文件上传的依赖；
+- lombok 插件：为了自己做笔记方便，因此使用 lombok 插件实现 get、set 方法；
 
-## SSM 整合验证
-- entity：该包中对应的是数据库中表及其字段；
-- Dao 层：  AreaDao.java   AreaDao.xml
-    - Dao 层创建想要的对象和接口，同时用于定义相关的方法；
-    - 然后在 resources.mapper 包下创建对应的同名 xml 文件，该文件中定义上面接口中方法对应的 SQL 语句；
-- service 层： AreaService.java   AreaServiceImpl.java   
-    - service 层一般包含一个接口和一个实现类，接口是想要执行的方法，然后在实现类中该方法调用 Dao 层中的方法；
-    - 因为 service 层需要调用 Dao 层，因此在 service 的实现方法中首先应该创建 Dao 层对象；然后在实现类中实现接口中的方法；
-    - 其实现类 XXXService.xml 返回想要的数据给 controller 中的；
-- Controller 层: AreaController.java
-    - 首先 controller 层依赖于 service 层，因此首先创建 service 对象；
-    - 然后接受 service 层处理之后的对象，并且返回到前台展示；
+## （三）SSM 整合验证
 
-## logback
-logback 是 Log4j 的改良版本
-一般在 service 或者 controller 中使用，用于输出日志；
+这里以实现区域查找功能为例，通过配置验证SSM配置；
 
-## 店铺商家管理系统
+- 首先是 SSM 基本配置：
+    - `db.properties`  配置数据库连接信息；
+    - `mybatis-config`配置 MyBatis 的全局属性，包括使用 jdbc 的 getGeneratedKeys 获取数据库的自增主键值；
+    - `spring-dao.xml` 配置整合 Mybatis  的过程，包括数据库相关参数配置文件（db.properties）位置，数据库连接池（数据库连接池属性， 关闭自动提交等等），配置 SqlSessionFactory 对象，配置扫描 Dao 接口包，实现交由 Spring 容器管理；
+    - `spring-service.xml` 首先配置扫描 service 包下面所有使用注解的类型，然后配置事务管理器，同时配置基于注解的声明式事务；
+    - `spring-web.xml` 配置 SpringMVC，开启 SpringMVC 的注解模式，配置静态资源位置，自定义视图解析器，文件上传解析器；
+    - `web.xml` 配置 DispatcherServlet，即 SpringMVC 需要加载的配置文件
+- 日志配置：
+    - 配置日志的记录级别，保存时间，输出位置，输出格式等；
+- com.gjxaiou.entity：数据库表对应的实体类；
+- Dao 层：
+    - 首先创建 AreaDao 接口（com.gjxaiou.dao.AreaDao.java），声明查询区域列表的方法；
+    - 然后创建 AreaDao.xml（resources.mapper.AreaDao.xml），其中 `namespace` 是声明对应的 Dao 接口，因为是查询要求，因此使用 `<select/>`标签，其中 `id ` 表示 对应的方法名，`resultType`表示返回值类型，这里只需要返回 `Area`对象即可；然后最后加上对应的 SQL 语句；
+- service 层： AreaService.java 与  AreaServiceImpl.java   
+    - service 层一般包含一个接口和一个实现类，接口是想要执行的方法，然后在实现类中实现该方法，该方法调用 Dao 层中的查询方法；
+    - 其实现类 XXXService.xml 返回想要的数据是给 controller 中的；
+    - 实现类中使用 `@Service` 和 `@Autowired` 表示交给 Spring 管理；
+- Controller 层: AreaController.java（com.gjxaiou.web.superadmin.AreaController.java）
+    - 首先 controller 层依赖于 service 层，因此首先创建 service 对象，将 service 实体类交个 Spring 管理；
+    - 定义方法接受 service 层处理之后的对象，这里接收到的是 List 集合，这里使用 Map 存放返回值，因为是 `select`，所以返回的是受影响的行数；
+    - 这里使用 logback 实现运行过程中的日志输出；
+
+- 功能测试
+  - 首先通过 BaseTest 类，实现初始化 Spring 容器，所有其他 Test 类都继承该类；
+  - 验证 AreaDao 类，即调用查询方法，看结果和数据库中数据数目是否相同；
+  - 验证 AreaServiceTest 类，可以查看查询里面具体内容是否和数据库中数据相同；
+
+## （三）店铺商家管理系统
 包括：店铺和商品模块
-首先应该应有店铺然后才有商品模块；
-### 店铺的增删改查
+首先应该应有店铺然后才有商品模块，因此先从店铺商家管理系统开始设计，主要实现店铺的增删改查；
 
-#### Dao层
+~~下面目录中仅仅实现了店铺的新增和更新功能，其他功能后续增加~~
+
+#### 1.Dao层
+
 - shopDao
 - shopExecution ：保存返回信息
 - shopStateEnume：定义所有 shop 可能的返回值
 
-### service 层（需要事务处理）
+#### 2.service 层（需要事务处理）
 首先需要将店铺信息插入到数据库中，然后返回这个店铺的 Id，根据该店铺的 Id 创建存储该店铺图片的文件夹，在该文件夹下面处理图片，最后将文件夹地址更新会这条数据
 以上任何一步出错都要回滚 -> 需要事务处理；
 
-### controller 层
+#### 3.controller 层
 放在包 web.shopadmin 下面，店家管理后台的 controller都放在这里
 
 - ShopManagerController ：负责店铺管理相关逻辑
@@ -109,7 +141,7 @@ logback 是 Log4j 的改良版本
 注： pom 中 的 jackson-databind.jar 负责将实体类转换为 json或者反过来转换
 
 
-### 前端页面
+#### 4.前端页面
 使用 阿里巴巴的 sui mobile
 使用这个 demo ：http://m.sui.taobao.org/demos/form/label-input/ ,然后右击获取源代码，并且引入静态资源（将 Link 和 script
  内容替换），参考：http://m.sui.taobao.org/getting-started/

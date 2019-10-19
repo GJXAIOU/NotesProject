@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * @create 2019-10-18-20:35
  */
 @Controller
-@RequestMapping(value="shopadmin", method ={RequestMethod.GET})
+@RequestMapping(value="/shopadmin", method ={RequestMethod.GET})
 public class shopAdminController {
     // 返回一个字符串，告诉转发至哪一个 HTML 页面
     @RequestMapping(value = "/shopoperation")

@@ -126,7 +126,7 @@ public class ShopManagerController {
 //                    return modelMap;
 //                }
 
-                // 其实这里不需要转换。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。
+
             ShopExecution se = null;
             try {
                 se = shopService.addShop(shop, shopImg.getInputStream(),
@@ -205,6 +205,6 @@ public class ShopManagerController {
             modelMap.put("success", false);
             modelMap.put("errMsg",e.getMessage());
         }
-        return modelMap;
+       return modelMap;
     }
 }
