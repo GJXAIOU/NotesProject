@@ -177,3 +177,119 @@
 2. util包下面添加 ImageUtil 方法
 该方法中实现了图片的一般操作方法，这里的方法可以自定义。但是如果是批量处理图片，需要平凡的获取图片文件路径，
 因此新建一个 PathUtil.java 类，里面实现获取输入文件路径和输出文件路径；
+
+
+
+
+
+
+
+## 补充：数据库实现主从读写分离
+
+### （一）数据库配置
+MySQL 的主从复制功能不仅可以实现数据的多处自动备份，从而实现数据库的拓展。同时多个数据备份不仅可以加强数据的安全性，同时通过读写分离还能进一步提升数据库的负载性能。
+
+在一主多从的数据库体系中，多个从服务器采用异步的方式更新主数据库的变化，**业务服务器在执行写或者相关修改数据库的操作是在主服务器上进行的，读操作则是在各从服务器上进行**。如果配置了多个从服务器或者多个主服务器又涉及到相应的负载均衡问题，关于负载均衡具体的技术细节还没有研究过，本项目中实现一主一从的主从复制功能，一主多从的复制和读写分离的模型见下：
+![一主多从数据库体系]($resource/%E4%B8%80%E4%B8%BB%E5%A4%9A%E4%BB%8E%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BD%93%E7%B3%BB.jpg)
+
+**主从同步工作过程：**
+
+首先主服务器（Master）对数据的操作记录到二进制日志（Binary log）文件中（即在每个事务的更新事件完成之前，Master 在日志中都会记录这些改变，MySQL 串行的将事务写入二进制文件中，写入完成之后 Master 通知存储引擎提交事务），然后从服务器（Slave）开启一个 IO 线程保持与主服务器的同学，如果发现 Master 二进制日志文件发生改变， 将 binary log 拷贝然后写入从服务器的中心日志（ Relay log）中，即将主服务器的操作同步到 Relay log  中，最后从服务器重新开启一个 SQL线程，将刚才同步过来的操作在从服务器中进行执行，从而实现从数据库和主数据库的一致性，也实现了主从复制。
+
+![主从数据同步]($resource/%E4%B8%BB%E4%BB%8E%E6%95%B0%E6%8D%AE%E5%90%8C%E6%AD%A5.jpg)
+
+**具体配置：**
+一共使用两台虚机实现数据库的读写分离，虚机一：CentOS7Mini：192.168.238.136，为主数据库，虚机二：CentOS7MiniClone：192.168.238.135，为从数据库；
+*   主服务器：
+    *   开启二进制日志
+    *   配置唯一的 server-id
+    *   获得 master 二进制日志文件名及位置
+    *   创建一个用于 slave 和 master 通信的用户账号
+*   从服务器：
+    *   配置唯一的 server-id
+    *   使用 master 分配的用户账号读取 master 二进制日志
+    *   启用 slave 服务
+
+
+- 虚拟机一：Master 主机
+  - 修改 `/etc/my.cnf` 中配置 
+
+```linux
+server-id=1 # 设置 server-id
+log-bin=master-bin # 开启二进制文件
+log-bin-index=master-bin.index
+```
+- 然后进入 MySQL：
+```mysql
+create user 'repl'@'192.168.238.135' identified by 'GJXAIOU_o2o'; # 创建主从直接的通信账号
+grant replication slave on *.* to 'repl'@'192.168.238.135';# 授予该账号读取主服务器中所有数据库的所有表的权限
+```
+- 然后重启数据库 ：`sudo service mysqld restart`
+- 然后进入 MySQL：
+```mysql
+flush privileges;
+show master status; # 查看二进制日志文件状态
+```
+这里结果如下：
+```mysql
++----------+----------+--------------+------------------+-------------------+
+| File  | Position | Binlog_Do_DB | Binlog_Ignore_DB | Executed_Gtid_Set |
++--------+----------+--------------+------------------+-------------------+
+| master-bin.000002 |     1265 |          |              |                 |
++-------------+----------+------------+----------------+----------------+
+1 row in set (0.00 sec)
+```
+- 注：如果配置错误，则可以在 mysql 中删除用户：`drop user 'repl'@'192.168.238.135'` 
+
+
+- 虚拟机二中同样配置
+  - 首先修改 `/etc/my.cnf`
+```linux
+server-id=2
+relay-log-index=slave-relay-bin.index
+relay-log=slave-relay-bin
+```
+- 从库重启 mysql 之后，打开 mysql 回话，执行下面语句；
+```mysql
+CHANGE MASTER TO  MASTER_HOST='192.168.238.136',master_user='repl',master_password='GJXAIOU_o2o',master_log_file='master-bin.000002',master_log_pos=1265;
+```
+访问主库的IP地址，从 3306端口访问，使用 repl 账号，密码是 GJXAIOU_o2o，读取的文件是 `master-bin.000002`，从 1265 位置开始读取；
+
+- 开启主从跟踪和查看从库状态
+```mysql
+start slave; # 开启主从跟踪
+show slave status \G; # 查看从库状态
+```
+
+- 可以使用 `stop slave`关闭主从跟踪；
+
+**补充：设置还原**
+当设置有问题的时候可以使用还原设置来重新配置；
+- 主库设置还原：`reset master;`
+- 从库设置还原：`reset slave all;`
+
+
+**补充：从 Windows 导入数据库到 CentOS 中**
+- 首先将 Windows  的数据库导出
+cmd 中使用：`mysqldump -u用户名 -p 数据库名 数据表名 > 导出的数据库位置和名称`，这里是：`mysqldump -uroot -p o2o > D:\o2o.sql`
+- 将该数据库导入到 CentOS 中
+这里使用 xshell 连接服务器，首先需要在服务器中安装文件传输工具：lrzsz，命令为：`sudo yum install -y lrzsz`；
+然后在 xshell 中找到该服务器的属性，设置文件的上传下载路径；
+然后进入 CentOS 中的 o2o 目录中（自己定义 ），使用命令 ：`rz`然后回车，选择需要上传的文件即可；`rz`：表示上传，`sz`：表示下载；
+
+- 导入数据库
+服务器端进入数据库，然后新建数据库：`create database o2o;`，然后`use o2o;`，最后将上传的数据库文件导入：`source o2o.sql`，后面是刚才上传文件放置的位置；
+
+
+### （二）代码上实现读写分离
+
+因为是 Dao层，因此创建包 `com.gjxaiou.dao.split`，里面放置读写分离的方法
+
+- 新建 `DynamicDataSource.java`  方法，该方法实现 spring 中的 determineCurrentLookupKey() 方法，最终根据方法的返回值（key）的不同来区分不同的数据源；
+这里调用了另一个类 DynamicDataSourceHolder 来具体设置 key 的值以及返回方法，
+
+- 然后设置 mybatis 的拦截器，通过类 DynamicDataSourceInterceptor 完成，因为上面部分完成路由功能，但是使用该路由靠拦截器，因为拦截器会拦截 mybatis 传递进来的 SQL 信息，然后可以根据 SQL信息，如 insert 、update 则采用写的数据源，反之采用读的数据源；
+
+然后在mybatis 配置文件中配置；mybatis-config 中配置拦截器
+
+最后在 Spring -dao 中重写配置 DataSource，包括 db.properties

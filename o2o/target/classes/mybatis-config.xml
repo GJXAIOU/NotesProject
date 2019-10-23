@@ -16,4 +16,8 @@
         <!-- 打印查询语句 -->
         <setting name="logImpl" value="STDOUT_LOGGING" />
     </settings>
+    
+    <plugins>
+        <plugin interceptor="com.gjxaiou.dao.split.DynamicDataSourceInterceptor"></plugin>
+    </plugins>
 </configuration>
