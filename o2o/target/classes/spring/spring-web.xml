@@ -31,67 +31,7 @@
 		<property name="maxUploadSize" value="10485760000"></property><!-- 最大上传文件大小 -->
 		<property name="maxInMemorySize" value="10960"></property>
 	</bean>
-	<!--- 在spring-mvc.xml文件中加入这段配置后，spring返回给页面的都是utf-8编码了-->
-<!--	<bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">-->
-<!--		<property name="messageConverters">-->
-<!--			<list>-->
-<!--				<bean-->
-<!--					class="org.springframework.http.converter.StringHttpMessageConverter">-->
-<!--					<property name="supportedMediaTypes">-->
-<!--						<list>-->
-<!--							<value>text/html;charset=UTF-8</value>-->
-<!--						</list>-->
-<!--					</property>-->
-<!--				</bean>-->
-<!--			</list>-->
-<!--		</property>-->
-<!--	</bean>-->
-<!--	&lt;!&ndash; 4.扫描web相关的bean &ndash;&gt;-->
-<!--	<context:component-scan base-package="com.gjxaiou.web" />-->
-<!--	&lt;!&ndash; 5.权限拦截器 &ndash;&gt;-->
-<!--	<mvc:interceptors>-->
-<!--		<mvc:interceptor>-->
-<!--			<mvc:mapping path="/shop/**" />-->
-<!--			<mvc:exclude-mapping path="/shop/ownerlogin" />-->
-<!--			<mvc:exclude-mapping path="/shop/ownerlogincheck" />-->
-<!--			<mvc:exclude-mapping path="/shop/logout" />-->
-<!--			<mvc:exclude-mapping path="/shop/register" />-->
-<!--			<bean id="ShopInterceptor" class="com.gjxaiou.interceptor.shop.ShopLoginInterceptor" />-->
-<!--		</mvc:interceptor>-->
-<!--		<mvc:interceptor>-->
-<!--			<mvc:mapping path="/shop/**" />-->
-<!--			<mvc:exclude-mapping path="/shop/ownerlogin" />-->
-<!--			<mvc:exclude-mapping path="/shop/ownerlogincheck" />-->
-<!--			<mvc:exclude-mapping path="/shop/register" />-->
-<!--			&lt;!&ndash; shoplist page &ndash;&gt;-->
-<!--			<mvc:exclude-mapping path="/shop/shoplist" />-->
-<!--			<mvc:exclude-mapping path="/shop/logout" />-->
-<!--			<mvc:exclude-mapping path="/shop/list" />-->
-<!--			&lt;!&ndash; changepsw page &ndash;&gt;-->
-<!--			<mvc:exclude-mapping path="/shop/changepsw" />-->
-<!--			<mvc:exclude-mapping path="/shop/changelocalpwd" />							-->
-<!--			&lt;!&ndash; ownerbind page &ndash;&gt;-->
-<!--			<mvc:exclude-mapping path="/shop/ownerbind" />-->
-<!--			<mvc:exclude-mapping path="/shop/bindlocalauth" />-->
-<!--			&lt;!&ndash; shopmanage page &ndash;&gt;-->
-<!--			<mvc:exclude-mapping path="/shop/shopmanage" />-->
-<!--			&lt;!&ndash; shopedit page &ndash;&gt;-->
-<!--			<mvc:exclude-mapping path="/shop/shopedit" />-->
-<!--			<mvc:exclude-mapping path="/shop/getshopbyid" />-->
-<!--			<mvc:exclude-mapping path="/shop/getshopinitinfo" />-->
-<!--			<mvc:exclude-mapping path="/shop/registershop" />-->
-<!--			<bean id="ShopPermissionInterceptor"-->
-<!--				class="com.gjxaiou.interceptor.shop.ShopPermissionInterceptor" />-->
-<!--		</mvc:interceptor>-->
-<!--		<mvc:interceptor>-->
-<!--			<mvc:mapping path="/superadmin/**" />-->
-<!--			<mvc:exclude-mapping path="/superadmin/login" />-->
-<!--			<mvc:exclude-mapping path="/superadmin/logincheck" />-->
-<!--			<mvc:exclude-mapping path="/superadmin/main" />-->
-<!--			<mvc:exclude-mapping path="/superadmin/top" />-->
-<!--			<bean id="SuperAdminInterceptor"-->
-<!--				class="com.gjxaiou.interceptor.superadmin.SuperAdminLoginInterceptor" />-->
-<!--		</mvc:interceptor>-->
 
-<!--	</mvc:interceptors>-->
+	<!-- 4.扫描web相关的bean -->
+	<context:component-scan base-package="com.gjxaiou.web" />
 </beans>

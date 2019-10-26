@@ -11,7 +11,7 @@
 	<context:property-placeholder location="classpath:db.properties"/>
 
 	<!-- 2.数据库连接池 -->
-	<bean id="AbstractdataSource" abstract="true" class="com.mchange.v2.c3p0.ComboPooledDataSource"
+	<bean id="abstractDataSource" abstract="true" class="com.mchange.v2.c3p0.ComboPooledDataSource"
 		  destroy-method="close">
 		<!-- c3p0连接池的私有属性 -->
 		<property name="maxPoolSize" value="30"/>
@@ -24,7 +24,7 @@
 		<property name="acquireRetryAttempts" value="2"/>
 	</bean>
 
-	<bean id="master" parent="AbstractdataSource">
+	<bean id="master" parent="abstractDataSource">
 		<!-- 配置连接池属性 -->
 		<property name="driverClass" value="${jdbc.driver}"/>
 		<property name="jdbcUrl" value="${jdbc.master.url}"/>
@@ -32,7 +32,7 @@
 		<property name="password" value="${jdbc.master.password}"/>
 	</bean>
 
-	<bean id="slave" parent="AbstractdataSource">
+	<bean id="slave" parent="abstractDataSource">
 		<!-- 配置连接池属性 -->
 		<property name="driverClass" value="${jdbc.driver}"/>
 		<property name="jdbcUrl" value="${jdbc.slave.url}"/>
@@ -59,7 +59,7 @@
 
 
 	<!-- 3.配置SqlSessionFactory对象 -->
-	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+	<bean id="factory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<!-- 注入数据库连接池 -->
 		<property name="dataSource" ref="dataSource"/>
 		<!-- 配置MyBaties全局配置文件:mybatis-config.xml -->
@@ -73,7 +73,7 @@
 	<!-- 4.配置扫描Dao接口包，动态实现Dao接口，注入到spring容器中 -->
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
 		<!-- 注入sqlSessionFactory -->
-		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+		<property name="sqlSessionFactoryBeanName" value="factory"/>
 		<!-- 给出需要扫描Dao接口包 -->
 		<property name="basePackage" value="com.gjxaiou.dao"/>
 	</bean>

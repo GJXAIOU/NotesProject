@@ -5,20 +5,56 @@ import com.gjxaiou.entity.Area;
 import com.gjxaiou.entity.PersonInfo;
 import com.gjxaiou.entity.Shop;
 import com.gjxaiou.entity.ShopCategory;
+import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.Date;
+import java.util.List;
 
+import static junit.framework.TestCase.assertNotNull;
+import static junit.framework.TestCase.assertTrue;
 import static org.junit.Assert.assertEquals;
 
 /**
  * @author GJXAIOU
  * @create 2019-10-17-15:30
  */
+@Slf4j
 public class shopDaoTest extends BaseTest {
     @Autowired
     private ShopDao shopDao;
+
+    @Test
+    public void testQueryByShopId() {
+        long shopId = 1l;
+        Shop shop = shopDao.queryByShopId(shopId);
+        log.info("areaId:" + shop.getArea().getAreaId());
+        log.info("areaName:" + shop.getArea().getAreaName());
+        assertNotNull(shop);
+    }
+    @Test
+    public void testQueryShopList() {
+        Shop shopCondition = new Shop();
+        PersonInfo owner = new PersonInfo();
+        owner.setUserId(1l);
+        shopCondition.setOwner(owner);
+       List<Shop> shopList = shopDao.queryShopList(shopCondition, 0, 5);
+
+        int count = shopDao.queryShopCount(shopCondition);
+
+        ShopCategory sc = new ShopCategory();
+        sc.setShopCategoryId(2l);
+        shopCondition.setShopCategory(sc);
+        List<Shop> shopList2 = shopDao.queryShopList(shopCondition, 0, 10);
+
+        assertEquals(5, shopList.size());
+        assertTrue(count > 20);
+        assertEquals(6l, shopList2.size());
+    }
+
+
+
     @Test
     public void insertShopTest(){
         Shop shop = new Shop();

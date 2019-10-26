@@ -2,6 +2,7 @@ package com.gjxaiou.service;
 
 import com.gjxaiou.BaseTest;
 import com.gjxaiou.dao.ShopDao;
+import com.gjxaiou.dto.ImageHolder;
 import com.gjxaiou.dto.ShopExecution;
 import com.gjxaiou.entity.Area;
 import com.gjxaiou.entity.PersonInfo;
@@ -30,6 +31,20 @@ public class ShopServiceTest extends BaseTest {
     private ShopService shopService;
 
     @Test
+    public void modifyShopTest() throws FileNotFoundException {
+        Shop shop = new Shop();
+        shop.setShopId(1L);
+        shop.setShopName("修改后的店铺名称");
+        File shopImg = new File("E:\\Program\\Java\\Project\\o2o\\baise.jpg");
+        InputStream inputStream = new FileInputStream(shopImg);
+        ShopExecution shopExecution = shopService.modifyShop(shop,new ImageHolder(inputStream, "baise.jpg"));
+        System.out.println("新的图片地址" + shopExecution.getShop().getShopImg());
+    }
+
+
+
+
+    @Test
     public void AddShopTest() throws FileNotFoundException {
         Shop shop = new Shop();
         PersonInfo owner = new PersonInfo();
@@ -54,7 +69,8 @@ public class ShopServiceTest extends BaseTest {
         // 这里报错，需要修改
         File shopImg = new File("E:\\Program\\Java\\Project\\o2o\\xiaohuangren.jpg");
         InputStream inputStream = new FileInputStream(shopImg);
-        ShopExecution se = shopService.addShop(shop, inputStream, shopImg.getName());
+        ShopExecution se = shopService.addShop(shop, new ImageHolder(inputStream,
+                shopImg.getName()));
         // 理想值和实际值是否相等
        assertEquals(ShopStateEnum.CHECK.getState(), se.getState());
     }

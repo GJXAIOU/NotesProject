@@ -2,26 +2,75 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="o2o:war exploded" />
+      <artifact name="o2o" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c4b3e42-6fab-48b4-b3bc-2203179eccdd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.resource/commit.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.resource/一主多从数据库体系.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.resource/主从数据同步.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/logs/webapps/debug/debug.2019-10-20.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/dao/split/DynamicDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/dao/split/DynamicDataSourceHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/dao/split/DynamicDataSourceInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baise.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/logs/webapps/debug/debug.2019-10-21.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/dao/ProductCategoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/dao/ProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/dto/ProductCategoryExecution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/dto/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/enums/ProductCategoryStateEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/exception/ProductCategoryOperationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/exception/ProductOperationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/service/ProductCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/service/impl/ProductCategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/util/PageCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/web/shopadmin/ProductCategoryManagementController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ProductCategoryDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/frontend/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/frontend/shop-detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/frontend/shop-list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/shop/shoplist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gjxaiou/dao/ProductCategoryDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/o2o.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/o2o.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/o2o/WEB-INF/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/o2o/WEB-INF/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/o2o/WEB-INF/classes/mapper/AreaDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/o2o/WEB-INF/classes/mapper/AreaDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/o2o/WEB-INF/classes/mapper/ShopDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/o2o/WEB-INF/classes/mapper/ShopDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/o2o/WEB-INF/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/o2o/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/o2o/WEB-INF/classes/spring/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/o2o/WEB-INF/classes/spring/spring-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/o2o/WEB-INF/classes/spring/spring-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/o2o/WEB-INF/classes/spring/spring-web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/o2o/WEB-INF/html/shop/shopoperation.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/o2o/WEB-INF/html/shop/shopoperation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/o2o/resources/js/common/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/o2o/resources/js/common/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/o2o/resources/js/shop/shopoperation.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/o2o/resources/js/shop/shopoperation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gjxaiou/dao/ShopDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/dao/ShopDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gjxaiou/dto/ShopExecution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/dto/ShopExecution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gjxaiou/entity/ProductCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/entity/ProductCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gjxaiou/entity/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/entity/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gjxaiou/service/ShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/service/ShopService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gjxaiou/service/impl/ShopServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/service/impl/ShopServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gjxaiou/util/CodeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/util/CodeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gjxaiou/util/ImageUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/util/ImageUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gjxaiou/web/shopadmin/ShopManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/web/shopadmin/ShopManagerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gjxaiou/web/shopadmin/shopAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/web/shopadmin/shopAdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gjxaiou/web/superadmin/AreaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/web/superadmin/AreaController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/AreaDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/AreaDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/ShopDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/ShopDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shopoperation.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shopoperation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/common/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/common/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/shop/shopoperation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/shop/shopoperation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gjxaiou/dao/shopDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gjxaiou/dao/shopDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gjxaiou/service/ShopServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gjxaiou/service/ShopServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/AreaDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/AreaDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/ShopDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/ShopDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring-web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/mapper/AreaDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/mapper/AreaDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/mapper/ShopDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/mapper/ShopDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/spring/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/spring/spring-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/o2o/resources/js/common/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/o2o/resources/js/common/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/o2o/resources/js/shop/shopoperation.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/o2o/resources/js/shop/shopoperation.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +125,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/gjxaiou/interceptor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -85,25 +134,28 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Program\Java\Project\o2o\src\main\webapp\WEB-INF\html\shop" />
-      <recent name="E:\Program\Java\Project\o2o\src\main\webapp\WEB-INF\html\shopoperation" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.gjxaiou" />
       <recent name="" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.gjxaiou.dao" />
-      <recent name="com.gjxaiou.service.impl" />
-      <recent name="com.gjxaiou.service" />
-      <recent name="com.gjxaiou.enums" />
-      <recent name="com.gjxaiou.entity" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Program\Java\Project\o2o\src\main\java\com\gjxaiou\interceptor" />
-      <recent name="E:\Program\Java\Project\o2o\src\test\resources" />
-      <recent name="E:\Program\Java\Project\o2o\src\main\resources\spring" />
+      <recent name="E:\Program\Java\Project\o2o\src\main\webapp\WEB-INF\html\shop" />
+      <recent name="E:\Program\Java\Project\o2o\src\test\java\com\gjxaiou\dao" />
+      <recent name="E:\Program\Java\Project\o2o\src\main\resources\mapper" />
+      <recent name="E:\Program\Java\Project\o2o\src\main\webapp\resources\js\shop" />
+      <recent name="E:\Program\Java\Project\o2o\src\main\webapp\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gjxaiou.service" />
+      <recent name="com.gjxaiou.web.shopadmin" />
+      <recent name="com.gjxaiou.service.impl" />
+      <recent name="com.gjxaiou.enums" />
+      <recent name="com.gjxaiou.dto" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Program\Java\Project\o2o\src\main\webapp\resources\js\shop" />
+      <recent name="E:\Program\Java\Project\o2o\src\main\webapp\WEB-INF\html\shop" />
+      <recent name="E:\Program\Java\Project\o2o\src\main\webapp\WEB-INF\html\shopoperation" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -118,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AreaDaoTest">
+  <component name="RunManager" selected="Tomcat Server.o2o">
     <configuration name="AreaDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="o2o" />
       <extension name="coverage">
@@ -134,7 +186,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShopCategoryDaoTest.testBQueryShopCategory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductImgDaoTest.testABatchInsertProductImg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="o2o" />
       <extension name="coverage">
         <pattern>
@@ -143,14 +195,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.gjxaiou.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.gjxaiou.dao.ShopCategoryDaoTest" />
-      <option name="METHOD_NAME" value="testBQueryShopCategory" />
+      <option name="MAIN_CLASS_NAME" value="com.gjxaiou.dao.ProductImgDaoTest" />
+      <option name="METHOD_NAME" value="testABatchInsertProductImg" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShopServiceTest.AddShopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShopServiceTest.modifyShopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="o2o" />
       <extension name="coverage">
         <pattern>
@@ -160,13 +212,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.gjxaiou.service" />
       <option name="MAIN_CLASS_NAME" value="com.gjxaiou.service.ShopServiceTest" />
-      <option name="METHOD_NAME" value="AddShopTest" />
+      <option name="METHOD_NAME" value="modifyShopTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="shopDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="shopDaoTest.insertShopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="o2o" />
       <extension name="coverage">
         <pattern>
@@ -176,7 +228,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.gjxaiou.dao" />
       <option name="MAIN_CLASS_NAME" value="com.gjxaiou.dao.shopDaoTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="insertShopTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="shopDaoTest.testQueryByShopId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="o2o" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gjxaiou.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gjxaiou.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.gjxaiou.dao.shopDaoTest" />
+      <option name="METHOD_NAME" value="testQueryByShopId" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -185,7 +254,7 @@
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/o2o_war_exploded/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="o2o:war exploded">
+        <artifact name="o2o">
           <settings>
             <option name="CONTEXT_PATH" value="/o2o_war_exploded" />
           </settings>
@@ -250,21 +319,24 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="o2o:war exploded" />
+          <artifact name="o2o:war" />
+          <artifact name="o2o" />
+          <artifact name="o2o" />
         </option>
       </method>
     </configuration>
     <configuration name="o2o" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.43" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/o2o/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="o2o:war exploded">
+        <artifact name="o2o">
           <settings>
-            <option name="CONTEXT_PATH" value="/o2o_war_exploded" />
+            <option name="CONTEXT_PATH" value="/o2o" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_43_o2o" />
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_43_o2o_2" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -322,23 +394,25 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="o2o:war exploded" />
+          <artifact name="o2o" />
         </option>
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.o2o" />
-      <item itemvalue="JUnit.ShopCategoryDaoTest.testBQueryShopCategory" />
-      <item itemvalue="JUnit.ShopServiceTest.AddShopTest" />
       <item itemvalue="JUnit.AreaDaoTest" />
-      <item itemvalue="JUnit.shopDaoTest" />
+      <item itemvalue="JUnit.shopDaoTest.testQueryByShopId" />
+      <item itemvalue="JUnit.shopDaoTest.insertShopTest" />
+      <item itemvalue="JUnit.ShopServiceTest.modifyShopTest" />
+      <item itemvalue="Tomcat Server.o2o" />
+      <item itemvalue="JUnit.ProductImgDaoTest.testABatchInsertProductImg" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProductImgDaoTest.testABatchInsertProductImg" />
+        <item itemvalue="JUnit.ShopServiceTest.modifyShopTest" />
+        <item itemvalue="JUnit.shopDaoTest.insertShopTest" />
+        <item itemvalue="JUnit.shopDaoTest.testQueryByShopId" />
         <item itemvalue="JUnit.AreaDaoTest" />
-        <item itemvalue="JUnit.shopDaoTest" />
-        <item itemvalue="JUnit.ShopServiceTest.AddShopTest" />
-        <item itemvalue="JUnit.ShopCategoryDaoTest.testBQueryShopCategory" />
       </list>
     </recent_temporary>
   </component>
@@ -358,6 +432,9 @@
       <workItem from="1570692865283" duration="8016000" />
       <workItem from="1570857726284" duration="8892000" />
       <workItem from="1571274725515" duration="83030000" />
+      <workItem from="1571821495749" duration="29116000" />
+      <workItem from="1572000087556" duration="12965000" />
+      <workItem from="1572053828577" duration="7770000" />
     </task>
     <servers />
   </component>
@@ -369,7 +446,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

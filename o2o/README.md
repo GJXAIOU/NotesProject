@@ -148,7 +148,7 @@
 
  - 然后将页面放在 WEB-INF 下的 html/shop 下面，然后配置 shopadmin/shopAdminController.java 来访问，因为该文件夹下面资源文件不能直接访问；
 
- - 然后编写： webapp/resources/js/shop/shopoperation.js
+ - 然后编写： webapp/resources/js/shop/shopOperation.js
 
  ### 需要的方法补写
 
@@ -162,9 +162,9 @@
 ### 上面 前端中的 验证码功能使用 ：
  - 导包 Kaptcha
  - web.xml 中使用servlet 生成验证码的相关设置
- - shopoperation.html 中引入验证码控件
- 其中控件中有点击方法，点击就换一张验证码图片，因此使用 js/common/common.js 实现，然后在 shopoperation.js
-    中将生成的验证码传入，最后在 shopoperation.HTML 中引入上面的 js
+ - shopOperation.html 中引入验证码控件
+ 其中控件中有点击方法，点击就换一张验证码图片，因此使用 js/common/common.js 实现，然后在 shopOperation.js
+    中将生成的验证码传入，最后在 shopOperation.HTML 中引入上面的 js
   
 - 同样后端实现方法 CodeUtil.java 实现判断验证码是否正确  ;
 - 最后在 ShopManagerController.java  的添加店铺之前进行验证
@@ -293,3 +293,76 @@ cmd 中使用：`mysqldump -u用户名 -p 数据库名 数据表名 > 导出的�
 然后在mybatis 配置文件中配置；mybatis-config 中配置拦截器
 
 最后在 Spring -dao 中重写配置 DataSource，包括 db.properties
+
+
+
+### 店铺信息的编辑
+
+###### 实现目标：
+
+- 实现单个店铺信息的获取；
+- 实现对店铺信息进行修改；
+
+
+
+#### 获取店铺信息
+
+Dao：shopDao.java 中添加 查询方法；
+
+配置 对应的 xml 方法；
+
+
+
+Service 层：针对 ShopService 主要增加： 通过店铺 Id 获取店铺信息，和更新店铺信息（包括对图片的处理）
+
+然后在对应的实现类中实现；
+
+```
+getByShopId
+```
+
+```
+modifyShop
+```
+
+
+
+Controller 层：
+
+前端：shopOperation.js  和 common.js
+
+
+
+### 分页查询展示店铺
+
+
+
+
+
+
+
+### 商品类别列表展示
+
+实体类是 ProductCategory
+
+首先 Dao 层接口 ProductCategoryDao.java 和 对应的Mapper 然后使用 ProductCategoryTest 中 testAQueryByShopId 方法进行测试
+
+然后是 Service 层 ProductCategoryService 和实现类；
+
+最后是 controller 层 ProductCategoryManagementController
+
+###### 前端页面：product-category-management.html 和对应的 CSS 布局；和对应的 productCategoryManagement.js 文件 （最后通过标签将 CSS 、js 代码引入 html 中）
+
+然后是 shopAdminController.java 中实现路由，通过访问
+
+
+
+### 商品类别批量添加
+
+ ProjectCategoryDao。Java
+
+
+
+
+
+### 商品类别删除

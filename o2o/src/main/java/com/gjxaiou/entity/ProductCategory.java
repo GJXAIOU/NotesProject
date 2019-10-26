@@ -4,6 +4,7 @@ import java.util.Date;
 
 public class ProductCategory {
 	private Long productCategoryId;
+	// 只需要 shopId，不需要实体类 shop
 	private Long shopId;
 	private String productCategoryName;
 	private String productCategoryDesc;

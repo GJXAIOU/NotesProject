@@ -35,9 +35,7 @@ public class Shop {
      * advice：表示超级管理员给店家的提醒
      */
     private String advice;
-
     private PersonInfo owner;
     private Area area;
     private ShopCategory shopCategory;
-
 }

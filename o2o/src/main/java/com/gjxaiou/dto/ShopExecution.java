@@ -8,7 +8,6 @@ import lombok.Setter;
 import java.util.List;
 
 /**
- *
  * 这里是用于在 service 层之前，是添加店铺的返回类型
  * 不能直接已有的实体类 shop，因为操作 shop 的时候必然有一个状态，例如成功？失败？都得记录并且返回给 controller 层处理的。
  * 一方面存储店铺的信息，同时存储其状态值
