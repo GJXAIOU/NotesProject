@@ -88,10 +88,5 @@ public class DESUtil {
 		}
 	}
 
-	// 测试
-	public static void main(String[] args) {
-		System.out.println(getEncryptString("GJXAIOU"));
-		System.out.println(getEncryptString("GJXAIOU#"));
-		System.out.println(getEncryptString("192.168.238.145"));
-	}
+
 }
