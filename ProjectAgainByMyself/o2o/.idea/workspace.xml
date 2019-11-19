@@ -1,10 +1,671 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="o2o" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cd794c55-2a46-4d6f-9a24-9b0e24ad7156" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_01_knight/src/main/main14.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_01_knight/src/test/test17.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_02_assembly/src/main/main23.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_02_assembly/src/test/test3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_03_advancedAssembly/src/main/main1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_03_advancedAssembly/src/test/test18.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_04_aop/src/main/main24.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_04_aop/src/test/test7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_04_aspectj/src/main/main7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_04_aspectj/src/test/test14.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_05_simpleMVC Maven Webapp/src/main/main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_05_simpleMVC Maven Webapp/src/test/test27.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_06_webview Maven Webapp/src/main/main21.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_06_webview Maven Webapp/src/test/test16.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_06_webview_02 Maven Webapp/src/main/main2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_06_webview_02 Maven Webapp/src/test/test8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_06_webview_03 Maven Webapp/src/main/main6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_06_webview_03 Maven Webapp/src/test/test10.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_07_advancedMVC Maven Webapp/src/main/main13.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_07_advancedMVC Maven Webapp/src/test/test23.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_08_flow Maven Webapp/src/main/main27.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_08_flow Maven Webapp/src/main/resources/resources.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_08_flow Maven Webapp/src/test/test2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_08_flow Maven Webapp/target/classes/classes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_09_security Maven Webapp/src/main/main10.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_09_security Maven Webapp/src/test/test25.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_10_jdbc/src/main/main26.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_10_jdbc/src/test/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_11_persistence_hibernate4/src/main/main3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_11_persistence_hibernate4/src/test/test19.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_11_persistence_jpa_hibernate/src/main/main16.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_11_persistence_jpa_hibernate/src/test/test1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_11_persistence_jpa_springdata/src/main/main28.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_11_persistence_jpa_springdata/src/test/test9.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_12_nosql_mongodb/src/main/main22.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_12_nosql_mongodb/src/test/test22.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_12_nosql_neo4j/src/main/main19.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_12_nosql_neo4j/src/test/test12.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_12_nosql_redis/src/main/main33.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_12_nosql_redis/src/test/test4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_13_cache/src/main/main25.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_13_cache/src/test/test20.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_14_methodsecurity/src/main/main29.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_14_methodsecurity/src/test/test6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_15_httpinvoker Maven Webapp/src/main/main15.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_15_httpinvoker_client Maven Webapp/src/main/main12.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_15_httpinvoker_client Maven Webapp/src/test/test24.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_15_jaxws Maven Webapp/src/main/main4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_15_jaxws_client Maven Webapp/src/main/main9.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_15_jaxws_client Maven Webapp/src/test/test11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_16_restful_content_negotiation Maven Webapp/src/main/main11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_16_restful_content_negotiation Maven Webapp/src/test/test26.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_16_restful_message_converters Maven Webapp/src/main/main20.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_16_restful_message_converters Maven Webapp/src/test/test13.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_17_msg_amqp/src/main/main5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_17_msg_jms/src/main/main32.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_18_msg_stomp Maven Webapp/src/main/main8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_18_msg_stomp_user Maven Webapp/src/main/main31.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_18_msg_stomp_user Maven Webapp/src/test/test21.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_18_msg_websocket Maven Webapp/src/main/main18.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_19_email/src/main/main17.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Books/SpringInActionForthEdition/springiA4_19_email/src/test/test15.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/o2o.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/o2o/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/o2o/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/dao/AreaDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/dao/HeadLineDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/dao/ProductCategoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/dao/ProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/dao/ProductImgDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/dao/ShopCategoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/dao/ShopDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/dao/split/DynamicDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/dao/split/DynamicDataSourceHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/dto/ProductCategoryExecution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/dto/ProductExecution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/dto/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/dto/ShopExecution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/entity/Area.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/entity/HeadLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/entity/LocalAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/entity/PersonInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/entity/ProductCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/entity/ProductImg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/entity/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/entity/ShopCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/entity/WeChatAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/enums/ProductCategoryStateEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/enums/ProductStateEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/enums/ShopStateEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/exception/ProductCategoryOperationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/exception/ProductOperationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/service/HeadLineService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/service/ProductCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/service/ShopCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/service/ShopService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/service/impl/AreaServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/service/impl/HeadLineServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/service/impl/ProductCategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/service/impl/ShopCategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/util/CodeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/util/HttpServletRequestUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/util/ImageUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/util/PageCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/util/PathUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/web/shopAdmin/ProductCategoryManagerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/web/shopAdmin/ProductManagerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/web/shopAdmin/shopAdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gjxaiou/web/superAdmin/AreaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/AreaDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/HeadLineDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ProductCategoryDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ProductDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ProductImgDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ShopCategoryDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ShopDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/watermark.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/frontend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/frontend/shopDetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/frontend/shopList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/productCategoryManagement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/productManagement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/productOperation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shopList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shopManagement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shopOperation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/frontEnd/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/shop/productCategoryManagement.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/shop/productManagement.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/shop/shopList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/shop/shopManagement.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/common/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/frontEnd/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/frontEnd/shopDetail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/frontEnd/shopList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/shop/productCategoryManagement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/shop/productManagement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/shop/productOperation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/shop/shopList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/shop/shopOperation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/headtitle/2017061320315746624.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/headtitle/2017061320371786788.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/headtitle/2017061320393452772.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/headtitle/2017061320400198256.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/15/2017060522042982266.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/15/2017060523302118864.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/15/20170605233021865310.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/15/20170605233022246642.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/15/20170605233022618071.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/15/20170605234852321010.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/15/2017060523485289817.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/15/2017060608490188656.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/15/20170606084902162950.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/15/20170606085020558290.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/15/2017060608502085437.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/16/2017060608534289617.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/16/2017060608574074561.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/16/20170606085740956160.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/16/2017060609020457673.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/16/2017060609021390280.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/16/2017060609023594517.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/16/2017060609025850665.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/16/20170606090259397060.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/17/2017060609084595067.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/18/2017060609110899956.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/19/2017060609140699548.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/20/2017060609163395401.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/20/2017060620114126875.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/20/20170606201141387851.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/20/20170606201141425050.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/20/20170606201141503752.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/20/2017060620361825986.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/20/2017060620363014331.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/20/20170606203630923430.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/20/20170606203631552081.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/20/20170606203631972862.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/20/2017060620384620536.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/20/20170606203846623120.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/20/2017060620472125629.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/20/20170606204721744860.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/20/20170606204922968580.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/20/2017060620492297296.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/20/20170606210528132921.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/20/2017060621052824735.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/20/20170606210528529220.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/21/2017060609194286080.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/22/2017060609223853062.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/23/2017060609275777519.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/24/2017060609354459045.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/25/2017060609381150709.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/26/2017060609431259039.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/27/2017060715512185473.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shop/28/2017082500103690946.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shopcategory/2017060420315183203.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shopcategory/2017060420322333745.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shopcategory/2017060420372391702.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shopcategory/2017060420374775350.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shopcategory/2017060420460491494.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shopcategory/2017060420464594520.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shopcategory/2017060420500783376.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shopcategory/2017060420505834244.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shopcategory/2017060421593496807.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shopcategory/2017060421595843693.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shopcategory/2017060422114076152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shopcategory/2017060422121144586.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shopcategory/2017061223272255687.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shopcategory/2017061223273314635.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shopcategory/2017061223274213433.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shopcategory/2017061223275121460.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shopcategory/2017061223280082147.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/o2oImageUpload/shopcategory/2017061223281361578.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/src/main/java/com/gjxaiou/dao/HeadLineDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/src/main/java/com/gjxaiou/service/HeadLineService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/src/main/java/com/gjxaiou/service/impl/HeadLineServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/src/main/java/com/gjxaiou/web/frontend/FrontendController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/src/main/java/com/gjxaiou/web/frontend/MainPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/src/main/java/com/gjxaiou/web/frontend/ShopDetailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/src/main/java/com/gjxaiou/web/frontend/ShopListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/src/main/resources/mapper/HeadLineDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/src/main/webapp/WEB-INF/html/frontend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/src/main/webapp/WEB-INF/html/frontend/shopDetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/src/main/webapp/WEB-INF/html/frontend/shopList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/src/main/webapp/resources/css/frontend/shopDetail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/src/main/webapp/resources/css/frontend/shopList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/src/main/webapp/resources/js/frontend/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/src/main/webapp/resources/js/frontend/shopDetail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../o2o/src/main/webapp/resources/js/frontend/shopList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../o2o/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../o2o/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../o2o/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../o2o/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../o2o/out/artifacts/o2o/WEB-INF/classes/mapper/ProductDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../o2o/out/artifacts/o2o/WEB-INF/classes/mapper/ProductDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../o2o/out/artifacts/o2o/WEB-INF/classes/mapper/ShopCategoryDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../o2o/out/artifacts/o2o/WEB-INF/classes/mapper/ShopCategoryDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../o2o/out/artifacts/o2o/WEB-INF/classes/mapper/ShopDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../o2o/out/artifacts/o2o/WEB-INF/classes/mapper/ShopDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../o2o/out/artifacts/o2o/resources/css/frontend/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../o2o/out/artifacts/o2o/resources/css/frontend/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../o2o/out/artifacts/o2o/resources/css/frontend/shop-detail.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../o2o/out/artifacts/o2o/resources/css/frontend/shop-list.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../o2o/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../o2o/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../o2o/src/main/java/com/gjxaiou/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../o2o/src/main/java/com/gjxaiou/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../o2o/src/main/java/com/gjxaiou/entity/WeChatAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../o2o/src/main/java/com/gjxaiou/entity/WeChatAuth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../o2o/src/main/java/com/gjxaiou/service/impl/ShopCategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../o2o/src/main/java/com/gjxaiou/service/impl/ShopCategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../o2o/src/main/java/com/gjxaiou/util/PathUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../o2o/src/main/java/com/gjxaiou/util/PathUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../o2o/src/main/resources/mapper/ProductDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../o2o/src/main/resources/mapper/ProductDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../o2o/src/main/resources/mapper/ShopCategoryDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../o2o/src/main/resources/mapper/ShopCategoryDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../o2o/src/main/resources/mapper/ShopDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../o2o/src/main/resources/mapper/ShopDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../o2o/src/main/webapp/resources/css/frontend/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../o2o/src/main/webapp/resources/css/frontend/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../o2o/src/main/webapp/resources/css/frontend/shop-detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/frontEnd/shopDetail.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../o2o/src/main/webapp/resources/css/frontend/shop-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/frontEnd/shopList.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../o2o/target/classes/mapper/ProductDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../o2o/target/classes/mapper/ProductDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../o2o/target/classes/mapper/ShopCategoryDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../o2o/target/classes/mapper/ShopCategoryDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../o2o/target/classes/mapper/ShopDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../o2o/target/classes/mapper/ShopDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ssmcrud/src/main/main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ssmcrud/ssmcrud2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../u1tigt/myo2o.iml" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="XML" />
+        <option value="spring-beans.schema" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\Program\Java\maven\Repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="E:\Program\Java\maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1SsQF8rdgcA0jb5hx8KJhSaLLEj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Program\Java\Project\ProjectAgainByMyself\o2o\src\main\webapp\resources" />
+      <recent name="E:\Program\Java\Project\ProjectAgainByMyself\o2o\src\main\resources\spring" />
+      <recent name="E:\Program\Java\Project\ProjectAgainByMyself\o2o\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gjxaiou.dao" />
+      <recent name="com.gjxaiou.service.impl" />
+      <recent name="com.gjxaiou.service" />
+      <recent name="com.gjxaiou.util" />
+      <recent name="com.gjxaiou.exception" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Program\Java\Project\ProjectAgainByMyself\o2o" />
+      <recent name="E:\Program\Java\Project\ProjectAgainByMyself\o2o\src\main\webapp\resources\js" />
+      <recent name="E:\Program\Java\Project\ProjectAgainByMyself\o2o\src\main\webapp\WEB-INF\html" />
+      <recent name="E:\Program\Java\Project\ProjectAgainByMyself\o2o\src\main\resources\mapper" />
+      <recent name="E:\Program\Java\Project\ProjectAgainByMyself\o2o\target\o2o" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.43">
+    <configuration name="DESUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gjxaiou.util.DESUtil" />
+      <module name="o2o" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gjxaiou.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ECS_RUN_CONFIGRATION" factoryName="Ecs configuration factory">
+      <option name="address" />
+      <option name="afterCommand" />
+      <option name="alreadyReset" value="true" />
+      <option name="autoOpen" value="false" />
+      <option name="beforeCommand" />
+      <option name="defaultTabIdx" value="0" />
+      <option name="ecsInstance">
+        <EcsInstance>
+          <option name="OSType" />
+          <option name="instanceId" />
+          <option name="instanceName" />
+          <option name="netType" />
+          <option name="privateIps" />
+          <option name="publicIps" />
+          <option name="regionId" />
+          <option name="tags" />
+        </EcsInstance>
+      </option>
+      <option name="hostTagId" value="0" />
+      <option name="location" />
+      <option name="pathOrUrl" />
+      <option name="tagId" value="0" />
+      <option name="terminalCommand" />
+      <option name="type" />
+      <option name="uploadType" />
+      <method v="2">
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/../o2o\pom.xml" goal="clean install" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.43" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.43" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="o2o">
+          <settings>
+            <option name="CONTEXT_PATH" value="/o2o" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_43_o2o_3" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="8516" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="o2o" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.43" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="o2o">
+          <settings>
+            <option name="CONTEXT_PATH" value="/o2o" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_o2o" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="8516" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="o2o" />
+        </option>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="o2o" />
+          <artifact name="o2o" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.DESUtil" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.43" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DESUtil" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cd794c55-2a46-4d6f-9a24-9b0e24ad7156" name="Default Changelist" comment="" />
+      <created>1572349716292</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572349716292</updated>
+      <workItem from="1572349717483" duration="34945000" />
+      <workItem from="1572745013492" duration="7952000" />
+      <workItem from="1572767568003" duration="55704000" />
+      <workItem from="1572960025905" duration="5585000" />
+      <workItem from="1573019319241" duration="2965000" />
+      <workItem from="1573024417044" duration="733000" />
+      <workItem from="1573029986561" duration="795000" />
+      <workItem from="1573030807875" duration="16888000" />
+      <workItem from="1573352877460" duration="1904000" />
+      <workItem from="1573440278891" duration="12819000" />
+      <workItem from="1573865864867" duration="12995000" />
+      <workItem from="1573910281147" duration="5612000" />
+      <workItem from="1574143565117" duration="707000" />
+      <workItem from="1574144900217" duration="436000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/gjxaiou/web/frontEnd/FrontController.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/gjxaiou/web/frontEnd/FrontController.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/gjxaiou/web/frontEnd/FrontController.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/gjxaiou/web/frontEnd/FrontController.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/gjxaiou/web/frontEnd/FrontController.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

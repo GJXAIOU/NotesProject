@@ -1,4 +1,4 @@
-package com.gjxaiou.web.superadmin;
+package com.gjxaiou.web.superAdmin;
 
 import com.gjxaiou.entity.Area;
 import com.gjxaiou.service.AreaService;

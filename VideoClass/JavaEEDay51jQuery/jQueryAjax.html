@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="js/jquery-3.4.1.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				$("#but").click(function(){
+					// 使用jQuery发送一个Ajax请求
+					// 参数只有一个,是一个js对象,对象中包裹着多个参数
+					$.ajax({
+						// 设置请求方式
+						type:"post",
+						// 设置请求路径
+						url:"index1.html",
+						// 设置是否异步
+						async:true,
+						// 对请求成功的监听,如果请求成功(相当于：readystate==4 && status ==200)
+						// function()里面的参数表示请求成功的时候会将响应数据赋值给此参数(该参数也是一个对象)
+						success: function(data){
+							alert(data)
+						},
+						// 对请求失败的监听
+						error: function(){
+							// 请求失败的事件监听函数
+							alert("请求失败")
+						},
+						// 如果是POST请求, 并且有参数时候,参数就放置到data键值对的值中
+						data:"username = admin"
+					});
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<input type="button" name="" id="but" value="点击按钮返回一个Ajax请求"/>
+	</body>
+</html>

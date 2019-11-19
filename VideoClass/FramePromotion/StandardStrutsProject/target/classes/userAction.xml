@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+    <package name="userDemo" extends="struts-default" namespace="/">
+        <!--name：发布之后访问名称，这里通过 hello ，就可以访问到 HelloAction，然后根据 HelloAction 的返回值
+            是 OK，对应下面的返回值，可以跳转到 hello.jsp 页面；-->
+        <action name="user" class="com.gjxaiou.action.UserAction">
+            <!--这里配置方法的返回值对应的页面-->
+            <result name="SUCCESS" >/hello.jsp</result>
+        </action>
+    </package>
+</struts>

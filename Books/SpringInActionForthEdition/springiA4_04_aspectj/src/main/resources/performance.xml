@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+	http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+	">
+	
+	<bean id="performance" class="com.lzc.aspectj.SingPerformance"></bean>
+	
+	<bean id="criticismEngine" class="com.lzc.aspectj.CriticismEngineImpl">
+		<property name="criticismPool">
+			<list>
+				<value>唱得很好</value>
+				<value>表现一般</value>
+				<value>有失水准</value>
+			</list>
+		</property>
+	</bean>
+	
+	<bean class="com.lzc.aspectj.CriticAspect" factory-method="aspectOf">
+		<property name="criticismEngine" ref="criticismEngine"/>
+	</bean>
+
+</beans>

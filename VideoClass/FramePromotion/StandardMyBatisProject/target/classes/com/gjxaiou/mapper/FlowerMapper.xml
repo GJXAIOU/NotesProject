@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.gjxaiou.mapper.FlowerMapper">
+    <select id="selectAll"  resultType="Flower" >
+        select * from flower1
+    </select>
+
+    <select id="countSelectById" parameterType="Flower" resultType="Integer">
+        select count(*) from flower1 where id = #{id}
+    </select>
+
+    <select id="selectByColumn" resultType="Flower">
+        select id, name newName, height from flower1
+    </select>
+
+    <insert id="insert" parameterType="Flower">
+        insert into flower1 values (default, #{name}, #{location}, #{height})
+    </insert>
+
+    <update id="update" parameterType="Flower">
+        update Flower set name=#{name} where id = #{id}
+    </update>
+
+</mapper>

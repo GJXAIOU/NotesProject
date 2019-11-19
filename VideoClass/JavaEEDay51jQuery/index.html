@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script src="js/jquery-3.4.1.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				// 功能一:实现ul标签中的奇数行和偶数行颜色不同
+				$("ul li:odd").css("background-color", "red")
+				$("ul li:even").css("background-color", "green")
+				
+				// 功能二:实现以索引方式选取(从0开始),eq
+				$("li:eq(3)").css("background-color", "blue")
+				
+				// 功能三:实现对当前焦点事件的操作(此为：将第一个输入框放大)
+				$("input:first").focus(function(){
+					// 第一个input获取焦点的时候,变化长和宽,同时jq中支持链式结构
+					$("input:focus")
+						.css("width", "200")
+						.css("height", "50")				
+				})
+				
+				// 功能四:实现对于所有的标题:h1-h6的操作
+				$(":header").css("color", "blue")
+				
+				// 功能五:点击之后,显示相应的文本
+				$("input").click(function(){
+					// 方法一 : 使用标签选择器
+					$("div").css("display", "block")
+					// 方法二 : 使用可见性选择器
+					$("div:hidden").css("display", "block")					
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<ol>
+			<li>hello</li>
+			<li>hello</li>
+			<li>hello</li>
+			<li>hello</li>
+		</ol>
+		
+		<ul>
+			<li>hello</li>
+			<li>hello</li>
+			<li>hello</li>
+			<li>hello</li>
+		</ul>
+		
+		<input type="text" name="" id="text1" value="" />
+		<input type="text" name="" id="text2" value="" />
+		
+		<h1>h1</h1>
+		<h2>h2</h2>
+		
+		<div style="display:none;background-color: aqua;">
+			点击之后，显示
+		</div>
+		<input type="button"  value="请点击" />
+		
+	</body>
+</html>

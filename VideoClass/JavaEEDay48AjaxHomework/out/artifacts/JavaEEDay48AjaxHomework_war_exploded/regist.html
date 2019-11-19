@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+
+    <script>
+        window.onload = function () {
+           var butt = document.getElementById("butt");
+           butt.onclick = function () {
+               // 获取输入框内容，访问注册Servlet
+               alert("提交注册");
+           }
+           var username = document.getElementById("username");
+           username.onblur = function () {
+               // 失去焦点（鼠标移开）开始检查用户名是否已经存在
+
+               // 获取username输入框的内容
+               var usernamestr = document.getElementById("username").value;
+
+               // username通过Ajax传送到后台的Servlet
+               var xhr = new XMLHttpRequest();
+               
+               xhr.open("POST", "checkuser", false);
+
+               xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+
+               xhr.send("name=" + usernamestr);
+               // Servlet根据传递的名字进行数据库匹配返回结果
+               var response = xhr.responseText;
+
+               // 前端根据结果做出反应告知结果
+               if (response == 2) {
+                   alert("用户名不存在，可以使用");
+               }else {
+                   alert("用户名已存在，不可以使用")
+               }
+
+           }
+
+        }
+    </script>
+
+</head>
+<body>
+    <input type="text" name = "username" id = "username">
+    <input type="text" name = "password" id = "password">
+    <input type="button" id="butt" value="注册">
+</body>
+</html>

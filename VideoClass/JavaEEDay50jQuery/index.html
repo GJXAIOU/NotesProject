@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<!-- 1.先通过script src引入jquery，然后使用新的script标签书写自己的代码 -->
+		<script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+		<script>
+			// $可以认为是jQuery提供的函数,参数需要传入document,ready类似于Window的onload
+			$(document).ready(function(){
+				alert("bbb")
+			})
+			
+			// 上面的也可以直接传入一个函数,此代码和上面的$(document).ready是等价的,表示dom绘制完成
+			$(function(){
+				// 功能一:隐藏网页中的图片
+				// js代码为:
+				//  window.onload = function(){
+				// 	// 这里因为 document.getElementbyTagName("img") 返回的是一个数组
+				// 	document.getElementbyTagName("img")[0].style.display = "none";
+				// }
+				
+				// 第一部分：$()是一个函数； 第二部分:选择器也就是作为参数传入$()的字符串; 第三部分就是具体的要对标签对象做的动作,就是action
+				$("img").hide()
+				
+				alert("ccc")
+			})
+		
+			alert("aaa")
+		</script>
+	</head>
+	<body>
+		<img src="https://ss1.baidu.com/9vo3dSag_xI4khGko9WTAnF6hhy/image/h%3D300/sign=05b297ad39fa828bce239be3cd1e41cd/0eb30f2442a7d9337119f7dba74bd11372f001e0.jpg" >
+	</body>
+</html>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       https://www.springframework.org/schema/context/spring-context.xsd">
+
+<!-- 1.数据库连接池 -->
+    <!-- 1.1 加载数据库配置文件 -->
+    <context:property-placeholder location="classpath:db.properties" />
+    <!-- 数据库连接池 -->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
+          destroy-method="close">
+        <property name="url" value="${mysql.jdbc.url}" />
+        <property name="username" value="${mysql.jdbc.username}" />
+        <property name="password" value="${mysql.jdbc.password}" />
+        <property name="driverClassName" value="${mysql.jdbc.driver}" />
+        <property name="maxActive" value="10" />
+        <property name="minIdle" value="5" />
+    </bean>
+
+ <!-- 2.配置 sqlsessionFactory -->
+        <!--SqlSessionFactoryBean 是 Spring 中专门用于生成 sqlSessionFactory 对象的类-->
+    <bean id="factory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!-- 配置 mybatis 配置文件位置-->
+        <property name="configLocation" value="classpath:mybatis/sqlMapConfig.xml"></property>
+        <!--数据库连接信息链接自上面的 dataSource-->
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+
+<!-- 3.配置扫描包，加载 mapper 代理对象 -->
+        <!--相当于 MyBatis.xml 中 mappers 下的 package 标签-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!--相当于 MyBatis.xml 中 mappers 下的 package 标签-->
+        <!--扫描 mapper 包，给对应的接口创建对象-->
+        <property name="basePackage" value="com.taotao.mapper"></property>
+        <property name="sqlSessionFactory" ref="factory"></property>
+    </bean>
+
+</beans>

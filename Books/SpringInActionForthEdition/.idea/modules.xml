@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springiA4_21_springboot/.mvn/.mvn.iml" filepath="$PROJECT_DIR$/springiA4_21_springboot/.mvn/.mvn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_08_flow Maven Webapp/target/classes/classes.iml" filepath="$PROJECT_DIR$/springiA4_08_flow Maven Webapp/target/classes/classes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_05_simpleMVC Maven Webapp/src/main/main.iml" filepath="$PROJECT_DIR$/springiA4_05_simpleMVC Maven Webapp/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_03_advancedAssembly/src/main/main1.iml" filepath="$PROJECT_DIR$/springiA4_03_advancedAssembly/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_09_security Maven Webapp/src/main/main10.iml" filepath="$PROJECT_DIR$/springiA4_09_security Maven Webapp/src/main/main10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_16_restful_content_negotiation Maven Webapp/src/main/main11.iml" filepath="$PROJECT_DIR$/springiA4_16_restful_content_negotiation Maven Webapp/src/main/main11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_15_httpinvoker_client Maven Webapp/src/main/main12.iml" filepath="$PROJECT_DIR$/springiA4_15_httpinvoker_client Maven Webapp/src/main/main12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_07_advancedMVC Maven Webapp/src/main/main13.iml" filepath="$PROJECT_DIR$/springiA4_07_advancedMVC Maven Webapp/src/main/main13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_01_knight/src/main/main14.iml" filepath="$PROJECT_DIR$/springiA4_01_knight/src/main/main14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_15_httpinvoker Maven Webapp/src/main/main15.iml" filepath="$PROJECT_DIR$/springiA4_15_httpinvoker Maven Webapp/src/main/main15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_11_persistence_jpa_hibernate/src/main/main16.iml" filepath="$PROJECT_DIR$/springiA4_11_persistence_jpa_hibernate/src/main/main16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_19_email/src/main/main17.iml" filepath="$PROJECT_DIR$/springiA4_19_email/src/main/main17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_18_msg_websocket Maven Webapp/src/main/main18.iml" filepath="$PROJECT_DIR$/springiA4_18_msg_websocket Maven Webapp/src/main/main18.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_12_nosql_neo4j/src/main/main19.iml" filepath="$PROJECT_DIR$/springiA4_12_nosql_neo4j/src/main/main19.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_06_webview_02 Maven Webapp/src/main/main2.iml" filepath="$PROJECT_DIR$/springiA4_06_webview_02 Maven Webapp/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_16_restful_message_converters Maven Webapp/src/main/main20.iml" filepath="$PROJECT_DIR$/springiA4_16_restful_message_converters Maven Webapp/src/main/main20.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_06_webview Maven Webapp/src/main/main21.iml" filepath="$PROJECT_DIR$/springiA4_06_webview Maven Webapp/src/main/main21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_12_nosql_mongodb/src/main/main22.iml" filepath="$PROJECT_DIR$/springiA4_12_nosql_mongodb/src/main/main22.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_02_assembly/src/main/main23.iml" filepath="$PROJECT_DIR$/springiA4_02_assembly/src/main/main23.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_04_aop/src/main/main24.iml" filepath="$PROJECT_DIR$/springiA4_04_aop/src/main/main24.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_13_cache/src/main/main25.iml" filepath="$PROJECT_DIR$/springiA4_13_cache/src/main/main25.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_10_jdbc/src/main/main26.iml" filepath="$PROJECT_DIR$/springiA4_10_jdbc/src/main/main26.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_08_flow Maven Webapp/src/main/main27.iml" filepath="$PROJECT_DIR$/springiA4_08_flow Maven Webapp/src/main/main27.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_11_persistence_jpa_springdata/src/main/main28.iml" filepath="$PROJECT_DIR$/springiA4_11_persistence_jpa_springdata/src/main/main28.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_14_methodsecurity/src/main/main29.iml" filepath="$PROJECT_DIR$/springiA4_14_methodsecurity/src/main/main29.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_11_persistence_hibernate4/src/main/main3.iml" filepath="$PROJECT_DIR$/springiA4_11_persistence_hibernate4/src/main/main3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_21_springboot/src/main/main30.iml" filepath="$PROJECT_DIR$/springiA4_21_springboot/src/main/main30.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_18_msg_stomp_user Maven Webapp/src/main/main31.iml" filepath="$PROJECT_DIR$/springiA4_18_msg_stomp_user Maven Webapp/src/main/main31.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_17_msg_jms/src/main/main32.iml" filepath="$PROJECT_DIR$/springiA4_17_msg_jms/src/main/main32.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_12_nosql_redis/src/main/main33.iml" filepath="$PROJECT_DIR$/springiA4_12_nosql_redis/src/main/main33.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_15_jaxws Maven Webapp/src/main/main4.iml" filepath="$PROJECT_DIR$/springiA4_15_jaxws Maven Webapp/src/main/main4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_17_msg_amqp/src/main/main5.iml" filepath="$PROJECT_DIR$/springiA4_17_msg_amqp/src/main/main5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_06_webview_03 Maven Webapp/src/main/main6.iml" filepath="$PROJECT_DIR$/springiA4_06_webview_03 Maven Webapp/src/main/main6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_04_aspectj/src/main/main7.iml" filepath="$PROJECT_DIR$/springiA4_04_aspectj/src/main/main7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_18_msg_stomp Maven Webapp/src/main/main8.iml" filepath="$PROJECT_DIR$/springiA4_18_msg_stomp Maven Webapp/src/main/main8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_15_jaxws_client Maven Webapp/src/main/main9.iml" filepath="$PROJECT_DIR$/springiA4_15_jaxws_client Maven Webapp/src/main/main9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_08_flow Maven Webapp/src/main/resources/resources.iml" filepath="$PROJECT_DIR$/springiA4_08_flow Maven Webapp/src/main/resources/resources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_10_jdbc/src/test/test.iml" filepath="$PROJECT_DIR$/springiA4_10_jdbc/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_11_persistence_jpa_hibernate/src/test/test1.iml" filepath="$PROJECT_DIR$/springiA4_11_persistence_jpa_hibernate/src/test/test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_06_webview_03 Maven Webapp/src/test/test10.iml" filepath="$PROJECT_DIR$/springiA4_06_webview_03 Maven Webapp/src/test/test10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_15_jaxws_client Maven Webapp/src/test/test11.iml" filepath="$PROJECT_DIR$/springiA4_15_jaxws_client Maven Webapp/src/test/test11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_12_nosql_neo4j/src/test/test12.iml" filepath="$PROJECT_DIR$/springiA4_12_nosql_neo4j/src/test/test12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_16_restful_message_converters Maven Webapp/src/test/test13.iml" filepath="$PROJECT_DIR$/springiA4_16_restful_message_converters Maven Webapp/src/test/test13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_04_aspectj/src/test/test14.iml" filepath="$PROJECT_DIR$/springiA4_04_aspectj/src/test/test14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_19_email/src/test/test15.iml" filepath="$PROJECT_DIR$/springiA4_19_email/src/test/test15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_06_webview Maven Webapp/src/test/test16.iml" filepath="$PROJECT_DIR$/springiA4_06_webview Maven Webapp/src/test/test16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_01_knight/src/test/test17.iml" filepath="$PROJECT_DIR$/springiA4_01_knight/src/test/test17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_03_advancedAssembly/src/test/test18.iml" filepath="$PROJECT_DIR$/springiA4_03_advancedAssembly/src/test/test18.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_11_persistence_hibernate4/src/test/test19.iml" filepath="$PROJECT_DIR$/springiA4_11_persistence_hibernate4/src/test/test19.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_08_flow Maven Webapp/src/test/test2.iml" filepath="$PROJECT_DIR$/springiA4_08_flow Maven Webapp/src/test/test2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_13_cache/src/test/test20.iml" filepath="$PROJECT_DIR$/springiA4_13_cache/src/test/test20.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_18_msg_stomp_user Maven Webapp/src/test/test21.iml" filepath="$PROJECT_DIR$/springiA4_18_msg_stomp_user Maven Webapp/src/test/test21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_12_nosql_mongodb/src/test/test22.iml" filepath="$PROJECT_DIR$/springiA4_12_nosql_mongodb/src/test/test22.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_07_advancedMVC Maven Webapp/src/test/test23.iml" filepath="$PROJECT_DIR$/springiA4_07_advancedMVC Maven Webapp/src/test/test23.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_15_httpinvoker_client Maven Webapp/src/test/test24.iml" filepath="$PROJECT_DIR$/springiA4_15_httpinvoker_client Maven Webapp/src/test/test24.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_09_security Maven Webapp/src/test/test25.iml" filepath="$PROJECT_DIR$/springiA4_09_security Maven Webapp/src/test/test25.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_16_restful_content_negotiation Maven Webapp/src/test/test26.iml" filepath="$PROJECT_DIR$/springiA4_16_restful_content_negotiation Maven Webapp/src/test/test26.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_05_simpleMVC Maven Webapp/src/test/test27.iml" filepath="$PROJECT_DIR$/springiA4_05_simpleMVC Maven Webapp/src/test/test27.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_02_assembly/src/test/test3.iml" filepath="$PROJECT_DIR$/springiA4_02_assembly/src/test/test3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_12_nosql_redis/src/test/test4.iml" filepath="$PROJECT_DIR$/springiA4_12_nosql_redis/src/test/test4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_21_springboot/src/test/test5.iml" filepath="$PROJECT_DIR$/springiA4_21_springboot/src/test/test5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_14_methodsecurity/src/test/test6.iml" filepath="$PROJECT_DIR$/springiA4_14_methodsecurity/src/test/test6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_04_aop/src/test/test7.iml" filepath="$PROJECT_DIR$/springiA4_04_aop/src/test/test7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_06_webview_02 Maven Webapp/src/test/test8.iml" filepath="$PROJECT_DIR$/springiA4_06_webview_02 Maven Webapp/src/test/test8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springiA4_11_persistence_jpa_springdata/src/test/test9.iml" filepath="$PROJECT_DIR$/springiA4_11_persistence_jpa_springdata/src/test/test9.iml" />
+    </modules>
+  </component>
+</project>

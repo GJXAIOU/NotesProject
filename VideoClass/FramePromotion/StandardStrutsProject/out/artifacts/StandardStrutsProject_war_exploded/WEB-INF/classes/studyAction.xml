@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+    <package name="studyDemo" extends="struts-default" namespace="/">
+        <action name="*" class="com.gjxaiou.action.StudyAction" method="{1}">
+            <result name="add" >/{1}.jsp</result>
+            <result name="update">/{1}.jsp</result>
+            <allowed-methods>add,update</allowed-methods>
+        </action>
+    </package>
+</struts>

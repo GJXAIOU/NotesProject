@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录页面</title>
+    
+    <script>
+        window.onload = function () {
+            var  btn = document.getElementById("loginbtn");
+            btn.onclick = function () {
+                // 1.将用户名和密码传到服务器
+
+                // 获取两个Input的value的属性的值
+                var username = document.getElementById("username").value;
+                var password = document.getElementById("password").value;
+
+                var xhr = new XMLHttpRequest();
+                if (xhr == null) {
+                    xhr = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                
+                xhr.open("GET", "../login?username="+username+"&password="+password, true);
+                xhr.send();
+                
+                xhr.onreadystatechange = function () {
+                    // 请求完成
+                    if(xhr.readyState == 4){
+                        // 请求成功
+                        if (xhr.status == 200){
+                            // 判断具体的逻辑是否成功
+                            var text = xhr.responseText;
+                            if (text == 1){
+                                // 登录成功
+                                window.location.href="main.html";
+                            } else {
+                                // 登录失败
+                                document.getElementById("div").innerHTML = "登录失败";
+                            }
+
+                        }
+                    }
+                }
+            }
+        }    
+    </script>
+    
+</head>
+<body>
+<!--默认一个空白的div,登录失败时候填充-->
+    <div id = "div"></div>
+
+    <form action="">
+        <input type="text", name="username", id = "username">
+        <input type="password", name="password", id="password">
+        <!--这里不能使用submit，因为submit会触发form表单直接提交，因此就要手动提交信息-->
+        <input type="button" value="登录" id="loginbtn">
+    </form>
+
+</body>
+</html>

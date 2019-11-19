@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans 
+      http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  <bean id="knight" class="com.lzc.knights.impl2.BraveKnight">
+    <constructor-arg ref="quest" />
+  </bean>
+
+  <bean id="quest" class="com.lzc.knights.impl2.SlayDragonQuest">
+  	<!-- SpEL表达式 -->
+    <constructor-arg value="#{T(System).out}" />
+  </bean>
+
+</beans>

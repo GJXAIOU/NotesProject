@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="js/jquery-3.4.1.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				// 获取节点属性
+				$("#but").click(function(){
+					alert($("#img").attr("id"));
+					alert($("#img").attr("title"));
+				})
+				
+				// 设置节点属性,多属性设置有两种方法
+				$("#but2").click(function(){
+					$("#img")
+					.attr("src","https://mmbiz.qpic.cn/mmbiz_jpg/IibUVnJ665WrmFZz2B1ctmjzholmOgk2TBRwbLaNSTQFyPVriakia35gJsnkqoooAD8zZS61knNbficPKPic61bkafA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1")
+					.attr("title","csdn")
+					.attr({height:"200", width:"400"})
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<img src="img/show.gif" id="img" title="diandian" alt="不显示">
+		<input type="button" id="but" value="点击获取属性值" />
+		<input type="button" id="but2" value="点击设置属性值" />
+	</body>
+</html>

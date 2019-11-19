@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加联系人</title>
+</head>
+<body background="WEB-INF/background.jpg">
+    <form action="AddContactServlet" method="post">
+        <table align="center" width = "400" border="1px">
+            <tr>
+                <th colspan="2" > 添加联系人</th>
+            </tr>
+            <tr>
+                <td >姓名 </td>
+                <td> <input type="text" name="name" ></td>
+            </tr>
+            <tr>
+                <td>性别</td>
+                <td>
+                    <input type="radio" name="gender" value="M">男
+                    <input type="radio" name="gender" value="F">女
+                </td>
+            </tr>
+            <tr>
+                <td>年龄</td>
+                <td><input type="text" name="age"></td>
+            </tr>
+            <tr>
+                <td>电话</td>
+                <td><input type="text" name="tel"></td>
+            </tr>
+            <tr>
+                <td>QQ</td>
+                <td><input type="text" name="qq"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="text" name="email"></td>
+            </tr>
+            <tr>
+                <th colspan="2"><input type="submit" value="提交"></th>
+            </tr>
+
+        </table>
+    </form>
+
+</body>
+</html>

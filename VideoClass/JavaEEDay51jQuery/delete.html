@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="js/jquery-3.4.1.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				$("#empty").click(function(){
+					// 功能一:点击之后清空div中的值
+					// 下面等价于: $("#div").html("")
+					$("#div").empty()
+				})
+				$("#remove").click(function(){
+					// 功能二:从文档中移除节点,即删除标签,但是节点的对象还在内存中
+					$("#div").remove()
+				})
+				$("#detach").click(function(){
+					// 功能三:从文档中移除节点,即删除标签，但是节点的对象还在内存中
+					$("#div").detach()
+				})
+								
+				// 功能四:删除之后找回,remove之后只能找回样式,detach可以找回事件				
+				// 为div设置一个事件,看删除之后能够找回
+				$("div").click(function(){
+					alert("事件还在")
+				})
+				// 使用remove之后恢复
+				$("#removeRecovery").click(function(){
+					// 功能二:从文档中移除节点,即删除标签
+					$("#div").remove().appendTo("body")
+				})
+				// 使用detach之后恢复
+				$("#detachRecovery").click(function(){
+					// 功能二:从文档中移除节点,即删除标签
+					$("#div").detach().appendTo("body")
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<div id="div">
+			<h1>nihao</h1>
+			<p>nihao1</p>
+			<p>nihao2</p>
+			<p>nihao3</p>
+			<p>nihao4</p>
+		</div>
+		<input type="button" name="" id="empty" value="点击empty清空节点内容" />
+		<input type="button" name="" id="remove" value="点击remove移除节点" />
+		<input type="button" name="" id="detach" value="点击detach移除节点" />
+		<input type="button" name="" id="removeRecovery" value="点击removeRecovery移除后恢复节点" />
+		<input type="button" name="" id="detachRecovery" value="点击detachRecovery移除后恢复节点" />
+			
+	</body>
+</html>

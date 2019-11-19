@@ -126,13 +126,38 @@ public class ImageUtil {
         // 调用Thumbnails生成带有水印的图片
         try {
             Thumbnails.of(thumbnail.getImage()).size(337, 640)
-                    .watermark(Positions.BOTTOM_RIGHT, ImageIO.read(new File(BASE_PATH + "/rabbit.jpg")), 0.25f)
+                    .watermark(Positions.BOTTOM_RIGHT,
+                            ImageIO.read(new File(BASE_PATH + "/watermark.jpg")), 0.25f)
                     .outputQuality(0.9F).toFile(dest);
         } catch (IOException e) {
             log.error(e.toString());
             throw new RuntimeException("创建缩略图片失败" + e.toString());
         }
         // 返回图片相对路径地址
+        return relativeAddr;
+    }
+
+    /**
+     * 处理商品分类图
+     *
+     * @param thumbnail  Spring自带的文件处理对象
+     * @param targetAddr 图片存储路径
+     * @return
+     */
+    public static String generateShopCategoryImg(ImageHolder thumbnail, String targetAddr) {
+        // 获取随机文件名，防止文件重名
+        String realFileName = getRandomFileName();
+        // 获取文件扩展名
+        String extension = getFileExtension(thumbnail.getImageName());
+        // 在文件夹不存在时创建
+        makeDirPath(targetAddr);
+        String relativeAddr = targetAddr + realFileName + extension;
+        File dest = new File(PathUtil.getImgBasePath() + relativeAddr);
+        try {
+            Thumbnails.of(thumbnail.getImage()).size(50, 50).outputQuality(0.9f).toFile(dest);
+        } catch (IOException e) {
+            throw new RuntimeException("创建缩略图失败：" + e.toString());
+        }
         return relativeAddr;
     }
 }

@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="MyBatisDemo2:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/MyBatisDemo2_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="MyBatisDemo2" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../../../JARs/jstl-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../JARs/junit-4.13-beta-3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../JARs/standard-1.1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../JARs/Connector J 8.0/mysql-connector-java-8.0.14.jar" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.4.6" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="MyBatisDemo2/web/Web" />
+    </root>
+  </artifact>
+</component>

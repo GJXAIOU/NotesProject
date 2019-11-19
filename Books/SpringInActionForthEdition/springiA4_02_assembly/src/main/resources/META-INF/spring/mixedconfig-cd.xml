@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:c="http://www.springframework.org/schema/c"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  <bean id="compactDisc"
+        class="com.lzc.soundsystem.mixedconfig.impl.BlankDisc"
+        c:_0="和自己对话"
+        c:_1="The 林俊杰">
+    <constructor-arg>
+      <list>
+        <value>不为谁而作的歌</value>
+		<value>too bad</value>
+      </list>
+    </constructor-arg>
+  </bean>
+
+</beans>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		
+		<script src="js/jquery-3.4.1.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				$("#add").click(function(){
+					// 1.新建一个li节点对象
+					var li1 = $("<li>新添加元素1</li>");
+					var li2 = $("<li>新添加元素2</li>");
+					
+					// 2.把HTML标签转换为一个Jq节点对象
+					// append 是jq函数,因此追加的节点也应为jq节点,可以同时传入多个参数
+					$("#ul").append(li1, li2)
+				})
+				
+			})
+		</script>
+	</head>
+	<body>
+		<ul id="ul">
+			原来的
+		</ul>
+		<input type="button" name="" id= "add" value="点击追加" />
+	</body>
+</html>

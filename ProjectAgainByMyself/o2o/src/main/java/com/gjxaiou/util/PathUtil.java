@@ -17,9 +17,9 @@ public class PathUtil {
         String basePath = "";
         // 不能将图片放在项目之下，否则每次重启就会将后生成的图片删除
         if (os.toLowerCase().startsWith("win")){
-            basePath="/o2oImageUpload/";
+            basePath="E:\\Program\\Java\\Project\\ProjectAgainByMyself\\";
         }else{
-            basePath = "/o2oImageUpload/";
+            basePath = "/home/GJXAIOU/Project/o2o/image";
         }
         basePath = basePath.replace("/", separator);
         return basePath;
@@ -27,7 +27,22 @@ public class PathUtil {
 
     // 返回项目图片子路径
     public static String  getShopImagePath(long shopId){
-        String imagePath = "/shop/" + shopId + "/";
+        String imagePath = "/item/shop/" + shopId + "/";
+        return imagePath.replace("/", separator);
+    }
+    /**
+     * 获取首页头图路径
+     */
+    public static String getHeadLineImagePath() {
+        String imagePath = "/item/headLine/";
+        return imagePath.replace("/", separator);
+    }
+
+    /**
+     * 获取店铺类别路径
+     */
+    public static String getShopCategoryImagePath() {
+        String imagePath = "/item/shopCategory/";
         return imagePath.replace("/", separator);
     }
 }

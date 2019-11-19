@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <!-- JS和CSS代码一般写在head中，便于修改和维护 -->
+    <script type="text/javascript">
+        // 获取html标签的对象
+        // 浏览器窗口加载所有的HTML资源之后执行的回调函数,会在加载整个HTML资源之后,最后才执行
+        window.onload = function(){
+            var bbt = document.getElementById("but");
+            bbt.onclick = function(){
+                // 这里开始ajax网络请求
+                // 1.初始化对象；获取到一个对象,帮助我们完成网络请求
+                var xhr = new XMLHttpRequest();  //  ---->   请求初始化了
+
+                // xhr在IE5和IE6中不支持,得使用:ActiveXObject
+                if(xhr == null){
+                    xhr = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+
+                /**将关注人的id和关注房间的id发送到Servlet
+                 * open 方法用于设置网络请求相关信息
+                 * 参数一：请求方式，分为GET和POST； 参数二：请求路径； 参数三：是否支持异步
+                 */
+                xhr.open("GET", "follow?userId=123&roomId=456", true); // -----> 服务器连接已建立
+
+                // 2.发送请求
+                xhr.send();
+
+                // 因为采用异步方式，而send()本身就比较耗时，因此可能会跳过执行下面代码，造成没有返回值
+                // 解决措施：多readystate数值进行监听，每次readystate数值发生变化都会
+                xhr.onreadystatechange = function () {
+                    // 值为4只能表示请求完成，不代表请求成功
+                    if (xhr.readyState == 4){
+
+                        alert("请求已经完成");
+                        // 通过判断状态码，判断请求是否成功
+                        if (xhr.status == 200) {
+                            var text = xhr.responseText;
+                            alert("请求成功");
+                            if(text == 1){
+                                bbt.value = "已关注";
+                            }else {
+                                bbt.value = "关注失败";
+                            }
+                        }else {
+                            alert("请求失败");
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    请点击“关注”按钮即可
+    <input type="button" value="关注" id="but">
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="js/jquery-3.4.1.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				// 设置获取焦点的监听
+				$("input:first")
+					.focus(function(){
+						// 清空文字(即默认value)的值
+						// jQuery中提供一个val函数，操作表单元素的value的属性值;相当于document.getElement().value = ""
+						if($(this).val() == "通行账号/邮箱"){
+							$(this).val("")
+						}
+						
+					})
+					// 
+					.blur(function(){
+						// 失去焦点的时候判断用户是否已经输入内容,没有则设为默认值,有则保留输入
+						// val() 参数为空的时候表示获取值
+						if($(this).val() == ""){
+							$(this).val("通行账号/邮箱")
+						}
+					})
+			})
+		</script>
+		
+	</head>
+	<body>
+		<div id="login">
+			<form action="" method="">
+				<input type="text" name="username"  class="text username" value="通行账号/邮箱" />
+				<input type="text" name="password" class="text password" value="密码" />
+				<input type="submit" name="sub" class="btn" value="提交" />
+			</form>
+			
+		</div>
+	</body>
+</html>

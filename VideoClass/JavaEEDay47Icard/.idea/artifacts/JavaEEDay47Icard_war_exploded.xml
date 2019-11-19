@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JavaEEDay47Icard:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaEEDay47Icard_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="JavaEEDay47Icard/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JavaEEDay47Icard" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../../../JARs/Connector J 8.0/mysql-connector-java-8.0.14.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../JARs/commons-logging-1.2-bin/commons-logging-1.2/commons-logging-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../JARs/commons-beanutils-1.8.3-bin/commons-beanutils-1.8.3/commons-beanutils-1.8.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../JARs/commons-io-2.6/commons-io-2.6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../JARs/commons-fileupload-1.4-bin/commons-fileupload-1.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../JARs/jstl-1.2.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

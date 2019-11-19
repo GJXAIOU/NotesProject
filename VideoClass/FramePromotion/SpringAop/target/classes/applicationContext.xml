@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+        xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:aop="http://www.springframework.org/schema/aop"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+    <!--需要在上面导入 AOP 命名空间-->
+
+    <!--首先配置通知类对象，在切面中进行引入-->
+    <bean id="myBefore" class="com.gjxaiou.advice.MyBeforeAdvice"></bean>
+    <bean id="myAfter" class="com.gjxaiou.advice.MyAfterAdvice"></bean>
+
+    <!--然后配置切面-->
+    <aop:config>
+        <!--配置切点，里面的路径是该方法的完整路径（包括参数）-->
+        <aop:pointcut id="mypoint"
+                      expression="execution(* com.gjxaiou.pointcut.AOPpointcut.AopPointcut())"/>
+        <!--为切面添加通知，pointcut-ref 为切点的 id-->
+        <aop:advisor advice-ref="myBefore" pointcut-ref="mypoint"></aop:advisor>
+        <aop:advisor advice-ref="myAfter" pointcut-ref="mypoint"></aop:advisor>
+    </aop:config>
+
+
+    <bean id = "pointcut" class="com.gjxaiou.pointcut.AOPpointcut"></bean>
+
+</beans>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/taotao_manager/taotao_manager_web" />
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/taotao_manager/taotao_manager_mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/taotao_common/pom.xml" />
+        <option value="$PROJECT_DIR$/taotao_manager/taotao_manager_pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/taotao_manager/pom.xml" />
+        <option value="$PROJECT_DIR$/taotao_parent/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+	http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+	">
+	
+	<bean id="performance" class="com.lzc.aop.SingPerformance"/>
+	
+	<!-- 声明Audience bean -->
+	<bean id="audience" class="com.lzc.aop.xmlconfig.Audience"/>
+	
+	<aop:config>
+		<aop:aspect ref="audience">
+			<aop:pointcut expression="execution(** com.lzc.aop.Performance.perform(..))" id="watch"/>
+			
+			<aop:before method="silenceCellPhone" pointcut-ref="watch"/>
+			<aop:before method="takeSeats" pointcut-ref="watch"/>
+			<aop:after-returning method="applause" pointcut-ref="watch"/>
+			<aop:after-throwing method="demandRefund" pointcut-ref="watch"/>
+			<!-- 等同上面四个 -->
+			<!-- <aop:around method="watchPerformance" pointcut-ref="watch"/> -->
+		</aop:aspect>
+	</aop:config>
+
+</beans>

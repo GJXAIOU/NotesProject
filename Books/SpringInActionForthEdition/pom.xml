@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.lzc.springia4</groupId>
+  <artifactId>springiA4_code</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <build/>
+  
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <spring.version>4.0.9.RELEASE</spring.version>
+    <aspectj.version>1.7.2</aspectj.version>
+  </properties>
+  
+  <dependencies>
+  	<dependency>
+    	<groupId>org.springframework</groupId>
+    	<artifactId>spring-aop</artifactId>
+    	<version>${spring.version}</version>
+    </dependency>
+    <dependency>
+    	<groupId>org.springframework</groupId>
+    	<artifactId>spring-context</artifactId>
+    	<version>${spring.version}</version>
+    </dependency>
+    
+    <dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-test</artifactId>
+	    <version>${spring.version}</version>
+	    <scope>test</scope>
+	</dependency>
+	
+	<dependency>
+      <groupId>org.aspectj</groupId>
+      <artifactId>aspectjweaver</artifactId>
+      <version>${aspectj.version}</version>
+    </dependency>
+	<dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+    
+    <dependency>
+	    <groupId>org.mockito</groupId>
+	    <artifactId>mockito-core</artifactId>
+	    <version>2.23.4</version>
+	    <scope>test</scope>
+	</dependency>
+	
+    <dependency>
+	    <groupId>org.apache.commons</groupId>
+	    <artifactId>commons-lang3</artifactId>
+	    <version>3.1</version>
+	</dependency>
+	
+  </dependencies>
+  
+  <modules>
+  	<module>springiA4_01_knight</module>
+  	<module>springiA4_02_assembly</module>
+  	<module>springiA4_03_advancedAssembly</module>
+  	<module>springiA4_04_aop</module>
+  	<module>springiA4_04_aspectj</module>
+    <module>springiA4_05_simpleMVC</module>
+    <module>springiA4_06_webview</module>
+    <module>springiA4_06_webview_02</module>
+    <module>springiA4_06_webview_03</module>
+    <module>springiA4_07_advancedMVC</module>
+    <module>springiA4_08_flow</module>
+    <module>springiA4_09_security</module>
+    <module>springiA4_10_jdbc</module>
+    <module>springiA4_11_persistence_hibernate4</module>
+    <module>springiA4_11_persistence_jpa_hibernate</module>
+    <module>springiA4_11_persistence_jpa_springdata</module>
+    <module>springiA4_12_nosql_mongodb</module>
+    <module>springiA4_12_nosql_neo4j</module>
+    <module>springiA4_12_nosql_redis</module>
+    <module>springiA4_13_cache</module>
+    <module>springiA4_14_methodsecurity</module>
+    <module>springiA4_16_restful_content_negotiation</module>
+    <module>springiA4_16_restful_message_converters</module>
+    <module>springiA4_17_msg_jms</module>
+    <module>springiA4_17_msg_amqp</module>
+    <module>springiA4_18_msg_stomp</module>
+    <module>springiA4_18_msg_websocket</module>
+    <module>springiA4_18_msg_stomp_user</module>
+    <module>springiA4_19_email</module>
+    <module>springiA4_15_httpinvoker</module>
+    <module>springiA4_15_httpinvoker_client</module>
+    <module>springiA4_15_jaxws</module>
+    <module>springiA4_15_jaxws_client</module>
+  </modules>
+</project>

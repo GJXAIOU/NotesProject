@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+
+    <constant name="struts.devMode" value="true"></constant>
+    <package name="valueStack" extends="struts-default" namespace="/">
+        <global-results>
+            <result name="success">/debug.jsp</result>
+        </global-results>
+        <action name="userAction" class="com.gjxaiou.action.UserAction"></action>
+        <action name="valueStackAction" class="com.gjxaiou.action.ValueStackAction">
+            <result name="success">/debug.jsp</result>
+        </action>
+        <action name="putValueAction" class="com.gjxaiou.action.PutValueAction">
+            <result name = "success">/debug.jsp</result>
+        </action>
+        <action name="putObjectAction" class="com.gjxaiou.action.putObjectAction">
+            <result name="success">/debug.jsp</result>
+        </action>
+        <action name="putListAction" class="com.gjxaiou.action.putListAction"></action>
+    </package>
+</struts>
