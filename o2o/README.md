@@ -1,6 +1,6 @@
 # README
 
-Author：GJXAIOU
+🙋‍♂️：GJXAIOU
 
 该小项目1.0 仅仅作为自己熟悉 SSM 框架整合的 Demo，项目2.0使用 SpringBoot重新构建，将在后期补充。先熟练使用，再探究原理，从实践中弄懂如何做，从源码中弄懂为什么，加油😆
 
@@ -12,7 +12,7 @@ Author：GJXAIOU
 
 ## 二、系统分解
 
-- 前端展示系统（完成）
+- 前端展示系统（👌🏻）
   - 头条展示
   - 店铺类别展示
   - 区域展示
@@ -25,13 +25,13 @@ Author：GJXAIOU
     - 查询
     - 详情
 
-- 店家管理系统（完成）
+- 店家管理系统（👌🏻）
   - local 账号维护
   - 微信账号维护（未完成）
   - 店铺信息维护
   - 权限验证
   - 商品类别维护
-- 超级管理员管理系统（未完成）
+- 超级管理员管理系统（部分未完成）
   - 头条信息维护
   - 店铺类别信息维护
   - 区域信息维护
@@ -161,7 +161,7 @@ DTO(data transfer object):数据传输对象，以前被称为值对象(VO,value
   - 验证 AreaDao 类，即调用查询方法，看结果和数据库中数据数目是否相同；
   - 验证 AreaServiceTest 类，可以查看查询里面具体内容是否和数据库中数据相同；
 
-## （三）店铺商家管理系统
+## （四）店铺商家管理系统
 包括：店铺和商品模块
 首先应该应有店铺然后才有商品模块，因此先从店铺商家管理系统开始设计，主要实现店铺的增删改查；
 
@@ -223,22 +223,111 @@ DTO(data transfer object):数据传输对象，以前被称为值对象(VO,value
 
 
 
-## 补充：数据库实现主从读写分离
+### （五）店铺信息的编辑
 
-### （一）数据库配置
+###### 实现目标：
+
+- 实现单个店铺信息的获取；
+- 实现对店铺信息进行修改；
+
+
+
+#### 获取店铺信息
+
+Dao：shopDao.java 中添加 查询方法；
+
+配置 对应的 xml 方法；
+
+
+
+Service 层：针对 ShopService 主要增加： 通过店铺 Id 获取店铺信息，和更新店铺信息（包括对图片的处理）
+
+然后在对应的实现类中实现；
+
+```
+getByShopId
+```
+
+```
+modifyShop
+```
+
+
+Controller 层：
+
+前端：shopOperation.js  和 common.js
+
+
+#### 分页查询展示店铺
+
+整体的结构还是 shopDao.java /shopDao.xml/shopService.java/shopServiceImpl.java/shopListController.java
+
+```java
+ /**
+     * 带有分页功能的查询商铺列表 。 可输入的查询条件：商铺名（要求模糊查询） 区域Id 商铺状态 商铺类别 owner
+     * (注意在sqlmapper中按照前端入参拼装不同的查询语句)
+     * @param shopCondition
+     * @param rowIndex：从第几行开始取
+     * @param pageSize：返回多少行数据（页面上的数据量）
+     *                    比如 rowIndex为1,pageSize为5 即为 从第一行开始取，取5行数据
+     */
+    List<Shop> queryShopList(@Param("shopCondition") Shop shopCondition,
+                             @Param("rowIndex") int rowIndex,
+                             @Param("pageSize") int pageSize);
+```
+
+这里的 SQL 语句中，需要对输入的条件（shopCondition 中 shop 的各种属性）进行判断，因此使用 `<where></where>` 标签配合 `<if></if>`使用，进行动态 SQL 拼接，同时最后使用 ：`LIMIT #{rowIndex},#{pageSize}`进行分页。同时因为返回值为 shop对象（里面包含了其他的对象），因此采用 resultMap，里面通过组合 `<association> </association>`来实现 实体类和 数据表之间的映射；
+
+
+
+对应到 Service 层中，因为用户传入的参数肯定是查看第几页和每页显示几条（pageIndex 和 pageSize），一次这里通过一个工具类：PageCalculator，通过：`rowIndex = (pageIndex - 1) * pageSize;`来计算从第几条开始显示；
+
+
+### （六）商品类别列表展示
+
+实体类是 ProductCategory
+
+首先 Dao 层接口 ProductCategoryDao.java 和 对应的Mapper 然后使用 ProductCategoryTest 中 testAQueryByShopId 方法进行测试
+
+然后是 Service 层 ProductCategoryService 和实现类；
+
+最后是 controller 层 ProductCategoryManagementController
+
+###### 前端页面：
+
+product-category-management.html 和对应的 CSS 布局；和对应的 productCategoryManagement.js 文件 （最后通过标签将 CSS 、js 代码引入 html 中）
+
+然后是 shopAdminController.java 中实现路由，通过访问
+
+- #### 商品类别批量添加
+
+// 说明待补充
+
+- #### 商品类别删除
+
+// 说明待补充
+
+
+
+
+
+### 补充一：数据库实现主从读写分离
+
+#### （一）数据库配置
 MySQL 的主从复制功能不仅可以实现数据的多处自动备份，从而实现数据库的拓展。同时多个数据备份不仅可以加强数据的安全性，同时通过读写分离还能进一步提升数据库的负载性能。
 
 在一主多从的数据库体系中，多个从服务器采用异步的方式更新主数据库的变化，**业务服务器在执行写或者相关修改数据库的操作是在主服务器上进行的，读操作则是在各从服务器上进行**。如果配置了多个从服务器或者多个主服务器又涉及到相应的负载均衡问题，关于负载均衡具体的技术细节还没有研究过，本项目中实现一主一从的主从复制功能，一主多从的复制和读写分离的模型见下：
-![一主多从数据库体系]($resource/%E4%B8%80%E4%B8%BB%E5%A4%9A%E4%BB%8E%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BD%93%E7%B3%BB.jpg)
+![一主多从数据库体系](README.resource/%E4%B8%80%E4%B8%BB%E5%A4%9A%E4%BB%8E%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BD%93%E7%B3%BB.jpg)
 
-**主从同步工作过程：**
+- **主从同步工作过程：**
 
-首先主服务器（Master）对数据的操作记录到二进制日志（Binary log）文件中（即在每个事务的更新事件完成之前，Master 在日志中都会记录这些改变，MySQL 串行的将事务写入二进制文件中，写入完成之后 Master 通知存储引擎提交事务），然后从服务器（Slave）开启一个 IO 线程保持与主服务器的同学，如果发现 Master 二进制日志文件发生改变， 将 binary log 拷贝然后写入从服务器的中心日志（ Relay log）中，即将主服务器的操作同步到 Relay log  中，最后从服务器重新开启一个 SQL线程，将刚才同步过来的操作在从服务器中进行执行，从而实现从数据库和主数据库的一致性，也实现了主从复制。
+首先主服务器（Master）对数据的操作记录到二进制日志（Binary log）文件中（即在每个事务的更新事件完成之前，Master 在日志中都会记录这些改变，MySQL 串行的将事务写入二进制文件中，写入完成之后 Master 通知存储引擎提交事务），然后从服务器（Slave）开启一个 IO 线程保持与主服务器的同步，如果发现 Master 二进制日志文件发生改变， 将 binary log 拷贝然后写入从服务器的中继日志（ Relay log）中，即将主服务器的操作同步到 Relay log  中，最后从服务器重新开启一个 SQL线程，将刚才同步过来的操作在从服务器中进行执行，从而实现从数据库和主数据库的一致性，也实现了主从复制。
 
-![主从数据同步]($resource/%E4%B8%BB%E4%BB%8E%E6%95%B0%E6%8D%AE%E5%90%8C%E6%AD%A5.jpg)
+![主从数据同步](README.resource/%E4%B8%BB%E4%BB%8E%E6%95%B0%E6%8D%AE%E5%90%8C%E6%AD%A5.jpg)
 
 **具体配置：**
 一共使用两台虚机实现数据库的读写分离，虚机一：CentOS7Mini：192.168.238.136，为主数据库，虚机二：CentOS7MiniClone：192.168.238.135，为从数据库；
+
 *   主服务器：
     *   开启二进制日志
     *   配置唯一的 server-id
@@ -304,6 +393,7 @@ show slave status \G; # 查看从库状态
 
 **补充：设置还原**
 当设置有问题的时候可以使用还原设置来重新配置；
+
 - 主库设置还原：`reset master;`
 - 从库设置还原：`reset slave all;`
 
@@ -320,110 +410,20 @@ cmd 中使用：`mysqldump -u用户名 -p 数据库名 数据表名 > 导出的�
 服务器端进入数据库，然后新建数据库：`create database o2o;`，然后`use o2o;`，最后将上传的数据库文件导入：`source o2o.sql`，后面是刚才上传文件放置的位置；
 
 
-### （二）代码上实现读写分离
+#### （二）代码上实现读写分离
 
 因为是 Dao层，因此创建包 `com.gjxaiou.dao.split`，里面放置读写分离的方法
 
-- 新建 `DynamicDataSource.java`  方法，该方法实现 spring 中的 determineCurrentLookupKey() 方法，最终根据方法的返回值（key）的不同来区分不同的数据源；
+- 新建 `DynamicDataSource.java`，该类中实现了 spring 中的 `determineCurrentLookupKey()` 方法，最终根据方法的返回值（key）的不同来区分不同的数据源；
 这里调用了另一个类 DynamicDataSourceHolder 来具体设置 key 的值以及返回方法，
 
-- 然后设置 mybatis 的拦截器，通过类 DynamicDataSourceInterceptor 完成，因为上面部分完成路由功能，但是使用该路由靠拦截器，因为拦截器会拦截 mybatis 传递进来的 SQL 信息，然后可以根据 SQL信息，如 insert 、update 则采用写的数据源，反之采用读的数据源；
+- 然后设置 mybatis 的拦截器，通过类 DynamicDataSourceInterceptor 完成，因为上面部分完成路由功能，但是使用该路由靠拦截器，因为拦截器会拦截 mybatis 传递进来的 SQL 信息，然后可以根据 SQL语句最前面的信息，如 insert 、update 则采用写的数据源，反之采用读的数据源；
 
-然后在mybatis 配置文件中配置；mybatis-config 中配置拦截器
+- 然后在mybatis 配置文件mybatis-config 中配置拦截器；
 
-最后在 Spring -dao 中重写配置 DataSource，包括 db.properties
+- 最后在 Spring-dao.xml 中重新配置 DataSource，包括 db.properties属性值要分为主从分别配置；
 
-
-
-### 店铺信息的编辑
-
-###### 实现目标：
-
-- 实现单个店铺信息的获取；
-- 实现对店铺信息进行修改；
-
-
-
-#### 获取店铺信息
-
-Dao：shopDao.java 中添加 查询方法；
-
-配置 对应的 xml 方法；
-
-
-
-Service 层：针对 ShopService 主要增加： 通过店铺 Id 获取店铺信息，和更新店铺信息（包括对图片的处理）
-
-然后在对应的实现类中实现；
-
-```
-getByShopId
-```
-
-```
-modifyShop
-```
-
-
-Controller 层：
-
-前端：shopOperation.js  和 common.js
-
-
-### 分页查询展示店铺
-
-整体的结构还是 shopDao.java /shopDao.xml/shopService.java/shopServiceImpl.java/shopListController.java
-
-```java
- /**
-     * 带有分页功能的查询商铺列表 。 可输入的查询条件：商铺名（要求模糊查询） 区域Id 商铺状态 商铺类别 owner
-     * (注意在sqlmapper中按照前端入参拼装不同的查询语句)
-     * @param shopCondition
-     * @param rowIndex：从第几行开始取
-     * @param pageSize：返回多少行数据（页面上的数据量）
-     *                    比如 rowIndex为1,pageSize为5 即为 从第一行开始取，取5行数据
-     */
-    List<Shop> queryShopList(@Param("shopCondition") Shop shopCondition,
-                             @Param("rowIndex") int rowIndex,
-                             @Param("pageSize") int pageSize);
-```
-
-这里的 SQL 语句中，需要对输入的条件（shopCondition 中 shop 的各种属性）进行判断，因此使用 `<where></where>` 标签配合 `<if></if>`使用，进行动态 SQL 拼接，同时最后使用 ：`LIMIT #{rowIndex},#{pageSize}`进行分页。同时因为返回值为 shop对象（里面包含了其他的对象），因此采用 resultMap，里面通过组合 `<association> </association>`来实现 实体类和 数据表之间的映射；
-
-
-
-对应到 Service 层中，因为用户传入的参数肯定是查看第几页和每页显示几条（pageIndex 和 pageSize），一次这里通过一个工具类：PageCalculator，通过：`rowIndex = (pageIndex - 1) * pageSize;`来计算从第几条开始显示；
-
-
-### 商品类别列表展示
-
-实体类是 ProductCategory
-
-首先 Dao 层接口 ProductCategoryDao.java 和 对应的Mapper 然后使用 ProductCategoryTest 中 testAQueryByShopId 方法进行测试
-
-然后是 Service 层 ProductCategoryService 和实现类；
-
-最后是 controller 层 ProductCategoryManagementController
-
-###### 前端页面：
-product-category-management.html 和对应的 CSS 布局；和对应的 productCategoryManagement.js 文件 （最后通过标签将 CSS 、js 代码引入 html 中）
-
-然后是 shopAdminController.java 中实现路由，通过访问
-
-
-
-### 商品类别批量添加
-
-// 说明待补充
-
-
-### 商品类别删除
-
-// 说明待补充
-
-
-
-### 补充：权限管理
+### 补充二：权限管理
 
 项目中一共有两处进行了权限管理：
 
@@ -457,7 +457,8 @@ product-category-management.html 和对应的 CSS 布局；和对应的 productC
 
 
 
-### 补充：Redis
+### 补充三：Redis
+
 具体的内容见：Java -> JavaNotes -> Redis
 #### （一）简介
 
@@ -475,7 +476,9 @@ product-category-management.html 和对应的 CSS 布局；和对应的 productC
   - 主要是在 Redis 2.0 中的，用于对主服务器进行监控（3.0 之后使用集群）
   - 功能一：监控主数据库和从数据库是否正常运行；
   - 功能二：主数据库出现故障时候，可以自动将从数据库转换为主数据库，实现自动切换；
-  - redis持久化的两种方式：RDB 方式和 AOF
+  - **redis持久化的两种方式：RDB 方式和 AOF**
+    - 将内存中以快照的方式写入到二进制文件中,默认为 `dump.rdb` 可以通过配置设置自动做快照持久化的方式。我们可以配置redis 在n秒内如果超过m个key则修改就自动做快照。
+    - redis会将每一个收到的写命令都通过 write 函数追加到命令中,当redis重新启动时会重新执行文件中保存的写命令来在内存中重建这个数据库的内容,这个文件在bin目录下 `appendonly.aof`。aof不是立即写到硬盘上,可以通过配置文件修改强制写到硬盘中。
 
 #### （二）使用
 这是使用 Redis 官方推荐的 Java 连接开发工具：Jedis
