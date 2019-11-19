@@ -1,0 +1,11 @@
+.shopDetail-button-div {
+    margin: 0 .3rem;
+}
+.shopDetail-button-div > .button {
+    width: 30%;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    display: inline-block;
+    margin: 1%;
+    overflow: hidden;
+}

@@ -8,10 +8,10 @@ import java.util.Date;
 
 /**
  * @author GJXAIOU
- * @create 2019-10-10-15:44
+ * @create 2019-10-29-22:20
  */
-@Getter
 @Setter
+@Getter
 @ToString
 public class Area {
     private Integer areaId;

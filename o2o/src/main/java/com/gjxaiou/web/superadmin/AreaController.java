@@ -1,66 +1,58 @@
-package com.gjxaiou.web.superadmin;
-import java.util.ArrayList;
-import	java.util.HashMap;
+package com.gjxaiou.web.superAdmin;
 
 import com.gjxaiou.entity.Area;
 import com.gjxaiou.service.AreaService;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 /**
+ * 超级管理员拥有整个区域权限
  * @author GJXAIOU
- * @create 2019-10-17-9:41
- * 超级管理员用于 controller 权限
+ * @create 2019-10-31-16:17
  */
-// 表明这个在 spring 容器下，这是一个 controller（spring 注解）
+// 下面两注释分别表示该方法交由 Spring 管理，同时访问路径为 XXX
 @Controller
-// 设置调用的 URL 路径，用于调用该 controller 下的方法(springmvc 注解)
 @RequestMapping("/superAdmin")
 public class AreaController {
-    Logger logger = LoggerFactory.getLogger(AreaController.class);
-
-    // 创建 service 层实体类并交给 spring 管理，使用到 areaService 的时候将其实现类注入
+    // 将Service 层实体类交由 Spring 进行管理，使用到 areaService 时候将其实现类自动注入
     @Autowired
     private AreaService areaService;
 
-    @RequestMapping(value="/listArea",method = RequestMethod.GET)
-    // 将返回值 Map 转换为 JSON 格式，同时页面恒不跳转
+    /**
+     * 这里含义是使用 SpringMVC 作用域进行传值，这里使用的是 Map 集合（其他方式见总结笔记），本质上是将 Map 集合放入 Request 作用域
+     *    然后 Spring 会将 map 集合通过 BindingAwareModelMap 类进行实例化；
+     * 因为这是 Controller 返回值满足 key-value 格式，即返回值为对象或者 map 格式，使用 @ResponseBody 会使其恒不跳转，
+     *    同时会自动将响应头设置为： application/json;charaSet=utf-8,且转换后的内容以输出流的形式返回到客户端；
+     * @return Map
+     */
     @ResponseBody
-    private Map<String, Object> listArea(){
-        // 首先在方法开始前可以记录开始时间
-        logger.info("======start=======");
-        long startTime = System.currentTimeMillis();
+    @RequestMapping(value="/listArea", method = RequestMethod.GET)
+    public Map<String,Object> listArea(){
+        // 1.存放 Controller 层方法的返回值，前端页面从这里取值
+        Map<String,Object> modelMap = new HashMap<String, Object> ();
 
-        // 存放方法的返回值
-        Map<String, Object> modelMap = new HashMap<>();
-        // 获取 service 层返回的区域列表
-        List<Area> list = new ArrayList<Area>();
+        // 2.存放 Service 层方法返回的区域列表
+        List<Area> list = new ArrayList<>();
 
         try {
             list = areaService.getAreaList();
-            modelMap.put("rows",list);
+            // 3.rows key 里面存放店铺列表，total 中存放店铺数量
+            modelMap.put("rows", list);
             modelMap.put("total", list.size());
         }catch (Exception e){
             e.printStackTrace();
             modelMap.put("success", false);
-            modelMap.put("errMsg", e.toString());
+            modelMap.put("errMsg",e.toString());
         }
-
-        // 在方法结尾再次获取时间，这里有意的加入一些错误信息
-        logger.error("test error");
-        long endTime = System.currentTimeMillis();
-        // {} 是占位符
-        logger.debug("costTime:[{} ms]",endTime - startTime);
-        logger.info("====end=====");
-
         return modelMap;
+
     }
 }

@@ -1,6 +1,8 @@
 # 项目说明
 
-该小项目仅仅作为自己熟悉 SSM 框架整合的 Demo，部分功能因为涉及到 SpringBoot，还在学习过程中，将在后期补充。先熟练使用，再探究原理，从实践中弄懂如何做，从源码中弄懂为什么，加油😆
+Author：GJXAIOU
+
+该小项目1.0 仅仅作为自己熟悉 SSM 框架整合的 Demo，项目2.0使用 SpringBoot重新构建，将在后期补充。先熟练使用，再探究原理，从实践中弄懂如何做，从源码中弄懂为什么，加油😆
 
 ## 一、整体说明
 
@@ -10,7 +12,7 @@
 
 ## 二、系统分解
 
-- 前端展示系统
+- 前端展示系统（完成）
   - 头条展示
   - 店铺类别展示
   - 区域展示
@@ -23,13 +25,13 @@
     - 查询
     - 详情
 
-- 店家管理系统
+- 店家管理系统（完成）
   - local 账号维护
-  - 微信账号维护
+  - 微信账号维护（未完成）
   - 店铺信息维护
   - 权限验证
   - 商品类别维护
-- 超级管理员管理系统
+- 超级管理员管理系统（未完成）
   - 头条信息维护
   - 店铺类别信息维护
   - 区域信息维护
@@ -39,18 +41,18 @@
 
 ## 二、数据库建表
 
-- 数据库名称：o2o
+- 数据库名称：`o2o`
 - 数据表：
-  - tb_area：区域信息
-  - tb_head_line：
-  - tb_local_auth：本地用户信息，包括本地用户 id，用户 id，用户名，密码，创建时间，修改时间；
-  - tb_person_info：用户信息，包括用户 id，等等信息；
-  - tb_product：商品属性信息；
-  - tb_product_category：
-  - tb_product_img：商品图片信息；
-  - tb_shop：商铺信息；
-  - tb_shop_category：
-  - tb_wechat_auth：
+  - `tb_area`：区域信息；包括：区域ID、区域名称、区域权重、区域创建时间、区域修改时间；
+  - `tb_head_line`：头条，即首页轮播图;包括：ID号、名称、图片、权重、状态、链接、创建时间、修改时间；
+  - `tb_shop_category`：店铺类别；包括：店铺类别ID号、名称、权重、描述、图片、上级ID、创建时间、修改时间；
+  - `tb_shop`：商铺信息；包括：店铺ID、店铺名称、店铺状态、店铺描述、店铺照片、店铺联系方式、店铺地址、店铺建议、店铺权重、店铺创建时间、店铺修改时间、店铺对应的区域ID、店铺对应的类别ID、店铺对应用户ID；
+  - `tb_product_category`：商品类别；商品类别ID、店铺ID、商品类别名、商品类别描述、商品类别优先级、创建时间、修改时间；
+  - `tb_product`：商品信息；包括：商品ID、商品名称、商品状态、商品描述、商品缩略图、商品原价、商品折扣价、商品权重、商品创建时间、商品修改时间、商品对应类别ID、商品对应店铺ID；
+  - `tb_product_img`：商品图片；包括：商品图片ID、商品ID、图片地址、图片描述、图片优先级、创建时间、修改时间；
+  - `tb_person_info`：用户信息；包括：用户ID、姓名、性别、头像、邮箱、状态、身份标识、创建时间、修改时间；
+  - `tb_local_auth`：本地用户信息，包括：本地用户 id，用户 id，用户名，密码，创建时间；
+  - `tb_wechat_auth`：微信用户信息；包括：微信open id、用户id、创建时间；
 
 
 
@@ -58,32 +60,30 @@
 
 ### （一）根据数据库中表格生成对应的实体类（com.gjxaiou.entity）
 
-- Area.java
-- Headline.java
-- LocalAuth.java
-- PersonInfo.java
-- Product.java
-- ProductCategory.java
-- ProductImg.java
-- Shop.java
-- ShopCategory.java
-- WeChatAuth.java
+- `Area.java`
+- `Headline.java`
+- `ShopCategory.java`
+- `Shop.java`
+- `ProductCategory.java`
+- `Product.java`
+- `ProductImg.java`
+- `PersonInfo.java`
+- `LocalAuth.java`
+- `WeChatAuth.java`
 
 
 
 ### （二）Maven 配置
 
-- 统一配置 Spring 版本为：5.1.19.RELEASE；
-- 因为是 Demo，会经常对自己代码进行调试，需要引入：junit；
-- 一定要有的日志，这里使用 logback（log4j 的改良版）；
-- 数据库驱动以及 c3p0 连接池；
-- Mybatis 依赖以及 Mybatis 与 Spring依赖；
-- Servlet 方面的以及 jstl 以及使用 Jackson 作为 json 解析；
+- 统一配置 Spring 版本为：`Spring 5.1.19.RELEASE`；参考[5.2.0 RELEASE Document](https://docs.spring.io/spring/docs/current/spring-framework-reference/)
+- 因为是 Demo，会经常对自己代码进行调试，使用 `junit 4.12`；
+- 一定要有的日志，这里使用 `logback 1.2.1`（log4j 的改良版）；
+- `mysql-connectr-java`  为8.0.17 以及 `c3p0 0.9.1.2` 连接池；
+- `Mybatis 3.4.2` 依赖以及 Mybatis 与 Spring依赖；
+- Servlet 方面的以及 `stl 1.2` 以及使用` Jackson 2.9.5` 作为 json 解析；
 - Map 工具类，对标准的 Java collection 的拓展；
-- Spring 的依赖；
 - kaptcha：用于生成验证码；
-- 文件上传的依赖；
-- lombok 插件：为了自己做笔记方便，因此使用 lombok 插件实现 get、set 方法；
+- `lombok 1.18.10` 插件：为了自己做笔记方便，因此使用 lombok 插件；
 
 ## （三）SSM 整合验证
 
@@ -96,8 +96,54 @@
     - `spring-service.xml` 首先配置扫描 service 包下面所有使用注解的类型，然后配置事务管理器，同时配置基于注解的声明式事务；
     - `spring-web.xml` 配置 SpringMVC，开启 SpringMVC 的注解模式，配置静态资源位置，自定义视图解析器，文件上传解析器；
     - `web.xml` 配置 DispatcherServlet，即 SpringMVC 需要加载的配置文件
+    
 - 日志配置：
+    
     - 配置日志的记录级别，保存时间，输出位置，输出格式等；
+    
+    ## 四、具体实践
+
+### （一）区域管理
+
+- 功能一：列出所有的区域列表
+  - 涉及的类
+    - com.gjxaiou.dao.AreaDao.java
+    - resources.mapper.AreaDao.xml
+    - com.gjxaiou.service.AreaService.java
+    - com.gjxaiou.sercive.impl.AreaService.java
+    - com.gjxaiou.web.superadmin.AreaController.java
+- 功能二：删除某个区域（待补充）
+
+###  (二) 店铺类别管理
+
+- 功能一：列出所有店铺类别
+
+  - 涉及的类
+
+    - com.gjxaiou.dao.ShopCategoryDao.java
+
+    - resources.mapper.ShopCategoryDao.xml
+
+    - com.gjxaiou.service.ShopCategoryService.java
+
+    - com.gjxaiou.service.impl.ShopCategoryService.java
+
+      
+
+- 功能二：删除某个店铺类别（待补充）
+
+### (三) 店铺管理
+
+- 功能一：店铺
+
+
+
+注意：为什么使用 dto:
+
+DTO(data transfer object):数据传输对象，以前被称为值对象(VO,value object)，作用仅在于在应用程序的各个子系统间传输数据，在表现层展示。与POJO对应一个数据库实体不同，DTO并不对应一个实体，可能仅存储实体的部分属性或加入符合传输需求的其他的属性。																
+
+- 
+- 
 - com.gjxaiou.entity：数据库表对应的实体类；
 - Dao 层：
     - 首先创建 AreaDao 接口（com.gjxaiou.dao.AreaDao.java），声明查询区域列表的方法；
@@ -110,7 +156,6 @@
     - 首先 controller 层依赖于 service 层，因此首先创建 service 对象，将 service 实体类交个 Spring 管理；
     - 定义方法接受 service 层处理之后的对象，这里接收到的是 List 集合，这里使用 Map 存放返回值，因为是 `select`，所以返回的是受影响的行数；
     - 这里使用 logback 实现运行过程中的日志输出；
-
 - 功能测试
   - 首先通过 BaseTest 类，实现初始化 Spring 容器，所有其他 Test 类都继承该类；
   - 验证 AreaDao 类，即调用查询方法，看结果和数据库中数据数目是否相同；

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--    /**
+     * 通过 shopId 查询该店铺下所有商品类别信息
+    List<ProductCategory> queryProductCategoryList(long shopId);
+
+    /**
+     * 批量新增商品列表
+    int batchInsertProductCategory(List<ProductCategory> productCategoryList);
+
+    /**
+     * 删除指定店铺下面的某个商品类型
+     */
+    int deleteProductCategory(@Param("productCategoryId") long productCategoryId,
+                              @Param("shopId") long shopId);-->
+
+<mapper namespace="com.gjxaiou.dao.ProductCategoryDao">
+    <resultMap id="resultMap" type="com.gjxaiou.entity.ProductCategory">
+        <id column="product_category_id" property="productCategoryId"></id>
+        <result column="product_category_name" property="productCategoryName"></result>
+        <result column="priority" property="priority"></result>
+        <result column="create_time" property="createTime"></result>
+        <association property="shopId" column="shop_id"
+                     javaType="com.gjxaiou.entity.Shop">
+            <id column="shop_id" property="shopId"></id>
+            <result column="owner_id" property="ownerId" />
+            <result column="shop_name" property="shopName" />
+            <result column="shop_desc" property="shopDesc" />
+            <result column="shop_addr" property="shopAddr" />
+            <result column="phone" property="phone" />
+            <result column="shop_img" property="shopImg" />
+            <result column="priority" property="priority" />
+            <result column="create_time" property="createTime" />
+            <result column="last_edit_time" property="lastEditTime" />
+            <result column="enable_status" property="enableStatus" />
+            <result column="advice" property="advice" />
+            <!-- property 对应类中属性值，column 为该属性值对应的数据库中字段，JavaType 表示该属性类型 -->
+            <association property="area" column="area_id" javaType="com.gjxaiou.entity.Area">
+                <id column="area_id" property="areaId"></id>
+                <result column="area_name" property="areaName"></result>
+            </association>
+            <association property="ower" column="user_id"
+                         javaType="com.gjxaiou.entity.PersonInfo">
+                <id column="user_id" property="userId"></id>
+                <result column="name" property="name"></result>
+            </association>
+            <association property="shopCategory" column="shop_category_id"
+                         javaType="com.gjxaiou.entity.ShopCategory">
+                <id column="shop_category_id" property="shopCategoryId" />
+                <result column="shop_category_name" property="shopCategoryName" />
+            </association>
+        </association>
+    </resultMap>
+
+
+
+    <select id="queryProductCategoryList" parameterType="long">
+        select
+        s.
+        from tb_shop s
+    </select>
+</mapper>

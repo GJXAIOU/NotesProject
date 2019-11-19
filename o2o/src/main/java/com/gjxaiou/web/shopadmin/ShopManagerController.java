@@ -1,9 +1,6 @@
-package com.gjxaiou.web.shopadmin;
-
-import java.io.*;
-import java.util.ArrayList;
-import java.util.HashMap;
-
+package com.gjxaiou.web.shopAdmin;
+import com.fasterxml.jackson.core.JsonParseException;
+import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.gjxaiou.dto.ImageHolder;
 import com.gjxaiou.dto.ShopExecution;
@@ -28,105 +25,114 @@ import org.springframework.web.multipart.commons.CommonsMultipartFile;
 import org.springframework.web.multipart.commons.CommonsMultipartResolver;
 
 import javax.servlet.http.HttpServletRequest;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+
 /**
  * @author GJXAIOU
- * @create 2019-10-18-17:21
+ * @create 2019-11-03-15:43
  */
-// 因为属于 spring 中的 controller
 @Controller
-// 指定访问路径
 @RequestMapping("/shopAdmin")
-public class ShopManagerController {
+public class shopManagerController {
     @Autowired
     private ShopService shopService;
+    @Autowired
+    private AreaService areaService;
+    @Autowired
+    private ShopCategoryService shopCategoryService;
 
     /**
-     * 实现店铺注册
+     * 实现店铺注册功能
      *
-     * @param request ：前端传进来的 Request 参数 httpServletRequest，表示客户端的请求,当客户端通过
-     *                Http协议访问服务器，其请求头中信息都封装在该对象中，通过该对象提供的方法可以获取客户端请求的所有信息
-     *                本例中，当用户注册用户，需要在前端页面中填店铺信息，店铺信息都会保存在 request 中
-     * @return ：返回一下必须的键值对结果
+     * @param request 这是前端传入的 HttpServletRequest 类型参数 request，表示客户端的请求
+     *                当客户端通过 HTTP 协议访问服务器的时候，其请求头中的信息都封装在该对象中，可以通过该对象提供的方法获取客户端请求的所有信息
+     *                本方法中，当用户在注册店铺的页面中填写完店铺信息后，完整的店铺信息就会封装保存在 request 参数中；
+     * @return 因为是注册店铺，提交的信息较多，使用 POST 方法
      */
-    // 该方法的访问路径，因为是表单，所以使用 POST
     @RequestMapping(value = "/registerShop", method = RequestMethod.POST)
-    // 自动将返回结果转换为 JSON 字符串，同时页面不跳转
     @ResponseBody
     private Map<String, Object> registerShop(HttpServletRequest request) {
         Map<String, Object> modelMap = new HashMap<>();
 
-        // 首先判断验证码是否正确
+        // 1.首先判断用户的验证码是否正确
         if (!CodeUtil.checkVerifyCode(request)) {
             modelMap.put("success", false);
-            modelMap.put("errMsg", "输入验证码错误");
+            modelMap.put("errMsg", "输入的验证码错误");
             return modelMap;
         }
 
-        // 1.接收并转换相应的参数（将店铺信息接收下来，然后转换为实体类），包括店铺信息以及图片信息
-        // 具体 Jackson 使用说明：https://github.com/FasterXML/jackson-databind
-        // 这里的 shopStr 是与前端约定好的，从前端传入 shopStr 字符串
+        // 2.读取请求信息（包括店铺信息和图片信息）并转换为实体类对象，即接收并转换响应的参数
+        // 这里的 shopStr 是与前端约定好的，以此为 key，然后得到其 value 值
         String shopStr = HttpServletRequestUtil.getString(request, "shopStr");
+        // 这里使用的是 Jackson 的方法 ，具体见：https://github.com/FasterXML/jackson-databind
         ObjectMapper mapper = new ObjectMapper();
-        // 定义一个 Shop 实体类对象 shop 接收转换后的对象
         Shop shop = null;
         try {
-            // 将转换之后的字符串 shopStr，转换为 Shop 实体类，赋值给 shop 对象
+            // 将转换后的 shopStr，转换为 shop 实体类；
             shop = mapper.readValue(shopStr, Shop.class);
-        } catch (Exception e) {
+        } catch (JsonParseException e) {
             // 转换失败之后，将错误和错误信息返回前端
-            modelMap.put("sucess", false);
+            modelMap.put("success", false);
+            modelMap.put("errMsg", e.getMessage());
+            return modelMap;
+        } catch (JsonMappingException e) {
+            // 转换失败之后，将错误和错误信息返回前端
+            modelMap.put("success", false);
+            modelMap.put("errMsg", e.getMessage());
+            return modelMap;
+        } catch (IOException e) {
+            // 转换失败之后，将错误和错误信息返回前端
+            modelMap.put("success", false);
             modelMap.put("errMsg", e.getMessage());
             return modelMap;
         }
 
-        // 下面开始处理图片，这里使用 spring 自带的CommonsMultipartFile
+        // TODO: 2019/11/3 下面不知道在说啥
+        // 3.处理店铺图片（使用 spring 自带的 CommonsMultipartFile）
         CommonsMultipartFile shopImg = null;
-        // 文件解析器，解析 request 中的文件对象，从request 的本次会话的上下文获取文件内容
-        CommonsMultipartResolver multipartResolver = new CommonsMultipartResolver(
-                request.getSession().getServletContext());
-        // 判断 request 是不是有上传的文件流，如果有就将 request转换为该类型的对象:multipartHttpServletRequest
+        // 文件解析器，解析 request 中的文件对象，即从 request 的本次回话的上下文获取文件内容
+        CommonsMultipartResolver multipartResolver =
+                new CommonsMultipartResolver(request.getSession().getServletContext());
+        // 判断 request 是不是有上传的文件流，如果有则将 request 转换为 MultipartHttpServletRequest 对象
         if (multipartResolver.isMultipart(request)) {
-            MultipartHttpServletRequest multipartHttpServletRequest =
-                    (MultipartHttpServletRequest) request;
-            // 从该对象中提取文件流，同时强转为 spring 能够处理的文件流 ； shopImg 为前端传过来的；
-            shopImg = (CommonsMultipartFile) multipartHttpServletRequest
-                    .getFile("shopImg");
+            MultipartHttpServletRequest multipartHttpServletRequest = (MultipartHttpServletRequest) request;
+            // 从该对象中提取文件流，同时强制转换为 spring 能够处理的文件流，shopImg 同前端一致
+            shopImg = (CommonsMultipartFile) multipartHttpServletRequest.getFile("shopImg");
         } else {
             modelMap.put("success", false);
             modelMap.put("errMsg", "上传图片不能为空");
             return modelMap;
         }
 
-
-        // 2. 注册店铺
+        // 4.正式注册店铺,尽量不要依靠前端信息
         if (shop != null && shopImg != null) {
-            // 店主的信息从 session 获取，即从 Session 中获取登录信息；
-            // 这里的 user 是因为注册店铺之前需要先登录，登录就可以将信息以 key 和 value 的形式存储，key 为 user；
+            // 通过从 session 中获取登录信息，得到店主信息，因为注册店铺之前必须先登录，登录时将登录信息以键值对的形式存储，这里 user 即为 key
             PersonInfo owner = (PersonInfo) request.getSession().getAttribute("user");
             owner.setUserId(1L);
             shop.setOwner(owner);
-            ShopExecution se = null;
+
+            ShopExecution shopExecution = null;
             try {
-                se = shopService.addShop(shop, new ImageHolder(shopImg.getInputStream(),
+                shopService.addShop(shop, new ImageHolder(shopImg.getInputStream(),
                         shopImg.getOriginalFilename()));
-                if (se.getState() == ShopStateEnum.CHECK.getState()) {
+                if (shopExecution.getState() == ShopStateEnum.CHECK.getState()) {
                     modelMap.put("success", true);
-                    // 若shop创建成功，则加入session中，作为权限使用，保存一个店铺列表，就是该用户可以修改的店铺
-                        // 从 session 从取出该用户可以操作的店铺列表
-                    List<Shop> shopList = (List<Shop>) request.getSession().getAttribute(
-                            "shopList");
-                    // 如果是第一次创建，就创建一个 list 列表，如果不是第一次就直接存入
-                    if (shopList == null || shopList.size() == 0){
-                        shopList = new ArrayList <Shop>();
+                    // 如果店铺创建成功，则加入 session 作为权限使用，保存的店铺列表就是该用户可以操作的店铺，这样从 session
+                    // 中就可以去除该用户可以操作的店铺列表
+                    List<Shop> shopList = (List<Shop>) request.getSession().getAttribute("shopList");
+                    if (shopList == null || shopList.size() == 0) {
+                        shopList = new ArrayList<Shop>();
                     }
-                    shopList.add(se.getShop());
+                    shopList.add(shopExecution.getShop());
                     request.getSession().setAttribute("shopList", shopList);
                 } else {
                     modelMap.put("success", false);
-                    modelMap.put("errMsg", se.getStateInfo());
+                    modelMap.put("errMsg", shopExecution.getStateInfo());
                 }
             } catch (ShopOperationException e) {
                 modelMap.put("success", false);
@@ -143,112 +149,109 @@ public class ShopManagerController {
         }
     }
 
-
-
-    /**
-     *  店铺信息编辑
-     * @param request  从 request 中获取 shopId
+    /** 根据店铺 Id 获取店铺
+     * @param request 从 request 中可以获取店铺 Id
      * @return
      */
     @RequestMapping(value = "/getShopById", method = RequestMethod.GET)
-    // 自动将返回结果转换为 JSON 字符串
     @ResponseBody
-    private Map<String, Object> getShopById(HttpServletRequest request){
-        // 存放返回值
-        Map<String,Object> modelMap = new HashMap<String, Object> ();
-        Long shopId = HttpServletRequestUtil.getLong(request,"shopId");
-        // 判断前端传进来的 shopId 是否合规
-        if (shopId > -1){
+    private Map<String, Object> getShopById(HttpServletRequest request) {
+        Map<String, Object> modelMap = new HashMap<>();
+
+        long shopId = HttpServletRequestUtil.getLong(request, "shopId");
+        // 判断前端中的 shopId 是否合规
+        if (shopId >= 0) {
             try {
                 Shop shop = shopService.getByShopId(shopId);
-                // 因为 店铺名称、店铺分类、是不可以修改的，只能修改 所属区域、详细信息、联系电话、缩略图、店铺简介等等
-                // 因为所属区域列表需要从前端获取
+                // 因为 shopName/ ShopCategoryId 是不可以修改的，只能修改 所属区域、店铺描述、联系电话、缩略图等；
+                    // 同样，所属区域列表需要从前端获取
                 List<Area> areaList = areaService.getAreaList();
                 modelMap.put("shop", shop);
                 modelMap.put("areaList", areaList);
                 modelMap.put("success", true);
-            }catch (Exception e){
+            } catch (Exception e) {
                 modelMap.put("success", "false");
                 modelMap.put("errMsg", e.toString());
             }
-        }else {
-            modelMap.put("success", "false");
-            modelMap.put("errMsg","empty shopId");
+        } else {
+            modelMap.put("success", false);
+            modelMap.put("errMsg", "请输入店铺 Id");
         }
         return modelMap;
     }
 
 
+    /**
+     * 修改更新店铺信息
+     * @param request
+     * @return
+     */
     @RequestMapping(value = "/modifyShop", method = RequestMethod.POST)
-    // 自动将返回结果转换为 JSON 字符串
     @ResponseBody
-    private Map<String, Object> modifyShop(HttpServletRequest request) {
+    public Map<String,Object> modifyShop(HttpServletRequest request){
         Map<String, Object> modelMap = new HashMap<>();
+
+        // 1.首先判断用户的验证码是否正确
         if (!CodeUtil.checkVerifyCode(request)) {
             modelMap.put("success", false);
-            modelMap.put("errMsg", "输入验证码错误");
+            modelMap.put("errMsg", "输入的验证码错误");
             return modelMap;
         }
 
-        // 1.接收并转换相应的参数（将店铺信息接收下来，然后转换为实体类），包括店铺信息以及图片信息
-        // 具体 Jackson 使用说明：https://github.com/FasterXML/jackson-databind
-        // 这里的 shopStr 是与前端约定好的，从前端传入 shopStr 字符串
         String shopStr = HttpServletRequestUtil.getString(request, "shopStr");
         ObjectMapper mapper = new ObjectMapper();
-        // 定义一个 shop 实体类对象 shop 接收转换后的对象
         Shop shop = null;
         try {
-            // 将转换之后的字符串 shopStr，转换为 Shop 实体类，赋值给 shop 对象
             shop = mapper.readValue(shopStr, Shop.class);
-        } catch (Exception e) {
-            // 转换失败之后，将错误和错误信息返回前端
-            modelMap.put("success", false);
+        } catch (JsonParseException e) {
+            modelMap.put("sucess", false);
+            modelMap.put("errMsg", e.getMessage());
+            return modelMap;
+        } catch (JsonMappingException e) {
+            modelMap.put("sucess", false);
+            modelMap.put("errMsg", e.getMessage());
+            return modelMap;
+        } catch (IOException e) {
+            modelMap.put("sucess", false);
             modelMap.put("errMsg", e.getMessage());
             return modelMap;
         }
 
-        // 下面开始处理图片，这里使用 spring 自带的CommonsMultipartFile
+        // 3.处理店铺图片（使用 spring 自带的 CommonsMultipartFile）：注：这里的图片可以上传可以不上传
         CommonsMultipartFile shopImg = null;
-        // 文件解析器，解析 request 中的文件对象，从request 的本次会话的上下文获取文件内容
-        CommonsMultipartResolver multipartResolver = new CommonsMultipartResolver(
-                request.getSession().getServletContext());
-        // 判断 request 是不是有上传的文件流，如果有就将 request转换为该类型的对象:multipartHttpServletRequest
+        CommonsMultipartResolver multipartResolver =
+                new CommonsMultipartResolver(request.getSession().getServletContext());
         if (multipartResolver.isMultipart(request)) {
-            MultipartHttpServletRequest multipartHttpServletRequest =
-                    (MultipartHttpServletRequest) request;
-            // 从该对象中提取文件流，同时强转为 spring 能够处理的文件流 ； shopImg 为前端传过来的；
-            shopImg = (CommonsMultipartFile) multipartHttpServletRequest
-                    .getFile("shopImg");
+            MultipartHttpServletRequest multipartHttpServletRequest = (MultipartHttpServletRequest) request;
+            shopImg = (CommonsMultipartFile) multipartHttpServletRequest.getFile("shopImg");
         }
 
-        // 2. 修改店铺信息
-        //图片可以上传或者不上传（上面一段的 else 因此被删了，下面参数中的 shopId 是不能为空的）
-        if (shop != null && shop.getShopId() != null) {
-            // 店主的信息从 session 获取；
-            ShopExecution se = null;
-            try {
-                // 如果上传的图片为空，不做处理，反之需要处理图片
+        // 4.修改店铺信息
+        if(shop != null && shop.getShopId() != null){
+            ShopExecution shopExecution = null;
+            try{
+                // 判断是否需要处理图片
                 if (shopImg == null){
-                    se = shopService.modifyShop(shop, new ImageHolder(null, null));
+                    shopExecution = shopService.modifyShop(shop,new ImageHolder(null, null));
                 }else {
-                    se = shopService.modifyShop(shop, new ImageHolder(shopImg.getInputStream(),
-                            shopImg.getOriginalFilename()));
+                    shopExecution = shopService.modifyShop(shop,
+                            new ImageHolder(shopImg.getInputStream(),
+                                    shopImg.getOriginalFilename()));
                 }
-                se = shopService.modifyShop(shop, new ImageHolder(shopImg.getInputStream(),
-                        shopImg.getOriginalFilename()));
-                if (se.getState() == ShopStateEnum.SUCCESS.getState()) {
-                    modelMap.put("success", true);
-                    // 若shop创建成功，则加入session中，作为权限使用
-                } else {
-                    modelMap.put("success", false);
-                    modelMap.put("errMsg", se.getStateInfo());
+// 这里应该不需要，但是 github 部分版本上有，先放置
+//     shopExecution = shopService.modifyShop(shop,new ImageHolder(shopImg.getInputStream(),shopImg.getOriginalFilename()));
+               // 如果 shop 创建成功，则加入 session 中，作为权限使用
+                if (shopExecution.getState() == ShopStateEnum.SUCCESS.getState()){
+                    modelMap.put("success",true);
+                }else {
+                    modelMap.put("success",false);
+                    modelMap.put("errMsg", shopExecution.getStateInfo());
                 }
             } catch (IOException e) {
-                modelMap.put("success", false);
-                modelMap.put("errMsg", e.getMessage());
+                e.printStackTrace();
             }
             return modelMap;
-        } else {
+        }else {
             modelMap.put("success", false);
             modelMap.put("errMsg", "请输入店铺Id");
             return modelMap;
@@ -257,27 +260,24 @@ public class ShopManagerController {
 
 
     /**
-     *
+     *  获取店铺信息
+     * @return
      */
-    @Autowired
-    private ShopCategoryService shopCategoryService;
-    @Autowired
-    private AreaService areaService;
-
     @RequestMapping(value = "/getShopInitInfo", method = RequestMethod.GET)
     @ResponseBody
-    private Map<String, Object> getShopInitInfo() {
-        // 定义返回值,同时需要两个 List 分别接收 shopCategory 和 area 信息
-        Map<String, Object> modelMap = new HashMap<String, Object>();
-        List<ShopCategory> shopCategoryList = new ArrayList<>();
+    public Map<String,Object> getShopInitInfo(){
+        Map<String, Object> modelMap = new HashMap<>();
+        // 需要两个 List 分别接收 shopCategory 和 area 的信息
+        List<ShopCategory> shopCategoryList =  new ArrayList<>();
         List<Area> areaList = new ArrayList<>();
-        try {
+
+        try{
             shopCategoryList = shopCategoryService.getShopCategoryList(new ShopCategory());
             areaList = areaService.getAreaList();
             modelMap.put("shopCategoryList", shopCategoryList);
             modelMap.put("areaList", areaList);
             modelMap.put("success", true);
-        } catch (Exception e) {
+        }catch (Exception e){
             modelMap.put("success", false);
             modelMap.put("errMsg", e.getMessage());
         }
@@ -285,55 +285,66 @@ public class ShopManagerController {
     }
 
 
-    // 店铺管理页面的 controller 方法
+    /**
+     *  获取店铺列表
+     * @param request
+     * @return
+     */
+    // TODO: 2019/11/3 这里的参数可以设置的，不一定要写死
     @RequestMapping(value = "/getShopList", method = RequestMethod.GET)
     @ResponseBody
-    private Map<String, Object> getShopList(HttpServletRequest request) {
-        Map<String, Object> result = new HashMap<>();
+    public Map<String, Object> getShopList(HttpServletRequest request){
+        Map<String, Object> modelMap = new HashMap<>();
 
         PersonInfo user = new PersonInfo();
         user.setUserId(1L);
         user.setName("test");
         request.getSession().setAttribute("user", user);
+        user = (PersonInfo)request.getSession().getAttribute("user");
 
-        user = (PersonInfo) request.getSession().getAttribute("user");
-        try {
+        try{
             Shop shopCondition = new Shop();
             shopCondition.setOwner(user);
-            // 因为个人创建店铺优先，就写死了，从0-100；
-            ShopExecution se = shopService.getShopList(shopCondition, 0, 100);
-            result.put("shopList", se.getShopList());
-            result.put("user", user);
-            result.put("success", true);
-        } catch (Exception e) {
-            result.put("success", false);
-            result.put("errMsg", e.getMessage());
+            // 因为个人创建的店铺数量有限，最多设置为 100；
+            ShopExecution shopExecution = shopService.getShopList(shopCondition,0, 100);
+            modelMap.put("shopList",shopExecution.getShopList());
+            modelMap.put("user",user);
+            modelMap.put("success", true);
+        }catch (Exception e){
+            modelMap.put("success", false);
+            modelMap.put("errMsg",e.getMessage());
         }
-        return result;
+        return modelMap;
     }
 
+    /**
+     * 获取店铺管理信息
+     * @param request
+     * @return
+     */
     @RequestMapping(value = "/getShopManagementInfo", method = RequestMethod.GET)
     @ResponseBody
     private Map<String, Object> getShopManagementInfo(HttpServletRequest request) {
-        Map<String, Object> result = new HashMap<>();
+        Map<String, Object> modelMap = new HashMap<>();
 
         long shopId = HttpServletRequestUtil.getLong(request, "shopId");
         if (shopId < 0) {
             Object currentShopObj = request.getSession().getAttribute("currentShop");
             if (currentShopObj == null) {
-                result.put("redirect", true);
-                result.put("url", "/o2o/shopAdmin/shopList");
+                modelMap.put("redirect", true);
+                modelMap.put("url", "/o2o/shopAdmin/shopList");
             } else {
                 Shop currentShop = (Shop) currentShopObj;
-                result.put("redirect", false);
-                result.put("shopId", currentShop.getShopId());
+                modelMap.put("redirect", false);
+                modelMap.put("shopId", currentShop.getShopId());
             }
         } else {
             Shop currentShop = new Shop();
             currentShop.setShopId(shopId);
             request.getSession().setAttribute("currentShop", currentShop);
-            result.put("redirect", false);
+            modelMap.put("redirect", false);
         }
-        return result;
+        return modelMap;
     }
+
 }

@@ -1,5 +1,4 @@
 package com.gjxaiou.entity;
-
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -8,13 +7,14 @@ import java.util.Date;
 
 /**
  * @author GJXAIOU
- * @create 2019-10-10-16:03
+ * @create 2019-10-29-22:22
  */
-@Getter
 @Setter
+@Getter
 @ToString
 public class PersonInfo {
     private Long userId;
+    private Long localAuthId;
     private String name;
     private String profileImg;
     private String email;
@@ -28,4 +28,5 @@ public class PersonInfo {
     private Integer userType;
     private Date createTime;
     private Date lastEditTime;
+
 }

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 因为涉及到多表查询，需要配置 <resultMap> -->
+
+<mapper namespace="com.gjxaiou.dao.ShopDao">
+    <resultMap id="shopMap" type="com.gjxaiou.entity.Shop">
+        <id column="shop_id" property="shopId"></id>
+        <result column=""
+    </resultMap>
+</mapper>

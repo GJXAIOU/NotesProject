@@ -1,4 +1,6 @@
 package com.gjxaiou.entity;
+import	java.security.acl.Group;
+import	java.util.Set;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -8,11 +10,11 @@ import java.util.Date;
 
 /**
  * @author GJXAIOU
- * @create 2019-10-10-19:28
+ * @create 2019-10-29-22:21
  */
+@ToString
 @Setter
 @Getter
-@ToString
 public class Shop {
     private Long shopId;
     private Long ownerId;
@@ -38,4 +40,5 @@ public class Shop {
     private PersonInfo owner;
     private Area area;
     private ShopCategory shopCategory;
+
 }

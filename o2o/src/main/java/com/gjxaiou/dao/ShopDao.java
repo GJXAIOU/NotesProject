@@ -7,37 +7,36 @@ import java.util.List;
 
 /**
  * @author GJXAIOU
- * @create 2019-10-17-15:09
+ * @create 2019-10-31-20:13
  */
 public interface ShopDao {
-
     /**
-     *  通过 shopId 查询店铺
+     * 通过 shopId 查询店铺
      * @param shopId
-     * @return ：shop 实体类
+     * @return
      */
     Shop queryByShopId(long shopId);
 
     /**
-     *  新增店铺
-     * @param shop 传入 shop 实体类
-     * @return 影响的行数
-     */
-    int insertShop(Shop shop);
-
-    /**
-     *  更新店铺
-     * @param shop 传入 shop 实体类
-     * @return 影响的行数
-     */
-    int updateShop(Shop shop);
-
-    /**
-     * 返回queryShopList的总数
+     * 返回与该店铺状态相同的店铺数
      * @param shopCondition
      * @return
      */
     int queryShopCount(@Param("shopCondition") Shop shopCondition);
+
+    /**
+     * 新增店铺
+     * @param shopDao
+     * @return 影响的行数
+     */
+    int insertShop(Shop shopDao);
+
+    /**
+     *  更新店铺
+     * @param shop
+     * @return
+     */
+    int updateShop(Shop shop);
 
     /**
      * 带有分页功能的查询商铺列表 。 可输入的查询条件：商铺名（要求模糊查询） 区域Id 商铺状态 商铺类别 owner
@@ -49,6 +48,7 @@ public interface ShopDao {
      * @return
      */
     List<Shop> queryShopList(@Param("shopCondition") Shop shopCondition,
-                         @Param("rowIndex") int rowIndex,
-                              @Param("pageSize") int pageSize);
+                             @Param("rowIndex") int rowIndex,
+                             @Param("pageSize") int pageSize);
+
 }

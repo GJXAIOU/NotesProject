@@ -1,5 +1,4 @@
-package com.gjxaiou.web.shopadmin;
-
+package com.gjxaiou.web.shopAdmin;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -7,10 +6,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 /**
  * @author GJXAIOU
- * @create 2019-10-18-20:35
+ * @create 2019-11-05-15:28
  */
 @Controller
-@RequestMapping(value="/shopAdmin", method ={RequestMethod.GET})
+@RequestMapping(value = "/shopAdmin", method = {RequestMethod.GET})
 public class shopAdminController {
 
     /**

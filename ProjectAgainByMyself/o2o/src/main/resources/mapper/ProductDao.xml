@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--    /**
+     * 根据商品 Id 查询商品
+    Product queryProductByProductId(Long productId);
+
+    /**
+     *  查询商品列表并分页
+     *      可以输入的条件为：商品名（支持模糊），商品状态，店铺 ID、商品类别
+    List<Product> queryProductList(@Param("productCondition") Product productCondition,
+                                   @Param("rowIndex") int rowIndex,
+                                   @Param("pageSize") int pageSize);
+
+    /**
+     * 查询商品总数
+    int queryProductCount(@Param("productCondition") Product productCondition);
+
+    /**
+     * 插入商品
+    int insertProduct(Product product);
+
+    /**
+     *  更新商品信息
+    int updateProduct(Product product);
+
+    /**
+     * 删除商品之前，将商品类别 Id 置空
+
+    int updateProductCategoryToNull(long productCategoryId);-->
+<mapper namespace="com.gjxaiou.dao.ProductDao">
+    <resultMap id="productMap" type="com.gjxaiou.entity.Product">
+        <id column="product_id" property="productId"></id>
+        <result column="product_name" property="productName"></result>
+        <result column="product_desc" property="productDesc"></result>
+        <result column="img_addr" property="imgAddr"></result>
+        <result column="normal_price" property="normalPrice"></result>
+        <result column="promotion_price" property="promotionPrice"></result>
+        <result column="priority" property="priority"></result>
+        <result column="create_time" property="createTime"></result>
+        <result column="enable_status" property="enableStatus"></result>
+        <result column="last_edit_time" property="lastEditTime"></result>
+        <association property="productCategoryId" column="product_category_id"
+                     javaType="com.gjxaiou.entity.ProductCategory">
+            <id column="product_category_id" property="productCategoryId"></id>
+            <result column="product_category_name" property="productCategoryName"></result>
+            <result column=""
+        </association>
+        <association property="shopId" column="shop_id"
+                     javaType="com.gjxaiou.entity.Shop">
+
+        </association>
+    </resultMap>
+</mapper>

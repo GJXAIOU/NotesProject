@@ -70,7 +70,7 @@ $(function() {
 									e.currentTarget.dataset.status);
 						} else if (target.hasClass('preview')) {
 							// 如果有preview的class，则展示改商品详情页预览商品
-							window.location.href = '/o2o/frontend/productDetail?productId='
+							window.location.href = '/o2o/frontEnd/productDetail?productId='
 									+ e.currentTarget.dataset.id;
 						}
 					});

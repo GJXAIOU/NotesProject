@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="o2o">
+    <output-path>$PROJECT_DIR$/out/artifacts/o2o</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="o2o" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="o2o/web/Web" />
+    </root>
+  </artifact>
+</component>
