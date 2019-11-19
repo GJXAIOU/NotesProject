@@ -1,6 +1,13 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="o2o">
-    <output-path>$PROJECT_DIR$/out/artifacts/o2o</output-path>
+  <artifact type="exploded-war" name="o2o:war exploded">
+    <output-path>$PROJECT_DIR$/target/o2o</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>o2o</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
@@ -34,6 +41,7 @@
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.5" />
           <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2" />
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />
           <element id="library" level="project" name="Maven: net.coobird:thumbnailator:0.4.8" />
           <element id="library" level="project" name="Maven: com.github.penggle:kaptcha:2.3.2" />
           <element id="library" level="project" name="Maven: com.jhlabs:filters:2.0.235-1" />
@@ -58,6 +66,9 @@
           <element id="library" level="project" name="Maven: io.protostuff:protostuff-runtime:1.6.2" />
           <element id="library" level="project" name="Maven: io.protostuff:protostuff-collectionschema:1.6.2" />
         </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/o2o/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="o2o/web/Web" />
     </root>

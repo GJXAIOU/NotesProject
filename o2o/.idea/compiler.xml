@@ -9,5 +9,8 @@
         <module name="o2o" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="o2o" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>

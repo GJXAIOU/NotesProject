@@ -5,14 +5,10 @@ import redis.clients.jedis.JedisPoolConfig;
 
 /**
  * @Description: 强指定redis的JedisPool接口构造函数，这样才能在centos成功创建jedispool
- *
- * @author tyronchen
- * @date 2018年12月26日
  */
 public class JedisPoolWriper {
 	// Redis 连接池对象
 	private JedisPool jedisPool;
-
 
 	public JedisPoolWriper(final JedisPoolConfig poolConfig, final String host, final int port) {
 		try {

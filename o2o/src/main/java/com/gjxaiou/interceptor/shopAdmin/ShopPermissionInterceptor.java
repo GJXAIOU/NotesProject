@@ -20,7 +20,6 @@ public class ShopPermissionInterceptor extends HandlerInterceptorAdapter {
 		System.out.println(">>>ShopPermissionInterceptor>>>>>>>在请求处理之前进行调用（Controller方法调用之前）");
 		// 从session中获取当前选择的店铺
 		Shop currentShop = (Shop) request.getSession().getAttribute("currentShop");
-		@SuppressWarnings("unchecked")
 		// 获取session中当前用户可操作的店铺列表
                 List<Shop> shopList = (List<Shop>) request.getSession().getAttribute("shopList");
 		// 非空判断

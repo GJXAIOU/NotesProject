@@ -1,4 +1,4 @@
-# 项目说明
+# README
 
 Author：GJXAIOU
 
@@ -6,7 +6,7 @@ Author：GJXAIOU
 
 ## 一、整体说明
 
-技术架构： Spring  + SpringMVC  + MyBatis + MySQL
+技术架构： Spring  + SpringMVC  + MyBatis + MySQL + SUI Mobile
 
 工具：IDEA + Maven + Tomcat
 
@@ -98,7 +98,7 @@ Author：GJXAIOU
     - `web.xml` 配置 DispatcherServlet，即 SpringMVC 需要加载的配置文件
     
 - 日志配置：
-    
+  
     - 配置日志的记录级别，保存时间，输出位置，输出格式等；
     
     ## 四、具体实践
@@ -142,8 +142,8 @@ Author：GJXAIOU
 
 DTO(data transfer object):数据传输对象，以前被称为值对象(VO,value object)，作用仅在于在应用程序的各个子系统间传输数据，在表现层展示。与POJO对应一个数据库实体不同，DTO并不对应一个实体，可能仅存储实体的部分属性或加入符合传输需求的其他的属性。																
 
-- 
-- 
+
+
 - com.gjxaiou.entity：数据库表对应的实体类；
 - Dao 层：
     - 首先创建 AreaDao 接口（com.gjxaiou.dao.AreaDao.java），声明查询区域列表的方法；
@@ -187,7 +187,7 @@ DTO(data transfer object):数据传输对象，以前被称为值对象(VO,value
 
 
 #### 4.前端页面
-使用 阿里巴巴的 sui mobile
+使用 阿里巴巴的 SUI Mobile
 使用这个 demo ：http://m.sui.taobao.org/demos/form/label-input/ ,然后右击获取源代码，并且引入静态资源（将 Link 和 script
  内容替换），参考：http://m.sui.taobao.org/getting-started/
 
@@ -215,17 +215,11 @@ DTO(data transfer object):数据传输对象，以前被称为值对象(VO,value
 - 最后在 ShopManagerController.java  的添加店铺之前进行验证
 
 
-
-
 ### thumbnailator 使用
 1. 导包
 2. util包下面添加 ImageUtil 方法
 该方法中实现了图片的一般操作方法，这里的方法可以自定义。但是如果是批量处理图片，需要平凡的获取图片文件路径，
 因此新建一个 PathUtil.java 类，里面实现获取输入文件路径和输出文件路径；
-
-
-
-
 
 
 
@@ -371,19 +365,34 @@ modifyShop
 ```
 
 
-
 Controller 层：
 
 前端：shopOperation.js  和 common.js
 
 
-
 ### 分页查询展示店铺
 
+整体的结构还是 shopDao.java /shopDao.xml/shopService.java/shopServiceImpl.java/shopListController.java
+
+```java
+ /**
+     * 带有分页功能的查询商铺列表 。 可输入的查询条件：商铺名（要求模糊查询） 区域Id 商铺状态 商铺类别 owner
+     * (注意在sqlmapper中按照前端入参拼装不同的查询语句)
+     * @param shopCondition
+     * @param rowIndex：从第几行开始取
+     * @param pageSize：返回多少行数据（页面上的数据量）
+     *                    比如 rowIndex为1,pageSize为5 即为 从第一行开始取，取5行数据
+     */
+    List<Shop> queryShopList(@Param("shopCondition") Shop shopCondition,
+                             @Param("rowIndex") int rowIndex,
+                             @Param("pageSize") int pageSize);
+```
+
+这里的 SQL 语句中，需要对输入的条件（shopCondition 中 shop 的各种属性）进行判断，因此使用 `<where></where>` 标签配合 `<if></if>`使用，进行动态 SQL 拼接，同时最后使用 ：`LIMIT #{rowIndex},#{pageSize}`进行分页。同时因为返回值为 shop对象（里面包含了其他的对象），因此采用 resultMap，里面通过组合 `<association> </association>`来实现 实体类和 数据表之间的映射；
 
 
 
-
+对应到 Service 层中，因为用户传入的参数肯定是查看第几页和每页显示几条（pageIndex 和 pageSize），一次这里通过一个工具类：PageCalculator，通过：`rowIndex = (pageIndex - 1) * pageSize;`来计算从第几条开始显示；
 
 
 ### 商品类别列表展示
@@ -396,7 +405,8 @@ Controller 层：
 
 最后是 controller 层 ProductCategoryManagementController
 
-###### 前端页面：product-category-management.html 和对应的 CSS 布局；和对应的 productCategoryManagement.js 文件 （最后通过标签将 CSS 、js 代码引入 html 中）
+###### 前端页面：
+product-category-management.html 和对应的 CSS 布局；和对应的 productCategoryManagement.js 文件 （最后通过标签将 CSS 、js 代码引入 html 中）
 
 然后是 shopAdminController.java 中实现路由，通过访问
 
@@ -404,10 +414,89 @@ Controller 层：
 
 ### 商品类别批量添加
 
- ProjectCategoryDao。Java
-
-
-
+// 说明待补充
 
 
 ### 商品类别删除
+
+// 说明待补充
+
+
+
+### 补充：权限管理
+
+项目中一共有两处进行了权限管理：
+
+- ShopLoginInterceptor：店家管理系统拦截器
+- shopPermissionInteceptor：店铺操作权限拦截器
+
+#### （一）具体实现
+
+这里的拦截器的实现，都是继承抽象类：HandlerInterceptorAdaptor（该抽象类实现了 AsyncHandlerInterceptor 接口，里面除了构造器之外还有四个方法：preHandle/postHandle/afterCompletion/afterConcurrentHandlingStarted），
+
+- shopLoginInterceptor：主要是进行用户操作权限的拦截（必须登录才能操作店铺），因此属于事前拦截（即在用户操作之前进行拦截执行），因此只需要重写 PreHandle（） 方法即可；
+  - 首先从 session 中根据 key：`user` 获取用户信息；
+  - 然后判断用户信息是否存在，如果存在且状态正常（类型为店家）则返回 true，同时可进行后续操作；
+  - 如果用户信息不存在则需要跳转用户登录状态；
+
+- shopPermissionInteceptor：主要是判断当前登录的用户能否操作该店铺，因为也必须是在操作（controller ）之前进行判断，因此还是重写：PreHandle() 方法即可；
+  - 首先从 session中的 request.getSession().getAttribute() 方法，通过 key：`currentShop`获取当前选择的店铺；
+  - 然后从 session 中获取该用户可以操作的店铺列表；
+  - 遍历返回的列表，使用 equals 方法比较 shopId 即可，如果在列表中，返回 true，可以继续操作；
+  - 反之返回 false，提示没有操作权限即可；
+- springMVC 的配置文件配置：在 spring-web.xml 文件中配置拦截器，因为这里是两个拦截器，需要分别进行配置；
+  - 首先就是配置拦截器类的 <bean> 标签，然后配置该拦截器拦截哪些 controller，这里设置是：`path = "/shopAdmin/**"`，即拦截该包下面的所有controller。
+
+#### （二）原理知识
+- 这里实现自定义拦截器可以直接实现 HandlerInterceptor 接口或者继承实现上面接口的类（例如：HandlerInterceptorAdaptor )，这里使用后者；
+- 拦截顺序：preHandle -> controller -> postHandle -> jsp -> afterCompletion；
+- 多个拦截器拦截顺序：preHandle A -> preHandle B -> controller ->postHandle B -> postHandle A -> jsp -> afterCompletion B ->afterCompletion A；
+- springMVC 拦截器与 AOP 区别：
+  - spring MVC 拦截的是请求，即只能拦截 controller，发送请求时候被拦截器拦截，拦截之后在控制器前后增加额外的功能；
+  - AOP 拦截的是方法，AOP 拦截的是特定的方法（被 Spring 管理，一般为 serviceImpl 中方法），并在其前后进行补充；
+
+
+
+### 补充：Redis
+具体的内容见：Java -> JavaNotes -> Redis
+#### （一）简介
+
+- 首先 Redis 属于 NoSQL（非关系型数据库）中的**键值存储数据库**，该类型的数据库一般使用哈希表。Redis 中键可以包含：string，哈希, List, Set，zset。
+
+- 优点:
+  - 对数据高并发读写
+  - 对海量数据的高效率存储和访问
+因为是基于内存级别的读取操作
+  - 对数据的可扩展性和高可用性
+- 缺点: 
+  - redis(ACID处理非常简单）无法做到太复杂的关系数据库模型
+
+- 哨兵：
+  - 主要是在 Redis 2.0 中的，用于对主服务器进行监控（3.0 之后使用集群）
+  - 功能一：监控主数据库和从数据库是否正常运行；
+  - 功能二：主数据库出现故障时候，可以自动将从数据库转换为主数据库，实现自动切换；
+  - redis持久化的两种方式：RDB 方式和 AOF
+
+#### （二）使用
+这是使用 Redis 官方推荐的 Java 连接开发工具：Jedis
+- 首先将 Redis 中的相关属性以 redis.properties 存储；
+- 同样需要在 spring-redis.xml 中加载 redis.properties， 配置 redis 的连接池（包括：最大空闲连接数，最大等待时间、获取连接时候检查有效性）；这里创建 Redis 连接池的方式使用构造函数进行相关属性的注入（包括用户名、连接池、端口等）；同样将 Redis 的工具类进行配置；
+- 上面的 Redis 连接池的构造函数是强指定的，
+- 实现一个 Redis 工具类，就是将 Redis 中各种数据类型操作的方法进行了实现；
+
+![image-20191119185518500](README.resource/image-20191119185518500.png)
+
+- 这里以 AreaServiceImpl 类中的 getAreaList（）中使用 Redis 为例：
+
+  这里设置 key = AREA_LIST_KEY ，首先判断 keys类型对象 jedisKeys 中是否包括该 key，当然第一次时候是没有的，这时候调用 AreaDao 的 queryArea() 方法来查询数据并返回， 同时将返回结果转换为 JSON 字符串，最后将 key 和对应的 JSON字符串使用 set 方法保存到 value 类型为 String 的 jedisString 对象中。
+
+  如果不是第一次访问，即相当于经过上一步之后 jedisKeys 中已经含有了对应的 key，这样就直接从 jedisString 对象中通过 key 就可以获取对应的 value 值，然后可以将其转换为 List 即可；
+
+
+
+
+
+
+
+
+

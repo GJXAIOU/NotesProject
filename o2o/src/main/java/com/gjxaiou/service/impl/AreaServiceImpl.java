@@ -78,7 +78,6 @@ public class AreaServiceImpl implements AreaService {
                 throw new AreaOperationException(e.getMessage());
             }
         }
-
         return areaList;
     }
 }
