@@ -7,8 +7,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 /**
  * @Description: 管理账号
  *
- * @author tyronchen
- * @date 2019年6月7日
  */
 @Controller
 @RequestMapping("/admin")

@@ -2,9 +2,7 @@ package com.gjxaiou.enums;
 
 /**
  * @Description: 操作状态枚举
- *
- * @author tyronchen
- * @date 2018年11月29日
+
  */
 public enum OperationStatusEnum {
 

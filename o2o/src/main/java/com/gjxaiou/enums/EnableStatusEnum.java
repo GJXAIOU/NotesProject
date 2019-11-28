@@ -2,9 +2,7 @@ package com.gjxaiou.enums;
 
 /**
  * @Description: 使用状态枚举
- *
- * @author tyronchen
- * @date 2018年4月15日
+
  */
 public enum EnableStatusEnum {
 	UNAVAILABLE(0, "不可用"), AVAILABLE(1, "可用"), CHECK(2, "审核中");

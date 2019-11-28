@@ -2,9 +2,6 @@ package com.gjxaiou.enums;
 
 /**
  * @Description: 用户信息操作枚举类
- *
- * @author tyronchen
- * @date 2019年6月5日
  */
 public enum PersonInfoStateEnum {
 	NULL_PERSON_INFO(-1001, "注册信息为空");

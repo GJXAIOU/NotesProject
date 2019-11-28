@@ -8,8 +8,6 @@ import com.gjxaiou.exception.LocalAuthOperationException;
 /**
  * @Description: 本地用户信息服务层接口
  *
- * @author tyronchen
- * @date 2019年5月20日
  */
 public interface LocalAuthService {
 

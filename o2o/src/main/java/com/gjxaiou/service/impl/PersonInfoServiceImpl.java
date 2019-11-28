@@ -15,9 +15,6 @@ import java.util.Date;
 
 /**
  * @Description: 用户信息服务层接口实现类
- *
- * @author tyronchen
- * @date 2019年6月5日
  */
 @Service
 public class PersonInfoServiceImpl implements PersonInfoService {

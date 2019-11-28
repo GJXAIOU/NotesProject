@@ -10,9 +10,6 @@ import java.util.Set;
 
 /**
  * @Description: 缓存服务接口实现
- *
- * @author tyronchen
- * @date 2019年1月26日
  */
 @Service
 public class CacheServiceImpl implements CacheService {

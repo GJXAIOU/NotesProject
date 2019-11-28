@@ -3,8 +3,6 @@ package com.gjxaiou.exception;
 /**
  * @Description: 区域操作异常
  *
- * @author tyronchen
- * @date 2018年12月15日
  */
 public class AreaOperationException extends RuntimeException {
 

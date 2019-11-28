@@ -2,9 +2,6 @@ package com.gjxaiou.enums;
 
 /**
  * @Description: 头条状态枚举类
- *
- * @author tyronchen
- * @date 2019年1月23日
  */
 public enum HeadLineStateEnum {
 

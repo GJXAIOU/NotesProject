@@ -3,8 +3,6 @@ package com.gjxaiou.exception;
 /**
  * @Description: 头条操作异常
  *
- * @author tyronchen
- * @date 2019年1月24日
  */
 public class HeadLineOperationException extends RuntimeException {
 

@@ -5,8 +5,6 @@ import org.springframework.beans.factory.config.PropertyPlaceholderConfigurer;
 /**
  * @Description: 继承PropertyPlaceholderConfigurer，重写convertProperty
  *
- * @author tyronchen
- * @date 2018年12月25日
  */
 public class EncryptPropertyPlaceholderConfigurer extends PropertyPlaceholderConfigurer {
 	// 需要加密的字段数组

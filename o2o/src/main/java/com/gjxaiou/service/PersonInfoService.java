@@ -6,9 +6,6 @@ import com.gjxaiou.entity.PersonInfo;
 
 /**
  * @Description: 用户信息服务层接口
- *
- * @author tyronchen
- * @date 2019年6月5日
  */
 public interface PersonInfoService {
 

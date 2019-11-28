@@ -10,8 +10,6 @@ import java.util.List;
 /**
  * @Description: 用户信息返回信息
  *
- * @author tyronchen
- * @date 2019年6月5日
  */
 public class PersonInfoExecution {
 	// 结果状态

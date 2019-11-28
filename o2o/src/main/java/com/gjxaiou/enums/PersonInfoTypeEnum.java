@@ -3,8 +3,6 @@ package com.gjxaiou.enums;
 /**
  * @Description: 用户身份状态信息
  *
- * @author tyronchen
- * @date 2019年6月2日
  */
 public enum PersonInfoTypeEnum {
 

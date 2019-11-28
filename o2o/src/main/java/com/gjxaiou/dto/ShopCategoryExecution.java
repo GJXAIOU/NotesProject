@@ -9,9 +9,7 @@ import java.util.List;
 
 /**
  * @Description: 店铺类别类别返回结果信息
- *
- * @author tyronchen
- * @date 2018年11月29日
+
  */
 public class ShopCategoryExecution {
 

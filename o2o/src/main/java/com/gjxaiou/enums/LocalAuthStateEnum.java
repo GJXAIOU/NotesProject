@@ -2,9 +2,6 @@ package com.gjxaiou.enums;
 
 /**
  * @Description: 本地账号信息操作枚举类
- *
- * @author tyronchen
- * @date 2019年5月20日
  */
 public enum LocalAuthStateEnum {
 	SUCCESS(1, "操作成功"),LOGINFAIL(-1, "密码或帐号输入有误"), NULL_AUTH_INFO(-1001, "注册信息为空"),

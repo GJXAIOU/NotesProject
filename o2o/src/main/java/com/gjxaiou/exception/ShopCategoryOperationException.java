@@ -3,8 +3,6 @@ package com.gjxaiou.exception;
 /**
  * @Description: 店铺类别操作异常
  *
- * @author tyronchen
- * @date 2018年11月29日
  */
 public class ShopCategoryOperationException extends RuntimeException {
 

@@ -12,8 +12,6 @@ import java.util.List;
 /**
  * @Description: 封装操作HeadLine的返回结果，包括操作状态和HeadLine信息
  *
- * @author tyronchen
- * @date 2019年1月23日
  */
 @Getter
 @Setter
