@@ -44,6 +44,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -203,6 +204,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="580" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1577867118177" />
+    <state x="505" y="66" key="CommitChangelistDialog2" timestamp="1578140675722">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="505" y="66" key="CommitChangelistDialog2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1578140675722" />
     <state width="1867" height="156" key="GridCell.Tab.0.bottom" timestamp="1578129409716">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
