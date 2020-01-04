@@ -7,7 +7,7 @@ package nowcoder.easy.day01;
 import java.util.Arrays;
 
 public class BubbleSort {
-
+    ////////////////// 冒泡排序 /////////////////////////
     public static void bubbleSort(int[] sourceArray) {
         if (sourceArray == null || sourceArray.length < 2) {
             return;
@@ -29,14 +29,13 @@ public class BubbleSort {
     }
 
     ///////////////////////////////// 使用对数器 /////////////////////////////////////////////
-    // for test
-    // 2.准备一个绝对正确的方法
+    // 1.想要验证的方法，见上
+    // 2.准备一个绝对正确的方法：这里使用系统自带的排序方法
     public static void comparator(int[] arr) {
         Arrays.sort(arr);
     }
 
-    // for test
-    // 1.随机生成一个任意长度，值为任意的数组
+    // 3.实现一个随机样本产生器：这里随机生成一个任意长度，值为任意的数组
     public static int[] generateRandomArray(int maxSize, int maxValue) {
         // Math.random() 表示范围为： double [0,1)
         // (int)((maxSize + 1) * Math.random())：int [0,size]

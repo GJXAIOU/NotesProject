@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e438ced-52ba-40b7-b213-041ca367ca6b" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="7e438ced-52ba-40b7-b213-041ca367ca6b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatternCode/DesignPattern/DesignPattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ForkFromGitHub/JDK/Demo/Demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ForkFromGitHub/mybatis-master/src/main/main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ForkFromGitHub/mybatis-master/src/test/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VideoClass/Interview/Interview.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../o2o第一版和Github版本/imooc-o2o-master/o2o.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../o2o第一版和Github版本/imooc-o2o-master/src/main/main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../o2o第一版和Github版本/imooc-o2o-master/src/test/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../o2o第一版和Github版本/o2o第一版/o2o.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/META-INF/Algorithm.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/META-INF/Algorithm.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nowcoder/easy/day01/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nowcoder/easy/day01/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VideoClass/ThinkingInJava4Code" beforeDir="false" afterPath="$PROJECT_DIR$/../VideoClass/ThinkingInJava4Code" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,11 +31,25 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1PxtGvvJ1BDkHqsYmUpkbRjTG3z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TaotaoMall" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/nowcoder/advanced" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -29,29 +59,22 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Program\Java\Project\Algorithm\src\nowcoder\advanced" />
       <recent name="E:\Program\Java\Project\Algorithm\src\nowcoder\easy" />
+      <recent name="E:\Program\Java\Project\Algorithm\src" />
       <recent name="E:\Program\Java\Project\Algorithm\src\sort\nowcoder\easy\day01" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Program\Java\Project\Algorithm\src\nowcoder\advanced" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Code_02_PrintBinaryTree (1)">
-    <configuration name="Code_02_PrintBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="class_04.Code_02_PrintBinaryTree" />
+  <component name="RunManager" selected="Application.BubbleSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nowcoder.easy.day01.BubbleSort" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="class_04.*" />
+          <option name="PATTERN" value="nowcoder.easy.day01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PreInPosTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nowcoder.easy.day04.PreInPosTraversal" />
+    <configuration name="Code_01_Building_Outline" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nowcoder.advanced.day04.Code_01_Building_Outline" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nowcoder.easy.day04.*" />
+          <option name="PATTERN" value="nowcoder.advanced.day04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nowcoder.easy.day04.PrintBinaryTree" />
+    <configuration name="Code_05_LongestSumSubArrayLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nowcoder.advanced.day04.Code_05_LongestSumSubArrayLength" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nowcoder.easy.day04.*" />
+          <option name="PATTERN" value="nowcoder.advanced.day04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nowcoder.easy.day03.RotateMatrix" />
+    <configuration name="Code_06_Most_EOR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nowcoder.advanced.day04.Code_06_Most_EOR" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nowcoder.easy.day03.*" />
+          <option name="PATTERN" value="nowcoder.advanced.day04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZigZagPrintMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nowcoder.easy.day03.ZigZagPrintMatrix" />
+    <configuration name="MountainsAndFlame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nowcoder.advanced.day01.MountainsAndFlame" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nowcoder.easy.day03.*" />
+          <option name="PATTERN" value="nowcoder.advanced.day01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,13 +136,28 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Code_02_PrintBinaryTree (1)" />
-        <item itemvalue="Application.Code_01_PreInPosTraversal" />
-        <item itemvalue="Application.Code_02_PrintBinaryTree" />
-        <item itemvalue="Application.ZigZagPrintMatrix" />
-        <item itemvalue="Application.RotateMatrix" />
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.Code_01_Building_Outline" />
+        <item itemvalue="Application.Code_06_Most_EOR" />
+        <item itemvalue="Application.Code_05_LongestSumSubArrayLength" />
+        <item itemvalue="Application.MountainsAndFlame" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -150,10 +188,56 @@
       <workItem from="1570410201189" duration="30207000" />
       <workItem from="1570601572538" duration="53766000" />
       <workItem from="1570792714442" duration="7892000" />
+      <workItem from="1577365472033" duration="2810000" />
+      <workItem from="1577503581286" duration="26005000" />
+      <workItem from="1577715654476" duration="16413000" />
+      <workItem from="1578035062214" duration="21879000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="580" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1577867118177">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="580" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1577867118177" />
+    <state width="1867" height="156" key="GridCell.Tab.0.bottom" timestamp="1578129409716">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1867" height="156" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1578129409716" />
+    <state width="1867" height="156" key="GridCell.Tab.0.center" timestamp="1578129409716">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1867" height="156" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1578129409716" />
+    <state width="1867" height="156" key="GridCell.Tab.0.left" timestamp="1578129409715">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1867" height="156" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1578129409715" />
+    <state width="1867" height="156" key="GridCell.Tab.0.right" timestamp="1578129409716">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1867" height="156" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1578129409716" />
+    <state width="1867" height="337" key="GridCell.Tab.1.bottom" timestamp="1577630440342">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1867" height="337" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1577630440342" />
+    <state width="1867" height="337" key="GridCell.Tab.1.center" timestamp="1577630440342">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1867" height="337" key="GridCell.Tab.1.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1577630440342" />
+    <state width="1867" height="337" key="GridCell.Tab.1.left" timestamp="1577630440342">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1867" height="337" key="GridCell.Tab.1.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1577630440342" />
+    <state width="1867" height="337" key="GridCell.Tab.1.right" timestamp="1577630440342">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1867" height="337" key="GridCell.Tab.1.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1577630440342" />
+    <state x="722" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578140590961">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="722" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1578140590961" />
   </component>
 </project>
