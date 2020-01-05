@@ -4,6 +4,7 @@ package nowcoder.easy.day01;
  * @author GJXAIOU
  * @create 2019-10-04-20:00
  */
+
 import java.util.Arrays;
 
 public class BubbleSort {
@@ -58,7 +59,7 @@ public class BubbleSort {
         return res;
     }
 
-    // for test
+    // 4.实现连个方法对比的方法
     public static boolean isEqual(int[] arr1, int[] arr2) {
         if ((arr1 == null && arr2 != null) || (arr1 != null && arr2 == null)) {
             return false;
@@ -92,8 +93,10 @@ public class BubbleSort {
     // 3.大样本测试
     public static void main(String[] args) {
         int testTime = 500000;
-        int maxSize = 100;// 长度为【0-100】
-        int maxValue = 100;// 值为 【-100-100】之间
+        // 长度为【0-100】
+        int maxSize = 100;
+        // 值为 【-100-100】之间
+        int maxValue = 100;
         boolean succeed = true;
         for (int i = 0; i < testTime; i++) {
             int[] arr1 = generateRandomArray(maxSize, maxValue);
@@ -105,12 +108,11 @@ public class BubbleSort {
                 break;
             }
         }
-        System.out.println(succeed ? "Nice!" : "Fucking fucked!");
+        System.out.println(succeed ? "Nice!" : "Bad!");
 
         int[] arr = generateRandomArray(maxSize, maxValue);
         printArray(arr);
         bubbleSort(arr);
         printArray(arr);
     }
-
 }
