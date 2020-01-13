@@ -3,6 +3,9 @@ package nowcoder.easy.day03;
 import java.util.LinkedList;
 import java.util.Queue;
 
+/**
+ * @author GJXAIOU
+ */
 public class CatDogQueue {
 
 	public static class Pet {
@@ -149,12 +152,6 @@ public class CatDogQueue {
 		test.add(dog3);
 		test.add(cat3);
 
-		test.add(dog1);
-		test.add(cat1);
-		test.add(dog2);
-		test.add(cat2);
-		test.add(dog3);
-		test.add(cat3);
 		while (!test.isDogQueueEmpty()) {
 			System.out.println(test.pollDog().getPetType());
 		}

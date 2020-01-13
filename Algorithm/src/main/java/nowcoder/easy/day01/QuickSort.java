@@ -3,13 +3,16 @@ package nowcoder.easy.day01;
 /**
  * @author GJXAIOU
  * @create 2019-10-04-20:08
+ * <p>
+ * 随机快排
  */
 
 import java.util.Arrays;
 
 public class QuickSort {
     /**
-     *  首先调用该方法，可以设置排序的区间，默认为 0 ~ length-1；
+     * 首先调用该方法，可以设置排序的区间，默认为 0 ~ length-1；
+     *
      * @param sourceArray：需要排序的数组
      */
     public static void quickSort(int[] sourceArray) {
@@ -23,13 +26,13 @@ public class QuickSort {
      * @param sourceArray：需要排序的数组
      * @param left：排序数组左边界，一般为：0
      * @param right：排序数组右边界，一般为：length - 1;
-     *  less：小于参照元素区域的最右边边界：less = p[0] - 1;
-     *  more：大于参照元素区域的最左边边界：more = p[1] + 1;
-     *  p[0]：等于参照元素区域的最左边边界；
-     *  p[1]：等于参数元素区域的最右边边界；
-     *  小于参照元素区域：[Left ~ less];
-     *  等于参照元素区域：[p[0] ~ p[1]]；
-     *  大于参照元素区域：[more ~ right]；
+     * less：小于参照元素区域的最右边边界：less = p[0] - 1;
+     * more：大于参照元素区域的最左边边界：more = p[1] + 1;
+     * p[0]：等于参照元素区域的最左边边界；
+     * p[1]：等于参数元素区域的最右边边界；
+     * 小于参照元素区域：[Left ~ less];
+     * 等于参照元素区域：[p[0] ~ p[1]]；
+     * 大于参照元素区域：[more ~ right]；
      */
     public static void quickSort(int[] sourceArray, int left, int right) {
         if (left < right) {
@@ -46,6 +49,7 @@ public class QuickSort {
         int less = left - 1;
         int more = right;
         while (left < more) {
+            // 以数组最后一个元素为标准，将整个数组划分为 小于、等于、大于 三个部分
             if (sourceArray[left] < sourceArray[right]) {
                 swap(sourceArray, ++less, left++);
             } else if (sourceArray[left] > sourceArray[right]) {
@@ -55,7 +59,7 @@ public class QuickSort {
             }
         }
         swap(sourceArray, more, right);
-        return new int[] { less + 1, more };
+        return new int[]{less + 1, more};
     }
 
     public static void swap(int[] sourceArray, int left, int right) {
@@ -64,87 +68,19 @@ public class QuickSort {
         sourceArray[right] = tmp;
     }
 
-    // for test
-    public static void comparator(int[] arr) {
-        Arrays.sort(arr);
-    }
 
-    // for test
-    public static int[] generateRandomArray(int maxSize, int maxValue) {
-        int[] arr = new int[(int) ((maxSize + 1) * Math.random())];
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = (int) ((maxValue + 1) * Math.random()) - (int) (maxValue * Math.random());
-        }
-        return arr;
-    }
-
-    // for test
-    public static int[] copyArray(int[] arr) {
-        if (arr == null) {
-            return null;
-        }
-        int[] res = new int[arr.length];
-        for (int i = 0; i < arr.length; i++) {
-            res[i] = arr[i];
-        }
-        return res;
-    }
-
-    // for test
-    public static boolean isEqual(int[] arr1, int[] arr2) {
-        if ((arr1 == null && arr2 != null) || (arr1 != null && arr2 == null)) {
-            return false;
-        }
-        if (arr1 == null && arr2 == null) {
-            return true;
-        }
-        if (arr1.length != arr2.length) {
-            return false;
-        }
-        for (int i = 0; i < arr1.length; i++) {
-            if (arr1[i] != arr2[i]) {
-                return false;
-            }
-        }
-        return true;
-    }
-
-    // for test
-    public static void printArray(int[] arr) {
-        if (arr == null) {
-            return;
-        }
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
-        }
-        System.out.println();
-    }
-
-    // for test
     public static void main(String[] args) {
-        int testTime = 500000;
-        int maxSize = 100;
-        int maxValue = 100;
-        boolean succeed = true;
-        for (int i = 0; i < testTime; i++) {
-            int[] arr1 = generateRandomArray(maxSize, maxValue);
-            int[] arr2 = copyArray(arr1);
-            quickSort(arr1);
-            comparator(arr2);
-            if (!isEqual(arr1, arr2)) {
-                succeed = false;
-                printArray(arr1);
-                printArray(arr2);
-                break;
-            }
+        int[] arr = {43, -31, 10, -38, -42, -2, 22, 29, 30, 15, -60, -50, -13, 26, 3, 22, 27, 24, 18, 18, 42, -40, 22, 8, 33, -52, -70, -55, 31, 42, 82, 19, -8, 8, 41, -35, 59, 65, -23, 3, -34, 65};
+        System.out.println("原数组为：");
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + "  ");
         }
-        System.out.println(succeed ? "Nice!" : "Fucking fucked!");
 
-        int[] arr = generateRandomArray(maxSize, maxValue);
-        printArray(arr);
         quickSort(arr);
-        printArray(arr);
-
+        System.out.println("\n排序后数组为：");
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + "  ");
+        }
     }
 
 }

@@ -29,7 +29,7 @@ public class BubbleSort {
         sourceArray[left] = sourceArray[left] ^ sourceArray[right];
     }
 
-    ///////////////////////////////// 使用对数器 /////////////////////////////////////////////
+    ////////////////////// 使用对数器 ////////////////////////
     // 1.想要验证的方法，见上
     // 2.准备一个绝对正确的方法：这里使用系统自带的排序方法
     public static void comparator(int[] arr) {
@@ -47,7 +47,7 @@ public class BubbleSort {
         return arr;
     }
 
-    // for test
+    // 因为是原地排序，会改变原数组，所以复制一份两个算法使用
     public static int[] copyArray(int[] arr) {
         if (arr == null) {
             return null;
@@ -78,7 +78,7 @@ public class BubbleSort {
         return true;
     }
 
-    // for test
+    // 可有可无
     public static void printArray(int[] arr) {
         if (arr == null) {
             return;
@@ -89,8 +89,7 @@ public class BubbleSort {
         System.out.println();
     }
 
-    // for test
-    // 3.大样本测试
+    // 最后：进行大样本测试
     public static void main(String[] args) {
         int testTime = 500000;
         // 长度为【0-100】

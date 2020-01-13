@@ -1,5 +1,9 @@
 package nowcoder.easy.day03;
 
+/**
+ * @author GJXAIOU
+ * 翻转单向链表和双向链表
+ */
 public class ReverseList {
 
 	public static class Node {
@@ -33,7 +37,11 @@ public class ReverseList {
 		}
 	}
 
-	// 反转双向链表
+	/**
+	 * 反转双向链表
+	 * @param head
+	 * @return
+	 */
 	public static DoubleNode reverseList(DoubleNode head) {
 		DoubleNode pre = null;
 		DoubleNode next = null;

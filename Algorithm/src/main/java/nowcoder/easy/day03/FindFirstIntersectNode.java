@@ -1,5 +1,12 @@
 package nowcoder.easy.day03;
 
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * @author GJXAIOU
+ * 判断两个单链表是否相交，如果相交返回第一个相交节点，反之返回 Null
+ */
 public class FindFirstIntersectNode {
 
 	// 单链表结构
@@ -36,22 +43,24 @@ public class FindFirstIntersectNode {
 		if (head == null || head.next == null || head.next.next == null) {
 			return null;
 		}
-		Node n1 = head.next; // n1 -> slow
-		Node n2 = head.next.next; // n2 -> fast
-		while (n1 != n2) {
-			if (n2.next == null || n2.next.next == null) {
+		Node slow = head.next;
+		Node fast = head.next.next;
+		// 当快慢指针相遇的时候停止
+		while (slow != fast) {
+			if (fast.next == null || fast.next.next == null) {
 				return null;
 			}
-			n2 = n2.next.next;
-			n1 = n1.next;
+			fast = fast.next.next;
+			slow = slow.next;
 		}
 		// 快指针回到开头
-		n2 = head; // n2 -> walk again from head
-		while (n1 != n2) {
-			n1 = n1.next;
-			n2 = n2.next;
+		fast = head;
+		// 快指针从链表头部，慢指针继续遍历，
+		while (slow != fast) {
+			slow = slow.next;
+			fast = fast.next;
 		}
-		return n1;
+		return slow;
 	}
 
 	// 两个无环链表相交问题
@@ -173,7 +182,5 @@ public class FindFirstIntersectNode {
 		head2.next.next = new Node(8);
 		head2.next.next.next = head1.next.next.next.next.next; // 8->6
 		System.out.println(getIntersectNode(head1, head2).value);
-
 	}
-
 }
