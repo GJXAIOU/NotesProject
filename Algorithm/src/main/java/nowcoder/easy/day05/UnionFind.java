@@ -3,12 +3,17 @@ package nowcoder.easy.day05;
 import java.util.HashMap;
 import java.util.List;
 
-public class Code_04_UnionFind {
+/**
+ * 查找两个节点是否在同一个集合中
+ * @author GJXAIOU
+ */
+public class UnionFind {
 
 	public static class Node {
-		// whatever you like，可以是 String，Int，等等类型
+		// 可以是 String，Int，等等类型
 	}
 
+	// 初始化并查集中数据
 	public static class UnionFindSet {
 		// key:child,value:father节点
 		public HashMap<Node, Node> fatherMap;

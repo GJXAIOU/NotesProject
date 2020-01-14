@@ -4,7 +4,7 @@ public class Code_15_FindOneLessValueIndex {
 
 	public static int getLessIndex(int[] arr) {
 		if (arr == null || arr.length == 0) {
-			return -1; // no exist
+			return -1;
 		}
 		if (arr.length == 1 || arr[0] < arr[1]) {
 			return 0;

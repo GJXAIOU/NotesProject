@@ -4,6 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
+ * 猫狗队列问题
  * @author GJXAIOU
  */
 public class CatDogQueue {

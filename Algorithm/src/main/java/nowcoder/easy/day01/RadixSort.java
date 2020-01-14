@@ -3,7 +3,7 @@ package nowcoder.easy.day01;
 
 import java.util.Arrays;
 
-public class Code_07_RadixSort {
+public class RadixSort {
 
 	// only for no-negative value
 	public static void radixSort(int[] arr) {

@@ -33,8 +33,6 @@ public class CopyListWithRandom {
 		return map.get(head);
 	}
 
-
-
 	public static Node copyListWithRand2(Node head) {
 		if (head == null) {
 			return null;
@@ -120,7 +118,5 @@ public class CopyListWithRandom {
 		printRandLinkedList(res2);
 		printRandLinkedList(head);
 		System.out.println("=========================");
-
 	}
-
 }

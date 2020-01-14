@@ -55,7 +55,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -69,13 +69,13 @@
       <recent name="E:\Program\Java\Project\Algorithm\src\nowcoder\easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CompleteTreeNodeNumber">
-    <configuration name="CompleteTreeNodeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nowcoder.easy.day04.CompleteTreeNodeNumber" />
+  <component name="RunManager" selected="Application.Code_01_GetMax">
+    <configuration name="Code_01_GetMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nowcoder.advanced.advanced_class_01.Code_01_GetMax" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nowcoder.easy.day04.*" />
+          <option name="PATTERN" value="nowcoder.advanced.advanced_class_01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsBSTAndCBT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nowcoder.easy.day04.IsBSTAndCBT" />
+    <configuration name="LastAddString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nowcoder.advanced.day01.LastAddString" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nowcoder.easy.day04.*" />
+          <option name="PATTERN" value="nowcoder.advanced.day01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsBalancedTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nowcoder.easy.day04.IsBalancedTree" />
+    <configuration name="ShortestEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nowcoder.advanced.day01.ShortestEnd" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nowcoder.easy.day04.*" />
+          <option name="PATTERN" value="nowcoder.advanced.day01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaperFolding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nowcoder.easy.day04.PaperFolding" />
+    <configuration name="ShortestHaveTwice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nowcoder.advanced.day01.ShortestHaveTwice" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nowcoder.easy.day04.*" />
+          <option name="PATTERN" value="nowcoder.advanced.day01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerializeAndReconstructTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nowcoder.easy.day04.SerializeAndReconstructTree" />
+    <configuration name="T1SubtreeEqualsT2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nowcoder.advanced.day01.T1SubtreeEqualsT2" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nowcoder.easy.day04.*" />
+          <option name="PATTERN" value="nowcoder.advanced.day01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CompleteTreeNodeNumber" />
-        <item itemvalue="Application.IsBSTAndCBT" />
-        <item itemvalue="Application.IsBalancedTree" />
-        <item itemvalue="Application.PaperFolding" />
-        <item itemvalue="Application.SerializeAndReconstructTree" />
+        <item itemvalue="Application.Code_01_GetMax" />
+        <item itemvalue="Application.LastAddString" />
+        <item itemvalue="Application.Code_05_Manacher_ShortestEnd" />
+        <item itemvalue="Application.T1SubtreeEqualsT2" />
+        <item itemvalue="Application.Code_02_KMP_ShortestHaveTwice" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +203,8 @@
       <workItem from="1578533796236" duration="14707000" />
       <workItem from="1578878196303" duration="558000" />
       <workItem from="1578878809847" duration="17271000" />
-      <workItem from="1578907283647" duration="2688000" />
+      <workItem from="1578907283647" duration="2806000" />
+      <workItem from="1578964883806" duration="21368000" />
     </task>
     <task id="LOCAL-00001" summary="fetch:Add Medium Algorithm Code">
       <created>1578140686309</created>
@@ -223,6 +224,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="fetch:Add Medium Algorithm Code" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="456" y="196" key="#Custom_Plugin_Repositories" timestamp="1578981228565">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="456" y="196" key="#Custom_Plugin_Repositories/-1366.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1578981228565" />
     <state x="452" y="119" key="#Inspections" timestamp="1578232534830">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -251,55 +256,55 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="461" height="466" key="DebuggerActiveHint/-1366.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1578381718807" />
-    <state x="690" y="242" key="FileChooserDialogImpl" timestamp="1578907496878">
+    <state x="690" y="242" key="FileChooserDialogImpl" timestamp="1578910264181">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="690" y="242" key="FileChooserDialogImpl/-1366.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1578907496878" />
+    <state x="690" y="242" key="FileChooserDialogImpl/-1366.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1578910264181" />
     <state x="690" y="242" key="FileChooserDialogImpl/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1578233295309" />
-    <state width="1876" height="265" key="GridCell.Tab.0.bottom" timestamp="1578909905447">
+    <state width="1876" height="164" key="GridCell.Tab.0.bottom" timestamp="1578994314536">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="265" key="GridCell.Tab.0.bottom/-1366.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1578909905447" />
+    <state width="1876" height="164" key="GridCell.Tab.0.bottom/-1366.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1578994314536" />
     <state width="1867" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1578234413434" />
-    <state width="1876" height="265" key="GridCell.Tab.0.center" timestamp="1578909905446">
+    <state width="1876" height="164" key="GridCell.Tab.0.center" timestamp="1578994314536">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="265" key="GridCell.Tab.0.center/-1366.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1578909905446" />
+    <state width="1876" height="164" key="GridCell.Tab.0.center/-1366.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1578994314536" />
     <state width="1867" height="325" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1578234413434" />
-    <state width="1876" height="265" key="GridCell.Tab.0.left" timestamp="1578909905446">
+    <state width="1876" height="164" key="GridCell.Tab.0.left" timestamp="1578994314535">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="265" key="GridCell.Tab.0.left/-1366.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1578909905446" />
+    <state width="1876" height="164" key="GridCell.Tab.0.left/-1366.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1578994314535" />
     <state width="1867" height="325" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1578234413434" />
-    <state width="1876" height="265" key="GridCell.Tab.0.right" timestamp="1578909905447">
+    <state width="1876" height="164" key="GridCell.Tab.0.right" timestamp="1578994314536">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="265" key="GridCell.Tab.0.right/-1366.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1578909905447" />
+    <state width="1876" height="164" key="GridCell.Tab.0.right/-1366.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1578994314536" />
     <state width="1867" height="325" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1578234413434" />
-    <state width="1876" height="537" key="GridCell.Tab.1.bottom" timestamp="1578885546246">
+    <state width="1876" height="537" key="GridCell.Tab.1.bottom" timestamp="1578991732996">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="537" key="GridCell.Tab.1.bottom/-1366.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1578885546246" />
+    <state width="1876" height="537" key="GridCell.Tab.1.bottom/-1366.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1578991732996" />
     <state width="1867" height="337" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1577630440342" />
-    <state width="1876" height="537" key="GridCell.Tab.1.center" timestamp="1578885546246">
+    <state width="1876" height="537" key="GridCell.Tab.1.center" timestamp="1578991732995">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="537" key="GridCell.Tab.1.center/-1366.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1578885546246" />
+    <state width="1876" height="537" key="GridCell.Tab.1.center/-1366.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1578991732995" />
     <state width="1867" height="337" key="GridCell.Tab.1.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1577630440342" />
-    <state width="1876" height="537" key="GridCell.Tab.1.left" timestamp="1578885546245">
+    <state width="1876" height="537" key="GridCell.Tab.1.left" timestamp="1578991732995">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="537" key="GridCell.Tab.1.left/-1366.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1578885546245" />
+    <state width="1876" height="537" key="GridCell.Tab.1.left/-1366.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1578991732995" />
     <state width="1867" height="337" key="GridCell.Tab.1.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1577630440342" />
-    <state width="1876" height="537" key="GridCell.Tab.1.right" timestamp="1578885546246">
+    <state width="1876" height="537" key="GridCell.Tab.1.right" timestamp="1578991732995">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="537" key="GridCell.Tab.1.right/-1366.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1578885546246" />
+    <state width="1876" height="537" key="GridCell.Tab.1.right/-1366.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1578991732995" />
     <state width="1867" height="337" key="GridCell.Tab.1.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1577630440342" />
-    <state x="367" y="167" key="SettingsEditor" timestamp="1578470546252">
+    <state x="367" y="167" key="SettingsEditor" timestamp="1579000605206">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="367" y="167" key="SettingsEditor/-1366.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1578470546252" />
+    <state x="367" y="167" key="SettingsEditor/-1366.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1579000605206" />
     <state x="312" y="14" key="SettingsEditor/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1578233650365" />
     <state x="582" y="426" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1578233487257">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -328,7 +333,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/nowcoder/easy/day03/CatDogQueue.java</url>
-          <line>130</line>
+          <line>131</line>
           <properties class="nowcoder.easy.day03.CatDogQueue" method="main">
             <option name="EMULATED" value="true" />
           </properties>

@@ -1,10 +1,14 @@
 package nowcoder.advanced.day01;
 
 /**
- * @Author GJXAIOU
+ * 添加尽可能少的字符使其成为一个回文字符串
+ *
+ * @author GJXAIOU
  * @Date 2020/1/1 14:11
  */
-public class LastAddString {
+
+public class ShortestEnd {
+
     public static char[] manacherString(String str) {
         char[] charArr = str.toCharArray();
         char[] res = new char[str.length() * 2 + 1];
@@ -27,9 +31,9 @@ public class LastAddString {
         for (int i = 0; i != charArr.length; i++) {
             pArr[i] = pR > i ? Math.min(pArr[2 * index - i], pR - i) : 1;
             while (i + pArr[i] < charArr.length && i - pArr[i] > -1) {
-                if (charArr[i + pArr[i]] == charArr[i - pArr[i]]) {
+                if (charArr[i + pArr[i]] == charArr[i - pArr[i]])
                     pArr[i]++;
-                } else {
+                else {
                     break;
                 }
             }
@@ -50,7 +54,7 @@ public class LastAddString {
     }
 
     public static void main(String[] args) {
-        String yuanlai = LastAddString.shortestEnd("abcd123321");
-        System.out.println(yuanlai);
+        String str2 = "abcd1233212";
+        System.out.println(shortestEnd(str2));
     }
 }
