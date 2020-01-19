@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab6d1f10-35be-4dac-9f15-171a52712f87" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="ab6d1f10-35be-4dac-9f15-171a52712f87" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ForkFromGitHub/JDK/Demo/Demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ForkFromGitHub/mybatis-master/src/main/main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ForkFromGitHub/mybatis-master/src/test/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode27.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/main1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Netty/Netty.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../o2o第一版和Github版本/imooc-o2o-master/o2o.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../o2o第一版和Github版本/imooc-o2o-master/src/main/main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../o2o第一版和Github版本/imooc-o2o-master/src/test/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../o2o第一版和Github版本/o2o第一版/o2o.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/Algorithm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM/src/main/java/book_understandingJVM/chapter3/Code3_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM/src/main/java/book_understandingJVM/chapter3/Code3_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VideoClass/ThinkingInJava4Code" beforeDir="false" afterPath="$PROJECT_DIR$/../VideoClass/ThinkingInJava4Code" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +42,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,41 +53,40 @@
     </option>
   </component>
   <component name="ProjectId" id="1PsJN89j6qZT4I30oCqo1kUT6Vu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../VideoClass/MyBatisDemo2" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20091848" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Program\Java\Project\LeetCode\src\test\java" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.LeetCode125_Valid_Palindrome_Test">
-    <configuration name="LeetCode125_Valid_Palindrome_Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.easy.Leetcode125.LeetCode125_Valid_Palindrome_Test" />
-      <module name="LeetCode" />
+  <component name="RunManager" selected="Application.LeetCode13">
+    <configuration name="LeetCode07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.LeetCode07" />
+      <module name="main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.easy.Leetcode125.*" />
+          <option name="PATTERN" value="array.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode209Minimum_Size_Subarray_Sum_Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.medium.LeetCode209Minimum_Size_Subarray_Sum_Test" />
-      <module name="LeetCode" />
+    <configuration name="LeetCode08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.LeetCode08" />
+      <module name="main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.medium.*" />
+          <option name="PATTERN" value="array.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,9 +107,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leetcode167_Two_Sum_II_Input_array_is_sorted_Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.Leetcode167_Two_Sum_II_Input_array_is_sorted_Test" />
-      <module name="LeetCode" />
+    <configuration name="LeetCode09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.LeetCode09" />
+      <module name="main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.LeetCode13" />
+      <module name="main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode27" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.LeetCode27" />
+      <module name="main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="array.easy.*" />
@@ -93,11 +148,28 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LeetCode125_Valid_Palindrome_Test" />
-        <item itemvalue="Application.LeetCode209Minimum_Size_Subarray_Sum_Test" />
-        <item itemvalue="Application.Leetcode167_Two_Sum_II_Input_array_is_sorted_Test" />
+        <item itemvalue="Application.LeetCode13" />
+        <item itemvalue="Application.LeetCode27" />
+        <item itemvalue="Application.LeetCode09" />
+        <item itemvalue="Application.LeetCode08" />
+        <item itemvalue="Application.LeetCode07" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -124,11 +196,59 @@
       <workItem from="1567643978397" duration="1781000" />
       <workItem from="1567730314501" duration="1244000" />
       <workItem from="1568185432806" duration="593000" />
+      <workItem from="1579355075045" duration="8612000" />
+      <workItem from="1579423955816" duration="6137000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="613" y="121" key="#LeetCode07" timestamp="1579356035611">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="613" y="121" key="#LeetCode07/0.0.1920.1080@0.0.1920.1080" timestamp="1579356035611" />
+    <state x="626" y="139" key="#LeetCode27" timestamp="1579424575726">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="626" y="139" key="#LeetCode27/0.0.1920.1080@0.0.1920.1080" timestamp="1579424575726" />
+    <state x="790" y="183" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1579355989346">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="790" y="183" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1579355989346" />
+    <state x="690" y="164" key="FileChooserDialogImpl" timestamp="1579424615395">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="690" y="164" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1579424615395" />
+    <state width="933" height="211" key="GridCell.Tab.0.bottom" timestamp="1579439003395">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="933" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1579439003395" />
+    <state width="933" height="211" key="GridCell.Tab.0.center" timestamp="1579439003395">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="933" height="211" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1579439003395" />
+    <state width="933" height="211" key="GridCell.Tab.0.left" timestamp="1579439003395">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="933" height="211" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1579439003395" />
+    <state width="933" height="211" key="GridCell.Tab.0.right" timestamp="1579439003395">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="933" height="211" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1579439003395" />
+    <state x="532" y="170" key="NewModule_or_Project.wizard" timestamp="1579424623926">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="532" y="170" key="NewModule_or_Project.wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1579424623926" />
+    <state x="312" y="10" key="SettingsEditor" timestamp="1579424626218">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="312" y="10" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1579424626218" />
+    <state x="161" y="220" key="new project wizard" timestamp="1579424610699">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="161" y="220" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1579424610699" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
