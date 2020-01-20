@@ -2,32 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab6d1f10-35be-4dac-9f15-171a52712f87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ForkFromGitHub/JDK/Demo/Demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ForkFromGitHub/mybatis-master/src/main/main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ForkFromGitHub/mybatis-master/src/test/test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode09.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode27.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/main1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/test1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Netty/Netty.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../o2o第一版和Github版本/imooc-o2o-master/o2o.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../o2o第一版和Github版本/imooc-o2o-master/src/main/main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../o2o第一版和Github版本/imooc-o2o-master/src/test/test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../o2o第一版和Github版本/o2o第一版/o2o.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode118.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode121.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode66.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode88.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/Algorithm.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JVM/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JVM/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JVM/src/main/java/book_understandingJVM/chapter3/Code3_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM/src/main/java/book_understandingJVM/chapter3/Code3_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/Leetcode167_Two_Sum_II_Input_array_is_sorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/Leetcode167.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../VideoClass/ThinkingInJava4Code" beforeDir="false" afterPath="$PROJECT_DIR$/../VideoClass/ThinkingInJava4Code" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,9 +68,9 @@
       <recent name="E:\Program\Java\Project\LeetCode\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LeetCode13">
-    <configuration name="LeetCode07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.LeetCode07" />
+  <component name="RunManager" selected="Application.LeetCode121">
+    <configuration name="LeetCode118" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.LeetCode118" />
       <module name="main" />
       <extension name="coverage">
         <pattern>
@@ -94,21 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.LeetCode08" />
-      <module name="main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeetCode09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.LeetCode09" />
+    <configuration name="LeetCode121" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.LeetCode121" />
       <module name="main" />
       <extension name="coverage">
         <pattern>
@@ -133,8 +108,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode27" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.LeetCode27" />
+    <configuration name="LeetCode66" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.LeetCode66" />
+      <module name="main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode88" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.LeetCode88" />
       <module name="main" />
       <extension name="coverage">
         <pattern>
@@ -148,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode121" />
+        <item itemvalue="Application.LeetCode118" />
+        <item itemvalue="Application.LeetCode88" />
+        <item itemvalue="Application.LeetCode66" />
         <item itemvalue="Application.LeetCode13" />
-        <item itemvalue="Application.LeetCode27" />
-        <item itemvalue="Application.LeetCode09" />
-        <item itemvalue="Application.LeetCode08" />
-        <item itemvalue="Application.LeetCode07" />
       </list>
     </recent_temporary>
   </component>
@@ -198,6 +186,8 @@
       <workItem from="1568185432806" duration="593000" />
       <workItem from="1579355075045" duration="8612000" />
       <workItem from="1579423955816" duration="6137000" />
+      <workItem from="1579503032677" duration="14615000" />
+      <workItem from="1579526234589" duration="4810000" />
     </task>
     <servers />
   </component>
@@ -221,22 +211,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="690" y="164" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1579424615395" />
-    <state width="933" height="211" key="GridCell.Tab.0.bottom" timestamp="1579439003395">
+    <state width="1300" height="66" key="GridCell.Tab.0.bottom" timestamp="1579531407335">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="933" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1579439003395" />
-    <state width="933" height="211" key="GridCell.Tab.0.center" timestamp="1579439003395">
+    <state width="1300" height="66" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1579531407335" />
+    <state width="1300" height="66" key="GridCell.Tab.0.center" timestamp="1579531407335">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="933" height="211" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1579439003395" />
-    <state width="933" height="211" key="GridCell.Tab.0.left" timestamp="1579439003395">
+    <state width="1300" height="66" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1579531407335" />
+    <state width="1300" height="66" key="GridCell.Tab.0.left" timestamp="1579531407334">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="933" height="211" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1579439003395" />
-    <state width="933" height="211" key="GridCell.Tab.0.right" timestamp="1579439003395">
+    <state width="1300" height="66" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1579531407334" />
+    <state width="1300" height="66" key="GridCell.Tab.0.right" timestamp="1579531407335">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="933" height="211" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1579439003395" />
+    <state width="1300" height="66" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1579531407335" />
     <state x="532" y="170" key="NewModule_or_Project.wizard" timestamp="1579424623926">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
