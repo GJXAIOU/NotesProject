@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab6d1f10-35be-4dac-9f15-171a52712f87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode118.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode121.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode20.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode21.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode66.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode88.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode189.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode217.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode283.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/Algorithm.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JVM/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JVM/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JVM/src/main/java/book_understandingJVM/chapter3/Code3_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM/src/main/java/book_understandingJVM/chapter3/Code3_3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/Leetcode167_Two_Sum_II_Input_array_is_sorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/Leetcode167.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../VideoClass/ThinkingInJava4Code" beforeDir="false" afterPath="$PROJECT_DIR$/../VideoClass/ThinkingInJava4Code" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +63,7 @@
       <recent name="E:\Program\Java\Project\LeetCode\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LeetCode121">
+  <component name="RunManager" selected="Application.LeetCode283">
     <configuration name="LeetCode118" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.LeetCode118" />
       <module name="main" />
@@ -95,8 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.LeetCode13" />
+    <configuration name="LeetCode217" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.LeetCode217" />
       <module name="main" />
       <extension name="coverage">
         <pattern>
@@ -108,8 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode66" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.LeetCode66" />
+    <configuration name="LeetCode283" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.LeetCode283" />
       <module name="main" />
       <extension name="coverage">
         <pattern>
@@ -136,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode283" />
+        <item itemvalue="Application.LeetCode217" />
         <item itemvalue="Application.LeetCode121" />
         <item itemvalue="Application.LeetCode118" />
         <item itemvalue="Application.LeetCode88" />
-        <item itemvalue="Application.LeetCode66" />
-        <item itemvalue="Application.LeetCode13" />
       </list>
     </recent_temporary>
   </component>
@@ -188,6 +183,8 @@
       <workItem from="1579423955816" duration="6137000" />
       <workItem from="1579503032677" duration="14615000" />
       <workItem from="1579526234589" duration="4810000" />
+      <workItem from="1579571846136" duration="5836000" />
+      <workItem from="1579614329754" duration="1247000" />
     </task>
     <servers />
   </component>
@@ -207,38 +204,46 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="790" y="183" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1579355989346" />
-    <state x="690" y="164" key="FileChooserDialogImpl" timestamp="1579424615395">
+    <state x="690" y="164" key="FileChooserDialogImpl" timestamp="1579572474565">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="690" y="164" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1579424615395" />
-    <state width="1300" height="66" key="GridCell.Tab.0.bottom" timestamp="1579531407335">
+    <state x="690" y="164" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1579572474565" />
+    <state width="1298" height="211" key="GridCell.Tab.0.bottom" timestamp="1579616064727">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1300" height="66" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1579531407335" />
-    <state width="1300" height="66" key="GridCell.Tab.0.center" timestamp="1579531407335">
+    <state width="1298" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1579616064727" />
+    <state width="1298" height="211" key="GridCell.Tab.0.center" timestamp="1579616064727">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1300" height="66" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1579531407335" />
-    <state width="1300" height="66" key="GridCell.Tab.0.left" timestamp="1579531407334">
+    <state width="1298" height="211" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1579616064727" />
+    <state width="1298" height="211" key="GridCell.Tab.0.left" timestamp="1579616064727">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1300" height="66" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1579531407334" />
-    <state width="1300" height="66" key="GridCell.Tab.0.right" timestamp="1579531407335">
+    <state width="1298" height="211" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1579616064727" />
+    <state width="1298" height="211" key="GridCell.Tab.0.right" timestamp="1579616064727">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1300" height="66" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1579531407335" />
+    <state width="1298" height="211" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1579616064727" />
     <state x="532" y="170" key="NewModule_or_Project.wizard" timestamp="1579424623926">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="532" y="170" key="NewModule_or_Project.wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1579424623926" />
-    <state x="312" y="10" key="SettingsEditor" timestamp="1579424626218">
+    <state x="312" y="10" key="SettingsEditor" timestamp="1579599547000">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="312" y="10" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1579424626218" />
+    <state x="312" y="10" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1579599547000" />
+    <state x="658" y="356" key="cloudConfig.SelfSettingsDialog" timestamp="1579599538900">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="658" y="356" key="cloudConfig.SelfSettingsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1579599538900" />
     <state x="161" y="220" key="new project wizard" timestamp="1579424610699">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="161" y="220" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1579424610699" />
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1579571968970">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1579571968970" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
