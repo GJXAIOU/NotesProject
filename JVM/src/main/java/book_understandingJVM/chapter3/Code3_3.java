@@ -1,4 +1,4 @@
-package com.gjxaiou.chapter3;
+package book_understandingJVM.chapter3;
 
 /**
  * @Author GJXAIOU
