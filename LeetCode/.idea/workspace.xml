@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab6d1f10-35be-4dac-9f15-171a52712f87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode561.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode566.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode605.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode661.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode665.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/list/easy/LeetCode141.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/list/easy/LeetCode148.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/list/easy/LeetCode160.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/list/easy/LeetCode206.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/list/easy/LeetCode234.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/list/easy/LeetCode237.java" afterDir="false" />
+    <list default="true" id="ab6d1f10-35be-4dac-9f15-171a52712f87" name="Default Changelist" comment="Add LeetCode 94/155/2/19/138/148/328 code">
+      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode136.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode350.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array/medium/LeetCode54.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array/medium/LeetCode78.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/math/easy/LeetCode202.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/math/easy/LeetCode204.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/string/easy/LeetCode242.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/string/easy/LeetCode387.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/Algorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/paChong/QuKong.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/easy/day03/CopyListWithRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/easy/day03/CopyListWithRandom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JDK" beforeDir="false" afterPath="$PROJECT_DIR$/../JDK" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/ConcurrencyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/ConcurrencyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/TestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/annoations/Recommend.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/annoations/Recommend.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/annoations/ThreadSafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/annoations/ThreadSafe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode169.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode169.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode268.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode268.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode53.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode53.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stack/medium/LeetCode341.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stack/medium/LeetCode341.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tree/easy/LeetCode104.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tree/easy/LeetCode104.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../VideoClass/ThinkingInJava4Code" beforeDir="false" afterPath="$PROJECT_DIR$/../VideoClass/ThinkingInJava4Code" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +58,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -71,11 +74,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="list.medium" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Program\Java\Project\LeetCode\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LeetCode283">
+  <component name="RunManager" selected="Application.LeetCode19">
     <configuration name="LeetCode118" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.LeetCode118" />
       <module name="main" />
@@ -95,6 +101,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="array.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="list.medium.LeetCode19" />
+      <module name="main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="list.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,26 +147,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode88" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.LeetCode88" />
-      <module name="main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode19" />
         <item itemvalue="Application.LeetCode283" />
         <item itemvalue="Application.LeetCode217" />
         <item itemvalue="Application.LeetCode121" />
         <item itemvalue="Application.LeetCode118" />
-        <item itemvalue="Application.LeetCode88" />
       </list>
     </recent_temporary>
   </component>
@@ -198,12 +204,20 @@
       <workItem from="1579571846136" duration="5836000" />
       <workItem from="1579614329754" duration="1247000" />
       <workItem from="1580281594757" duration="6201000" />
-      <workItem from="1580303730219" duration="18726000" />
+      <workItem from="1580303730219" duration="47924000" />
+      <workItem from="1580535964826" duration="12143000" />
+      <workItem from="1580648772568" duration="598000" />
+      <workItem from="1580696075266" duration="20969000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Add LeetCode 94/155/2/19/138/148/328 code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add LeetCode 94/155/2/19/138/148/328 code" />
   </component>
   <component name="WindowStateProjectService">
     <state x="613" y="121" key="#LeetCode07" timestamp="1579356035611">
@@ -214,6 +228,14 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="626" y="139" key="#LeetCode27/0.0.1920.1080@0.0.1920.1080" timestamp="1579424575726" />
+    <state x="414" y="192" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580457933559">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="414" y="192" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1580457933559" />
+    <state x="721" y="185" key="#com.intellij.ide.util.MemberChooser" timestamp="1580477822981">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="721" y="185" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1580477822981" />
     <state x="790" y="183" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1579355989346">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -222,26 +244,30 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="640" y="262" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1580282972445" />
+    <state x="374" y="70" key="CommitChangelistDialog2" timestamp="1580479328500">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="374" y="70" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1580479328500" />
     <state x="690" y="164" key="FileChooserDialogImpl" timestamp="1580371424314">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="690" y="164" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1580371424314" />
-    <state width="1298" height="211" key="GridCell.Tab.0.bottom" timestamp="1579616064727">
+    <state width="1867" height="211" key="GridCell.Tab.0.bottom" timestamp="1580479329239">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1298" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1579616064727" />
-    <state width="1298" height="211" key="GridCell.Tab.0.center" timestamp="1579616064727">
+    <state width="1867" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1580479329239" />
+    <state width="1867" height="211" key="GridCell.Tab.0.center" timestamp="1580479329239">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1298" height="211" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1579616064727" />
-    <state width="1298" height="211" key="GridCell.Tab.0.left" timestamp="1579616064727">
+    <state width="1867" height="211" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1580479329239" />
+    <state width="1867" height="211" key="GridCell.Tab.0.left" timestamp="1580479329239">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1298" height="211" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1579616064727" />
-    <state width="1298" height="211" key="GridCell.Tab.0.right" timestamp="1579616064727">
+    <state width="1867" height="211" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1580479329239" />
+    <state width="1867" height="211" key="GridCell.Tab.0.right" timestamp="1580479329239">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1298" height="211" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1579616064727" />
+    <state width="1867" height="211" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1580479329239" />
     <state x="532" y="170" key="NewModule_or_Project.wizard" timestamp="1579424623926">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
