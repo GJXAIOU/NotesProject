@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab6d1f10-35be-4dac-9f15-171a52712f87" name="Default Changelist" comment="Add LeetCode 94/155/2/19/138/148/328 code">
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode136.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode350.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/medium/LeetCode54.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/medium/LeetCode78.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/math/easy/LeetCode202.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/math/easy/LeetCode204.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/string/easy/LeetCode242.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/string/easy/LeetCode387.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/math/easy/LeetCode171.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/math/easy/LeetCode190.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/math/easy/LeetCode191.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/math/easy/LeetCode326.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/math/easy/LeetCode371.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/math/easy/LeetCode412.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/string/easy/LeeCode344.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/string/easy/LeetCode38.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/Algorithm.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/easy/day03/CopyListWithRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/easy/day03/CopyListWithRandom.java" afterDir="false" />
@@ -19,11 +19,6 @@
       <change beforePath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/annoations/Recommend.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/annoations/Recommend.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/annoations/ThreadSafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/annoations/ThreadSafe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode169.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode169.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode268.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode268.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode53.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode53.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stack/medium/LeetCode341.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stack/medium/LeetCode341.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tree/easy/LeetCode104.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tree/easy/LeetCode104.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../VideoClass/ThinkingInJava4Code" beforeDir="false" afterPath="$PROJECT_DIR$/../VideoClass/ThinkingInJava4Code" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +66,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20091848" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -208,6 +203,8 @@
       <workItem from="1580535964826" duration="12143000" />
       <workItem from="1580648772568" duration="598000" />
       <workItem from="1580696075266" duration="20969000" />
+      <workItem from="1580737294925" duration="587000" />
+      <workItem from="1580781539827" duration="21165000" />
     </task>
     <servers />
   </component>
@@ -272,10 +269,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="532" y="170" key="NewModule_or_Project.wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1579424623926" />
-    <state x="312" y="10" key="SettingsEditor" timestamp="1579599547000">
+    <state x="312" y="10" key="SettingsEditor" timestamp="1580827614773">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="312" y="10" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1579599547000" />
+    <state x="312" y="10" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1580827614773" />
     <state x="658" y="356" key="cloudConfig.SelfSettingsDialog" timestamp="1579599538900">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
