@@ -6,12 +6,12 @@ package math.easy;
  */
 public class LeetCode371 {
     public int getSum(int a, int b) {
+        // b 表示进位
         while(b != 0){
-            int temp = a ^ b;
+            int temp  = a ^ b;
             b = (a & b) << 1;
             a = temp;
         }
         return a;
     }
-
 }
