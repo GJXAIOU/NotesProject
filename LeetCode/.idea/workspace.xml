@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab6d1f10-35be-4dac-9f15-171a52712f87" name="Default Changelist" comment="Add LeetCode 94/155/2/19/138/148/328 code">
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/medium/LeetCode238.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/medium/LeetCode287.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/medium/LeetCode289.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/medium/LeetCode48.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array/medium/LeetCode11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array/medium/LeetCode347.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array/medium/LeetCode36.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array/medium/LeetCode62.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/string/medium/LeetCode49.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/Algorithm.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day01/Code_01_GetMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day01/Code_01_GetMax.java" afterDir="false" />
@@ -47,7 +48,6 @@
       <change beforePath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/annoations/Recommend.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/annoations/Recommend.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/annoations/ThreadSafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/annoations/ThreadSafe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode53.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode53.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../VideoClass/ThinkingInJava4Code" beforeDir="false" afterPath="$PROJECT_DIR$/../VideoClass/ThinkingInJava4Code" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -238,6 +238,8 @@
       <workItem from="1580962788681" duration="5622000" />
       <workItem from="1581068178333" duration="3540000" />
       <workItem from="1581142655934" duration="14899000" />
+      <workItem from="1581210992332" duration="64000" />
+      <workItem from="1581211545758" duration="15102000" />
     </task>
     <servers />
   </component>

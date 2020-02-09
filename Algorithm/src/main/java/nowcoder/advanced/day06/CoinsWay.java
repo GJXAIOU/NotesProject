@@ -1,9 +1,9 @@
-package nowcoder.advanced.advanced_class_06;
+package nowcoder.advanced.day06;
 
 import java.util.HashMap;
 
 public class Code_01_CoinsWay {
-
+    // 方式一：暴力递归
     public static int coins1(int[] arr, int aim) {
         if (arr == null || arr.length == 0 || aim < 0) {
             return 0;

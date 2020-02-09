@@ -1,4 +1,4 @@
-package nowcoder.advanced.advanced_class_06;
+package nowcoder.advanced.day06;
 
 public class Code_02_CardsInLine {
     /**
@@ -48,7 +48,5 @@ public class Code_02_CardsInLine {
         int[] arr = {1, 9, 1};
         System.out.println(win1(arr));
         System.out.println(win2(arr));
-
     }
-
 }
