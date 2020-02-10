@@ -6,7 +6,7 @@ package array.medium;
  */
 public class LeetCode62 {
     public int uniquePaths(int m, int n) {
-return Math.f
+        return 1;
     }
 
 }
