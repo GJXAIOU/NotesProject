@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab6d1f10-35be-4dac-9f15-171a52712f87" name="Default Changelist" comment="Add LeetCode 94/155/2/19/138/148/328 code">
-      <change afterPath="$PROJECT_DIR$/../ForkFromGitHub/JDK/Demo/Demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ForkFromGitHub/mybatis-master/src/main/main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ForkFromGitHub/mybatis-master/src/test/test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/medium/LeetCode192.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/medium/LeetCode454.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/medium/LeetCode73.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SourceCode/.idea/SourceCode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SourceCode/Concurrency/concurrency.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SourceCode/HighConcurrency/concurrency.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SourceCode/HighConcurrency/src/main/main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SourceCode/HighConcurrency/src/test/test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../o2o第一版和Github版本/imooc-o2o-master/o2o.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../o2o第一版和Github版本/imooc-o2o-master/src/main/main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../o2o第一版和Github版本/imooc-o2o-master/src/test/test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../o2o第一版和Github版本/o2o第一版/o2o.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array/medium/LeetCode34.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array/medium/LeetCode79.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/Algorithm.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day01/Code_01_GetMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day01/Code_01_GetMax.java" afterDir="false" />
@@ -52,7 +39,6 @@
       <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day08/Code_05_LongestNoRepeatSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day08/Code_05_LongestNoRepeatSubstring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day08/Code_06_ShuffleProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day08/Code_06_ShuffleProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/easy/day03/CopyListWithRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/easy/day03/CopyListWithRandom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JDK" beforeDir="false" afterPath="$PROJECT_DIR$/../JDK" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/ConcurrencyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/ConcurrencyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/TestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/annoations/Recommend.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/annoations/Recommend.java" afterDir="false" />
@@ -60,7 +46,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/array/medium/LeetCode62.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/medium/LeetCode62.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../VideoClass/ThinkingInJava4Code" beforeDir="false" afterPath="$PROJECT_DIR$/../VideoClass/ThinkingInJava4Code" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -254,6 +239,7 @@
       <workItem from="1581210992332" duration="64000" />
       <workItem from="1581211545758" duration="15102000" />
       <workItem from="1581316859017" duration="14333000" />
+      <workItem from="1581383322882" duration="10708000" />
     </task>
     <servers />
   </component>
