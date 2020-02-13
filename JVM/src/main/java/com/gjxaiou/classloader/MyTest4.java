@@ -1,50 +1,35 @@
 package com.gjxaiou.classloader;
 
 /**
- * 对于数组实例来说，其类型是由JVM在运行期动态生成的，表示为 [com.gjxaiou.classloader.MyParent4 这种形式。
- * 动态生成的类型，其父类型就是Object。
- * 对于数组来说，JavaDoc经常将构成数组的元素称为Component，实际上就是数组降低一个维度后的类型。
- * 数组的声明不会导致主动使用元素类的初始化。
- * @author GJX
+ * 助记符：anewarray：表示创建一个引用类型（如类、接口）的数组，并将其引用值压入栈顶
+ * 助记符：newarray：表示创建一个指定原始类型（如int boolean float double char）的数组，并将其引用值压入栈顶
  */
 public class MyTest4 {
     public static void main(String[] args) {
-        /*
-        // 首次主动使用 MyParent4，导致MyParent4类的初始化
+        // 创建类的实例，属于主动使用，会导致类的初始化
+        // 当创建数组类型的实例，并不表示对数组中的元素的主动使用，而仅仅表示创建了这个数组的实例而已，数组 new 出来的实例类型有由 JVM 在运行期动态生成的。
+        // 具体的类型以一维原始类型为例(一维是 [,二维是 [[)： int -> [I, char ->[C, boolean -> [Z, short -> [S, byte ->B
         MyParent4 myParent4 = new MyParent4();
-        System.out.println("================");
-        // 非首次主动使用 MyParent4，不会导致MyParent4类的初始化
-        MyParent4 myParent5 = new MyParent4();
-        // 运行结果
-//MyParent4 static block
-//================
-         */
-        // 没有导致 MyParent4 的主动使用，MyParent4不会被初始化
+
+        // 情况一：针对原生类型的数组
+        int[] i = new int[1];
+        // 输出: class [ I
+        System.out.println(i.getClass());
+        // 输出: class java.lang.Object
+        System.out.println(i.getClass().getSuperclass());
+
+        // 情况二：针对引用类型数组
+        // 不是主动使用
         MyParent4[] myParent4s = new MyParent4[1];
+        // 输出： class [Lcom.gjxaiou.classloader.MyParent4;
         System.out.println(myParent4s.getClass());
+        // 输出： class java.lang.Object
         System.out.println(myParent4s.getClass().getSuperclass());
-        //运行结果 class [com.gjxaiou.classloader.MyParent4;和class java.lang.Object，JVM在运行期创建出[Lzy.jvm
-        //.classloader.MyParent4这个类型
-        MyParent4[][] myParent4s1 = new MyParent4[1][1];
-        System.out.println(myParent4s1.getClass());
-        System.out.println(myParent4s1.getClass().getSuperclass());
-        //运行结果 class [[com.gjxaiou.classloader.MyParent4;和class java.lang.Object，JVM在运行期创建出[[Lzy.jvm
-        //.classloader.MyParent4这个类型
-
-        System.out.println("============================");
-
-        int[] ints = new int[1];
-        System.out.println(ints.getClass());
-        System.out.println(ints.getClass().getSuperclass());
-        // 运行结果
-//        class [I
-//        class java.lang.Object
-        // char数组的类型是 [C，boolean数组的类型是 [Z，short数组的类型是 [S，byte数组的类型是 [B
     }
 }
 
 class MyParent4 {
     static {
-        System.out.println("MyParent4 static block");
+        System.out.println("MyParent static block");
     }
 }

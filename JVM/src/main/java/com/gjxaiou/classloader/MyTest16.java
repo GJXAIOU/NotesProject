@@ -1,9 +1,6 @@
 package com.gjxaiou.classloader;
 
-import java.io.ByteArrayOutputStream;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.InputStream;
+import java.io.*;
 
 /**
  * 自定义类加载器
@@ -14,32 +11,23 @@ import java.io.InputStream;
 public class MyTest16 extends ClassLoader {
 
     private String classLoaderName;
-
+    // 从哪里进行加载，如果没有指定就是从项目下
     private String path;
-
+    // 指定类的后缀名
     private final String fileExtension = ".class";
 
     public MyTest16(String classLoaderName) {
-        // 使用getSystemClassLoader()方法返回的ClassLoader（即系统类加载器）作为
-        // parent ClassLoader来创建一个新的ClassLoader
+        // 使用 getSystemClassLoader() 方法返回的ClassLoader（即系统类加载器）作为parent ClassLoader来创建一个新的ClassLoader
+        // 默认会将系统（应用）类加载器当做该类的父加载器
         super();
         this.classLoaderName = classLoaderName;
     }
 
     /**
      * 使用指定的parent类加载器作为委托的类加载器去创建一个新的类加载器。
-     * Creates a new class loader using the specified parent class loader for
-     * delegation.
-     *
-     *
-     * @param parent The parent class loader
-     * @throws SecurityException If a security manager exists and its
-     *                           <tt>checkCreateClassLoader</tt> method doesn't allow creation
-     *                           of a new class loader.
-     * @since 1.2
      */
     public MyTest16(ClassLoader parent, String classLoaderName) {
-        // 显示指定该类加载器的父加载器
+        // 显式指定该类加载器的父加载器
         super(parent);
         this.classLoaderName = classLoaderName;
     }
@@ -53,19 +41,19 @@ public class MyTest16 extends ClassLoader {
     }
 
     /**
-     * 根据类名寻找这个类，由 java.lang.ClassLoader 的 loadClass 方法调用
      * 在使用 MyTest16(String) 这一构造函数时 findClass 方法根本没有执行，className的类由系统类加载器（父加载器）加载
-     * @param className
-     * @return
-     * @throws ClassNotFoundException
+     * 根据 className 来寻找该类，该类在检查完父类加载器之后自动被 java.lang.ClassLoader 的 loadClass 方法调用，而这里我们没有重写
+     * loadClass 方法，因此会自动调用
      */
     @Override
     protected Class<?> findClass(String className) throws ClassNotFoundException {
         System.out.println("findClass invoked: " + className);
         System.out.println("class loader name: " + this.classLoaderName);
+        // 因为传入的格式为： com.a.b,需要转换为路径格式：com/a/b（以 Windows 为例）
+        className = className.replace(".", File.separator);
 
-        byte[] data = this.loadClassData(className);
-
+        byte[] data = new byte[0];
+        data = loadClassData(className);
         // defineClass方法 将 字节数组data 转换为Class实例，在使用这个Class实例之前，它必须是已被解析的
         return defineClass(className, data, 0, data.length);
     }
@@ -73,8 +61,7 @@ public class MyTest16 extends ClassLoader {
     /**
      * 加载类数据，自定义的私有方法，由 findClass 方法调用
      * 要读取类文件的字节数组
-     * @param className 要加载的类的名字
-     * @return
+     * 根据类的名字，将类的二进制数组数组加载出来(将它的文件找到，然后以输入输出流的方式返回字节数组，该字节数组就是从文件中读取出的 class 文件的二进制信息)
      */
     private byte[] loadClassData(String className) {
         InputStream is = null;
@@ -91,7 +78,7 @@ public class MyTest16 extends ClassLoader {
 
             int ch = 0;
             // 每次从输入流读取一个字节
-            while ( -1 != (ch = is.read())) {
+            while (-1 != (ch = is.read())) {
                 baos.write(ch);
             }
             // 将字节数组输出流的内容直接转换为字节数组
@@ -111,7 +98,8 @@ public class MyTest16 extends ClassLoader {
         return data;
     }
 
-    public static void test(ClassLoader classLoader) throws ClassNotFoundException, IllegalAccessException, InstantiationException {
+    public static void test(ClassLoader classLoader) throws ClassNotFoundException,
+            IllegalAccessException, InstantiationException {
         // loadClass方法，加载指定二进制名字的类，调用loadClass(String className, false)方法去加载类
         // loadClass(String className, false)方法默认实现搜索类的顺序如下
         // 1.  Invoke findLoadedClass(String) to check if the class has already been loaded.
@@ -119,7 +107,12 @@ public class MyTest16 extends ClassLoader {
         //  on the parent class loader.  If the parent is <tt>null</tt> the class
         //  loader built-in to the virtual machine is used, instead.
         // 3. Invoke the {@link #findClass(String)} method to find the class.
-        Class<?> clazz = classLoader.loadClass("zy.jvm.classloader.MyTest1");
+
+        // loadClass 底层会调用上面的 findClass 和 loadClassData
+        Class<?> clazz = classLoader.loadClass("com.gjxaiou.classloader.MyTest1");
+        //loadClass是父类方法，在方法内部调用findClass
+        System.out.println(clazz.hashCode());
+        // 通过 class 对象获取相应想要创建的实例
         Object object = clazz.newInstance();
 
         System.out.println(object);
@@ -129,14 +122,18 @@ public class MyTest16 extends ClassLoader {
         // sun.misc.Launcher$AppClassLoader@135fbaa4
         // 系统类加载器是 MyTest1的 定义类加载器，而MyTest16和系统类加载器是MyTest1的 初始类加载器
     }
-    public static void main(String[] args) throws IllegalAccessException, InstantiationException, ClassNotFoundException, InterruptedException {
+
+    public static void main(String[] args) throws IllegalAccessException, InstantiationException,
+            ClassNotFoundException, InterruptedException {
         // 创建一个类加载器 loader1，其双亲类加载器是 系统类加载器
+        //父亲是系统类加载器，根据父类委托机制，MyTest1由系统类加载器加载了，并不是自己定义的加载器加载的，因为上面有一个 super（） 方法
         MyTest16 loader1 = new MyTest16("loader1");
 //        test(loader1);
         // 使类加载器loader1在设置的路径上去寻找相关的类，但这个路径是classpath，所以系统类加载器会直接加载这个路径里的类
-//        loader1.setPath("/Users/zhangyan/Documents/Learning/SelfCodes/jvm_lecture/out/production/classes");
+//        loader1.setPath("/Users/zhangyan/Documents/Learning/SelfCodes/jvm_lecture/out
+//       /production/classes");
         // 将工程中的zy.jvm.classloader.MyTest1的类文件移动到工程的classpath路径以外，就会由MyTest16加载MyTest1
-        loader1.setPath("/Users/zhangyan/Documents/Learning/SelfCodes/jvm_lecture/cpout/");
+        loader1.setPath("/out/production/JVM/com/gjxaiou/classloader/");
 
         Class<?> clazz = loader1.loadClass("com.gjxaiou.classloader.MyTest1");
         System.out.println("class: " + clazz.hashCode());

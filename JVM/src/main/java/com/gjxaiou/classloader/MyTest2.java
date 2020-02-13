@@ -1,33 +1,37 @@
 package com.gjxaiou.classloader;
 
 /**
- * 编译期间能确定值的常量在编译阶段会存入到调用这个常量的方法所在的类的常量池中
- * 运行期间才能确定值的常量在编译阶段不会存入到调用这个常量的方法所在的类的常量池中，而需要初始化这个常量所在的类
- * 本质上，调用类并没有直接引用到定义常量的类，因此并不会触发定义常量的类的初始化
- * 注意：这里指的是 MyParent2.str 这个常量存放到了MyTest2这个类的常量池中，之后MyTest2与MyParent2就没有任何关系了
- *       甚至，可以在运行MyTest2之前，将MyParent2的class文件删除（这个试验要在命令行里做，否则会重新编译运行代码），
- *       也不会影响运行结果
+ * 注意：这里指的是将常量存到 MyTest2 的常量池中，之后 MyTest2 和 MyParent2 就没有任何关系了。甚至我们可以将 MyParent2 的 class
+ * 文件删除（编译完之后），程序还可以执行。
+ * 助记符：反编译之后可以看到
+ * <p>
+ * 助记符 ldc：表示将 int、float 或者 String 类型的常量值从常量池中推送至栈顶
+ * 助记符 bipush：表示将单字节（-128-127）的常量值推送到栈顶
+ * 助记符 sipush：表示将一个短整型值（-32768-32369）推送至栈顶
+ * 助记符 iconst_1：表示将 int 型的 1 推送至栈顶（iconst_m1 到iconst_5(对应于 -1 到 5)值，6 之后使用 bipush）
  */
-
 public class MyTest2 {
     public static void main(String[] args) {
+        // 输出：MyParent static block、 hello world
+        System.out.println(MyParent2.str1);
+        // 输出：hello world
         System.out.println(MyParent2.str);
-        // 运行结果
-//        hello world
         System.out.println(MyParent2.s);
         System.out.println(MyParent2.i);
-        System.out.println(MyParent2.m);
+        System.out.println(MyParent2.j);
     }
 }
 
+// 因为先编译后加载，所有该类并没有被加载
 class MyParent2 {
+    public static String str1 = "hello world";
     public static final String str = "hello world";
     public static final short s = 7;
-    public static final int i = 128;
-    public static final int m = 1;
+    public static final int i = 129;
+    public static final int j = 1;
 
     static {
-        System.out.println("MyParent2 static block");
+        System.out.println("MyParent static block");
     }
 }
 

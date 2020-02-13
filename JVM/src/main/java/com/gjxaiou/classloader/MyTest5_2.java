@@ -1,7 +1,5 @@
 package com.gjxaiou.classloader;
 
-import java.util.Random;
-
 /**
  * 演示方法，
  * VM参数添加 -XX:+TraceClassLoading 后，执行 MyTest5_2.main 方法，
@@ -16,6 +14,7 @@ import java.util.Random;
 
 public class MyTest5_2 {
     public static void main(String[] args) {
+        // 这里主动使用了 MyChild5_2，因此其会被初始化，但是 MyParent5_2 中代码没有执行，因此没有初始化它的接口
         System.out.println(MyChild5_2.b);
     }
 }
@@ -29,16 +28,16 @@ interface MyParent5_2 {
 }
 
 interface MyChild5_2 extends MyParent5_2 {
-    //    public static int b = 5;
-    public static final int b = new Random().nextInt(4);
+    // 输出：5
+    public static int b = 5;
+
+    // 执行词句输出：（因为常量值不确定，所以使用到该值的时候相当于初始化该结构
+    // MyChild5_2 invoked
+    // 3
+    // public static final int b = new Random().nextInt(4);
     public static Thread thread = new Thread() {
         {
             System.out.println("MyChild5_2 invoked");
         }
     };
 }
-/**
- * 运行结果：
- * MyChild5_2 invoked
- * 2
- */

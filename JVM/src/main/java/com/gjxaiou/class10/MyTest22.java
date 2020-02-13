@@ -7,7 +7,7 @@ public class MyTest22{
     public static void main(String[] args){
         System.out.println(MyTest22.class.getClassLoader());
 
-        System.out.println(MyTest7.class.getClassLoader());
+       // System.out.println(MyTest7.class.getClassLoader());
     }
 }
 /**output:

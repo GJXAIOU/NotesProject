@@ -19,7 +19,7 @@
     - book_understandingJVM 包为书本中代码
 - 因为 《深入理解 Java 虚拟机》（第 2 版）以 JDK1.7 为基础，所以在 JVM 内存结构和垃圾收集器部分和项目基于的 JDK 1.8 有所不同，所有运行结果可能不同。    
 
-
+==注：**因为原来笔记《类加载器详解》中代码为：com.gjxaiou.class10，新的整理之后的代码在 com.gjxaiou.classloader 中**
 
 - 项目文件目录（参考自 [sunspeedzy](https://github.com/sunspeedzy)）
     - classloader.MyTest1 用来演示Java类的主动使用和被动使用的区别
