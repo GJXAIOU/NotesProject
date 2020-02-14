@@ -7,11 +7,13 @@ import java.lang.annotation.Target;
 
 /**
  * 课程里用来标记【线程安全】的类或者写法
+ *
+ * @author GJXAIOU
  */
 @Target(ElementType.TYPE)
 // 注解的范围
 @Retention(RetentionPolicy.SOURCE)
 public @interface ThreadSafe {
-
+    // 需要提供一个默认值
     String value() default "";
 }
