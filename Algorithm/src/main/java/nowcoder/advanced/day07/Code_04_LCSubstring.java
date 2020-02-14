@@ -1,4 +1,4 @@
-package nowcoder.advanced.advanced_class_07;
+package nowcoder.advanced.day07;
 
 public class Code_04_LCSubstring {
 

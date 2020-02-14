@@ -4,7 +4,67 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e438ced-52ba-40b7-b213-041ca367ca6b" name="Default Changelist" comment="" />
+    <list default="true" id="7e438ced-52ba-40b7-b213-041ca367ca6b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../JavaConcurrency/ProficientInJavaConcurrency/.idea/$CACHE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaConcurrency/ProficientInJavaConcurrency/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaConcurrency/ProficientInJavaConcurrency/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaConcurrency/ProficientInJavaConcurrency/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaConcurrency/ProficientInJavaConcurrency/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaConcurrency/ProficientInJavaConcurrency/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaConcurrency/ProficientInJavaConcurrency/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaConcurrency/ProficientInJavaConcurrency/ProficientInJavaConcurrency.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaConcurrency/ProficientInJavaConcurrency/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaConcurrency/ProficientInJavaConcurrency/src/main/java/com/gjxaiou/MyTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../o2o第一版和Github版本/imooc-o2o-master/o2o.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../o2o第一版和Github版本/imooc-o2o-master/src/main/main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../o2o第一版和Github版本/imooc-o2o-master/src/test/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../o2o第一版和Github版本/o2o第一版/o2o.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day01/Code_01_GetMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day01/Code_01_GetMax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day01/Code_03_LongestPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day01/Code_03_LongestPathSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day02/Code_04_TrieTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day02/Code_04_TrieTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day02/Code_05_EnglishExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day02/Code_05_EnglishExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day02/Code_06_ChineseExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day02/Code_06_ChineseExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day05/Code_01_IsBSTAndCBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day05/Code_01_IsBSTAndCBT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day05/Code_02_IsBalancedTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day05/Code_02_IsBalancedTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day05/Code_03_MaxDistanceInTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day05/Code_03_MaxDistanceInTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day05/Code_04_MaxHappy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day05/Code_04_MaxHappy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day05/Code_05_Max_EOR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day05/Code_05_Max_EOR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day05/Code_06_CompleteTreeNodeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day05/Code_06_CompleteTreeNodeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day06/CardsInLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day06/CardsInLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day06/Code_03_RegularExpressionMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day06/Code_03_RegularExpressionMatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day06/Code_04_LongestSumSubArrayLengthInPositiveArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day06/Code_04_LongestSumSubArrayLengthInPositiveArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day06/Code_05_LongestSubarrayLessSumAwesomeSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day06/Code_05_LongestSubarrayLessSumAwesomeSolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day06/Code_06_JosephusProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day06/Code_06_JosephusProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day06/CoinsWay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day06/CoinsWay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day06/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day06/Robot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day07/Code_01_MinPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day07/Code_01_MinPathSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day07/Code_02_LIS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day07/Code_02_LIS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day07/Code_03_LCSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day07/Code_03_LCSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day07/Code_04_LCSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day07/Code_04_LCSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day07/Code_05_EditCost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day07/Code_05_EditCost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day07/Code_06_PalindromeMinCut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day07/Code_06_PalindromeMinCut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day07/Code_07_StringCross.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day07/Code_07_StringCross.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day07/Code_08_ParenthesesProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day07/Code_08_ParenthesesProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day08/Code_01_TopKSumCrossTwoArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day08/Code_01_TopKSumCrossTwoArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day08/Code_02_MaxSubMatrixSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day08/Code_02_MaxSubMatrixSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day08/Code_03_MaxOneBorderSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day08/Code_03_MaxOneBorderSize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day08/Code_04_FibonacciProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day08/Code_04_FibonacciProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day08/Code_05_LongestNoRepeatSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day08/Code_05_LongestNoRepeatSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day08/Code_06_ShuffleProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nowcoder/advanced/day08/Code_06_ShuffleProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nowcoder/easy/day01/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nowcoder/easy/day01/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nowcoder/easy/day03/CopyListWithRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nowcoder/easy/day03/CopyListWithRandom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nowcoder/easy/day04/PreInPosTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nowcoder/easy/day04/PreInPosTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BubbleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/ConcurrencyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/ConcurrencyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/annoations/Recommend.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/annoations/Recommend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/annoations/ThreadSafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/annoations/ThreadSafe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VideoClass/ThinkingInJava4Code" beforeDir="false" afterPath="$PROJECT_DIR$/../VideoClass/ThinkingInJava4Code" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +109,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -58,9 +118,6 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Program\Java\Project\Algorithm\src\nowcoder\advanced" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Program\Java\Project\Algorithm\src" />
       <recent name="E:\Program\Java\Project\Algorithm\src\main\java" />
@@ -68,14 +125,21 @@
       <recent name="E:\Program\Java\Project\Algorithm\src\nowcoder\advanced" />
       <recent name="E:\Program\Java\Project\Algorithm\src\nowcoder\easy" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="nowcoder.advanced.day02" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Program\Java\Project\Algorithm\src\main\java\nowcoder\advanced\day03" />
+      <recent name="E:\Program\Java\Project\Algorithm\src\nowcoder\advanced" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Code_01_GetMax">
-    <configuration name="Code_01_GetMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nowcoder.advanced.advanced_class_01.Code_01_GetMax" />
+  <component name="RunManager" selected="Application.CardsInLine">
+    <configuration name="CardsInLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nowcoder.advanced.day06.CardsInLine" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nowcoder.advanced.advanced_class_01.*" />
+          <option name="PATTERN" value="nowcoder.advanced.day06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LastAddString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nowcoder.advanced.day01.LastAddString" />
+    <configuration name="Code_05_Cow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nowcoder.easy.day08.Code_05_Cow" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nowcoder.advanced.day01.*" />
+          <option name="PATTERN" value="nowcoder.easy.day08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nowcoder.advanced.day01.ShortestEnd" />
+    <configuration name="Code_07_StringCross" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nowcoder.advanced.day07.Code_07_StringCross" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nowcoder.advanced.day01.*" />
+          <option name="PATTERN" value="nowcoder.advanced.day07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +173,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestHaveTwice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nowcoder.advanced.day01.ShortestHaveTwice" />
+    <configuration name="Code_08_ParenthesesProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nowcoder.advanced.day07.Code_08_ParenthesesProblem" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nowcoder.advanced.day01.*" />
+          <option name="PATTERN" value="nowcoder.advanced.day07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +186,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T1SubtreeEqualsT2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nowcoder.advanced.day01.T1SubtreeEqualsT2" />
+    <configuration name="CoinsWay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nowcoder.advanced.day06.CoinsWay" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nowcoder.advanced.day01.*" />
+          <option name="PATTERN" value="nowcoder.advanced.day06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +201,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Code_01_GetMax" />
-        <item itemvalue="Application.LastAddString" />
-        <item itemvalue="Application.Code_05_Manacher_ShortestEnd" />
-        <item itemvalue="Application.T1SubtreeEqualsT2" />
-        <item itemvalue="Application.Code_02_KMP_ShortestHaveTwice" />
+        <item itemvalue="Application.CoinsWay" />
+        <item itemvalue="Application.Code_05_Cow" />
+        <item itemvalue="Application.Code_08_ParenthesesProblem" />
+        <item itemvalue="Application.Code_07_StringCross" />
       </list>
     </recent_temporary>
   </component>
@@ -205,6 +268,17 @@
       <workItem from="1578878809847" duration="17271000" />
       <workItem from="1578907283647" duration="2806000" />
       <workItem from="1578964883806" duration="21368000" />
+      <workItem from="1579266207880" duration="1071000" />
+      <workItem from="1579268125395" duration="53000" />
+      <workItem from="1579346616711" duration="7348000" />
+      <workItem from="1580371427696" duration="4251000" />
+      <workItem from="1580884037595" duration="6167000" />
+      <workItem from="1581063507427" duration="1293000" />
+      <workItem from="1581251841677" duration="3879000" />
+      <workItem from="1581600705638" duration="2225000" />
+      <workItem from="1581687307941" duration="1654000" />
+      <workItem from="1581688985792" duration="705000" />
+      <workItem from="1581689849006" duration="1191000" />
     </task>
     <task id="LOCAL-00001" summary="fetch:Add Medium Algorithm Code">
       <created>1578140686309</created>
@@ -240,6 +314,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="414" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1366.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1578294566971" />
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1579266427561">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1579266427561" />
     <state x="580" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1577867118177">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -256,31 +334,36 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="461" height="466" key="DebuggerActiveHint/-1366.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1578381718807" />
-    <state x="690" y="242" key="FileChooserDialogImpl" timestamp="1578910264181">
+    <state x="690" y="242" key="FileChooserDialogImpl" timestamp="1579355073550">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="690" y="242" key="FileChooserDialogImpl/-1366.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1578910264181" />
     <state x="690" y="242" key="FileChooserDialogImpl/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1578233295309" />
-    <state width="1876" height="164" key="GridCell.Tab.0.bottom" timestamp="1578994314536">
+    <state x="690" y="242" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1579355073550" />
+    <state width="1867" height="188" key="GridCell.Tab.0.bottom" timestamp="1581258032658">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1876" height="164" key="GridCell.Tab.0.bottom/-1366.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1578994314536" />
     <state width="1867" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1578234413434" />
-    <state width="1876" height="164" key="GridCell.Tab.0.center" timestamp="1578994314536">
+    <state width="1867" height="188" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1581258032658" />
+    <state width="1867" height="188" key="GridCell.Tab.0.center" timestamp="1581258032658">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1876" height="164" key="GridCell.Tab.0.center/-1366.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1578994314536" />
     <state width="1867" height="325" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1578234413434" />
-    <state width="1876" height="164" key="GridCell.Tab.0.left" timestamp="1578994314535">
+    <state width="1867" height="188" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1581258032658" />
+    <state width="1867" height="188" key="GridCell.Tab.0.left" timestamp="1581258032658">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1876" height="164" key="GridCell.Tab.0.left/-1366.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1578994314535" />
     <state width="1867" height="325" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1578234413434" />
-    <state width="1876" height="164" key="GridCell.Tab.0.right" timestamp="1578994314536">
+    <state width="1867" height="188" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1581258032658" />
+    <state width="1867" height="188" key="GridCell.Tab.0.right" timestamp="1581258032658">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1876" height="164" key="GridCell.Tab.0.right/-1366.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1578994314536" />
     <state width="1867" height="325" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1578234413434" />
+    <state width="1867" height="188" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1581258032658" />
     <state width="1876" height="537" key="GridCell.Tab.1.bottom" timestamp="1578991732996">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -301,11 +384,12 @@
     </state>
     <state width="1876" height="537" key="GridCell.Tab.1.right/-1366.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1578991732995" />
     <state width="1867" height="337" key="GridCell.Tab.1.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1577630440342" />
-    <state x="367" y="167" key="SettingsEditor" timestamp="1579000605206">
+    <state x="367" y="21" key="SettingsEditor" timestamp="1581689587222">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="367" y="167" key="SettingsEditor/-1366.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1579000605206" />
     <state x="312" y="14" key="SettingsEditor/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1578233650365" />
+    <state x="367" y="21" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1581689587222" />
     <state x="582" y="426" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1578233487257">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -333,8 +417,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/nowcoder/easy/day03/CatDogQueue.java</url>
-          <line>131</line>
-          <properties class="nowcoder.easy.day03.CatDogQueue" method="main">
+          <line>132</line>
+          <properties class="nowcoder.easy.day03.CatDogQueue">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />

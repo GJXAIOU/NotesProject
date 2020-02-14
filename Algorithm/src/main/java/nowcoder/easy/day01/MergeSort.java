@@ -20,7 +20,7 @@ public class MergeSort {
             return;
         }
         // 求数组中间点，将数组划分为两部分
-        int mid = left + ((right - left) >> 1);
+        int mid = (left + right) >>> 1;
         mergeSort(sourceArray, left, mid);
         mergeSort(sourceArray, mid + 1, right);
         merge(sourceArray, left, mid, right);
@@ -33,7 +33,8 @@ public class MergeSort {
         int startLeft = left;
         int startRight = mid + 1;
         while (startLeft <= mid && startRight <= right) {
-            help[i++] = sourceArray[startLeft] < sourceArray[startRight] ? sourceArray[startLeft++] : sourceArray[startRight++];
+            help[i++] = sourceArray[startLeft] < sourceArray[startRight] ?
+                    sourceArray[startLeft++] : sourceArray[startRight++];
         }
         // 上面的 while 循环会将一个数组中元素全部挪到 help 数组中，而另个数组还会剩余最后几个元素
         // 将剩余的一个数组中剩余的元素全部移到 help 数组中，这两个 while 只会执行一个
@@ -132,3 +133,4 @@ public class MergeSort {
     }
 
 }
+

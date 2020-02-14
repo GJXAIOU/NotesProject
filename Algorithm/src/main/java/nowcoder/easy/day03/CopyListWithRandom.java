@@ -37,33 +37,36 @@ public class CopyListWithRandom {
 		if (head == null) {
 			return null;
 		}
+
+		// 复制新的结点链接到对应结点后面
 		Node cur = head;
-		Node next = null;
-		// copy node and link to every node
+		Node nextNode = null;
 		while (cur != null) {
-			next = cur.next;
+			nextNode = cur.next;
 			cur.next = new Node(cur.value);
-			cur.next.next = next;
-			cur = next;
+			cur.next.next = nextNode;
+			cur = nextNode;
 		}
+
+		// 两个结点一起，根据源节点对其对应的复制结点赋值
 		cur = head;
 		Node curCopy = null;
-		// set copy node rand
 		while (cur != null) {
-			next = cur.next.next;
+			nextNode = cur.next.next;
 			curCopy = cur.next;
+			// 复制结点的 random = 原来结点的 random 的下一节点（该结点为原来结点的 random 结点的复制结点）
 			curCopy.rand = cur.rand != null ? cur.rand.next : null;
-			cur = next;
+			cur = nextNode;
 		}
 		Node res = head.next;
 		cur = head;
 		// split
 		while (cur != null) {
-			next = cur.next.next;
+			nextNode = cur.next.next;
 			curCopy = cur.next;
-			cur.next = next;
-			curCopy.next = next != null ? next.next : null;
-			cur = next;
+			cur.next = nextNode;
+			curCopy.next = nextNode != null ? nextNode.next : null;
+			cur = nextNode;
 		}
 		return res;
 	}

@@ -1,4 +1,4 @@
-package nowcoder.advanced.advanced_class_01;
+package nowcoder.advanced.day01;
 
 import java.util.HashMap;
 

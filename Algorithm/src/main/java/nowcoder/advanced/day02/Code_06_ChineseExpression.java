@@ -1,4 +1,4 @@
-package nowcoder.advanced.advanced_class_02;
+package nowcoder.advanced.day02;
 
 public class Code_06_ChineseExpression {
 

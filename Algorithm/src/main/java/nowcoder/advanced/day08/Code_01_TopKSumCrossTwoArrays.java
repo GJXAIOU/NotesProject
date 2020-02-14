@@ -1,4 +1,4 @@
-package nowcoder.advanced.advanced_class_08;
+package nowcoder.advanced.day08;
 
 import java.util.Arrays;
 import java.util.HashSet;

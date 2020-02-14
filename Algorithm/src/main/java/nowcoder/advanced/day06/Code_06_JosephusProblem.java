@@ -1,4 +1,4 @@
-package nowcoder.advanced.advanced_class_06;
+package nowcoder.advanced.day06;
 
 public class Code_06_JosephusProblem {
 

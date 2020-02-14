@@ -1,6 +1,4 @@
-package nowcoder.advanced.advanced_class_06;
-
-import java.util.HashMap;
+package nowcoder.advanced.day06;
 
 public class Code_05_LongestSubarrayLessSumAwesomeSolution {
 

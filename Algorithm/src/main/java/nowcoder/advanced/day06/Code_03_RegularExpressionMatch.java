@@ -1,4 +1,4 @@
-package nowcoder.advanced.advanced_class_06;
+package nowcoder.advanced.day06;
 
 public class Code_03_RegularExpressionMatch {
     // 输入字符串判断是否合法

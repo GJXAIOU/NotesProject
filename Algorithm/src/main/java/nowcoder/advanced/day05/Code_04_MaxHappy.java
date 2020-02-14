@@ -1,6 +1,5 @@
-package nowcoder.advanced.advanced_class_05;
+package nowcoder.advanced.day05;
 
-import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 

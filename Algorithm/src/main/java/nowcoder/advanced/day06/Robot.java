@@ -1,4 +1,4 @@
-package nowcoder.advanced.advanced_class_06;
+package nowcoder.advanced.day06;
 
 /**
  * @Author GJXAIOU

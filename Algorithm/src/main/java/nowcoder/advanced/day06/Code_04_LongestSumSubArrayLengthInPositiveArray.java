@@ -1,4 +1,4 @@
-package nowcoder.advanced.advanced_class_06;
+package nowcoder.advanced.day06;
 
 /**
  * 全正数数组中累加和为 aim 的最长子数组长度

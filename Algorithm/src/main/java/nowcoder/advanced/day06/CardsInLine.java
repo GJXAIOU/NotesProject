@@ -1,33 +1,34 @@
 package nowcoder.advanced.day06;
 
-public class Code_02_CardsInLine {
-    /**
-     * 暴力破解
-     *
-     * @param arr
-     * @return
-     */
+/**
+ * @author GJXAIOU
+ */
+public class CardsInLine {
+    // 方法一：暴力递归
     public static int win1(int[] arr) {
         if (arr == null || arr.length == 0) {
             return 0;
         }
-        return Math.max(f(arr, 0, arr.length - 1), s(arr, 0, arr.length - 1));
+        return Math.max(first(arr, 0, arr.length - 1), second(arr, 0, arr.length - 1));
     }
 
-    public static int f(int[] arr, int i, int j) {
-        if (i == j) {
-            return arr[i];
+    public static int first(int[] arr, int beginIndex, int endIndex) {
+        if (beginIndex == endIndex) {
+            return arr[beginIndex];
         }
-        return Math.max(arr[i] + s(arr, i + 1, j), arr[j] + s(arr, i, j - 1));
+        return Math.max(arr[beginIndex] + second(arr, beginIndex + 1, endIndex),
+                arr[endIndex] + second(arr
+                , beginIndex, endIndex - 1));
     }
 
-    public static int s(int[] arr, int i, int j) {
-        if (i == j) {
+    public static int second(int[] arr, int beginIndex, int endIndex) {
+        if (beginIndex == endIndex) {
             return 0;
         }
-        return Math.min(f(arr, i + 1, j), f(arr, i, j - 1));
+        return Math.min(first(arr, beginIndex + 1, endIndex), first(arr, beginIndex, endIndex - 1));
     }
 
+    // 方法二：动态规划
     public static int win2(int[] arr) {
         if (arr == null || arr.length == 0) {
             return 0;

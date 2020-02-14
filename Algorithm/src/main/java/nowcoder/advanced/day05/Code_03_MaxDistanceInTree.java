@@ -1,4 +1,4 @@
-package nowcoder.advanced.advanced_class_05;
+package nowcoder.advanced.day05;
 
 public class Code_03_MaxDistanceInTree {
 

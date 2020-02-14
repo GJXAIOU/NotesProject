@@ -1,4 +1,4 @@
-package nowcoder.advanced.advanced_class_05;
+package nowcoder.advanced.day05;
 
 public class Code_05_Max_EOR {
     // 最暴力解法：O(N^3)

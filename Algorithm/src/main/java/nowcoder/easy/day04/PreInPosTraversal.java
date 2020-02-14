@@ -22,7 +22,7 @@ public class PreInPosTraversal {
     /**
      * 递归版本实现先序、中序、后序遍历，唯一变化就是 print() 函数位置不同。
      */
-    // 先序遍历
+    // 先序遍历：中、左、右
     public static void preOrderRecur(Node head) {
         if (head == null) {
             return;
@@ -32,7 +32,7 @@ public class PreInPosTraversal {
         preOrderRecur(head.right);
     }
 
-    // 中序遍历
+    // 中序遍历：左、中、右
     public static void inOrderRecur(Node head) {
         if (head == null) {
             return;
@@ -42,7 +42,7 @@ public class PreInPosTraversal {
         inOrderRecur(head.right);
     }
 
-    // 后序遍历
+    // 后序遍历：左、右、中
     public static void posOrderRecur(Node head) {
         if (head == null) {
             return;

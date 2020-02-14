@@ -1,4 +1,4 @@
-package nowcoder.advanced.advanced_class_01;
+package nowcoder.advanced.day01;
 
 public class Code_01_GetMax {
 

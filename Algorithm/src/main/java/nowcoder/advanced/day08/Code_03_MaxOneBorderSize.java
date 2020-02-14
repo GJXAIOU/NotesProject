@@ -1,4 +1,4 @@
-package nowcoder.advanced.advanced_class_08;
+package nowcoder.advanced.day08;
 
 public class Code_03_MaxOneBorderSize {
 

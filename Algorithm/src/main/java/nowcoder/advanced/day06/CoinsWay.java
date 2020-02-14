@@ -2,7 +2,10 @@ package nowcoder.advanced.day06;
 
 import java.util.HashMap;
 
-public class Code_01_CoinsWay {
+/**
+ * @author GJXAIOU
+ */
+public class CoinsWay {
     // 方式一：暴力递归
     public static int coins1(int[] arr, int aim) {
         if (arr == null || arr.length == 0 || aim < 0) {
@@ -24,25 +27,26 @@ public class Code_01_CoinsWay {
         if (index == arr.length) {
             res = aim == 0 ? 1 : 0;
         } else {
-            for (int zhangshu = 0; arr[index] * zhangshu <= aim; zhangshu++) {
+            for (int zhangShu = 0; arr[index] * zhangShu <= aim; zhangShu++) {
                 // index 为当前货币金额，已经使用过了，从 index + 1 位置开始往后都可以使用；
-                // aim - arr[index] * zhangshu 为后面需要凑齐的钱数；
-                res += process1(arr, index + 1, aim - arr[index] * zhangshu);
+                // aim - arr[index] * zhangShu 为后面需要凑齐的钱数；
+                res += process1(arr, index + 1, aim - arr[index] * zhangShu);
             }
         }
         return res;
     }
 
-    /**
-     * 上述暴力方法问题： 200,100,50,10,5,2,1 aim = 1000；则选择 2 张 200,0 张 100，或者 0 张 200,4 张 100，都会需要在 50,
-     * 10,5,2,1 中选择得到 600 元，造成重复计算。
-     * 同时该问题为无后效性问题，即让后面一串钱搞定 600 元和前面怎么到的 600 元这个状态无关。
-     * 一般面试都是无后效性问题。
-     */
+    // 方法二：保存状态结果，避免重复计算
+    public static int coins2(int[] arr, int aim) {
+        if (arr == null || arr.length == 0 || aim < 0) {
+            return 0;
+        }
+        return processMap(arr, 0, aim);
+    }
 
-    // 暴力修改（修改上面的递归方法），因为 index 和 aim 确定，最后返回值结果就确定了，所以计算完之后将该状态和其返回值保存下来可以下次使用
+    // 修改上面的递归方法，因为 index 和 aim 确定，最后返回值结果就确定了，所以计算完之后将该状态和其返回值保存下来可以下次使用
     // String 格式为："index_aim"，Integer 为该种情况下对应的返回值。
-    // 使用 map 做一个缓存功能
+    // 使用 map 做一个缓存功能(key 为某个状态的代号，value 为该状态对应的解)
     public static HashMap<String, Integer> map = new HashMap<>();
 
     public static int processMap(int[] arr, int index, int aim) {
@@ -65,6 +69,8 @@ public class Code_01_CoinsWay {
     }
 
 
+
+// 方法三： index 值从 arr.length - 1 开始；
     public static int coinsOther(int[] arr, int aim) {
         if (arr == null || arr.length == 0 || aim < 0) {
             return 0;
@@ -84,15 +90,16 @@ public class Code_01_CoinsWay {
         return res;
     }
 
-    public static int coins2(int[] arr, int aim) {
+
+    public static int coins3(int[] arr, int aim) {
         if (arr == null || arr.length == 0 || aim < 0) {
             return 0;
         }
         int[][] map = new int[arr.length + 1][aim + 1];
-        return process2(arr, 0, aim, map);
+        return process3(arr, 0, aim, map);
     }
 
-    public static int process2(int[] arr, int index, int aim, int[][] map) {
+    public static int process3(int[] arr, int index, int aim, int[][] map) {
         int res = 0;
         if (index == arr.length) {
             res = aim == 0 ? 1 : 0;
@@ -103,7 +110,7 @@ public class Code_01_CoinsWay {
                 if (mapValue != 0) {
                     res += mapValue == -1 ? 0 : mapValue;
                 } else {
-                    res += process2(arr, index + 1, aim - arr[index] * i, map);
+                    res += process3(arr, index + 1, aim - arr[index] * i, map);
                 }
             }
         }
@@ -111,7 +118,7 @@ public class Code_01_CoinsWay {
         return res;
     }
 
-    public static int coins3(int[] arr, int aim) {
+    public static int coins4(int[] arr, int aim) {
         if (arr == null || arr.length == 0 || aim < 0) {
             return 0;
         }
@@ -135,7 +142,7 @@ public class Code_01_CoinsWay {
         return dp[arr.length - 1][aim];
     }
 
-    public static int coins4(int[] arr, int aim) {
+    public static int coins5(int[] arr, int aim) {
         if (arr == null || arr.length == 0 || aim < 0) {
             return 0;
         }
@@ -155,7 +162,7 @@ public class Code_01_CoinsWay {
         return dp[arr.length - 1][aim];
     }
 
-    public static int coins5(int[] arr, int aim) {
+    public static int coins6(int[] arr, int aim) {
         if (arr == null || arr.length == 0 || aim < 0) {
             return 0;
         }
@@ -187,12 +194,7 @@ public class Code_01_CoinsWay {
         end = System.currentTimeMillis();
         System.out.println("cost time : " + (end - start) + "(ms)");
 
-        aim = 20000;
-
-        start = System.currentTimeMillis();
-        System.out.println(coins2(coins, aim));
-        end = System.currentTimeMillis();
-        System.out.println("cost time : " + (end - start) + "(ms)");
+        aim = 2000;
 
         start = System.currentTimeMillis();
         System.out.println(coins3(coins, aim));
@@ -206,6 +208,11 @@ public class Code_01_CoinsWay {
 
         start = System.currentTimeMillis();
         System.out.println(coins5(coins, aim));
+        end = System.currentTimeMillis();
+        System.out.println("cost time : " + (end - start) + "(ms)");
+
+        start = System.currentTimeMillis();
+        System.out.println(coins6(coins, aim));
         end = System.currentTimeMillis();
         System.out.println("cost time : " + (end - start) + "(ms)");
 
