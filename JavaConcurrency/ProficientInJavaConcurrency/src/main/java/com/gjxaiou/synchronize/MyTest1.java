@@ -14,6 +14,13 @@ public class MyTest1 {
         // 表示对 object 对象上锁，当执行到这里的时候该线程会尝试获取 object 对象的锁，如果获取到就就行执行，如果获取不到就阻塞了。
         synchronized (object) {
             System.out.println("hello world");
+            throw new RuntimeException();
+        }
+    }
+
+    public void method2(){
+        synchronized (object){
+            System.out.println("welcome");
         }
     }
 }
