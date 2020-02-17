@@ -1,5 +1,7 @@
 package tree.easy;
 
+import javax.xml.stream.FactoryConfigurationError;
+
 /**
  * @Author GJXAIOU
  * @Date 2020/2/12 15:58
@@ -31,6 +33,37 @@ public class LeetCode110 {
         // 以该结点为根的树的高度等于该结点 + 左右树中最高的那个
         return 1 + Math.max(height(root.left), height(root.right));
     }
+
+
+    // 自顶向下递归写法二：解释将 AlgorithmNotes 笔记
+    public boolean isBalanced2(TreeNode root) {
+        boolean[] res = new boolean[1];
+        res[0] = true;
+        getHeight(root, 1, res);
+        return res[0];
+
+    }
+
+    public int getHeight(TreeNode root, int level, boolean[] res) {
+        if (root == null) {
+            return level;
+        }
+
+        int leftHeight = getHeight(root.left, level + 1, res);
+        if (!res[0]) {
+            return level;
+        }
+        int rightHeight = getHeight(root.right, level + 1, res);
+        if (!res[0]) {
+            return level;
+        }
+        if (Math.abs(leftHeight - rightHeight) > 1) {
+            res[0] = false;
+        }
+        return Math.max(leftHeight, rightHeight);
+
+    }
+
 
     // 方法二：自底向上的递归
 // Utility class to store information from recursive calls

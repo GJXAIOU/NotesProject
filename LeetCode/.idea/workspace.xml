@@ -2,51 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab6d1f10-35be-4dac-9f15-171a52712f87" name="Default Changelist" comment="Add LeetCode 94/155/2/19/138/148/328 code">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/easy/LeetCode100.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/easy/LeetCode101.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/easy/LeetCode110.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/easy/LeetCode226.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/medium/LeetCode98.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/hard/LeetCode145.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/hard/LeetCode297.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/medium/LeetCode144.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/Algorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day01/Code_01_GetMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day01/Code_01_GetMax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day01/Code_03_LongestPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day01/Code_03_LongestPathSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day02/Code_04_TrieTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day02/Code_04_TrieTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day02/Code_05_EnglishExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day02/Code_05_EnglishExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day02/Code_06_ChineseExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day02/Code_06_ChineseExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day05/Code_01_IsBSTAndCBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day05/Code_01_IsBSTAndCBT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day05/Code_02_IsBalancedTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day05/Code_02_IsBalancedTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day05/Code_03_MaxDistanceInTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day05/Code_03_MaxDistanceInTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day05/Code_04_MaxHappy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day05/Code_04_MaxHappy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day05/Code_05_Max_EOR.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day05/Code_05_Max_EOR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day05/Code_06_CompleteTreeNodeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day05/Code_06_CompleteTreeNodeNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day06/CardsInLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day06/CardsInLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day06/Code_03_RegularExpressionMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day06/Code_03_RegularExpressionMatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day06/Code_04_LongestSumSubArrayLengthInPositiveArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day06/Code_04_LongestSumSubArrayLengthInPositiveArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day06/Code_05_LongestSubarrayLessSumAwesomeSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day06/Code_05_LongestSubarrayLessSumAwesomeSolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day06/Code_06_JosephusProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day06/Code_06_JosephusProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day06/CoinsWay.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day06/CoinsWay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day06/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day06/Robot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day07/Code_01_MinPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day07/Code_01_MinPathSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day07/Code_02_LIS.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day07/Code_02_LIS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day07/Code_03_LCSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day07/Code_03_LCSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day07/Code_04_LCSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day07/Code_04_LCSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day07/Code_05_EditCost.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day07/Code_05_EditCost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day07/Code_06_PalindromeMinCut.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day07/Code_06_PalindromeMinCut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day07/Code_07_StringCross.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day07/Code_07_StringCross.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day07/Code_08_ParenthesesProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day07/Code_08_ParenthesesProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day08/Code_01_TopKSumCrossTwoArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day08/Code_01_TopKSumCrossTwoArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day08/Code_02_MaxSubMatrixSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day08/Code_02_MaxSubMatrixSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day08/Code_03_MaxOneBorderSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day08/Code_03_MaxOneBorderSize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day08/Code_04_FibonacciProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day08/Code_04_FibonacciProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day08/Code_05_LongestNoRepeatSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day08/Code_05_LongestNoRepeatSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day08/Code_06_ShuffleProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/advanced/day08/Code_06_ShuffleProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/easy/day03/CopyListWithRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/nowcoder/easy/day03/CopyListWithRandom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/ConcurrencyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/ConcurrencyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/annoations/Recommend.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/annoations/Recommend.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/annoations/ThreadSafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/annoations/ThreadSafe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day04/IsBalancedTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day04/IsBalancedTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day04/PaperFolding.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day04/PaperFolding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day04/PreInPosTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day04/PreInPosTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day04/SerializeAndReconstructTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day04/SerializeAndReconstructTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day06/BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day06/BFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day06/DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day06/DFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day06/Dijkstra.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day06/Dijkstra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day06/Kruskal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day06/Kruskal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day06/Prim.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day06/Prim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day06/TopologySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day06/TopologySort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/src/test/java/com/gjxaiou/hand/EasyDay04TreeTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/test/java/com/gjxaiou/hand/EasyDay04TreeTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tree/easy/LeetCode110.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tree/easy/LeetCode110.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../VideoClass/ThinkingInJava4Code" beforeDir="false" afterPath="$PROJECT_DIR$/../VideoClass/ThinkingInJava4Code" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +60,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Algorithm" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -242,6 +214,8 @@
       <workItem from="1581316859017" duration="14333000" />
       <workItem from="1581383322882" duration="10708000" />
       <workItem from="1581479299493" duration="14255000" />
+      <workItem from="1581599579642" duration="1658000" />
+      <workItem from="1581906173867" duration="15962000" />
     </task>
     <servers />
   </component>
@@ -286,10 +260,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="374" y="70" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1580479328500" />
-    <state x="690" y="164" key="FileChooserDialogImpl" timestamp="1581334508122">
+    <state x="690" y="164" key="FileChooserDialogImpl" timestamp="1581906637156">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="690" y="164" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1581334508122" />
+    <state x="690" y="164" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1581906637156" />
     <state width="1867" height="118" key="GridCell.Tab.0.bottom" timestamp="1581344163609">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -334,10 +308,18 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="658" y="356" key="cloudConfig.SelfSettingsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1579599538900" />
+    <state x="697" y="444" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581927952498">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="697" y="444" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1581927952498" />
     <state x="13" y="220" key="new project wizard" timestamp="1581334503300">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="13" y="220" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1581334503300" />
+    <state x="642" y="109" key="refactoring.ChangeSignatureDialog" timestamp="1581908429208">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="642" y="109" key="refactoring.ChangeSignatureDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581908429208" />
     <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1579571968970">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
