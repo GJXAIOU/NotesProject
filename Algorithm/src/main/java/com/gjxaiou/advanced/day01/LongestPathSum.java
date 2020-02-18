@@ -21,19 +21,23 @@ public class Code_03_LongestPathSum {
 	}
 
 	public static int preOrder(Node head, int sum, int preSum, int level,
-			int maxLen, HashMap<Integer, Integer> sumMap) {
+							   int maxLen, HashMap<Integer, Integer> sumMap) {
 		if (head == null) {
 			return maxLen;
 		}
 		int curSum = preSum + head.value;
+		//保证level为最早出现这个累加和的层数
 		if (!sumMap.containsKey(curSum)) {
 			sumMap.put(curSum, level);
 		}
+		//求解以每个节点结尾的情况下，累加和为规定值的最长路径长度，更新最大路径长度
 		if (sumMap.containsKey(curSum - sum)) {
 			maxLen = Math.max(level - sumMap.get(curSum - sum), maxLen);
 		}
+		//遍历左右子树
 		maxLen = preOrder(head.left, sum, curSum, level + 1, maxLen, sumMap);
 		maxLen = preOrder(head.right, sum, curSum, level + 1, maxLen, sumMap);
+		//返回之前，如果当前累加和是新加入的（通过level判断），则删除
 		if (level == sumMap.get(curSum)) {
 			sumMap.remove(curSum);
 		}
