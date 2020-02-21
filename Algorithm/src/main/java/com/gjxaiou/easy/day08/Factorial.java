@@ -1,6 +1,8 @@
 package com.gjxaiou.easy.day08;
 
-public class Code_01_Factorial {
+import com.sun.org.apache.xpath.internal.WhitespaceStrippingElementMatcher;
+
+public class Factorial {
     // 递归版本
     public static long getFactorial1(int n) {
         if (n == 1) {
@@ -24,3 +26,4 @@ public class Code_01_Factorial {
         System.out.println(getFactorial2(n));
     }
 }
+

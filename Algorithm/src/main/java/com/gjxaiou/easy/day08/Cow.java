@@ -1,6 +1,6 @@
 package com.gjxaiou.easy.day08;
 
-public class Code_05_Cow {
+public class Cow {
 
 	public static int cowNumber1(int n) {
 		if (n < 1) {

@@ -2,7 +2,7 @@ package com.gjxaiou.easy.day08;
 
 import java.util.HashSet;
 
-public class Code_04_Print_All_Permutations {
+public class PrintAllPermutations {
 
     public static void printAllPermutations1(String str) {
         char[] chs = str.toCharArray();
@@ -19,6 +19,7 @@ public class Code_04_Print_All_Permutations {
             //swap(chs, i, j);
         }
     }
+
 
     public static void printAllPermutations2(String str) {
         char[] chs = str.toCharArray();

@@ -1,6 +1,6 @@
 package com.gjxaiou.easy.day08;
 
-public class Code_02_Hanoi {
+public class Hanoi {
 
     public static void hanoi(int n) {
         if (n > 0) {
@@ -18,7 +18,7 @@ public class Code_02_Hanoi {
         }
     }
 
-    // 递归版本，只有这一个函数
+    // 方式二：
     // N 表示现在为 1~N 问题，同时 N 个都是停留在 From 上面
     public static void process(int N, String from, String to, String help) {
         if (N == 1) {
@@ -73,9 +73,9 @@ public class Code_02_Hanoi {
     }
 
     public static void main(String[] args) {
-        int n = 3;
+        int n = 5;
         hanoi(n);
 
-        process(3, "左", "右", "中");
+        process(5, "左", "右", "中");
     }
 }
