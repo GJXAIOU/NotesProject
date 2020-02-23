@@ -2,27 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab6d1f10-35be-4dac-9f15-171a52712f87" name="Default Changelist" comment="Add LeetCode 94/155/2/19/138/148/328 code">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/easy/LeetCode112.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/medium/LeetCode222.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/medium/LeetCode662.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/string/medium/LeetCode131.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/string/medium/LeetCode17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/string/medium/LeetCode46.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/string/medium/LeetCode93.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SourceCode/JDK/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SourceCode/JDK/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SourceCode/JDK/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SourceCode/JDK/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SourceCode/JDK/JDK.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SourceCode/JDK/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringAnnotation/.idea/$CACHE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringAnnotation/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringAnnotation/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringAnnotation/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringAnnotation/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringAnnotation/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringAnnotation/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringAnnotation/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringAnnotation/SpringAnnotation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringAnnotation/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day01/GetMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day01/GetMax.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day01/LongestPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day01/LongestPathSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day03/MorrisTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day03/MorrisTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day04/CompleteTreeNodeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day04/CompleteTreeNodeNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day04/IsBSTAndCBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day04/IsBSTAndCBT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day04/IsBalancedTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day04/IsBalancedTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day04/PaperFolding.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day04/PaperFolding.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day04/PreInPosTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day04/PreInPosTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day04/SerializeAndReconstructTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day04/SerializeAndReconstructTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day05/HashMapOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day05/HashMapOperation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day06/BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day06/BFS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day06/DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day06/DFS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day06/Dijkstra.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day06/Dijkstra.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day06/Kruskal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day06/Kruskal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day06/Prim.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day06/Prim.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day06/TopologySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day06/TopologySort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day08/Cow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day08/Cow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day08/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day08/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day08/MinPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day08/MinPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day08/MoneyProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day08/MoneyProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day08/PrintAllPermutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day08/PrintAllPermutations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day08/ReverseStackUsingRecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day08/ReverseStackUsingRecursive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/src/test/java/com/gjxaiou/hand/EasyDay04TreeTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/test/java/com/gjxaiou/hand/EasyDay04TreeTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tree/easy/LeetCode111.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tree/easy/LeetCode111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode1351.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode1351.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/main1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/array/easy/Leetcode167_Two_Sum_II_Input_array_is_sorted_Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/array/medium/LeetCode209Minimum_Size_Subarray_Sum_Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/string/easy/LeetCode125_Valid_Palindrome_Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/LeetCode.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SourceCode/.idea/SourceCode.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SourceCode/Concurrency/concurrency.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SourceCode/HighConcurrency/concurrency.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SourceCode/HighConcurrency/src/main/main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SourceCode/HighConcurrency/src/test/test.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../VideoClass/ThinkingInJava4Code" beforeDir="false" afterPath="$PROJECT_DIR$/../VideoClass/ThinkingInJava4Code" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,13 +103,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../爬虫/爬虫包/FanZhuanJian" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JVM" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20091848" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -80,13 +119,15 @@
       <recent name="E:\Program\Java\Project\LeetCode\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LeetCode73">
-    <configuration name="LeetCode121" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.LeetCode121" />
-      <module name="main" />
+  <component name="RunManager" selected="Application.LeetCode131">
+    <configuration name="LeetCode131" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="string.medium.LeetCode131" />
+      <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.easy.*" />
+          <option name="PATTERN" value="string.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode131" />
         <item itemvalue="Application.LeetCode73" />
         <item itemvalue="Application.LeetCode19" />
         <item itemvalue="Application.LeetCode283" />
         <item itemvalue="Application.LeetCode217" />
-        <item itemvalue="Application.LeetCode121" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +263,10 @@
       <workItem from="1581906173867" duration="15962000" />
       <workItem from="1582008945690" duration="10256000" />
       <workItem from="1582073333187" duration="10629000" />
-      <workItem from="1582102013329" duration="5582000" />
+      <workItem from="1582102013329" duration="5818000" />
+      <workItem from="1582162992959" duration="8187000" />
+      <workItem from="1582420808613" duration="14667000" />
+      <workItem from="1582448380266" duration="7283000" />
     </task>
     <servers />
   </component>
@@ -239,6 +283,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="613" y="121" key="#LeetCode07/0.0.1920.1080@0.0.1920.1080" timestamp="1579356035611" />
+    <state x="572" y="143" key="#LeetCode131" timestamp="1582448186921">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="572" y="143" key="#LeetCode131/0.0.1920.1080@0.0.1920.1080" timestamp="1582448186921" />
     <state x="626" y="139" key="#LeetCode27" timestamp="1579424575726">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -267,50 +315,50 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="374" y="70" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1580479328500" />
-    <state x="690" y="164" key="FileChooserDialogImpl" timestamp="1582100105210">
+    <state x="690" y="164" key="FileChooserDialogImpl" timestamp="1582463047625">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="690" y="164" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1582100105210" />
-    <state width="1867" height="118" key="GridCell.Tab.0.bottom" timestamp="1581344163609">
+    <state x="690" y="164" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1582463047625" />
+    <state width="1865" height="89" key="GridCell.Tab.0.bottom" timestamp="1582453601910">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1867" height="118" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1581344163609" />
-    <state width="1867" height="118" key="GridCell.Tab.0.center" timestamp="1581344163609">
+    <state width="1865" height="89" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582453601910" />
+    <state width="1865" height="89" key="GridCell.Tab.0.center" timestamp="1582453601910">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1867" height="118" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1581344163609" />
-    <state width="1867" height="118" key="GridCell.Tab.0.left" timestamp="1581344163609">
+    <state width="1865" height="89" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582453601910" />
+    <state width="1865" height="89" key="GridCell.Tab.0.left" timestamp="1582453601910">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1867" height="118" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1581344163609" />
-    <state width="1867" height="118" key="GridCell.Tab.0.right" timestamp="1581344163609">
+    <state width="1865" height="89" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582453601910" />
+    <state width="1865" height="89" key="GridCell.Tab.0.right" timestamp="1582453601910">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1867" height="118" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1581344163609" />
-    <state width="1867" height="338" key="GridCell.Tab.1.bottom" timestamp="1581344163605">
+    <state width="1865" height="89" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582453601910" />
+    <state width="1865" height="89" key="GridCell.Tab.1.bottom" timestamp="1582453601910">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1867" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1581344163605" />
-    <state width="1867" height="338" key="GridCell.Tab.1.center" timestamp="1581344163605">
+    <state width="1865" height="89" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582453601910" />
+    <state width="1865" height="89" key="GridCell.Tab.1.center" timestamp="1582453601910">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1867" height="338" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1581344163605" />
-    <state width="1867" height="338" key="GridCell.Tab.1.left" timestamp="1581344163605">
+    <state width="1865" height="89" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582453601910" />
+    <state width="1865" height="89" key="GridCell.Tab.1.left" timestamp="1582453601910">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1867" height="338" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1581344163605" />
-    <state width="1867" height="338" key="GridCell.Tab.1.right" timestamp="1581344163605">
+    <state width="1865" height="89" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582453601910" />
+    <state width="1865" height="89" key="GridCell.Tab.1.right" timestamp="1582453601910">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1867" height="338" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1581344163605" />
-    <state x="532" y="170" key="NewModule_or_Project.wizard" timestamp="1581334522624">
+    <state width="1865" height="89" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582453601910" />
+    <state x="532" y="170" key="NewModule_or_Project.wizard" timestamp="1582448437699">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="532" y="170" key="NewModule_or_Project.wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1581334522624" />
-    <state x="312" y="10" key="SettingsEditor" timestamp="1582105469715">
+    <state x="532" y="170" key="NewModule_or_Project.wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1582448437699" />
+    <state x="312" y="10" key="SettingsEditor" timestamp="1582448552152">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="312" y="10" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1582105469715" />
+    <state x="312" y="10" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1582448552152" />
     <state x="658" y="356" key="cloudConfig.SelfSettingsDialog" timestamp="1579599538900">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -319,18 +367,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="697" y="444" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1581927952498" />
-    <state x="13" y="220" key="new project wizard" timestamp="1581334503300">
+    <state x="13" y="220" key="new project wizard" timestamp="1582462369516">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="13" y="220" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1581334503300" />
+    <state x="13" y="220" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1582462369516" />
+    <state x="514" y="199" width="875" height="663" key="recent.locations.popup" timestamp="1582429389236">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="514" y="199" width="875" height="663" key="recent.locations.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1582429389236" />
     <state x="642" y="109" key="refactoring.ChangeSignatureDialog" timestamp="1581908429208">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="642" y="109" key="refactoring.ChangeSignatureDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581908429208" />
-    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1579571968970">
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1582429390536">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1579571968970" />
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1582429390536" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
