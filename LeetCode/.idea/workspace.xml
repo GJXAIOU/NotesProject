@@ -2,26 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab6d1f10-35be-4dac-9f15-171a52712f87" name="Default Changelist" comment="Add LeetCode 94/155/2/19/138/148/328 code">
-      <change afterPath="$PROJECT_DIR$/src/main/java/string/medium/LeetCode131.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/string/medium/LeetCode17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/string/medium/LeetCode46.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/string/medium/LeetCode93.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SourceCode/JDK/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SourceCode/JDK/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SourceCode/JDK/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SourceCode/JDK/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SourceCode/JDK/JDK.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SourceCode/JDK/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringAnnotation/.idea/$CACHE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringAnnotation/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringAnnotation/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringAnnotation/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringAnnotation/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringAnnotation/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringAnnotation/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringAnnotation/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringAnnotation/SpringAnnotation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringAnnotation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/Offer17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/Offer39.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/list/easy/Offer06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/list/easy/Offer22.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/list/easy/Offer24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/list/easy/Offer25.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stack/easy/Offer09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/string/easy/Offer05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/string/easy/Offer58II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/easy/Offer54.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/easy/Offer55.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day01/GetMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day01/GetMax.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day01/LongestPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day01/LongestPathSum.java" afterDir="false" />
@@ -46,22 +38,11 @@
       <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day08/PrintAllPermutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day08/PrintAllPermutations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day08/ReverseStackUsingRecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day08/ReverseStackUsingRecursive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/src/test/java/com/gjxaiou/hand/EasyDay04TreeTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/test/java/com/gjxaiou/hand/EasyDay04TreeTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM/src/main/java/com/gjxaiou/gc/FinalizeEscapeGC.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM/src/main/java/com/gjxaiou/gc/FinalizeEscapeGC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM/src/main/java/com/gjxaiou/gc/ReferenceCountingGC.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM/src/main/java/com/gjxaiou/gc/ReferenceCountingGC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode1351.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode1351.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/array/easy/Leetcode167_Two_Sum_II_Input_array_is_sorted_Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/array/medium/LeetCode209Minimum_Size_Subarray_Sum_Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/string/easy/LeetCode125_Valid_Palindrome_Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/LeetCode.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SourceCode/.idea/SourceCode.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SourceCode/Concurrency/concurrency.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SourceCode/HighConcurrency/concurrency.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SourceCode/HighConcurrency/src/main/main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SourceCode/HighConcurrency/src/test/test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tree/easy/LeetCode104.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tree/easy/LeetCode104.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../VideoClass/ThinkingInJava4Code" beforeDir="false" afterPath="$PROJECT_DIR$/../VideoClass/ThinkingInJava4Code" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +100,7 @@
       <recent name="E:\Program\Java\Project\LeetCode\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LeetCode131">
+  <component name="RunManager" selected="Application.Offer54">
     <configuration name="LeetCode131" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -128,45 +109,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="string.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeetCode19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="list.medium.LeetCode19" />
-      <module name="main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="list.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeetCode217" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.LeetCode217" />
-      <module name="main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeetCode283" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.LeetCode283" />
-      <module name="main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,13 +129,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Offer06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="list.easy.Offer06" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="list.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Offer54" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.easy.Offer54" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Offer58II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.easy.Offer58II" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Offer54" />
+        <item itemvalue="Application.Offer06" />
+        <item itemvalue="Application.Offer58II" />
         <item itemvalue="Application.LeetCode131" />
         <item itemvalue="Application.LeetCode73" />
-        <item itemvalue="Application.LeetCode19" />
-        <item itemvalue="Application.LeetCode283" />
-        <item itemvalue="Application.LeetCode217" />
       </list>
     </recent_temporary>
   </component>
@@ -267,6 +248,7 @@
       <workItem from="1582162992959" duration="8187000" />
       <workItem from="1582420808613" duration="14667000" />
       <workItem from="1582448380266" duration="7283000" />
+      <workItem from="1582508574396" duration="25381000" />
     </task>
     <servers />
   </component>
@@ -319,38 +301,38 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="690" y="164" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1582463047625" />
-    <state width="1865" height="89" key="GridCell.Tab.0.bottom" timestamp="1582453601910">
+    <state width="1865" height="317" key="GridCell.Tab.0.bottom" timestamp="1582534952244">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="89" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582453601910" />
-    <state width="1865" height="89" key="GridCell.Tab.0.center" timestamp="1582453601910">
+    <state width="1865" height="317" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582534952244" />
+    <state width="1865" height="317" key="GridCell.Tab.0.center" timestamp="1582534952244">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="89" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582453601910" />
-    <state width="1865" height="89" key="GridCell.Tab.0.left" timestamp="1582453601910">
+    <state width="1865" height="317" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582534952244" />
+    <state width="1865" height="317" key="GridCell.Tab.0.left" timestamp="1582534952244">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="89" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582453601910" />
-    <state width="1865" height="89" key="GridCell.Tab.0.right" timestamp="1582453601910">
+    <state width="1865" height="317" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582534952244" />
+    <state width="1865" height="317" key="GridCell.Tab.0.right" timestamp="1582534952244">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="89" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582453601910" />
-    <state width="1865" height="89" key="GridCell.Tab.1.bottom" timestamp="1582453601910">
+    <state width="1865" height="317" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582534952244" />
+    <state width="1865" height="317" key="GridCell.Tab.1.bottom" timestamp="1582534952358">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="89" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582453601910" />
-    <state width="1865" height="89" key="GridCell.Tab.1.center" timestamp="1582453601910">
+    <state width="1865" height="317" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582534952358" />
+    <state width="1865" height="317" key="GridCell.Tab.1.center" timestamp="1582534952358">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="89" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582453601910" />
-    <state width="1865" height="89" key="GridCell.Tab.1.left" timestamp="1582453601910">
+    <state width="1865" height="317" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582534952358" />
+    <state width="1865" height="317" key="GridCell.Tab.1.left" timestamp="1582534952357">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="89" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582453601910" />
-    <state width="1865" height="89" key="GridCell.Tab.1.right" timestamp="1582453601910">
+    <state width="1865" height="317" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582534952357" />
+    <state width="1865" height="317" key="GridCell.Tab.1.right" timestamp="1582534952358">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="89" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582453601910" />
+    <state width="1865" height="317" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582534952358" />
     <state x="532" y="170" key="NewModule_or_Project.wizard" timestamp="1582448437699">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -379,10 +361,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="642" y="109" key="refactoring.ChangeSignatureDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581908429208" />
-    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1582429390536">
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1582528519410">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1582429390536" />
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1582528519410" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
