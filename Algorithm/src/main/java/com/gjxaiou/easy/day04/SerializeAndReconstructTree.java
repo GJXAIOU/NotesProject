@@ -23,10 +23,10 @@ public class SerializeAndReconstructTree {
     // 使用递归版本的先序遍历实现二叉树的序列化
     public static String serialByPre(Node head) {
         if (head == null) {
-            return "#!";
+            return "#_";
         }
-        // 形成字符串格式为：结点值!
-        String res = head.value + "!";
+        // 形成字符串格式为：结点值_
+        String res = head.value + "_";
         res += serialByPre(head.left);
         res += serialByPre(head.right);
         return res;
@@ -35,7 +35,7 @@ public class SerializeAndReconstructTree {
     // 对先序遍历序列化得到的字符串进行反序列化
     public static Node reconByPreString(String preStr) {
         // 首先将字符串分割
-        String[] values = preStr.split("!");
+        String[] values = preStr.split("_");
         Queue<String> queue = new LinkedList<String>();
         for (int i = 0; i != values.length; i++) {
             // add() 和 offer() 都是向队列中添加一个元素，如果想在一个满的队列中加入一个新项，调用 add() 方法就会抛出一个 unchecked 异常，而调用
@@ -61,24 +61,25 @@ public class SerializeAndReconstructTree {
     // 按层遍历二叉树的序列号
     public static String serialByLevel(Node head) {
         if (head == null) {
-            return "#!";
+            return "#_";
         }
-        String res = head.value + "!";
+        String res = head.value + "_";
         Queue<Node> queue = new LinkedList<Node>();
+        // 首先加入头结点，弹出，加入左结点、加入右结点
         queue.offer(head);
         while (!queue.isEmpty()) {
             head = queue.poll();
             if (head.left != null) {
-                res += head.left.value + "!";
+                res += head.left.value + "_";
                 queue.offer(head.left);
             } else {
-                res += "#!";
+                res += "#_";
             }
             if (head.right != null) {
-                res += head.right.value + "!";
+                res += head.right.value + "_";
                 queue.offer(head.right);
             } else {
-                res += "#!";
+                res += "#_";
             }
         }
         return res;
@@ -86,7 +87,7 @@ public class SerializeAndReconstructTree {
 
     // 按层遍历二叉树的反序列化
     public static Node reconByLevelString(String levelStr) {
-        String[] values = levelStr.split("!");
+        String[] values = levelStr.split("_");
         int index = 0;
         Node head = generateNodeByString(values[index++]);
         Queue<Node> queue = new LinkedList<Node>();

@@ -2,7 +2,7 @@ package com.gjxaiou.easy.day08;
 
 import java.util.Stack;
 
-public class Code_06_ReverseStackUsingRecursive {
+public class ReverseStackUsingRecursive {
     /**
      * 每层递归取出栈底的元素并缓存到变量中，直到栈空；
      * 然后逆向将每层变量压入栈，最后实现原栈数据的逆序。
@@ -20,7 +20,7 @@ public class Code_06_ReverseStackUsingRecursive {
         stack.push(i);
     }
 
-    // 返回并且移除栈底元素（栈内元素<栈底>1、2、3<栈顶>变为2、3<栈顶>）.
+    // 返回并且移除栈底元素（栈内元素：<栈底>1,2,3,4,5<栈顶>变为2,3,4,5<栈顶>）.
     public static int getAndRemoveLastElement(Stack<Integer> stack) {
         int result = stack.pop();
         if (stack.isEmpty()) {
@@ -34,7 +34,7 @@ public class Code_06_ReverseStackUsingRecursive {
     }
 
     public static void main(String[] args) {
-        // Stack继承Vector，默认容量是10
+        // Stack 继承 Vector，默认容量是 10(Vector 构造函数中进行了设置)
         Stack<Integer> test = new Stack<Integer>();
         test.push(1);
         test.push(2);

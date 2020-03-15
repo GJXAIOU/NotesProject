@@ -6,9 +6,8 @@ import java.util.Arrays;
  * 这里是使用计数排序实现桶排序思想
  */
 public class BucketSort {
-	private static final int WITHOUT_SORT_LENGTH = 2;
 	public static void bucketSort(int[] arr) {
-		if (arr == null || arr.length < WITHOUT_SORT_LENGTH) {
+		if (arr == null || arr.length < 2) {
 			return;
 		}
 		// 首先找到要排序数组中的最大值

@@ -127,21 +127,27 @@ public class PreInPosTraversal {
     }
 
     // 另一种实现后续：使用一个栈
-    public static void posOrderUnRecur2(Node h) {
+    // head 表示最近被打印的结点
+    public static void posOrderUnRecur2(Node head) {
         System.out.print("pos-order: ");
-        if (h != null) {
+        if (head != null) {
             Stack<Node> stack = new Stack<Node>();
-            stack.push(h);
-            Node c = null;
+            stack.push(head);
+            Node stackTopNode = null;
             while (!stack.isEmpty()) {
-                c = stack.peek();
-                if (c.left != null && h != c.left && h != c.right) {
-                    stack.push(c.left);
-                } else if (c.right != null && h != c.right) {
-                    stack.push(c.right);
+                // stackTopNode 表示栈顶结点
+                stackTopNode = stack.peek();
+                // 如果栈顶结点的左右结点和最近打印的结点都不相等：说明栈顶结点的左右孩子都不是最近打印的结点，同样由于左右孩子分别为左右子树的头结点，
+                // 根据后序遍历的特点（左右中），则左右子树都没有被打印过，所以压入左子树。
+                if (stackTopNode.left != null && head != stackTopNode.left && head != stackTopNode.right) {
+                    stack.push(stackTopNode.left);
+                    // 如果上面没有执行：左子树不存在或者左子树刚刚打印过或者右子树刚刚打印过，如果是前两种情况，就接着打印右子树
+                } else if (stackTopNode.right != null && head != stackTopNode.right) {
+                    stack.push(stackTopNode.right);
+                    // 上面还没有执行说明左右子树都空或者都打印完了，弹出该结点打印，然后更新。
                 } else {
                     System.out.print(stack.pop().value + " ");
-                    h = c;
+                    head = stackTopNode;
                 }
             }
         }

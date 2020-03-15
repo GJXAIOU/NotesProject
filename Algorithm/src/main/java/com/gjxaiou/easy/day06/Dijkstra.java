@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Map.Entry;
 
 // no negative weight
-public class Code_06_Dijkstra {
+public class Dijkstra {
 
 	public static HashMap<Node, Integer> dijkstra1(Node head) {
 		HashMap<Node, Integer> distanceMap = new HashMap<>();

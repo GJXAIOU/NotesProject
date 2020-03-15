@@ -1,6 +1,6 @@
 package com.gjxaiou.easy.day08;
 
-public class Code_08_Money_Problem {
+public class MoneyProblem {
 
     public static boolean money1(int[] arr, int aim) {
         return process1(arr, 0, 0, aim);

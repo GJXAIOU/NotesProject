@@ -60,15 +60,56 @@ public class EasyDay04TreeTraversal {
         }
         Stack<TreeNode> stack = new Stack<>();
 
-        while (!stack.isEmpty()){
+        while (!stack.isEmpty()) {
             stack.pop();
-            if(root.right != null){
+            if (root.right != null) {
                 stack.push(root.right);
             }
-            if (root.left != null){
+            if (root.left != null) {
                 stack.push(root.left);
             }
         }
+    }
 
+    // 中序遍历：先压入头结点，然后一直压左边，全部压完之后弹出，谈抽压入右结点
+    public void inOrder(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+
+        Stack<TreeNode> stack = new Stack<>();
+        while (!stack.isEmpty() || root != null) {
+            if (root != null) {
+                stack.add(root);
+                root = root.left;
+            } else {
+                System.out.println(stack.pop().val + " ");
+                root = root.right;
+            }
+        }
+    }
+
+    // 后序遍历：一个栈存入顺序为：中、右，左，一次弹出的元素存入另一个栈，然后将另一个栈中元素依次弹出即可
+    public void posOrder(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        Stack<TreeNode> stack1 = new Stack<>();
+        Stack<TreeNode> stack2 = new Stack<>();
+        stack1.push(root);
+        while (!stack1.isEmpty()){
+            TreeNode pop = stack1.pop();
+            stack2.push(pop);
+            if (root.right != null){
+                stack1.push(root.right);
+            }
+            if (root.left != null){
+                stack1.push(root.left);
+            }
+        }
+
+        while (!stack2.isEmpty()){
+            System.out.println(stack2.pop().val + " ");
+        }
     }
 }

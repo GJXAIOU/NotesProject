@@ -3,11 +3,11 @@ package com.gjxaiou.easy.day01;
 import java.util.Arrays;
 
 /**
- * @author GJXAIOU
- * @create 2019-10-07-15:03
- * <p>
  * 分割数组
  * 注：该算法会调整数组中元素顺序，所以不能直接和对数器逐个值比较
+ *
+ * @author GJXAIOU
+ * @create 2019-10-07-15:03
  */
 public class SplitArray {
     /**

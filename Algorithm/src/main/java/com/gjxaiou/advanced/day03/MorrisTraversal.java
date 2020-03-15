@@ -5,19 +5,6 @@ package com.gjxaiou.advanced.day03;
  * @Date 2020/1/3 18:49
  */
 public class MorrisTraversal {
-    public static void process(Node head) {
-        if (head == null) {
-            return;
-        }
-        // 1，打印放在这里为先序遍历
-        //System.out.println(head.value);
-        process(head.left);
-        // 2，打印放在这里为中序遍历
-        //System.out.println(head.value);
-        process(head.right);
-        // 3,打印放在这里为中序遍历(第三次回到自己节点时候打印)
-        //System.out.println(head.value);
-    }
 
     public static class Node {
         public int value;
@@ -27,6 +14,39 @@ public class MorrisTraversal {
         public Node(int data) {
             this.value = data;
         }
+    }
+
+    // Morris 遍历改为先序遍历
+    public static void morrisPre(Node head) {
+        if (head == null) {
+            return;
+        }
+        Node cur = head;
+        Node mostRight = null;
+        while (cur != null) {
+            mostRight = cur.left;
+            // 如果当前结点的左孩子不为空，找到该结点左子树的最右节点
+            if (mostRight != null) {
+                while (mostRight.right != null && mostRight.right != cur) {
+                    mostRight = mostRight.right;
+                }
+                // 如果最右结点的 right 指向 null，让其指向 cur，然后 cur 向左移动
+                if (mostRight.right == null) {
+                    mostRight.right = cur;
+                    System.out.print(cur.value + " ");
+                    cur = cur.left;
+                    continue;
+                    // 最右结点的 right 指向 cur，则改为指向 null
+                } else {
+                    mostRight.right = null;
+                }
+                // 此 else 表示当前结点没有左子树的时候，可以认为其第一次到达和第二次到达是重在一起的，没有左孩子，当前结点向右移动
+            } else {
+                System.out.print(cur.value + " ");
+            }
+            cur = cur.right;
+        }
+        System.out.println();
     }
 
     // Morris 中序遍历
@@ -63,35 +83,6 @@ public class MorrisTraversal {
         System.out.println();
     }
 
-    // Morris 遍历改为先序遍历
-    public static void morrisPre(Node head) {
-        if (head == null) {
-            return;
-        }
-        Node cur = head;
-        Node mostRight = null;
-        while (cur != null) {
-            mostRight = cur.left;
-            if (mostRight != null) {
-                while (mostRight.right != null && mostRight.right != cur) {
-                    mostRight = mostRight.right;
-                }
-                if (mostRight.right == null) {
-                    mostRight.right = cur;
-                    System.out.print(cur.value + " ");
-                    cur = cur.left;
-                    continue;
-                } else {
-                    mostRight.right = null;
-                }
-                // 此 else 表示当前结点没有左子树的时候，可以认为其第一次到达和第二次到达是重在一起的
-            } else {
-                System.out.print(cur.value + " ");
-            }
-            cur = cur.right;
-        }
-        System.out.println();
-    }
 
     // Morris 实现后续遍历
     public static void morrisPos(Node head) {

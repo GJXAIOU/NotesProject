@@ -23,24 +23,22 @@ public class ArrayToStackAndQueue {
             index = 0;
         }
 
-        /**
-         * 实现在栈中压入一个数
-         *
-         * @param obj：要压入的数 index：指向的是栈中下一个有空位置的数组下标
-         */
-        public void push(int obj) {
+        // 在栈中压入一个数
+        public void push(int value) {
             if (index == arr.length) {
-                throw new ArrayIndexOutOfBoundsException("The queue is full");
+                throw new ArrayIndexOutOfBoundsException("The stack is full");
             }
+            // index：指向的是栈中下一个有空位置的数组下标
             // index 位置填上，然后 index++
-            arr[index++] = obj;
+            arr[index++] = value;
         }
 
         // 弹出一个栈顶的元素
         public Integer pop() {
             if (index == 0) {
-                throw new ArrayIndexOutOfBoundsException("The queue is empty");
+                throw new ArrayIndexOutOfBoundsException("The stack is empty");
             }
+            // 这里是 --index，因为 index 为下一个空位置的下标
             return arr[--index];
         }
 
@@ -74,11 +72,7 @@ public class ArrayToStackAndQueue {
             end = 0;
         }
 
-        /**
-         * 向队列中放入一个数
-         *
-         * @param obj：需要放进去的数
-         */
+        // 向队列中放入一个数
         public void push(int obj) {
             if (size == arr.length) {
                 throw new ArrayIndexOutOfBoundsException("The queue is full");
@@ -96,7 +90,7 @@ public class ArrayToStackAndQueue {
                 throw new ArrayIndexOutOfBoundsException("The queue is empty");
             }
             size--;
-            // 因为 start 位置要改变，所有使用临时变量 tmp 记录一下 start 位置，最终弹出的是原始 start位置元素；
+            // 因为 start 位置要改变，所有使用临时变量 tmp 记录一下 start 位置，最终弹出的是原始 start 位置元素；
             int tmp = start;
             start = (start == arr.length - 1) ? 0 : start + 1;
             return arr[tmp];
@@ -109,9 +103,5 @@ public class ArrayToStackAndQueue {
             }
             return arr[start];
         }
-    }
-
-    public static void main(String[] args) {
-
     }
 }

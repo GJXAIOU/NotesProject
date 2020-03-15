@@ -2,11 +2,12 @@ package com.gjxaiou.easy.day03;
 
 import java.util.Stack;
 
+/**
+ * @author GJXAIOU
+ * 返回栈中最小元素
+ */
 public class GetMinStack {
-    /**
-     * @author GJXAIOU
-     * 该方法中当新加入的元素大于原来 Min 栈的栈顶元素时候，不动；
-     */
+    // 该方法中当新加入的元素大于原来 Min 栈的栈顶元素时候，不动；
     public static class MyStack1 {
         // 分别为数据栈和最小值栈
         private Stack<Integer> stackData;
@@ -14,39 +15,38 @@ public class GetMinStack {
 
         // 因为每次都是创建新的栈，因此使用构造函数
         public MyStack1() {
-            this.stackData = new Stack<Integer>();
-            this.stackMin = new Stack<Integer>();
+            stackData = new Stack<Integer>();
+            stackMin = new Stack<Integer>();
         }
 
-        // 生成最小元素栈
         public void push(int newNum) {
             // 如果最小元素栈中没有元素，就将新加入的元素同时压入最小栈，否则需要比较当前数和最小栈中的地栈顶比较，返回最小
-            if (this.stackMin.isEmpty()) {
-                this.stackMin.push(newNum);
+            if (stackMin.isEmpty()) {
+                stackMin.push(newNum);
             } else if (newNum <= this.getmin()) {
-                this.stackMin.push(newNum);
+                stackMin.push(newNum);
             }
             // Data 栈肯定压入最新的数
-            this.stackData.push(newNum);
+            stackData.push(newNum);
         }
 
         public int pop() {
-            if (this.stackData.isEmpty()) {
+            if (stackData.isEmpty()) {
                 throw new RuntimeException("Your stack is empty.");
             }
-            int value = this.stackData.pop();
+            int value = stackData.pop();
             if (value == this.getmin()) {
-                this.stackMin.pop();
+                stackMin.pop();
             }
             return value;
         }
 
         // peek() 返回 min 栈栈顶，但是不弹出；
         public int getmin() {
-            if (this.stackMin.isEmpty()) {
+            if (stackMin.isEmpty()) {
                 throw new RuntimeException("Your stack is empty.");
             }
-            return this.stackMin.peek();
+            return stackMin.peek();
         }
     }
 
@@ -59,35 +59,35 @@ public class GetMinStack {
         private Stack<Integer> stackMin;
 
         public MyStack2() {
-            this.stackData = new Stack<Integer>();
-            this.stackMin = new Stack<Integer>();
+            stackData = new Stack<Integer>();
+            stackMin = new Stack<Integer>();
         }
 
         public void push(int newNum) {
-            if (this.stackMin.isEmpty()) {
-                this.stackMin.push(newNum);
+            if (stackMin.isEmpty()) {
+                stackMin.push(newNum);
             } else if (newNum < this.getmin()) {
-                this.stackMin.push(newNum);
+                stackMin.push(newNum);
             } else {
-                int newMin = this.stackMin.peek();
-                this.stackMin.push(newMin);
+                int newMin = stackMin.peek();
+                stackMin.push(newMin);
             }
-            this.stackData.push(newNum);
+            stackData.push(newNum);
         }
 
         public int pop() {
-            if (this.stackData.isEmpty()) {
+            if (stackData.isEmpty()) {
                 throw new RuntimeException("Your stack is empty.");
             }
             this.stackMin.pop();
-            return this.stackData.pop();
+            return stackData.pop();
         }
 
         public int getmin() {
-            if (this.stackMin.isEmpty()) {
+            if (stackMin.isEmpty()) {
                 throw new RuntimeException("Your stack is empty.");
             }
-            return this.stackMin.peek();
+            return stackMin.peek();
         }
     }
 

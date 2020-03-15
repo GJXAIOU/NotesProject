@@ -8,7 +8,7 @@ import java.util.PriorityQueue;
 import java.util.Set;
 
 //undirected graph only
-public class Code_04_Kruskal {
+public class Kruskal {
 
 	// Union-Find Set
 	public static class UnionFind {

@@ -1,7 +1,5 @@
 package com.gjxaiou.easy.day08;
 
-import com.sun.org.apache.xpath.internal.WhitespaceStrippingElementMatcher;
-
 public class Factorial {
     // 递归版本
     public static long getFactorial1(int n) {

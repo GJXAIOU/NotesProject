@@ -36,7 +36,9 @@ public class IsBSTAndCBT {
         Node cur2 = null;
         while (cur1 != null) {
             cur2 = cur1.left;
+            // 如果当前结点的左孩子存在
             if (cur2 != null) {
+                // 当前结点的左孩子的右孩子不为空并且不等于当前结点
                 while (cur2.right != null && cur2.right != cur1) {
                     cur2 = cur2.right;
                 }
@@ -70,21 +72,22 @@ public class IsBSTAndCBT {
         }
         Queue<Node> queue = new LinkedList<Node>();
         boolean leaf = false;
-        Node l = null;
-        Node r = null;
+        Node left = null;
+        Node right = null;
         queue.offer(head);
         while (!queue.isEmpty()) {
             head = queue.poll();
-            l = head.left;
-            r = head.right;
-            if ((leaf && (l != null || r != null)) || (l == null && r != null)) {
+            left = head.left;
+            right = head.right;
+            // 有右孩子没有左孩子一定不是；如果两个孩子都没有，该结点下面结点必须是叶子结点；有左孩子没有右孩子则下面所有节点都是叶子节点。
+            if ((leaf && (left != null || right != null)) || (left == null && right != null)) {
                 return false;
             }
-            if (l != null) {
-                queue.offer(l);
+            if (left != null) {
+                queue.offer(left);
             }
-            if (r != null) {
-                queue.offer(r);
+            if (right != null) {
+                queue.offer(right);
             } else {
                 // 左等于空或者右等于空 则开启。因为上面代码已经去掉左等于空的情况，因此这里只需要判断右是否为空；
                 leaf = true;
@@ -93,7 +96,7 @@ public class IsBSTAndCBT {
         return true;
     }
 
-    // for test -- print tree
+    // 打印二叉树
     public static void printTree(Node head) {
         System.out.println("Binary Tree:");
         printInOrder(head, 0, "H", 17);

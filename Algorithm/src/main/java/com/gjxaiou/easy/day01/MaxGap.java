@@ -2,10 +2,12 @@ package com.gjxaiou.easy.day01;
 
 import java.util.Arrays;
 
+/**
+ * 排序后相邻两元素之间的最大插值
+ */
 public class MaxGap {
-	private static final int WITHOUT_SORT_LENGTH = 2;
 	public static int maxGap(int[] nums) {
-		if (nums == null || nums.length < WITHOUT_SORT_LENGTH) {
+		if (nums == null || nums.length < 2) {
 			return 0;
 		}
 		int len = nums.length;
@@ -97,7 +99,6 @@ public class MaxGap {
 				break;
 			}
 		}
-		System.out.println(succeed ? "Nice!" : "Fucking fucked!");
+		System.out.println(succeed ? "Nice!" : "Bad");
 	}
-
 }

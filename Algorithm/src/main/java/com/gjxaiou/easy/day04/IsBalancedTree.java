@@ -12,12 +12,13 @@ public class IsBalancedTree {
         public Node left;
         public Node right;
 
-        public Node(int data) {
-            this.value = data;
+        public Node(int value) {
+            this.value = value;
         }
     }
 
     public static boolean isBalance(Node head) {
+        // 这里需要使用数组，因为作为参数传入 getHeight 函数，同时在该函数中修改了值，需要同步修改这里的值返回值才会变化。
         boolean[] res = new boolean[1];
         res[0] = true;
         getHeight(head, 1, res);
@@ -28,19 +29,19 @@ public class IsBalancedTree {
         if (head == null) {
             return level;
         }
-        int leftHight = getHeight(head.left, level + 1, res);
+        int leftHeight = getHeight(head.left, level + 1, res);
         if (!res[0]) {
             return level;
         }
-        int rightHight = getHeight(head.right, level + 1, res);
+        int rightHeight = getHeight(head.right, level + 1, res);
         if (!res[0]) {
             return level;
         }
         // 如果左右高度差大于 1 则返回 false
-        if (Math.abs(leftHight - rightHight) > 1) {
+        if (Math.abs(leftHeight - rightHeight) > 1) {
             res[0] = false;
         }
-        return Math.max(leftHight, rightHight);
+        return Math.max(leftHeight, rightHeight);
     }
 
     public static void main(String[] args) {

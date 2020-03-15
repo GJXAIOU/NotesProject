@@ -4,31 +4,30 @@ package com.gjxaiou.easy.day04;
  * 折纸问题
  *
  * @author GJXAIOU
- * 将一棵头结点为 down，然后左孩子为 down，右孩子为 up 的二叉树按照 右、中、左顺序打印即可。
  */
 public class PaperFolding {
 
-    public static void printAllFolds(int flodTime) {
-        printProcess(1, flodTime, true);
+    public static void printAllFolds(int foldTotalTime) {
+        printProcess(1, foldTotalTime, true);
     }
 
-    public static void printProcess(int i, int flodTime, boolean down) {
-        if (i > flodTime) {
+    public static void printProcess(int currentTime, int foldTotalTime, boolean down) {
+        if (currentTime > foldTotalTime) {
             return;
         }
-        printProcess(i + 1, flodTime, true);
+        // 按照中序遍历顺序
+        printProcess(currentTime + 1, foldTotalTime, true);
         System.out.print(down ? "down " : "up ");
-        printProcess(i + 1, flodTime, false);
+        printProcess(currentTime + 1, foldTotalTime, false);
     }
 
     public static void main(String[] args) {
-        int N = 1;
-        printAllFolds(N);
-		System.out.println();
+        printAllFolds(1);
+        System.out.println();
         printAllFolds(2);
-		System.out.println();
+        System.out.println();
         printAllFolds(3);
-		System.out.println();
+        System.out.println();
         printAllFolds(4);
     }
 }

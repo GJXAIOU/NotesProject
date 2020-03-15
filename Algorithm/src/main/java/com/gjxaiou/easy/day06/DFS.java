@@ -3,7 +3,7 @@ package com.gjxaiou.easy.day06;
 import java.util.HashSet;
 import java.util.Stack;
 
-public class Code_02_DFS {
+public class DFS {
 
 	public static void dfs(Node node) {
 		if (node == null) {

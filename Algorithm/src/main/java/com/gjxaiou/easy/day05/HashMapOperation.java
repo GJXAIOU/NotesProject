@@ -71,6 +71,7 @@ public class HashMapOperation {
         }
         System.out.println("=========================");
 
+        // 移除所有 value 值为 1 的键值对
         List<String> removeKeys = new ArrayList<String>();
         for (Entry<String, String> entry : map.entrySet()) {
             if (!entry.getValue().equals("1")) {

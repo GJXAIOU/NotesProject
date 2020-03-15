@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class Code_01_BFS {
+public class BFS {
 
 	public static void bfs(Node node) {
 		if (node == null) {
