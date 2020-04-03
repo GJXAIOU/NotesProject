@@ -54,42 +54,55 @@ public class Dijkstra {
 	}
 
 	public static class NodeHeap {
+		/**
+		 * 下面的 nodes 和 heapIndexMap 实现可以从下标查到 node 和从 node 查到下标的操作
+		 */
+		// 用数组类型表示堆，例如堆中内容为 [A, B, C]
 		private Node[] nodes;
+		// 表示一个 node 在堆上的 index 是多少
+		// 如果是上面的堆，则这里存放的就是 (A, 0)(B,1)(C,2)
 		private HashMap<Node, Integer> heapIndexMap;
+		// 存放一个 node 到源节点的距离
 		private HashMap<Node, Integer> distanceMap;
-		private int size;
+		// 堆的大小
+		private int heapSize;
 
 		public NodeHeap(int size) {
 			nodes = new Node[size];
 			heapIndexMap = new HashMap<>();
 			distanceMap = new HashMap<>();
-			this.size = 0;
+			// 刚开始的堆的大小为 0
+			this.heapSize = 0;
 		}
 
 		public boolean isEmpty() {
-			return size == 0;
+			return heapSize == 0;
 		}
 
 		public void addOrUpdateOrIgnore(Node node, int distance) {
+			// 下面两个 if 只会执行一个
+			// 首先判断该 node 是否在堆上
 			if (inHeap(node)) {
 				distanceMap.put(node, Math.min(distanceMap.get(node), distance));
 				insertHeapify(node, heapIndexMap.get(node));
 			}
+			// 没有进过堆（即肯定不在堆上）
 			if (!isEntered(node)) {
-				nodes[size] = node;
-				heapIndexMap.put(node, size);
+				nodes[heapSize] = node;
+				heapIndexMap.put(node, heapSize);
 				distanceMap.put(node, distance);
-				insertHeapify(node, size++);
+				insertHeapify(node, heapSize++);
 			}
 		}
 
-		public NodeRecord pop() {
+		// 弹出堆中最小的结点
+		public NodeRecord popMinDistance() {
 			NodeRecord nodeRecord = new NodeRecord(nodes[0], distanceMap.get(nodes[0]));
-			swap(0, size - 1);
-			heapIndexMap.put(nodes[size - 1], -1);
-			distanceMap.remove(nodes[size - 1]);
-			nodes[size - 1] = null;
-			heapify(0, --size);
+			swap(0, heapSize - 1);
+			heapIndexMap.put(nodes[heapSize - 1], -1);
+			distanceMap.remove(nodes[heapSize - 1]);
+			nodes[heapSize - 1] = null;
+			heapify(0, --heapSize);
 			return nodeRecord;
 		}
 
@@ -115,11 +128,16 @@ public class Dijkstra {
 			}
 		}
 
+		// 判断结点进没有经过堆
 		private boolean isEntered(Node node) {
 			return heapIndexMap.containsKey(node);
 		}
 
+		// 判断该结点在不在堆上
 		private boolean inHeap(Node node) {
+			// 如果堆上某个结点删除之后，堆的大小减一，但是因为 heapIndexMap 中对应结点和下标不删除，只是将下标改为 -1
+			// 所以如果下标为 -1 表示该结点曾经进过堆，并且算过答案了，但是目前不在数组（堆）上。
+			// 所以 heapIndexMap 中结点后面的下标不为负数，则该结点目前在堆上
 			return isEntered(node) && heapIndexMap.get(node) != -1;
 		}
 
@@ -137,7 +155,7 @@ public class Dijkstra {
 		nodeHeap.addOrUpdateOrIgnore(head, 0);
 		HashMap<Node, Integer> result = new HashMap<>();
 		while (!nodeHeap.isEmpty()) {
-			NodeRecord record = nodeHeap.pop();
+			NodeRecord record = nodeHeap.popMinDistance();
 			Node cur = record.node;
 			int distance = record.distance;
 			for (Edge edge : cur.edges) {
@@ -147,5 +165,4 @@ public class Dijkstra {
 		}
 		return result;
 	}
-
 }
