@@ -1,44 +1,149 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:o2o" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:project" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:project" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:project" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:project" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:o2o" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ab6d1f10-35be-4dac-9f15-171a52712f87" name="Default Changelist" comment="Add LeetCode 94/155/2/19/138/148/328 code">
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/Offer03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/Offer21.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/Offer40.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/Offer57.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/Offer57II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/list/easy/Offer18.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/math/easy/Offer15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nowcoder/realQuestion/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nowcoder/realQuestion/netease/From2020xiaozhao1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day01/GetMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day01/GetMax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day01/LongestPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day01/LongestPathSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day03/MorrisTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day03/MorrisTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day04/CompleteTreeNodeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day04/CompleteTreeNodeNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day04/IsBSTAndCBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day04/IsBSTAndCBT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day04/IsBalancedTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day04/IsBalancedTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day04/PaperFolding.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day04/PaperFolding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day04/PreInPosTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day04/PreInPosTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day04/SerializeAndReconstructTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day04/SerializeAndReconstructTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day05/HashMapOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day05/HashMapOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day06/BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day06/BFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day06/DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day06/DFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day06/Dijkstra.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day06/Dijkstra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day06/Kruskal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day06/Kruskal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day06/Prim.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day06/Prim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day06/TopologySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day06/TopologySort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day08/Cow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day08/Cow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day08/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day08/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day06/CardsInLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day06/CardsInLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day06/Code_04_LongestSumSubArrayLengthInPositiveArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day06/Code_05_LongestSubarrayLessSumAwesomeSolution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day06/Code_06_JosephusProblem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day06/CoinsWay.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day06/CoinsWay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day06/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day06/Robot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day08/Code_01_TopKSumCrossTwoArrays.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day08/MinPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day08/MinPath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day08/MoneyProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day08/MoneyProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day08/PrintAllPermutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day08/PrintAllPermutations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day08/ReverseStackUsingRecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day08/ReverseStackUsingRecursive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/test/java/com/gjxaiou/hand/EasyDay04TreeTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/test/java/com/gjxaiou/hand/EasyDay04TreeTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JVM/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JVM/src/main/java/com/gjxaiou/gc/FinalizeEscapeGC.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM/src/main/java/com/gjxaiou/gc/FinalizeEscapeGC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JVM/src/main/java/com/gjxaiou/gc/ReferenceCountingGC.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM/src/main/java/com/gjxaiou/gc/ReferenceCountingGC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM/src/main/java/com/gjxaiou/memory/MyTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM/src/main/java/com/gjxaiou/memory/MyTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM/src/main/java/com/gjxaiou/memory/MyTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM/src/main/java/com/gjxaiou/memory/MyTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM/src/main/java/com/gjxaiou/memory/MyTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM/src/main/java/com/gjxaiou/memory/MyTest3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/aqs/FutureExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/aqs/FutureExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/atomic/AtomicExample4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/atomic/AtomicExample4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/atomic/AtomicExample5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/atomic/AtomicExample5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/atomic/AtomicExample6.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/atomic/AtomicExample6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/count/CountExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/count/CountExample1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/count/CountExample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/count/CountExample2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/publish/Escape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/publish/Escape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/publish/UnsafePublish.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/publish/UnsafePublish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/singleton/SingletonExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/singleton/SingletonExample1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/singleton/SingletonExample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/singleton/SingletonExample2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/sync/SynchronizedExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/sync/SynchronizedExample1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Offer10II.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Offer10II.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/Offer21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/Offer21.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/Offer40.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/Offer40.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/Offer57II.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/Offer57II.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/list/easy/Offer52.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/easy/Offer52.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nowcoder/huawei/Huawei4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nowcoder/huawei/Huawei4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../VideoClass/ThinkingInJava4Code" beforeDir="false" afterPath="$PROJECT_DIR$/../VideoClass/ThinkingInJava4Code" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/dao/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/dao/ShopDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/dao/ShopDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/dto/ImageHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/dto/ImageHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/dto/ProductCategoryExecution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/dto/ProductCategoryExecution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/dto/ProductExecution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/dto/ProductExecution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/dto/ShopExecution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/dto/ShopExecution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/entity/Area.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/entity/Area.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/entity/HeadLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/entity/HeadLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/entity/LocalAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/entity/LocalAuth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/entity/PersonInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/entity/PersonInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/entity/ProductCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/entity/ProductCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/entity/ProductImg.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/entity/ProductImg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/entity/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/entity/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/entity/ShopCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/entity/ShopCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/entity/WeChatAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/entity/WeChatAuth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/enums/ProductCategoryStateEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/enums/ProductCategoryStateEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/enums/ProductStateEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/enums/ProductStateEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/enums/ShopStateEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/enums/ShopStateEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/service/AreaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/service/AreaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/service/impl/ProductCategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/service/impl/ProductCategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/service/impl/ShopCategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/service/impl/ShopCategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/service/impl/ShopServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/service/impl/ShopServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/util/DESUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/util/DESUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/util/PathUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/util/PathUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/web/shopadmin/ProductCategoryManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/web/shopadmin/ProductCategoryManagerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/web/shopadmin/ProductManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/web/shopadmin/ProductManagerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/web/shopadmin/ShopManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/web/shopadmin/ShopManagerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/resources/spring/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/resources/spring/spring-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/resources/spring/spring-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/resources/spring/spring-web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,37 +160,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1PsJN89j6qZT4I30oCqo1kUT6Vu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="GO_FMT" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SourceCode/JDK" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20091848" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/src/main/java/nowcoder/huawei/realQuestion" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -95,15 +194,13 @@
       <recent name="E:\Program\Java\Project\LeetCode\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Offer40">
-    <configuration name="LeetCode131" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="string.medium.LeetCode131" />
+  <component name="RunManager" selected="Application.Offer10II">
+    <configuration name="Huawei2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nowcoder.huawei.Huawei2" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.medium.*" />
+          <option name="PATTERN" value="nowcoder.huawei.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +208,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Offer06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="list.easy.Offer06" />
+    <configuration name="Huawei32" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nowcoder.huawei.Huawei32" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="list.easy.*" />
+          <option name="PATTERN" value="nowcoder.huawei.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +221,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Offer40" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.Offer40" />
+    <configuration name="Huawei37" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nowcoder.huawei.Huawei37" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.easy.*" />
+          <option name="PATTERN" value="nowcoder.huawei.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +234,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Offer54" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.easy.Offer54" />
+    <configuration name="Huawei4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nowcoder.huawei.Huawei4" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.easy.*" />
+          <option name="PATTERN" value="nowcoder.huawei.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,40 +247,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Offer58II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.easy.Offer58II" />
+    <configuration name="Offer10II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Offer10II" />
       <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Offer40" />
-        <item itemvalue="Application.Offer54" />
-        <item itemvalue="Application.Offer06" />
-        <item itemvalue="Application.Offer58II" />
-        <item itemvalue="Application.LeetCode131" />
+        <item itemvalue="Application.Offer10II" />
+        <item itemvalue="Application.Huawei4" />
+        <item itemvalue="Application.Huawei2" />
+        <item itemvalue="Application.Huawei32" />
+        <item itemvalue="Application.Huawei37" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SshConsoleOptionsProvider">
     <option name="myEncoding" value="UTF-8" />
@@ -245,11 +324,32 @@
       <workItem from="1582448380266" duration="7283000" />
       <workItem from="1582508574396" duration="25613000" />
       <workItem from="1582594200999" duration="18619000" />
+      <workItem from="1582680629675" duration="1427000" />
+      <workItem from="1582864048450" duration="3088000" />
+      <workItem from="1583838787714" duration="11170000" />
+      <workItem from="1583923111921" duration="12412000" />
+      <workItem from="1584013137938" duration="2553000" />
+      <workItem from="1584267444699" duration="2444000" />
+      <workItem from="1584366580172" duration="805000" />
+      <workItem from="1585575010256" duration="2736000" />
+      <workItem from="1586098829800" duration="570000" />
+      <workItem from="1586519935265" duration="9683000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -273,14 +373,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="572" y="143" key="#LeetCode73/0.0.1920.1080@0.0.1920.1080" timestamp="1581334491645" />
+    <state x="801" y="375" key="#Notifications" timestamp="1586525119252">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="801" y="375" key="#Notifications/0.0.1920.1080@0.0.1920.1080" timestamp="1586525119252" />
+    <state x="452" y="120" key="#Project_Structure" timestamp="1584366599168">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="452" y="120" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1584366599168" />
     <state x="414" y="192" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580457933559">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="414" y="192" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1580457933559" />
-    <state x="721" y="185" key="#com.intellij.ide.util.MemberChooser" timestamp="1580477822981">
+    <state x="721" y="185" key="#com.intellij.ide.util.MemberChooser" timestamp="1584366642881">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="721" y="185" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1580477822981" />
+    <state x="721" y="185" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1584366642881" />
     <state x="790" y="183" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1579355989346">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -293,50 +401,54 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="374" y="70" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1580479328500" />
-    <state x="690" y="164" key="FileChooserDialogImpl" timestamp="1582632707081">
+    <state x="92" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1586098978987">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="690" y="164" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1582632707081" />
-    <state width="1865" height="317" key="GridCell.Tab.0.bottom" timestamp="1582632731975">
+    <state x="92" y="92" width="1736" height="896" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586098978987" />
+    <state x="690" y="164" key="FileChooserDialogImpl" timestamp="1586525161001">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="317" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582632731975" />
-    <state width="1865" height="317" key="GridCell.Tab.0.center" timestamp="1582632731975">
+    <state x="690" y="164" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1586525161001" />
+    <state width="1865" height="306" key="GridCell.Tab.0.bottom" timestamp="1585578678383">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="317" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582632731975" />
-    <state width="1865" height="317" key="GridCell.Tab.0.left" timestamp="1582632731975">
+    <state width="1865" height="306" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1585578678383" />
+    <state width="1865" height="306" key="GridCell.Tab.0.center" timestamp="1585578678383">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="317" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582632731975" />
-    <state width="1865" height="317" key="GridCell.Tab.0.right" timestamp="1582632731975">
+    <state width="1865" height="306" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1585578678383" />
+    <state width="1865" height="306" key="GridCell.Tab.0.left" timestamp="1585578678383">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="317" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582632731975" />
-    <state width="1865" height="317" key="GridCell.Tab.1.bottom" timestamp="1582632731975">
+    <state width="1865" height="306" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1585578678383" />
+    <state width="1865" height="306" key="GridCell.Tab.0.right" timestamp="1585578678383">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="317" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582632731975" />
-    <state width="1865" height="317" key="GridCell.Tab.1.center" timestamp="1582632731975">
+    <state width="1865" height="306" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1585578678383" />
+    <state width="1865" height="317" key="GridCell.Tab.1.bottom" timestamp="1583939008841">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="317" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582632731975" />
-    <state width="1865" height="317" key="GridCell.Tab.1.left" timestamp="1582632731975">
+    <state width="1865" height="317" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1583939008841" />
+    <state width="1865" height="317" key="GridCell.Tab.1.center" timestamp="1583939008841">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="317" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582632731975" />
-    <state width="1865" height="317" key="GridCell.Tab.1.right" timestamp="1582632731975">
+    <state width="1865" height="317" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1583939008841" />
+    <state width="1865" height="317" key="GridCell.Tab.1.left" timestamp="1583939008841">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="317" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582632731975" />
+    <state width="1865" height="317" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1583939008841" />
+    <state width="1865" height="317" key="GridCell.Tab.1.right" timestamp="1583939008841">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1865" height="317" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1583939008841" />
     <state x="532" y="170" key="NewModule_or_Project.wizard" timestamp="1582448437699">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="532" y="170" key="NewModule_or_Project.wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1582448437699" />
-    <state x="312" y="10" key="SettingsEditor" timestamp="1582448552152">
+    <state x="312" y="10" key="SettingsEditor" timestamp="1586525177063">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="312" y="10" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1582448552152" />
+    <state x="312" y="10" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1586525177063" />
     <state x="658" y="356" key="cloudConfig.SelfSettingsDialog" timestamp="1579599538900">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -357,10 +469,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="642" y="109" key="refactoring.ChangeSignatureDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581908429208" />
-    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1582528519410">
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1584367401031">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1582528519410" />
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1584367401031" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
