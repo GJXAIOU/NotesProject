@@ -6,7 +6,7 @@ import static java.lang.Character.isLetter;
  * @author GJXAIOU
  * @create 2019-08-28-14:09
  */
-public class LeetCode125_Valid_Palindrome {
+public class LeetCode125 {
     public boolean isPalindrome(String s) {
         if (s.trim().length() == 0 || s.trim() == null || s.trim().length() == 1) {
             return true;

@@ -4,7 +4,7 @@ package array.medium;
  * @author GJXAIOU
  * @create 2019-08-28-19:20
  */
-public class LeetCode209Minimum_Size_Subarray_Sum {
+public class LeetCode209 {
     public int minSubArrayLen(int s, int[] nums) {
         // 保证初始状态下滑动窗口长度 [left...right] 为空
         int left = 0;
