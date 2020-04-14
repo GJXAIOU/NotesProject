@@ -67,20 +67,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab6d1f10-35be-4dac-9f15-171a52712f87" name="Default Changelist" comment="Add LeetCode 94/155/2/19/138/148/328 code">
-      <change afterPath="$PROJECT_DIR$/src/main/java/nowcoder/realQuestion/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nowcoder/realQuestion/netease/From2020xiaozhao1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode690.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode733.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/Offer59I.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array/medium/Offer45.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array/medium/Offer56I.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/string/easy/Offer58I.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/string/medium/LeetCode394.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/easy/LeetCode257.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day01/GetMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day01/GetMax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day02/SlidingWindowMaxArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day02/SlidingWindowMaxArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day06/CardsInLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day06/CardsInLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day06/Code_04_LongestSumSubArrayLengthInPositiveArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day06/Code_05_LongestSubarrayLessSumAwesomeSolution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day06/Code_06_JosephusProblem.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day06/CoinsWay.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day06/CoinsWay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day06/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day06/Robot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day08/Code_01_TopKSumCrossTwoArrays.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day08/MinPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day08/MinPath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day08/MoneyProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day08/MoneyProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JVM/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JVM/src/main/java/com/gjxaiou/gc/FinalizeEscapeGC.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM/src/main/java/com/gjxaiou/gc/FinalizeEscapeGC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JVM/src/main/java/com/gjxaiou/gc/ReferenceCountingGC.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM/src/main/java/com/gjxaiou/gc/ReferenceCountingGC.java" afterDir="false" />
@@ -98,15 +102,9 @@
       <change beforePath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/singleton/SingletonExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/singleton/SingletonExample1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/singleton/SingletonExample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/singleton/SingletonExample2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/sync/SynchronizedExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/sync/SynchronizedExample1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Offer10II.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Offer10II.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/Offer21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/Offer21.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/Offer40.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/Offer40.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/Offer57II.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/Offer57II.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/list/easy/Offer52.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/easy/Offer52.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nowcoder/huawei/Huawei4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nowcoder/huawei/Huawei4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/string/medium/LeetCode3_Longest_Substring_Without_Repeating_Characters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string/medium/LeetCode3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../VideoClass/ThinkingInJava4Code" beforeDir="false" afterPath="$PROJECT_DIR$/../VideoClass/ThinkingInJava4Code" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../o2o/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../o2o/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/.idea/vcs.xml" afterDir="false" />
@@ -177,13 +175,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Algorithm" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20091848" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/src/main/java/nowcoder/huawei/realQuestion" />
   </component>
   <component name="RecentsManager">
@@ -194,35 +192,9 @@
       <recent name="E:\Program\Java\Project\LeetCode\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Offer10II">
+  <component name="RunManager" selected="Application.Main2">
     <configuration name="Huawei2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="nowcoder.huawei.Huawei2" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="nowcoder.huawei.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Huawei32" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nowcoder.huawei.Huawei32" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="nowcoder.huawei.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Huawei37" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nowcoder.huawei.Huawei37" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -247,6 +219,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.easy.Main1" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.easy.Main2" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Offer10II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Offer10II" />
       <module name="LeetCode" />
@@ -256,11 +254,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.Main1" />
         <item itemvalue="Application.Offer10II" />
         <item itemvalue="Application.Huawei4" />
         <item itemvalue="Application.Huawei2" />
-        <item itemvalue="Application.Huawei32" />
-        <item itemvalue="Application.Huawei37" />
       </list>
     </recent_temporary>
   </component>
@@ -333,7 +331,11 @@
       <workItem from="1584366580172" duration="805000" />
       <workItem from="1585575010256" duration="2736000" />
       <workItem from="1586098829800" duration="570000" />
-      <workItem from="1586519935265" duration="9683000" />
+      <workItem from="1586519935265" duration="9920000" />
+      <workItem from="1586610661645" duration="2147000" />
+      <workItem from="1586657654895" duration="9715000" />
+      <workItem from="1586696514054" duration="8084000" />
+      <workItem from="1586779126899" duration="19605000" />
     </task>
     <servers />
   </component>
@@ -350,6 +352,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -377,10 +380,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="801" y="375" key="#Notifications/0.0.1920.1080@0.0.1920.1080" timestamp="1586525119252" />
-    <state x="452" y="120" key="#Project_Structure" timestamp="1584366599168">
+    <state x="452" y="22" key="#Project_Structure" timestamp="1586701512568">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="452" y="120" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1584366599168" />
+    <state x="452" y="22" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1586701512568" />
     <state x="414" y="192" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580457933559">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -401,54 +404,58 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="374" y="70" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1580479328500" />
-    <state x="92" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1586098978987">
+    <state x="92" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1586868762998">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="92" y="92" width="1736" height="896" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586098978987" />
-    <state x="690" y="164" key="FileChooserDialogImpl" timestamp="1586525161001">
+    <state x="92" y="92" width="1736" height="896" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586868762998" />
+    <state x="690" y="164" key="FileChooserDialogImpl" timestamp="1586782205974">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="690" y="164" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1586525161001" />
-    <state width="1865" height="306" key="GridCell.Tab.0.bottom" timestamp="1585578678383">
+    <state x="690" y="164" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1586782205974" />
+    <state width="1867" height="271" key="GridCell.Tab.0.bottom" timestamp="1586866889822">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="306" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1585578678383" />
-    <state width="1865" height="306" key="GridCell.Tab.0.center" timestamp="1585578678383">
+    <state width="1867" height="271" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586866889822" />
+    <state width="1867" height="271" key="GridCell.Tab.0.center" timestamp="1586866889822">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="306" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1585578678383" />
-    <state width="1865" height="306" key="GridCell.Tab.0.left" timestamp="1585578678383">
+    <state width="1867" height="271" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586866889822" />
+    <state width="1867" height="271" key="GridCell.Tab.0.left" timestamp="1586866889822">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="306" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1585578678383" />
-    <state width="1865" height="306" key="GridCell.Tab.0.right" timestamp="1585578678383">
+    <state width="1867" height="271" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586866889822" />
+    <state width="1867" height="271" key="GridCell.Tab.0.right" timestamp="1586866889822">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="306" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1585578678383" />
-    <state width="1865" height="317" key="GridCell.Tab.1.bottom" timestamp="1583939008841">
+    <state width="1867" height="271" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586866889822" />
+    <state width="1867" height="336" key="GridCell.Tab.1.bottom" timestamp="1586780161988">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="317" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1583939008841" />
-    <state width="1865" height="317" key="GridCell.Tab.1.center" timestamp="1583939008841">
+    <state width="1867" height="336" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586780161988" />
+    <state width="1867" height="336" key="GridCell.Tab.1.center" timestamp="1586780161988">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="317" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1583939008841" />
-    <state width="1865" height="317" key="GridCell.Tab.1.left" timestamp="1583939008841">
+    <state width="1867" height="336" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586780161988" />
+    <state width="1867" height="336" key="GridCell.Tab.1.left" timestamp="1586780161988">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="317" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1583939008841" />
-    <state width="1865" height="317" key="GridCell.Tab.1.right" timestamp="1583939008841">
+    <state width="1867" height="336" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586780161988" />
+    <state width="1867" height="336" key="GridCell.Tab.1.right" timestamp="1586780161988">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="317" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1583939008841" />
+    <state width="1867" height="336" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586780161988" />
+    <state x="374" y="111" key="Maven.ArtifactSearchDialog" timestamp="1586779940698">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="374" y="111" key="Maven.ArtifactSearchDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586779940698" />
     <state x="532" y="170" key="NewModule_or_Project.wizard" timestamp="1582448437699">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="532" y="170" key="NewModule_or_Project.wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1582448437699" />
-    <state x="312" y="10" key="SettingsEditor" timestamp="1586525177063">
+    <state x="312" y="10" key="SettingsEditor" timestamp="1586866371500">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="312" y="10" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1586525177063" />
+    <state x="312" y="10" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1586866371500" />
     <state x="658" y="356" key="cloudConfig.SelfSettingsDialog" timestamp="1579599538900">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -457,6 +464,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="697" y="444" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1581927952498" />
+    <state x="384" y="204" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1586780113017">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="384" y="204" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1080@0.0.1920.1080" timestamp="1586780113017" />
     <state x="13" y="220" key="new project wizard" timestamp="1582462369516">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -478,19 +489,44 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/string/easy/LeetCode125_Valid_Palindrome.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/string/easy/LeetCode125.java</url>
           <line>22</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/string/easy/LeetCode125_Valid_Palindrome.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/string/easy/LeetCode125.java</url>
           <line>19</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/string/easy/LeetCode125_Valid_Palindrome.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/string/easy/LeetCode125.java</url>
           <line>27</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/string/easy/Offer58I.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/string/easy/Offer58I.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/string/easy/Offer58I.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/string/easy/Offer58I.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/string/easy/Offer58I.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

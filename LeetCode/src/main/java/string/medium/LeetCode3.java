@@ -7,7 +7,7 @@ import java.util.Map;
  * @author GJXAIOU
  * @create 2019-09-01-19:11
  */
-public class LeetCode3_Longest_Substring_Without_Repeating_Characters {
+public class LeetCode3 {
     public int lengthOfLongestSubstring(String s) {
         int[] freq = new int[256];
         // 初始滑动窗口大小为：s[left....right]，初始化为空窗口
