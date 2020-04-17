@@ -1,11 +1,35 @@
 package array.medium;
 
+import org.junit.jupiter.api.Test;
+
 /**
  * @author GJXAIOU
  * @create 2020/04/12 13:54
  */
 public class Offer47 {
+    // 方法一：DFS
+    // 这里没有限定只能访问一次,所以不必要使用 boolean[][] visited;
     public int maxValue(int[][] grid) {
+        int cow = grid.length;
+        int column = grid[0].length;
+
+        return dfs(grid, 0, 0, cow, column, 0);
+    }
+
+
+    public static int dfs(int[][] grid, int i, int j, int cow, int column, int res) {
+        if (i >= cow || j >= column) {
+            return res;
+        }
+        res += grid[i][j];
+        return Math.max(dfs(grid, i + 1, j, cow, column, res),
+                dfs(grid, i, j + 1, cow, column, res));
+        // 因为是 DFS，不是回溯，所有不用恢复
+    }
+
+
+    // 方法二：动态规划
+    public int maxValue2(int[][] grid) {
         return dp(grid, 0, 0);
     }
 

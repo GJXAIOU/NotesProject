@@ -1,5 +1,8 @@
 package array.medium;
 
+import java.util.Arrays;
+import java.util.Comparator;
+
 /**
  * @author GJXAIOU
  * @create 2020/04/13 12:54
@@ -11,7 +14,6 @@ public class Offer45 {
         for (int i = 0; i < nums.length; i++)
             copyNums[i] = String.valueOf(nums[i]);
         // 对复制之后的数组进行排序
-        // 可以使用内置排序：Arrays.sort(copyNums, (x, y) -> (x + y).compareTo(y + x)); 代替 fastSort
         fastSort(copyNums, 0, copyNums.length - 1);
         StringBuilder res = new StringBuilder();
         for (String s : copyNums)
@@ -41,6 +43,28 @@ public class Offer45 {
         strArray[left] = tmp;
         fastSort(strArray, left, i - 1);
         fastSort(strArray, i + 1, right);
+    }
+
+    // 方法二：
+    public String minNumber2(int[] nums) {
+        String[] copyNums = new String[nums.length];
+        for (int i = 0; i < nums.length; i++)
+            copyNums[i] = String.valueOf(nums[i]);
+        // 对复制之后的数组进行排序
+        // 可以使用内置排序：Arrays.sort(copyNums, (x, y) -> (x + y).compareTo(y + x)); 代替 fastSort
+        Arrays.sort(copyNums, new MyComparator());
+        StringBuilder res = new StringBuilder();
+        for (String s : copyNums)
+            res.append(s);
+        return res.toString();
+    }
+
+    class MyComparator implements Comparator<String> {
+
+        @Override
+        public int compare(String o1, String o2) {
+            return (o1 + o2).compareTo(o2 + o1);
+        }
     }
 }
 
