@@ -69,56 +69,8 @@ public class CoinsWay {
     }
 
 
-
-// 方法三： index 值从 arr.length - 1 开始；
-    public static int coinsOther(int[] arr, int aim) {
-        if (arr == null || arr.length == 0 || aim < 0) {
-            return 0;
-        }
-        return processOther(arr, arr.length - 1, aim);
-    }
-
-    public static int processOther(int[] arr, int index, int aim) {
-        int res = 0;
-        if (index == -1) {
-            res = aim == 0 ? 1 : 0;
-        } else {
-            for (int i = 0; arr[index] * i <= aim; i++) {
-                res += processOther(arr, index - 1, aim - arr[index] * i);
-            }
-        }
-        return res;
-    }
-
-
+    // 方法三：使用动态规划
     public static int coins3(int[] arr, int aim) {
-        if (arr == null || arr.length == 0 || aim < 0) {
-            return 0;
-        }
-        int[][] map = new int[arr.length + 1][aim + 1];
-        return process3(arr, 0, aim, map);
-    }
-
-    public static int process3(int[] arr, int index, int aim, int[][] map) {
-        int res = 0;
-        if (index == arr.length) {
-            res = aim == 0 ? 1 : 0;
-        } else {
-            int mapValue = 0;
-            for (int i = 0; arr[index] * i <= aim; i++) {
-                mapValue = map[index + 1][aim - arr[index] * i];
-                if (mapValue != 0) {
-                    res += mapValue == -1 ? 0 : mapValue;
-                } else {
-                    res += process3(arr, index + 1, aim - arr[index] * i, map);
-                }
-            }
-        }
-        map[index][aim] = res == 0 ? -1 : res;
-        return res;
-    }
-
-    public static int coins4(int[] arr, int aim) {
         if (arr == null || arr.length == 0 || aim < 0) {
             return 0;
         }
@@ -142,7 +94,8 @@ public class CoinsWay {
         return dp[arr.length - 1][aim];
     }
 
-    public static int coins5(int[] arr, int aim) {
+    // 方法五：动态规划优化
+    public static int coins4(int[] arr, int aim) {
         if (arr == null || arr.length == 0 || aim < 0) {
             return 0;
         }
@@ -162,7 +115,8 @@ public class CoinsWay {
         return dp[arr.length - 1][aim];
     }
 
-    public static int coins6(int[] arr, int aim) {
+    // 使用一维 DP 数组
+    public static int coins5(int[] arr, int aim) {
         if (arr == null || arr.length == 0 || aim < 0) {
             return 0;
         }
@@ -178,6 +132,8 @@ public class CoinsWay {
         return dp[aim];
     }
 
+
+    ////////////////////////////// 测试程序 //////////////////////////////////
     public static void main(String[] args) {
         int[] coins = {10, 5, 1, 25};
         int aim = 2000;
@@ -187,34 +143,29 @@ public class CoinsWay {
         start = System.currentTimeMillis();
         System.out.println(coins1(coins, aim));
         end = System.currentTimeMillis();
-        System.out.println("cost time : " + (end - start) + "(ms)");
+        System.out.println("暴力递归 cost time : " + (end - start) + "(ms)");
 
         start = System.currentTimeMillis();
-        System.out.println(coinsOther(coins, aim));
+        System.out.println(coins2(coins, aim));
         end = System.currentTimeMillis();
-        System.out.println("cost time : " + (end - start) + "(ms)");
+        System.out.println("缓存值 cost time : " + (end - start) + "(ms)");
 
         aim = 2000;
 
         start = System.currentTimeMillis();
         System.out.println(coins3(coins, aim));
         end = System.currentTimeMillis();
-        System.out.println("cost time : " + (end - start) + "(ms)");
+        System.out.println("DP cost time : " + (end - start) + "(ms)");
 
         start = System.currentTimeMillis();
         System.out.println(coins4(coins, aim));
         end = System.currentTimeMillis();
-        System.out.println("cost time : " + (end - start) + "(ms)");
+        System.out.println("优化 DP cost time : " + (end - start) + "(ms)");
 
         start = System.currentTimeMillis();
         System.out.println(coins5(coins, aim));
         end = System.currentTimeMillis();
-        System.out.println("cost time : " + (end - start) + "(ms)");
-
-        start = System.currentTimeMillis();
-        System.out.println(coins6(coins, aim));
-        end = System.currentTimeMillis();
-        System.out.println("cost time : " + (end - start) + "(ms)");
+        System.out.println("一维 DP cost time : " + (end - start) + "(ms)");
 
     }
 

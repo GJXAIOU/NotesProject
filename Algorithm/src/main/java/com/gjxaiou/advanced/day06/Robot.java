@@ -15,7 +15,7 @@ public class Robot {
      * @return 一共有多少中走法
      * 变量分析，初始位置和最终停留位置是确定的，所有可变参数为： curPosition 和 restSteps
      */
-    public static int ways(int N, int curPosition, int restSteps, int K) {
+    public static int ways1(int N, int curPosition, int restSteps, int K) {
         // 取出一些不可能的情况
         if (N < 2 || curPosition < 1 || curPosition > N || restSteps < 0 || K < 1 || K > N) {
             return 0;
@@ -27,14 +27,42 @@ public class Robot {
         int res = 0;
         // 只能往右走了
         if (curPosition == 1) {
-            res = ways(N, curPosition + 1, restSteps - 1, K);
+            res = ways1(N, curPosition + 1, restSteps - 1, K);
             // 到达最右边了，只能往左走
         } else if (curPosition == N) {
-            res += ways(N, curPosition - 1, restSteps - 1, K);
+            res += ways1(N, curPosition - 1, restSteps - 1, K);
         } else {
-            res += ways(N, curPosition + 1, restSteps - 1, K) + ways(N, curPosition - 1,
+            res += ways1(N, curPosition + 1, restSteps - 1, K) + ways1(N, curPosition - 1,
                     restSteps - 1, K);
         }
         return res;
+    }
+
+
+    // DP
+    public static int ways2(int N, int curPosition, int restSteps, int k) {
+        int[][] dp = new int[N + 1][restSteps + 1];
+        // 赋 base case 值
+        dp[k][0] = 1;
+        // 填表，这里是一列一列填，不是一行一行
+        for (int j = 1; j <= restSteps; j++) {
+            // j 从 1 开始，因为 0 列已经赋值结束了
+            for (int i = 1; i <= N; i++) {
+                if (i == 1) {
+                    dp[i][j] = dp[i + 1][j - 1];
+                } else if (i == N) {
+                    dp[i][j] = dp[i - 1][j - 1];
+                } else {
+                    dp[i][j] = dp[i - 1][j - 1] + dp[i + 1][j - 1];
+                }
+            }
+        }
+        return dp[curPosition][restSteps];
+    }
+
+
+    public static void main(String[] args) {
+        System.out.println(Robot.ways1(5, 2, 3, 3));
+        System.out.println(Robot.ways2(5, 2, 3, 3));
     }
 }

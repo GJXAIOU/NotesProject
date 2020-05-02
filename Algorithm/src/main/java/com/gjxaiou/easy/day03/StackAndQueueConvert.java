@@ -75,7 +75,7 @@ public class StackAndQueueConvert {
             data.add(pushInt);
         }
 
-        // 实现弹出一个数
+        // 实现弹出一个数，======重点=======
         public int pop() {
             if (data.isEmpty()) {
                 throw new RuntimeException("Stack is empty!");

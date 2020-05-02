@@ -16,7 +16,7 @@ public class LongestPathSum {
 
     public static int getMaxLength(Node head, int sum) {
         HashMap<Integer, Integer> sumMap = new HashMap<Integer, Integer>();
-        sumMap.put(0, 0); // important
+        sumMap.put(0, 0);
         return preOrder(head, sum, 0, 1, 0, sumMap);
     }
 
@@ -26,11 +26,11 @@ public class LongestPathSum {
             return maxLen;
         }
         int curSum = preSum + head.value;
-        //保证level为最早出现这个累加和的层数
+        // 保证 level 为最早出现这个累加和的层数
         if (!sumMap.containsKey(curSum)) {
             sumMap.put(curSum, level);
         }
-        //求解以每个节点结尾的情况下，累加和为规定值的最长路径长度，更新最大路径长度
+        // 求解以每个节点结尾的情况下，累加和为规定值的最长路径长度，更新最大路径长度
         if (sumMap.containsKey(curSum - sum)) {
             maxLen = Math.max(level - sumMap.get(curSum - sum), maxLen);
         }
@@ -43,6 +43,7 @@ public class LongestPathSum {
         }
         return maxLen;
     }
+
 
     // for test -- print tree
     public static void printTree(Node head) {
@@ -89,6 +90,4 @@ public class LongestPathSum {
         System.out.println(getMaxLength(head, -9));
 
     }
-
-
 }

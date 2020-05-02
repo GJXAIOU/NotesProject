@@ -15,6 +15,7 @@ public class MergeSort {
         mergeSort(sourceArray, 0, sourceArray.length - 1);
     }
 
+
     public static void mergeSort(int[] sourceArray, int left, int right) {
         if (left == right) {
             return;

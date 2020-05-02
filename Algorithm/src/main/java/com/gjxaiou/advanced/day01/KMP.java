@@ -5,43 +5,44 @@ package com.gjxaiou.advanced.day01;
  */
 public class KMP {
 
-    public static int getIndexOf(String s, String m) {
-        if (s == null || m == null || m.length() < 1 || s.length() < m.length()) {
+    public static int getIndexOf(String str, String match) {
+        if (str == null || match == null || match.length() < 1 || str.length() < match.length()) {
             return -1;
         }
-        char[] ss = s.toCharArray();
-        char[] ms = m.toCharArray();
-        int si = 0;
-        int mi = 0;
-        int[] next = getNextArray(ms);
-        while (si < ss.length && mi < ms.length) {
-            if (ss[si] == ms[mi]) {
-                si++;
-                mi++;
-                // 数组中值等于 -1 ，说明是第一个元素，说明当前 str1  中值连 str2 第一个字母都匹配不上，则直接从 str1 的下一个开始进行匹配
-            } else if (next[mi] == -1) {
-                si++;
+        char[] strArray = str.toCharArray();
+        char[] matchArray = match.toCharArray();
+        int strIndex = 0;
+        int matchIndex = 0;
+        int[] next = getNextArray(matchArray);
+        while ((strIndex < strArray.length) && (matchIndex < matchArray.length)) {
+            if (strArray[strIndex] == matchArray[matchIndex]) {
+                strIndex++;
+                matchIndex++;
+                // 数组中值等于 -1 ，说明是第一个元素，说明当前 str 中值连 match 第一个字母都匹配不上，则直接从 str 的下一个开始进行匹配
+            } else if (next[matchIndex] == -1) {
+                strIndex++;
             } else {
-                mi = next[mi];
+                matchIndex = next[matchIndex];
             }
         }
-        return mi == ms.length ? si - mi : -1;
+        return (matchIndex == matchArray.length) ? strIndex - matchIndex : -1;
     }
 
     // 求解 next 数组方法
-    public static int[] getNextArray(char[] ms) {
-        if (ms.length == 1) {
+    public static int[] getNextArray(char[] match) {
+        if (match.length == 1) {
             return new int[]{-1};
         }
-        int[] next = new int[ms.length];
+        int[] next = new int[match.length];
         next[0] = -1;
         next[1] = 0;
-        // 需要求值的位置
+        // 从第二个位置开始求值
         int pos = 2;
         int cn = 0;
         while (pos < next.length) {
-            if (ms[pos - 1] == ms[cn]) {
-                next[pos++] = ++cn;
+            if (match[pos - 1] == match[cn]) {
+                next[pos] = ++cn;
+                pos++;
             } else if (cn > 0) {
                 cn = next[cn];
             } else {
@@ -55,7 +56,5 @@ public class KMP {
         String str = "abcabcababaccc";
         String match = "ababa";
         System.out.println(getIndexOf(str, match));
-
     }
-
 }

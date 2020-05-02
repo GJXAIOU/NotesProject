@@ -22,9 +22,7 @@ public class IsBSTAndCBT {
 
     /**
      * 判断是否为搜索二叉树
-     *
-     * @param head
-     * @return true ? false
+     * 方法：中序遍历为递增
      */
     public static boolean isBST(Node head) {
         if (head == null) {
@@ -62,9 +60,6 @@ public class IsBSTAndCBT {
 
     /**
      * 判断是否为完全二叉树
-     *
-     * @param head
-     * @return
      */
     public static boolean isCBT(Node head) {
         if (head == null) {
@@ -96,7 +91,8 @@ public class IsBSTAndCBT {
         return true;
     }
 
-    // 打印二叉树
+
+    // 测试程序：打印二叉树
     public static void printTree(Node head) {
         System.out.println("Binary Tree:");
         printInOrder(head, 0, "H", 17);

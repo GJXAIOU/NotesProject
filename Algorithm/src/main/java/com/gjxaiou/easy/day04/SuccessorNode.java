@@ -37,6 +37,7 @@ public class SuccessorNode {
         }
     }
 
+    // 获取以该结点为根节点的树上最左的结点
     public static Node getLeftMost(Node node) {
         if (node == null) {
             return node;
@@ -47,6 +48,7 @@ public class SuccessorNode {
         return node;
     }
 
+    // 测试程序
     public static void main(String[] args) {
         Node head = new Node(6);
         head.parent = null;

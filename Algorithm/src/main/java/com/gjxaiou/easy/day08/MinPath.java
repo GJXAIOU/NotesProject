@@ -9,6 +9,7 @@ public class MinPath {
     // i 表示当前位置的行号，j 表示当前位置的列号；函数表示从 (i，j) 出发到达最右下角位置，最小路径和是多少（并且返回）
     public static int process1(int[][] matrix, int i, int j) {
         int res = matrix[i][j];
+        // 因为开始位置就是结尾，所以到（0,0） 位置时候就是结果了。
         if (i == 0 && j == 0) {
             return res;
         }

@@ -4,7 +4,6 @@ import java.util.Stack;
 
 /**
  * 递归版和非递归版本的先序、中序、后序遍历
- *
  * @author GJXAIOU
  */
 public class PreInPosTraversal {
@@ -22,7 +21,7 @@ public class PreInPosTraversal {
     /**
      * 递归版本实现先序、中序、后序遍历，唯一变化就是 print() 函数位置不同。
      */
-    // 先序遍历：中、左、右
+    // 先序遍历：中（当前节点）、左、右
     public static void preOrderRecur(Node head) {
         if (head == null) {
             return;
@@ -32,7 +31,7 @@ public class PreInPosTraversal {
         preOrderRecur(head.right);
     }
 
-    // 中序遍历：左、中、右
+    // 中序遍历：左、中（当前结点）、右
     public static void inOrderRecur(Node head) {
         if (head == null) {
             return;
@@ -42,7 +41,7 @@ public class PreInPosTraversal {
         inOrderRecur(head.right);
     }
 
-    // 后序遍历：左、右、中
+    // 后序遍历：左、右、中（当前结点）
     public static void posOrderRecur(Node head) {
         if (head == null) {
             return;
@@ -55,15 +54,14 @@ public class PreInPosTraversal {
 
     /**
      * 非递归版本实现先序、中序、后序遍历
-     *
-     * @param head
      */
+    // 非递归版本实现先序遍历
     public static void preOrderUnRecur(Node head) {
         System.out.print("pre-order: ");
         if (head != null) {
             // 准备一个栈
             Stack<Node> stack = new Stack<Node>();
-            // 放入头结点
+            // 首先放入头结点
             stack.add(head);
             while (!stack.isEmpty()) {
                 head = stack.pop();
@@ -79,6 +77,7 @@ public class PreInPosTraversal {
         System.out.println();
     }
 
+    // 非递归方式实现中序遍历
     public static void inOrderUnRecur(Node head) {
         System.out.print("in-order: ");
         if (head != null) {
@@ -99,7 +98,7 @@ public class PreInPosTraversal {
         System.out.println();
     }
 
-    // 后序遍历：先使用中左右的顺序将元素压入栈中，然后遍历栈弹出即可
+    // 后序遍历方式一：先使用中左右的顺序将元素压入栈中，然后遍历栈弹出即可
     public static void posOrderUnRecur1(Node head) {
         System.out.print("pos-order: ");
         if (head != null) {
@@ -118,6 +117,7 @@ public class PreInPosTraversal {
                     stack1.push(head.right);
                 }
             }
+
             // 逐个弹出栈 stack2 中元素即为左、右、中顺序
             while (!stack2.isEmpty()) {
                 System.out.print(stack2.pop().value + " ");
@@ -126,7 +126,7 @@ public class PreInPosTraversal {
         System.out.println();
     }
 
-    // 另一种实现后续：使用一个栈
+    // 后续遍历方式二：使用一个栈
     // head 表示最近被打印的结点
     public static void posOrderUnRecur2(Node head) {
         System.out.print("pos-order: ");
@@ -167,7 +167,7 @@ public class PreInPosTraversal {
         head.right.right.left = new Node(9);
         head.right.right.right = new Node(11);
 
-        // recursive
+        // 递归版本
         System.out.println("==============递归版本==============");
         System.out.print("pre-order: ");
         preOrderRecur(head);
@@ -179,7 +179,7 @@ public class PreInPosTraversal {
         posOrderRecur(head);
         System.out.println();
 
-        // unRecursive
+        // 非递归版本
         System.out.println("============非递归版本=============");
         preOrderUnRecur(head);
         inOrderUnRecur(head);

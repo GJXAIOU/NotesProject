@@ -9,18 +9,19 @@ public class ShortestHaveTwice {
         if (str == null || str.length() == 0) {
             return "";
         }
-        char[] chas = str.toCharArray();
-        if (chas.length == 1) {
+        char[] strArray = str.toCharArray();
+        if (strArray.length == 1) {
             return str + str;
         }
-        if (chas.length == 2) {
-            return chas[0] == chas[1] ? (str + String.valueOf(chas[0])) : (str + str);
+        if (strArray.length == 2) {
+            return strArray[0] == strArray[1] ? (str + String.valueOf(strArray[0])) : (str + str);
         }
-        int endNext = endNextLength(chas);
+        int endNext = endNextLength(strArray);
         return str + str.substring(endNext);
     }
 
     public static int endNextLength(char[] chas) {
+        // 多求一位
         int[] next = new int[chas.length + 1];
         next[0] = -1;
         next[1] = 0;
@@ -53,7 +54,5 @@ public class ShortestHaveTwice {
 
         String test5 = "abracadabra";
         System.out.println(answer(test5));
-
     }
-
 }
