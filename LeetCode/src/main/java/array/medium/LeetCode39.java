@@ -23,6 +23,7 @@ public class LeetCode39 {
     /**
      * @param candidates 候选数组
      * @param index      已经遍历到的位置
+     * @param tempQueue  双端队列
      * @param resList    结果
      * @param sum        到当前位置的所有和
      * @param target
@@ -86,5 +87,6 @@ public class LeetCode39 {
             path.removeLast();
 
         }
+
     }
 }

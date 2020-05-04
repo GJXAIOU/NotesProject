@@ -30,14 +30,22 @@ public class LeetCode15 {
                 int sum = nums[k] + nums[i] + nums[j];
                 if (sum < 0) {
                     // sum < 0 则 i 值一直往右（并且排除所有想等值的情况）
-                    while (i < j && nums[i] == nums[++i]) ;
+                    while (i < j && nums[i] == nums[++i]) {
+                        ;
+                    }
                 } else if (sum > 0) {
                     // sum > 0 则 j 值往左
-                    while (i < j && nums[j] == nums[--j]) ;
+                    while (i < j && nums[j] == nums[--j]) {
+                        ;
+                    }
                 } else {
                     res.add(new ArrayList<Integer>(Arrays.asList(nums[k], nums[i], nums[j])));
-                    while (i < j && nums[i] == nums[++i]) ;
-                    while (i < j && nums[j] == nums[--j]) ;
+                    while (i < j && nums[i] == nums[++i]) {
+                        ;
+                    }
+                    while (i < j && nums[j] == nums[--j]) {
+                        ;
+                    }
                 }
             }
         }
