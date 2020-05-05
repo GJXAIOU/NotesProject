@@ -85,8 +85,6 @@ public class LeetCode39 {
             path.addLast(candidates[i]);
             dfs(candidates, len, remainTarget - candidates[i], i, path, res);
             path.removeLast();
-
         }
-
     }
 }

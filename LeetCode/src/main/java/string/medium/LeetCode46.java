@@ -30,12 +30,50 @@ public class LeetCode46 {
             resList.add(new ArrayList<>(tempList));
         }
         for (int i = 0; i < nums.length; i++) {
-            if (usedNum[i] != -1){
+            if (usedNum[i] != -1) {
                 tempList.add(nums[i]);
                 usedNum[i] = -1;
-                sort(nums,length,usedCount + 1,resList);
+                sort(nums, length, usedCount + 1, resList);
                 usedNum[i] = 0;
             }
         }
     }
+
+
+    // 方法二：
+    List<List<Integer>> resList = new ArrayList<>();
+
+    public List<List<Integer>> permute2(int[] nums) {
+
+        if (nums.length == 0) {
+            return resList;
+        }
+        boolean[] used = new boolean[nums.length];
+        List<Integer> path = new ArrayList<>();
+        backtrack(nums, used, path);
+        return resList;
+    }
+
+    void backtrack(int[] nums, boolean[] used, List<Integer> path) {
+        if (path.size() == nums.length) {
+            resList.add(new ArrayList<>(path));
+            return;
+        }
+
+        for (int i = 0; i < nums.length; i++) {
+            // 从给定的数中除去用过的，就是当前的选择列表
+            if (!used[i]) {
+                // 做选择
+                path.add(nums[i]);
+                // 设置当前数已经使用过
+                used[i] = true;
+                // 进入下一层
+                backtrack(nums, used, path);
+                used[i] = false;
+                path.remove(path.size() - 1);
+
+            }
+        }
+    }
 }
+
