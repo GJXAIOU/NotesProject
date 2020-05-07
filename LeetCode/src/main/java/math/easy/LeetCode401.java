@@ -1,7 +1,6 @@
 package math.easy;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -10,50 +9,52 @@ import java.util.List;
  */
 public class LeetCode401 {
 
-    List<String> res;
+    List<String> res = new ArrayList<>();
+    // LED 灯，前四个为小时，后六个为分钟
+    int[] value = new int[]{8, 4, 2, 1, 32, 16, 8, 4, 2, 1};
 
     public List<String> readBinaryWatch(int num) {
-        HashMap<Integer, Integer> time;//初始化时间为0:00
-        backtrack(num, 0, time);
+        //判断输入
+        if (num < 0) {
+            return res;
+        }
+        backTrack(num, 0, 0, 0);
         return res;
     }
 
-    HashMap<Integer, Integer> hashmap = {{0, 1}, {1, 2}, {2, 4}, {3, 8}, {4, 1}, {5, 2}, {6, 4},
-            {7, 8}, {8, 16}, {9,
-            32}};
-
-    void backtrack(int num, int start, HashMap<Integer, Integer> time) {
+    public void backTrack(int num, int start, int hour, int minute) {
         if (num == 0) {
-            //判断合法性
-            if (time.first > 11 || time.second > 59) {
+            // 判断时间是否正确
+            if (hour > 11 || minute > 59) {
                 return;
             }
-            String temp_hour = to_string(time.first);
-            String temp_minute = to_string(time.second);
-            // 如果minute只有一位要补0
-            if (temp_minute.size() == 1) {
-                temp_minute.insert(0, "0");
+            StringBuilder tmp = new StringBuilder();
+            //小时
+            tmp.append(hour);
+            tmp.append(":");
+            // 分钟
+            if (minute < 10) {
+                tmp.append(0);
             }
-            //构造格式
-            res.add(temp_hour + ":" + temp_minute);
+            tmp.append(minute);
+            res.add(new String(tmp));
             return;
         }
-
-        for (int i = start; i < 10; i++) {
-            if (time.first > 11 || time.second > 59) {
-                continue;
-            }
-            pair<Integer, Integer> store = time;//保存状态
-            if (i >= 4) {
-                time.second += hash[i];
+        for (int i = start; i < value.length; i++) {
+            // 做选择
+            if (i < 4) {
+                hour += value[i];
             } else {
-                time.first += hash[i];
+                minute += value[i];
             }
-            //进入下一层，注意下一层的start是i+1，即从当前灯的下一盏开始
-            backtrack(num - 1, i + 1, time);
-            time = store;//恢复状态
+            // 进入下一层循环，i + 1,即从当前灯的下一盏开始
+            backTrack(num - 1, i + 1, hour, minute);
+            // 撤销选择
+            if (i < 4) {
+                hour -= value[i];
+            } else {
+                minute -= value[i];
+            }
         }
     }
-
-
 }
