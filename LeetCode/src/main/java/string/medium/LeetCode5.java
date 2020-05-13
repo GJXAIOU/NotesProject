@@ -63,7 +63,6 @@ public class LeetCode5 {
                         maxLen = right - left + 1;
                         maxStart = left;
                         maxEnd = right;
-
                     }
                 }
 
