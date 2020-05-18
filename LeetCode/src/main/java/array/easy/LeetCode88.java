@@ -8,16 +8,13 @@ import java.util.Arrays;
  */
 public class LeetCode88 {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
-        // 思路：首相将 nums1 中原来元素复制到新的数组中，然后双指针分别遍历 nums1 新数组和 nums2 中，那个小哪个就放入 nums1
-        //中，如果有一个遍历结束，则另一个的剩下所有元素都放入 nums1 中。
-
         int[] copyNums1 = new int[m];
         // 将 Nums1 从 0 位置开始复制长度为 m，然后复制到 copyNums1 数组中，从 0 下标开始
         System.arraycopy(nums1, 0, copyNums1, 0, m);
         // 两个指针分别指向 copyNums1 和 nums2 开头
         int p1 = 0;
         int p2 = 0;
-        // i 为 Nums1 下标
+        // i 为 nums1 下标
         int i = 0;
 
         // 当两个数组都有值的时候
@@ -31,10 +28,6 @@ public class LeetCode88 {
             }
             i++;
         }
-        // 上面 while 语句等价于：
-//        while ((p1 < m) && (p2 < n)) {
-//            nums1[i++] = (copyNums1[p1] < nums2[p2]) ? copyNums1[p1++] : nums2[p2++];
-//        }
 
         // 如果有一个到头的时候，则说明另一个没有到头
         // 如果 p1 没有到头，即 p2 到头了
@@ -45,6 +38,7 @@ public class LeetCode88 {
             System.arraycopy(nums2, p2, nums1, p1 + p2, m + n - p1 - p2);
         }
     }
+
 
     // --------- 对数器  ----------
     // 绝对正确的方法

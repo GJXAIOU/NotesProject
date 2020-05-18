@@ -1,10 +1,21 @@
 package array.easy;
 
+import java.util.Arrays;
+
 /**
  * @Author GJXAIOU
  * @Date 2020/1/21 16:24
  */
 public class LeetCode189 {
+    // 方法二：额外数组
+    public void rotate2(int[] nums, int k) {
+        int[] temp = Arrays.copyOf(nums, nums.length);
+        for (int i = 0; i < nums.length; i++) {
+            nums[(i + k) % nums.length] = temp[i];
+        }
+    }
+
+
     public void rotate(int[] nums, int k) {
         // 因为如果 k 比数组长度长的话，倍数就是整个数组翻转的次数，余数就是最终仍要平移的次数；
         k %= nums.length;

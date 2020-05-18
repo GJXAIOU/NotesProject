@@ -25,6 +25,29 @@ public class LeetCode07 {
         return res;
     }
 
+    // 方法二：
+    public int reverse2(int x) {
+        if (x == 0) {
+            return x;
+        }
+        long result = 0;
+        // 转为正数统一出处理，使用 long 类型处理溢出问题。
+        long temp = x > 0 ? x : -x;
+        long pop;
+        while (temp > 0) {
+            pop = temp % 10;
+            result = result * 10 + pop;
+            temp = temp / 10;
+        }
+
+        result = x > 0 ? result : -result;
+
+        if (result >= Integer.MIN_VALUE && result <= Integer.MAX_VALUE) {
+            return (int) result;
+        }
+        return 0;
+    }
+
     //---------- 对数器----------
     // 1. 绝对正确的方法
     public static int absoluteReverse(int x) {

@@ -50,8 +50,24 @@ public class LeetCode53 {
         return leftSubSum + rightSubSum;
     }
 
-    // 方法三：动态规划
+
+    // 方法二：贪心算法
     public int maxSubArray2(int[] nums) {
+        int curSum = nums[0];
+        int maxSum = nums[0];
+
+        for (int i = 1; i < nums.length; ++i) {
+            // 如果 curSum > 0,则说明 curSum 对结果有增益效果，则 curSum 保留并加上当前遍历数字
+            // 反之 则说明 curSum 对结果无增益效果，需要舍弃，则 curSum 直接更新为当前遍历数字
+            curSum = Math.max(nums[i], curSum + nums[i]);
+            maxSum = Math.max(maxSum, curSum);
+        }
+        return maxSum;
+    }
+
+
+    // 方法三：动态规划
+    public int maxSubArray3(int[] nums) {
         int n = nums.length;
         int sum = 0;
         int ans = nums[0];

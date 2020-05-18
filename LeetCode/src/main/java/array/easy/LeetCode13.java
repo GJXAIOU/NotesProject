@@ -24,8 +24,8 @@ public class LeetCode13 {
             char next = s.charAt(i + 1);
             int currentValue = map.get(current);
             int nextValue = map.get(next);
-// 如果当前值小于后面的值，并且后面的值是前面的 5 或者 10 倍，则当前值变为负数加上去
-            if (currentValue < nextValue && (currentValue == nextValue / 5 || currentValue == nextValue / 10)) {
+            // 如果当前值小于后面的值，并且后面的值是前面的 5 或者 10 倍，则当前值变为负数加上去
+            if (currentValue == nextValue / 5 || currentValue == nextValue / 10) {
                 res -= currentValue;
             } else {
                 res += currentValue;

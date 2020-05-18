@@ -1,9 +1,6 @@
 package array.easy;
 
-import org.omg.PortableInterceptor.INACTIVE;
-
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -24,8 +21,7 @@ public class LeetCode118 {
         res.add(rowList);
 
         // 从第 2 行开始就是根据上面一行值计算得到
-        int curLine = 1;
-        for (; curLine < numRows; curLine++) {
+        for (int curLine = 1; curLine < numRows; curLine++) {
             List<Integer> row = new ArrayList<Integer>();
             // 每行的第一个元素为 1
             row.add(1);
@@ -40,18 +36,8 @@ public class LeetCode118 {
             }
             // 每行最后元素也是 1
             row.add(1);
-
             res.add(row);
         }
         return res;
-    }
-
-    public static void main(String[] args) {
-        LeetCode118 leetCode118 = new LeetCode118();
-        List<List<Integer>> generate = leetCode118.generate(10);
-        Iterator<List<Integer>> iterator = generate.iterator();
-        while (iterator.hasNext()) {
-            System.out.println(iterator.next());
-        }
     }
 }

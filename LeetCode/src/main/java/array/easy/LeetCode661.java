@@ -10,23 +10,24 @@ public class LeetCode661 {
             return M;
         }
 
-        int Row = M.length;
-        int Column = M[0].length;
-        int[][] ans = new int[Row][Column];
+        int row = M.length;
+        int column = M[0].length;
+        int[][] ans = new int[row][column];
 
-        for (int r = 0; r < Row; ++r) {
-            for (int c = 0; c < Column; ++c) {
+        for (int i = 0; i < row; ++i) {
+            for (int j = 0; j < column; ++j) {
+                // count 为该元素周围元素个数
                 int count = 0;
                 // 对于数组中每一个元素都访问其周边所有元素
-                for (int nr = r - 1; nr <= r + 1; ++nr) {
-                    for (int nc = c - 1; nc <= c + 1; ++nc) {
-                        if (0 <= nr && nr < Row && 0 <= nc && nc < Column) {
-                            ans[r][c] += M[nr][nc];
+                for (int nr = i - 1; nr <= i + 1; ++nr) {
+                    for (int nc = j - 1; nc <= j + 1; ++nc) {
+                        if (0 <= nr && nr < row && 0 <= nc && nc < column) {
+                            ans[i][j] += M[nr][nc];
                             count++;
                         }
                     }
                 }
-                ans[r][c] /= count;
+                ans[i][j] /= count;
             }
         }
         return ans;

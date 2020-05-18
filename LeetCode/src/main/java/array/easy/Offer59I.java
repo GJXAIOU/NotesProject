@@ -12,9 +12,8 @@ public class Offer59I {
         if (nums == null || k < 1 || nums.length < k) {
             return new int[0];
         }
-        // LinkedList 就是一个标准的双向链表
+
         LinkedList<Integer> maxList = new LinkedList<Integer>();
-        // 生成的结果数组
         int[] res = new int[nums.length - k + 1];
         int index = 0;
         for (int i = 0; i < nums.length; i++) {
@@ -25,7 +24,7 @@ public class Offer59I {
             // 上面一直弹出，直到不符合然后加上当前值。
             maxList.addLast(i);
             // 上面加法是通用的，但是减法是针对该题定制的
-            // 当过期的时候（当窗口形成之后再扩充才算过期）即窗口长度 > k，窗口形成过程中不会过期, i - w表示过期的下标
+            // 当过期的时候（当窗口形成之后再扩充才算过期）即窗口长度 > k，窗口形成过程中不会过期, i - k 表示过期的下标
             if (maxList.peekFirst() == i - k) {
                 maxList.pollFirst();
             }
