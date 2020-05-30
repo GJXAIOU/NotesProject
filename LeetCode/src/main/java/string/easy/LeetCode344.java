@@ -4,7 +4,7 @@ package string.easy;
  * @Author GJXAIOU
  * @Date 2020/2/4 10:10
  */
-public class LeeCode344 {
+public class LeetCode344 {
     // 方法一：双指针
     public void reverseString(char[] s) {
         if (s.length == 0) {

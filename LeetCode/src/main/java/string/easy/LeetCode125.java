@@ -17,7 +17,7 @@ public class LeetCode125 {
         int left = 0;
         int right = inputString.length() - 1;
         while (left <= right) {
-            while (!isLetter(inputString.charAt(left)) && left < inputString.length() - 1 ) {
+            while (!isLetter(inputString.charAt(left)) && left < inputString.length() - 1) {
                 left++;
             }
             while (!isLetter(inputString.charAt(right)) && right > 0) {

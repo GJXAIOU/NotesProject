@@ -11,10 +11,10 @@ public class LeetCode392 {
         }
         char[] sArray = s.toCharArray();
         // 这种变量放在循环外面定义，否认每次开始值都是 -1
-        int j = -1;
+        int index = -1;
         for (int i = 0; i < sArray.length; i++) {
-            j = t.indexOf(sArray[i], j + 1);
-            if (j == -1) {
+            index = t.indexOf(sArray[i], index + 1);
+            if (index == -1) {
                 return false;
             }
         }
@@ -24,8 +24,8 @@ public class LeetCode392 {
     // 方法二：双指针
     public boolean isSubsequence2(String s, String t) {
         int i = 0, j = 0;
-        int m = s.length(), n = t.length();
-        while (i < m && j < n) {
+        int sLength = s.length(), tLength = t.length();
+        while (i < sLength && j < tLength) {
             if (s.indexOf(i) == t.indexOf(j)) {
                 i++;
                 j++;
@@ -33,6 +33,6 @@ public class LeetCode392 {
                 j++;
             }
         }
-        return i == m;
+        return i == sLength;
     }
 }

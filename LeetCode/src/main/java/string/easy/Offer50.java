@@ -43,13 +43,16 @@ public class Offer50 {
 
     // 方法二：Hash 表中存放的是 boolean 值，然后遍历字符串（就可以保证从头开始）
     public char firstUniqChar2(String s) {
-        HashMap<Character, Boolean> dic = new HashMap<>();
+        HashMap<Character, Boolean> resMap = new HashMap<>();
         char[] sc = s.toCharArray();
-        for (char c : sc)
-            dic.put(c, !dic.containsKey(c));
-        for (char c : sc)
-            if (dic.get(c)) return c;
+        for (char c : sc) {
+            resMap.put(c, !resMap.containsKey(c));
+        }
+        for (char c : sc) {
+            if (resMap.get(c)) {
+                return c;
+            }
+        }
         return ' ';
     }
-
 }

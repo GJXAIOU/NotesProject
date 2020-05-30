@@ -32,7 +32,6 @@ public class LeetCode290 {
             }
         }
         return true;
-
     }
 
     // 方法二：
@@ -65,7 +64,7 @@ public class LeetCode290 {
     // 方法三：
     public boolean wordPattern3(String pattern, String str) {
         String[] array = str.split(" ");
-        if(array.length!=pattern.length()){
+        if (array.length != pattern.length()) {
             return false;
         }
         //判断映射后的结果是否相等
