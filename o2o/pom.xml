@@ -208,7 +208,7 @@
       <dependency>
           <groupId>com.thoughtworks.xstream</groupId>
           <artifactId>xstream</artifactId>
-          <version>1.4.9</version>
+          <version>1.4.10-java7</version>
       </dependency>
 <!--    dom4j是一个Java的XML API，类似于jdom，用来读写XML文件的-->
       <!-- https://mvnrepository.com/artifact/org.dom4j/dom4j -->
