@@ -11,8 +11,9 @@ public class LeetCode14 {
         }
         String prefix = strs[0];
         for (int i = 1; i < strs.length; i++) {
-            // 只要后面值和 prefix 不是完全一样
+            // 查找后面值以 prefix 开头
             while (strs[i].indexOf(prefix) != 0) {
+                // 如果不是 prefix 就删除最后元素
                 prefix = prefix.substring(0, prefix.length() - 1);
                 if (prefix.isEmpty()) {
                     return "";

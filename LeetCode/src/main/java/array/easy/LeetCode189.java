@@ -1,6 +1,9 @@
 package array.easy;
 
+import jdk.nashorn.internal.objects.annotations.Where;
+
 import java.util.Arrays;
+import java.util.Collections;
 
 /**
  * @Author GJXAIOU
@@ -33,6 +36,17 @@ public class LeetCode189 {
             nums[start] = nums[end];
             nums[end] = temp;
             start++;
+            end--;
+        }
+    }
+
+    // reverse2 可以替换如下
+    public void reverse2(int[] nums, int begin, int end){
+        while (begin < end){
+            nums[begin] = nums[begin] ^ nums[end];
+            nums[end] = nums[begin] ^ nums[end];
+            nums[begin] = nums[begin] ^ nums[end];
+            begin++;
             end--;
         }
     }

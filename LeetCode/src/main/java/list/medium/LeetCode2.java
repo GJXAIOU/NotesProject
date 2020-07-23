@@ -1,6 +1,5 @@
 package list.medium;
 
-import java.util.List;
 
 /**
  * @Author GJXAIOU
@@ -29,8 +28,10 @@ public class LeetCode2 {
             // 求进位数字，将 sum % 10 值（个位值）作为当前值，将 sum / 10（十位值）作为进位值，带入下一次迭代。
             carry = sum / 10;
             sum = sum % 10;
+            // 将值添加到结果链表后面
             cur.next = new ListNode(sum);
 
+            // 三个链表都有往后移动一位
             cur = cur.next;
             if (l1 != null) {
                 l1 = l1.next;

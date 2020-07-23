@@ -1,6 +1,9 @@
 package array.easy;
 
+import java.lang.invoke.LambdaConversionException;
 import java.util.Arrays;
+import java.util.Comparator;
+import java.util.PriorityQueue;
 
 /**
  * @Author GJXAIOU
@@ -107,5 +110,34 @@ public class Offer40 {
         nums[i] = nums[i] ^ nums[j];
         nums[j] = nums[i] ^ nums[j];
         nums[i] = nums[i] ^ nums[j];
+    }
+
+    /**
+     * 使用 Java 自带的优先级队列（默认大根堆）
+     *
+     * @param arr
+     * @param k
+     * @return
+     */
+    public int[] getLeastNumbers3(int[] arr, int k) {
+        if (k <= 0) {
+            return new int[0];
+        }
+        PriorityQueue<Integer> stack = new PriorityQueue<Integer>(k, new MyCompactor());
+        for (int i = 0; i < arr.length; i++) {
+            stack.add(arr[i]);
+        }
+        int[] res = new int[k];
+        for (int i = 0; i < res.length; i++) {
+            res[i] = stack.poll();
+        }
+        return res;
+    }
+
+    public class MyCompactor implements Comparator<Integer> {
+        @Override
+        public int compare(Integer o1, Integer o2) {
+            return o1 - o2;
+        }
     }
 }

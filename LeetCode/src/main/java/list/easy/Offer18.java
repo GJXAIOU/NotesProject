@@ -6,14 +6,13 @@ package list.easy;
  */
 public class Offer18 {
     class ListNode {
-        int val;
+        int value;
         ListNode next;
 
         ListNode(int x) {
-            val = x;
+            value = x;
         }
     }
-
 
     public ListNode deleteNode(ListNode head, int val) {
         if (head == null) {
@@ -22,12 +21,12 @@ public class Offer18 {
         ListNode pre = null;
         ListNode cur = head;
         // 如果是头结点
-        if (head.val == val) {
+        if (head.value == val) {
             return head.next;
         }
 
         // 找到要删除节点的前驱节点
-        while (cur != null && (cur.val != val)) {
+        while (cur != null && (cur.value != val)) {
             pre = cur;
             cur = cur.next;
         }
@@ -40,5 +39,4 @@ public class Offer18 {
         }
         return head;
     }
-
 }

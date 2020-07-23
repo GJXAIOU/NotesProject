@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -66,24 +69,24 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab6d1f10-35be-4dac-9f15-171a52712f87" name="Default Changelist" comment="Add LeetCode 94/155/2/19/138/148/328 code">
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode690.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode733.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/Offer59I.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/medium/Offer45.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/medium/Offer56I.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/string/easy/Offer58I.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/string/medium/LeetCode394.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/easy/LeetCode257.java" afterDir="false" />
+    <list default="true" id="ab6d1f10-35be-4dac-9f15-171a52712f87" name="Default Changelist" comment="Feat：LeetCodeNotes;增加 690/733/59I/45/56I/58I/3/394/257 笔记；">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array/easy/OR176.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day01/GetMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day01/GetMax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day02/SlidingWindowMaxArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day02/SlidingWindowMaxArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day06/CardsInLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day06/CardsInLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day06/CoinsWay.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day06/CoinsWay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day06/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day06/Robot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day08/MinPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day08/MinPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day08/MoneyProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day08/MoneyProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day01/BFPRT.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day01/BFPRT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day01/Manacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/advanced/day01/Manacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day01/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day01/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day01/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day01/HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day01/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day01/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day01/MaxGap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day01/MaxGap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day01/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day01/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day01/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/src/main/java/com/gjxaiou/easy/day01/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interview/src/main/java/com/huaweiSoftwareCode/gjxaiou/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Interview/src/main/java/com/huaweiSoftwareCode/gjxaiou/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interview/src/main/java/com/huaweiSoftwareCode/gjxaiou/LocalMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Interview/src/main/java/com/huaweiSoftwareCode/gjxaiou/LocalMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JVM/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JVM/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JVM/src/main/java/com/gjxaiou/gc/FinalizeEscapeGC.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM/src/main/java/com/gjxaiou/gc/FinalizeEscapeGC.java" afterDir="false" />
@@ -102,19 +105,95 @@
       <change beforePath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/singleton/SingletonExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/singleton/SingletonExample1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/singleton/SingletonExample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/singleton/SingletonExample2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/sync/SynchronizedExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/sync/SynchronizedExample1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/string/medium/LeetCode3_Longest_Substring_Without_Repeating_Characters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string/medium/LeetCode3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/META-INF/main.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode1002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode1002.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode1010.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode1010.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode1018.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode1018.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode1051.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode1051.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode1089.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode1089.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode1122.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode1122.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode189.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode189.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode867.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode867.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode888.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode888.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode896.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode896.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode905.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode905.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode914.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode914.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode941.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode941.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode977.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode977.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode989.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode989.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode999.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/LeetCode999.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/Offer12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/Offer12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/Offer40.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/Offer40.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array/easy/Offer57II.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/easy/Offer57II.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array/medium/Offer13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/medium/Offer13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/list/easy/Offer18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/easy/Offer18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/list/medium/LeetCode148.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/medium/LeetCode148.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/list/medium/LeetCode19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/medium/LeetCode19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/list/medium/LeetCode2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/medium/LeetCode2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/string/medium/LeetCode3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string/medium/LeetCode3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../VideoClass/ThinkingInJava4Code" beforeDir="false" afterPath="$PROJECT_DIR$/../VideoClass/ThinkingInJava4Code" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/.idea/artifacts/o2o_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/.idea/artifacts/o2o_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../o2o/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/.idea/libraries/Maven__jstl_jstl_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/.idea/libraries/Maven__org_apache_taglibs_taglibs_standard_impl_1_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_22.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../o2o/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../o2o/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../o2o/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/o2o.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/o2o.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/WEB-INF/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/WEB-INF/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/WEB-INF/classes/mapper/ProductCategoryDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/WEB-INF/classes/mapper/ProductCategoryDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/WEB-INF/classes/mapper/ProductDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/WEB-INF/classes/mapper/ProductDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/WEB-INF/classes/mapper/ShopCategoryDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/WEB-INF/classes/mapper/ShopCategoryDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/WEB-INF/classes/mapper/ShopDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/WEB-INF/classes/mapper/ShopDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/WEB-INF/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/WEB-INF/classes/spring/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/WEB-INF/classes/spring/spring-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/WEB-INF/classes/spring/spring-redis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/WEB-INF/classes/spring/spring-redis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/WEB-INF/classes/spring/spring-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/WEB-INF/classes/spring/spring-web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/WEB-INF/html/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/WEB-INF/html/frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/WEB-INF/html/frontend/shopDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/WEB-INF/html/frontend/shopDetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/WEB-INF/html/frontend/shopList.html" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/WEB-INF/html/frontend/shopList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/WEB-INF/html/shop/productCategoryManagement.html" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/WEB-INF/html/shop/productCategoryManagement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/WEB-INF/html/shop/productManagement.html" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/WEB-INF/html/shop/productManagement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/WEB-INF/html/shop/productOperation.html" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/WEB-INF/html/shop/productOperation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/WEB-INF/html/shop/shopList.html" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/WEB-INF/html/shop/shopList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/WEB-INF/html/shop/shopManagement.html" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/WEB-INF/html/shop/shopManagement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/WEB-INF/html/shop/shopoperation.html" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/WEB-INF/html/shop/shopoperation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/resources/js/common/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/resources/js/common/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/resources/js/frontend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/resources/js/frontend/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/resources/js/frontend/shopDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/resources/js/frontend/shopDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/resources/js/frontend/shopList.js" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/resources/js/frontend/shopList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/resources/js/shop/productCategoryManagement.js" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/resources/js/shop/productCategoryManagement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/resources/js/shop/productManagement.js" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/resources/js/shop/productManagement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/resources/js/shop/productOperation.js" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/resources/js/shop/productOperation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/resources/js/shop/shopList.js" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/resources/js/shop/shopList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/resources/js/shop/shopoperation.js" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/out/artifacts/o2o/resources/js/shop/shopoperation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/cache/JedisPoolWriper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/cache/JedisPoolWriper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/dao/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/dao/ShopCategoryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/dao/ShopCategoryDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/dao/ShopDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/dao/ShopDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/dao/split/DynamicDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/dao/split/DynamicDataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/dao/split/DynamicDataSourceInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/dao/split/DynamicDataSourceInterceptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/dto/ImageHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/dto/ImageHolder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/dto/ProductCategoryExecution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/dto/ProductCategoryExecution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/dto/ProductExecution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/dto/ProductExecution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/dto/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/dto/Result.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/dto/ShopExecution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/dto/ShopExecution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/entity/Area.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/entity/Area.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/entity/HeadLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/entity/HeadLine.java" afterDir="false" />
@@ -129,28 +208,83 @@
       <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/enums/ProductCategoryStateEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/enums/ProductCategoryStateEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/enums/ProductStateEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/enums/ProductStateEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/enums/ShopStateEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/enums/ShopStateEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/exception/ShopOperationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/exception/ShopOperationException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/service/AreaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/service/AreaService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/service/ShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/service/ShopService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/service/impl/AreaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/service/impl/AreaServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/service/impl/HeadLineServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/service/impl/HeadLineServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/service/impl/ProductCategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/service/impl/ProductCategoryServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/service/impl/ProductServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/service/impl/ShopCategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/service/impl/ShopCategoryServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/service/impl/ShopServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/service/impl/ShopServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/util/CodeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/util/CodeUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/util/DESUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/util/DESUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/util/EncryptPropertyPlaceholderConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/util/EncryptPropertyPlaceholderConfigurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/util/HttpServletRequestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/util/HttpServletRequestUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/util/ImageUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/util/ImageUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/util/PageCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/util/PageCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/util/PathUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/util/PathUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/web/frontend/FrontController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/web/frontend/FrontController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/web/frontend/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/web/frontend/MainPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/web/frontend/ShopDetailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/web/frontend/ShopDetailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/web/frontend/ShopListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/web/frontend/ShopListController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/web/shopadmin/ProductCategoryManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/web/shopadmin/ProductCategoryManagerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/web/shopadmin/ProductManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/web/shopadmin/ProductManagerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/web/shopadmin/ShopManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/web/shopadmin/ShopManagerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/web/shopadmin/shopAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/web/shopadmin/shopAdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/web/superadmin/AreaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/java/com/gjxaiou/web/superadmin/AreaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/resources/mapper/ProductCategoryDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/resources/mapper/ProductCategoryDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/resources/mapper/ProductDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/resources/mapper/ProductDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/resources/mapper/ShopCategoryDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/resources/mapper/ShopCategoryDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/resources/mapper/ShopDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/resources/mapper/ShopDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/resources/mybatis-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../o2o/src/main/resources/spring/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/resources/spring/spring-dao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../o2o/src/main/resources/spring/spring-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/resources/spring/spring-web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/webapp/WEB-INF/html/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/webapp/WEB-INF/html/frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/webapp/WEB-INF/html/frontend/shopDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/webapp/WEB-INF/html/frontend/shopDetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/webapp/WEB-INF/html/frontend/shopList.html" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/webapp/WEB-INF/html/frontend/shopList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/webapp/WEB-INF/html/shop/productCategoryManagement.html" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/webapp/WEB-INF/html/shop/productCategoryManagement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/webapp/WEB-INF/html/shop/productManagement.html" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/webapp/WEB-INF/html/shop/productManagement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/webapp/WEB-INF/html/shop/productOperation.html" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/webapp/WEB-INF/html/shop/productOperation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/webapp/WEB-INF/html/shop/shopList.html" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/webapp/WEB-INF/html/shop/shopList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/webapp/WEB-INF/html/shop/shopManagement.html" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/webapp/WEB-INF/html/shop/shopManagement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/webapp/WEB-INF/html/shop/shopoperation.html" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/webapp/WEB-INF/html/shop/shopoperation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/webapp/resources/js/common/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/webapp/resources/js/common/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/webapp/resources/js/frontend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/webapp/resources/js/frontend/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/webapp/resources/js/frontend/shopDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/webapp/resources/js/frontend/shopDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/webapp/resources/js/frontend/shopList.js" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/webapp/resources/js/frontend/shopList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/webapp/resources/js/shop/productCategoryManagement.js" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/webapp/resources/js/shop/productCategoryManagement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/webapp/resources/js/shop/productManagement.js" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/webapp/resources/js/shop/productManagement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/webapp/resources/js/shop/productOperation.js" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/webapp/resources/js/shop/productOperation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/webapp/resources/js/shop/shoplist.js" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/webapp/resources/js/shop/shoplist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/src/main/webapp/resources/js/shop/shopoperation.js" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/src/main/webapp/resources/js/shop/shopoperation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/target/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/target/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/target/classes/mapper/ProductCategoryDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/target/classes/mapper/ProductCategoryDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/target/classes/mapper/ProductDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/target/classes/mapper/ProductDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/target/classes/mapper/ShopCategoryDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/target/classes/mapper/ShopCategoryDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/target/classes/mapper/ShopDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/target/classes/mapper/ShopDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/target/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/target/classes/spring/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/target/classes/spring/spring-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/target/classes/spring/spring-redis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/target/classes/spring/spring-redis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../o2o/target/classes/spring/spring-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/target/classes/spring/spring-web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -173,32 +307,44 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/src/test/java/Main.java&#10;E:/Program/Java/Project/LeetCode/src/main/java/nowcoder/realQuestion/pingduoduo/Main.java&#10;E:/Program/Java/Project/LeetCode/src/main/java/nowcoder/realQuestion/pingduoduo/Main1.java&#10;E:/Program/Java/Project/LeetCode/src/test/java/Test.java&#10;E:/Program/Java/Project/LeetCode/src/test/java/array/medium/SolutionTest.java" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Algorithm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20091848" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.quicklists" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/main/java/array/easy/Offer59I.java" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/src/main/java/nowcoder/huawei/realQuestion" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+      <recent name="array.medium" />
+    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="list.medium" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Program\Java\Project\LeetCode\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main2">
-    <configuration name="Huawei2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nowcoder.huawei.Huawei2" />
+  <component name="RunManager" selected="Application.LeetCode13">
+    <configuration name="LeetCode13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.LeetCode13" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nowcoder.huawei.*" />
+          <option name="PATTERN" value="array.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,12 +352,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Huawei4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nowcoder.huawei.Huawei4" />
+    <configuration name="OR176" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.OR176" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nowcoder.huawei.*" />
+          <option name="PATTERN" value="array.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,12 +365,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.easy.Main1" />
+    <configuration name="Offer40" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.Offer40" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.easy.*" />
+          <option name="PATTERN" value="array.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -232,12 +378,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.easy.Main2" />
+    <configuration name="Offer57II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.Offer57II" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.easy.*" />
+          <option name="PATTERN" value="array.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -245,20 +391,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Offer10II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Offer10II" />
+    <configuration name="Offer57II.findContinuousSequence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="array.easy" />
+      <option name="MAIN_CLASS_NAME" value="array.easy.Offer57II" />
+      <option name="METHOD_NAME" value="findContinuousSequence(int)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.OR176" />
+      <item itemvalue="Application.Offer57II" />
+      <item itemvalue="Application.Offer40" />
+      <item itemvalue="JUnit.Offer57II.findContinuousSequence" />
+      <item itemvalue="Application.LeetCode13" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.Offer10II" />
-        <item itemvalue="Application.Huawei4" />
-        <item itemvalue="Application.Huawei2" />
+        <item itemvalue="Application.LeetCode13" />
+        <item itemvalue="Application.Offer40" />
+        <item itemvalue="Application.Offer57II" />
+        <item itemvalue="JUnit.Offer57II.findContinuousSequence" />
+        <item itemvalue="Application.OR176" />
       </list>
     </recent_temporary>
   </component>
@@ -335,8 +497,54 @@
       <workItem from="1586610661645" duration="2147000" />
       <workItem from="1586657654895" duration="9715000" />
       <workItem from="1586696514054" duration="8084000" />
-      <workItem from="1586779126899" duration="19605000" />
+      <workItem from="1586779126899" duration="29789000" />
+      <workItem from="1587001840286" duration="4050000" />
+      <workItem from="1587018102344" duration="8180000" />
+      <workItem from="1587114803973" duration="13975000" />
+      <workItem from="1587285228873" duration="19185000" />
+      <workItem from="1588162969988" duration="7673000" />
+      <workItem from="1588486627239" duration="562000" />
+      <workItem from="1588487462670" duration="9937000" />
+      <workItem from="1588572114458" duration="9659000" />
+      <workItem from="1588660681692" duration="11437000" />
+      <workItem from="1588742555531" duration="11388000" />
+      <workItem from="1588767358948" duration="6313000" />
+      <workItem from="1588811962561" duration="12153000" />
+      <workItem from="1588860893282" duration="1356000" />
+      <workItem from="1588987995425" duration="1984000" />
+      <workItem from="1589347643749" duration="9893000" />
+      <workItem from="1589636718276" duration="6917000" />
+      <workItem from="1589702453649" duration="10560000" />
+      <workItem from="1589790001550" duration="11326000" />
+      <workItem from="1589861748897" duration="5509000" />
+      <workItem from="1589897410647" duration="4407000" />
+      <workItem from="1590129222970" duration="28140000" />
+      <workItem from="1590545846398" duration="532000" />
+      <workItem from="1590821298676" duration="10641000" />
+      <workItem from="1590978620250" duration="1433000" />
+      <workItem from="1590999681260" duration="802000" />
+      <workItem from="1591695217578" duration="545000" />
+      <workItem from="1591704383454" duration="2295000" />
+      <workItem from="1591780957701" duration="66000" />
+      <workItem from="1592654548511" duration="11597000" />
+      <workItem from="1592704456075" duration="194000" />
+      <workItem from="1592704668663" duration="125000" />
+      <workItem from="1592737754029" duration="81091000" />
+      <workItem from="1593500146197" duration="1059000" />
+      <workItem from="1593524534918" duration="106000" />
+      <workItem from="1593601575038" duration="9485000" />
+      <workItem from="1594652007243" duration="2982000" />
+      <workItem from="1595428130234" duration="4795000" />
+      <workItem from="1595509753195" duration="5634000" />
     </task>
+    <task id="LOCAL-00001" summary="Feat：LeetCodeNotes;增加 690/733/59I/45/56I/58I/3/394/257 笔记；">
+      <created>1586874516670</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586874516670</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,152 +565,134 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add LeetCode 94/155/2/19/138/148/328 code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add LeetCode 94/155/2/19/138/148/328 code" />
+    <MESSAGE value="Feat：LeetCodeNotes;增加 690/733/59I/45/56I/58I/3/394/257 笔记；" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat：LeetCodeNotes;增加 690/733/59I/45/56I/58I/3/394/257 笔记；" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="613" y="121" key="#LeetCode07" timestamp="1579356035611">
+    <state x="659" y="5" key="#Auto_Import" timestamp="1593609522793">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="613" y="121" key="#LeetCode07/0.0.1920.1080@0.0.1920.1080" timestamp="1579356035611" />
-    <state x="572" y="143" key="#LeetCode131" timestamp="1582448186921">
+    <state x="659" y="5" key="#Auto_Import/0.0.1920.1080@0.0.1920.1080" timestamp="1593609522793" />
+    <state x="582" y="203" key="#Inspections" timestamp="1592968985602">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="572" y="143" key="#LeetCode131/0.0.1920.1080@0.0.1920.1080" timestamp="1582448186921" />
-    <state x="626" y="139" key="#LeetCode27" timestamp="1579424575726">
+    <state x="582" y="203" key="#Inspections/0.0.1920.1080@0.0.1920.1080" timestamp="1592968985602" />
+    <state x="801" y="375" key="#Notifications" timestamp="1592969327992">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="626" y="139" key="#LeetCode27/0.0.1920.1080@0.0.1920.1080" timestamp="1579424575726" />
-    <state x="572" y="143" key="#LeetCode73" timestamp="1581334491645">
+    <state x="801" y="375" key="#Notifications/0.0.1920.1080@0.0.1920.1080" timestamp="1592969327992" />
+    <state x="452" y="22" key="#Project_Structure" timestamp="1590242537153">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="572" y="143" key="#LeetCode73/0.0.1920.1080@0.0.1920.1080" timestamp="1581334491645" />
-    <state x="801" y="375" key="#Notifications" timestamp="1586525119252">
+    <state x="452" y="22" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1590242537153" />
+    <state x="461" y="55" key="#SolutionTest.conform" timestamp="1592656544066">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="801" y="375" key="#Notifications/0.0.1920.1080@0.0.1920.1080" timestamp="1586525119252" />
-    <state x="452" y="22" key="#Project_Structure" timestamp="1586701512568">
+    <state x="461" y="55" key="#SolutionTest.conform/0.0.1920.1080@0.0.1920.1080" timestamp="1592656544066" />
+    <state x="410" y="186" width="1139" height="707" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590546199257">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="452" y="22" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1586701512568" />
-    <state x="414" y="192" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580457933559">
+    <state x="410" y="186" width="1139" height="707" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1590546199257" />
+    <state x="721" y="185" key="#com.intellij.ide.util.MemberChooser" timestamp="1595432554984">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="414" y="192" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1580457933559" />
-    <state x="721" y="185" key="#com.intellij.ide.util.MemberChooser" timestamp="1584366642881">
+    <state x="721" y="185" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1595432554984" />
+    <state x="640" y="262" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588811797958">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="721" y="185" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1584366642881" />
-    <state x="790" y="183" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1579355989346">
+    <state x="640" y="262" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1588811797958" />
+    <state x="675" y="387" width="570" height="318" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1589636748035">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="790" y="183" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1579355989346" />
-    <state x="640" y="262" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1580282972445">
+    <state x="675" y="387" width="570" height="318" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1080@0.0.1920.1080" timestamp="1589636748035" />
+    <state x="1094" y="283" key="#xdebugger.evaluate" timestamp="1592892490643">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="640" y="262" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1580282972445" />
-    <state x="374" y="70" key="CommitChangelistDialog2" timestamp="1580479328500">
+    <state x="1094" y="283" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1592892490643" />
+    <state width="516" height="582" key="DebuggerActiveHint" timestamp="1592892455277">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="374" y="70" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1580479328500" />
-    <state x="92" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1586868762998">
+    <state width="516" height="582" key="DebuggerActiveHint/0.0.1920.1080@0.0.1920.1080" timestamp="1592892455277" />
+    <state x="92" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1592664566499">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="92" y="92" width="1736" height="896" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586868762998" />
-    <state x="690" y="164" key="FileChooserDialogImpl" timestamp="1586782205974">
+    <state x="92" y="92" width="1736" height="896" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1592664566499" />
+    <state x="1099" y="181" key="FileChooserDialogImpl" timestamp="1592830729515">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="690" y="164" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1586782205974" />
-    <state width="1867" height="271" key="GridCell.Tab.0.bottom" timestamp="1586866889822">
+    <state x="1099" y="181" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1592830729515" />
+    <state width="1867" height="272" key="GridCell.Tab.0.bottom" timestamp="1595512606177">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1867" height="271" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586866889822" />
-    <state width="1867" height="271" key="GridCell.Tab.0.center" timestamp="1586866889822">
+    <state width="1867" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1595512606177" />
+    <state width="1867" height="272" key="GridCell.Tab.0.center" timestamp="1595512606177">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1867" height="271" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586866889822" />
-    <state width="1867" height="271" key="GridCell.Tab.0.left" timestamp="1586866889822">
+    <state width="1867" height="272" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1595512606177" />
+    <state width="1867" height="272" key="GridCell.Tab.0.left" timestamp="1595512606176">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1867" height="271" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586866889822" />
-    <state width="1867" height="271" key="GridCell.Tab.0.right" timestamp="1586866889822">
+    <state width="1867" height="272" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1595512606176" />
+    <state width="1867" height="272" key="GridCell.Tab.0.right" timestamp="1595512606177">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1867" height="271" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586866889822" />
-    <state width="1867" height="336" key="GridCell.Tab.1.bottom" timestamp="1586780161988">
+    <state width="1867" height="272" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1595512606177" />
+    <state width="1867" height="312" key="GridCell.Tab.1.bottom" timestamp="1594815176921">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1867" height="336" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586780161988" />
-    <state width="1867" height="336" key="GridCell.Tab.1.center" timestamp="1586780161988">
+    <state width="1867" height="312" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1594815176921" />
+    <state width="1867" height="312" key="GridCell.Tab.1.center" timestamp="1594815176921">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1867" height="336" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586780161988" />
-    <state width="1867" height="336" key="GridCell.Tab.1.left" timestamp="1586780161988">
+    <state width="1867" height="312" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1594815176921" />
+    <state width="1867" height="312" key="GridCell.Tab.1.left" timestamp="1594815176921">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1867" height="336" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586780161988" />
-    <state width="1867" height="336" key="GridCell.Tab.1.right" timestamp="1586780161988">
+    <state width="1867" height="312" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1594815176921" />
+    <state width="1867" height="312" key="GridCell.Tab.1.right" timestamp="1594815176921">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1867" height="336" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586780161988" />
-    <state x="374" y="111" key="Maven.ArtifactSearchDialog" timestamp="1586779940698">
+    <state width="1867" height="312" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1594815176921" />
+    <state x="583" y="110" key="SettingsEditor" timestamp="1594652131003">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="374" y="111" key="Maven.ArtifactSearchDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586779940698" />
-    <state x="532" y="170" key="NewModule_or_Project.wizard" timestamp="1582448437699">
+    <state x="583" y="110" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1594652131003" />
+    <state x="452" y="208" key="Vcs.Push.Dialog.v2" timestamp="1586874529427">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="532" y="170" key="NewModule_or_Project.wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1582448437699" />
-    <state x="312" y="10" key="SettingsEditor" timestamp="1586866371500">
+    <state x="452" y="208" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1586874529427" />
+    <state x="782" y="350" key="cloudConfig.SelfSettingsDialog" timestamp="1592899887253">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="312" y="10" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1586866371500" />
-    <state x="658" y="356" key="cloudConfig.SelfSettingsDialog" timestamp="1579599538900">
+    <state x="782" y="350" key="cloudConfig.SelfSettingsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1592899887253" />
+    <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1588844467179">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="658" y="356" key="cloudConfig.SelfSettingsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1579599538900" />
-    <state x="697" y="444" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581927952498">
+    <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1588844467179" />
+    <state x="695" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592993918862">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="697" y="444" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1581927952498" />
-    <state x="384" y="204" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1586780113017">
+    <state x="695" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1592993918862" />
+    <state x="676" y="310" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1592809838431">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="384" y="204" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1080@0.0.1920.1080" timestamp="1586780113017" />
-    <state x="13" y="220" key="new project wizard" timestamp="1582462369516">
+    <state x="676" y="310" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1592809838431" />
+    <state x="582" y="304" width="796" height="340" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1592969655144">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="13" y="220" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1582462369516" />
-    <state x="514" y="199" width="875" height="663" key="recent.locations.popup" timestamp="1582429389236">
+    <state x="582" y="304" width="796" height="340" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1592969655144" />
+    <state x="642" y="109" key="refactoring.ChangeSignatureDialog" timestamp="1590132617088">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="514" y="199" width="875" height="663" key="recent.locations.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1582429389236" />
-    <state x="642" y="109" key="refactoring.ChangeSignatureDialog" timestamp="1581908429208">
+    <state x="642" y="109" key="refactoring.ChangeSignatureDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1590132617088" />
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1595511487887">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="642" y="109" key="refactoring.ChangeSignatureDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581908429208" />
-    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1584367401031">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1584367401031" />
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1595511487887" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/string/easy/LeetCode125.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/string/easy/LeetCode125.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/string/easy/LeetCode125.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/string/easy/Offer58I.java</url>
           <line>16</line>
@@ -528,7 +718,62 @@
           <line>14</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/array/medium/LeetCode62.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/array/medium/LeetCode62.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/array/easy/OR176.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/array/easy/OR176.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/array/easy/OR176.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/array/easy/OR176.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/array/easy/OR176.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/array/easy/OR176.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/array/easy/OR176.java</url>
+          <line>23</line>
+          <properties class="array.easy.OR176" method="maxSum">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="curSum" />
+        <watch expression="res" language="JAVA" />
+        <watch expression="temp" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

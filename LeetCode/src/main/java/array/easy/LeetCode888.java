@@ -8,6 +8,7 @@ import java.util.Set;
  * @create 2020/05/18 22:49
  */
 public class LeetCode888 {
+
     // 方法一：方程求解
     public int[] fairCandySwap(int[] A, int[] B) {
         int sumA = 0, sumB = 0;

@@ -19,8 +19,8 @@ public class LeetCode19 {
 
     // 方法一：两次遍历
     public ListNode removeNthFromEnd(ListNode head, int n) {
-        ListNode dummy = new ListNode(0);
-        dummy.next = head;
+        ListNode res = new ListNode(0);
+        res.next = head;
 
         // 遍历获取链表长度
         int length = 0;
@@ -31,7 +31,7 @@ public class LeetCode19 {
         }
         // 因为前面加了一个结点，所以需要删除的位置是 Length - n 位置。
         length -= n;
-        cur = dummy;
+        cur = res;
         while (length > 0) {
             length--;
             cur = cur.next;
@@ -39,7 +39,7 @@ public class LeetCode19 {
         // 删除 cur.next 位置
         cur.next = cur.next.next;
         // 不能返回 head，防止是删除唯一结点结构的列表
-        return dummy.next;
+        return res.next;
     }
 
     // 方法二：一次遍历

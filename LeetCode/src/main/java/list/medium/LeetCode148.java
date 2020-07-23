@@ -1,7 +1,5 @@
 package list.medium;
 
-import java.util.List;
-
 /**
  * @Author GJXAIOU
  * @Date 2020/1/30 20:33
@@ -16,7 +14,6 @@ public class LeetCode148 {
             val = x;
         }
     }
-
 
     public ListNode sortList(ListNode head) {
         if (head == null || head.next == null) {
