@@ -1,5 +1,8 @@
 package array.easy;
 
+import org.junit.jupiter.api.Test;
+import org.junit.platform.commons.util.CollectionUtils;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

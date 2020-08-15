@@ -24,8 +24,7 @@ public class LeetCode392 {
     // 方法二：双指针
     public boolean isSubsequence2(String s, String t) {
         int i = 0, j = 0;
-        int sLength = s.length(), tLength = t.length();
-        while (i < sLength && j < tLength) {
+        while (i < s.length() && j < t.length()) {
             if (s.indexOf(i) == t.indexOf(j)) {
                 i++;
                 j++;
@@ -33,6 +32,6 @@ public class LeetCode392 {
                 j++;
             }
         }
-        return i == sLength;
+        return i == s.length();
     }
 }

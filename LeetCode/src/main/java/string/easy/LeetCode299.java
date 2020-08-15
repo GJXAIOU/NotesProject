@@ -39,5 +39,4 @@ public class LeetCode299 {
         return equalNum + "A" + (allNum - equalNum) + "B";
     }
 
-    // 方法二：桶
 }

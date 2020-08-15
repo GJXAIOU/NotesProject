@@ -40,4 +40,32 @@ public class Offer58II {
         }
         return res;
     }
+
+    // 方法三：分别旋转
+    public String reverseLeftWords3(String str, int n) {
+        if (str == null || str.length() == 0 || n % str.length() == 0) {
+            return str;
+        }
+        n %= str.length();
+        char[] inputString = str.toCharArray();
+        reverse(inputString, 0, inputString.length - 1);
+        reverse(inputString, 0, inputString.length - n - 1);
+        reverse(inputString, inputString.length - n, inputString.length - 1);
+        StringBuilder res = new StringBuilder();
+        for (int i = 0; i < inputString.length; i++) {
+            res.append(inputString[i]);
+        }
+        return res.toString();
+    }
+
+    public void reverse(char[] inputString, int begin, int end) {
+        while (begin < end) {
+            char temp = inputString[begin];
+            inputString[begin] = inputString[end];
+            inputString[end] = temp;
+            begin++;
+            end--;
+        }
+    }
+
 }

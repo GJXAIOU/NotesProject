@@ -1,14 +1,11 @@
 package string.easy;
 
-import org.junit.jupiter.api.Test;
-
 /**
  * @author GJXAIOU
  * @create 2020/04/13 20:03
  */
 public class Offer58I {
 
-    @Test
     // 方法一：使用内置函数
     public String reverseWords(String s) {
         String[] sArray = s.trim().split(" ");
@@ -46,4 +43,10 @@ public class Offer58I {
         return res.toString().trim();
     }
 
+    public static void main(String[] args) {
+        Offer58I offer58I = new Offer58I();
+        String s = offer58I.reverseWords("   hello   hewl hhhfd   2324 ");
+        System.out.printf(":" + s + ":");
+
+    }
 }
