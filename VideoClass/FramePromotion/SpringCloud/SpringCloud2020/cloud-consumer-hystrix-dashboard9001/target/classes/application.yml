@@ -1,0 +1,13 @@
+server:
+  port: 9001
+
+# 如果页面一直为 Loading，则开启这个选项
+hystrix:
+  dashboard:
+    proxy-stream-allow-list: "*"
+
+# 注册进入 Eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka

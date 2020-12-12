@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+		http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd
+		http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+    <!--包扫描-->
+    <context:component-scan base-package="com.gjxaiou.service"/>
+
+    <!--指定当前服务/应用的名字(同样的服务名字相同，不要和别的服务同名)-->
+    <dubbo:application name="order-service-consumer"></dubbo:application>
+    <!--指定注册中心的位置-->
+    <dubbo:registry address="zookeeper://127.0.0.1:2181"></dubbo:registry>
+
+    <!--调用远程暴露的服务，生成远程服务代理-->
+    <dubbo:reference interface="com.gjxaiou.service.UserService"
+                     id="userService"></dubbo:reference>
+</beans>

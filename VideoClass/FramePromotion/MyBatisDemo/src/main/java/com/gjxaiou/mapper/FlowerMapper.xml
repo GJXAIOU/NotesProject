@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namesapce:理解成实现类的全路径(包名+类名) -->
+<mapper namespace="a.b" >
+    <!-- id:方法名
+        parameterType:定义参数类型
+        resultType:返回值类型.
+
+        如果方法返回值是list,在resultType中写List的泛型,因为mybatis
+        对jdbc封装,一行一行读取数据, 这里返回的是 Flower 对象
+    -->
+    <select id="selAll" resultType="Flower">
+		select * from flower
+	</select>
+
+    <!-- 返回的数据类型本质上为 integer，这里使用 Int 也可以 -->
+    <select id="selById" resultType="int">
+		select count(*) from flower
+	</select>
+
+    <select id="selectMap" resultType="Flower">
+		select id,name ,price,production from flower
+	</select>
+
+	<insert id="insert"
+</mapper>

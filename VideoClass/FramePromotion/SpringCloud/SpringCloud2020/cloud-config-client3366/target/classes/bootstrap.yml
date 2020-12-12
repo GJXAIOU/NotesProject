@@ -1,0 +1,38 @@
+server:
+  port: 3366
+
+spring:
+  application:
+    name: config-client
+  cloud:
+    # config 客户端配置
+    config:
+      # 分支名称
+      label: master
+      # 配置文件名称
+      name: config
+      # 后缀名称。三个综合就是 master 分支上的 config-dev.yml 的配置文件被读取。
+      profile: dev
+      # 配置中心地址
+      uri: http://localhost:3344
+
+    #rabbitmq配置,注意与服务端不同这个在spring下面
+    rabbitmq:
+      host: localhost
+      port: 5672
+      username: guest
+      password: guest
+
+# 服务注册到 Eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+
+
+# 暴露监控端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

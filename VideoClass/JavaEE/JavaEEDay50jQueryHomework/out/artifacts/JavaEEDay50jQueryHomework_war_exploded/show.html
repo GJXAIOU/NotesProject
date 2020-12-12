@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>制作非缘勿扰页面特效 </title>
+    <script type="text/javascript" src="js/jquery-3.2.1.js" ></script>
+    <script type="text/javascript">
+        //创建一个页面加载事件
+        $(function() {
+            //导演字体进行加粗
+            $("[class='dy']").css("fontweight:boid");
+            $("b").css({"color":"blue","fontSize":"36xp"});
+            //添加单击事件
+            $("[alt='收藏本片']").click(function(){
+                //js
+                alert("收藏");
+            });
+
+
+        });
+    </script>
+    <style type="text/css">
+        .main{
+            width:800px;
+        }
+        .left{
+            width:400px;
+            float:left;
+        }
+        .right{
+            width:400px;
+            float:left;
+        }
+    </style>
+
+    <script>
+        window.onload = function () {
+            var bbt =  document.getElementById("star");
+            bbt.onclick = function () {
+                // 初始化对象
+                var xhr = new XMLHttpRequest();
+                if (xhr == null) {
+                    xhr = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+
+                // 发送请求
+                xhr.open("GET", "star", true);
+                xhr.send();
+
+                // 接收请求
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState == 4) {
+                        if (xhr.status == 200){
+                            var text = xhr.responseText;
+                            if (text == 1){
+                                bbt.src = "images/star2.png";
+                            } else {
+                                alert("收藏失败");
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+
+</head>
+<body>
+<div class='main' >
+    <div class='left' id="ccc">
+        <img src="images/show.jpg"  width="300" height="200" />
+        <br/><br/><br/><br/>
+        <br/><br/>
+        点击收藏本片：<img src="images/star1.png" id="star" alt="收藏本片" />
+
+    </div>
+    <div class='right'>
+        <dl>
+            <dt><b>非缘勿扰</b></dt>
+            <dd>
+                <p>
+                    <strong>主演：</strong><span>苏有朋/秦岚/傅艺伟等</span>
+                </p>
+                <p>
+                    <strong class='dy'>导演：</strong><span>赖水清</span>
+                </p>
+                <p>
+                    <strong id='bq'>标签：</strong><span><a>苏有朋</a> <a> 国产电视剧</a>  <a>2013</a> <a>连续剧</a></span>
+                </p>
+                <p>
+                    <strong>剧情：</strong><span>当代都市，大年女刘林、杨阳都在寻找自己的如意郎君，刘林偶遇陆氏房地产总裁路西诺，两人成了欢喜冤家，遭到暗恋西诺的丁娟的嫉恨。。。<a href="#">点击了解更多 </a></span>
+                </p>
+            </dd>
+        </dl>
+        <a href="https://movie.douban.com/">
+           点击观看： <img src="images/watch.png"/>
+        </a>
+
+    </div>
+</div>
+
+</body>
+</html>
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="js/jquery-3.4.1.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				// 方法一:通过bind函数设置各种事件,参数一为时间名称,参数二为具体的执行函数
+				$("input:first").bind("click",function(){
+					// 可以设置时间,单位为ms,下面为2秒,show 和 hide 都是默认缩放
+					$("img").show(2000)
+					// fadeIn是淡入淡出效果
+					$("img").fadeIn(2000)
+				})
+				
+				$("input:last").bind("click",function(){
+					// 可以设置时间,单位为ms,下面为2秒
+					$("img").hide(2000)
+					$("img").fadeOut(2000)
+				})
+			})
+			
+		</script>
+	</head>
+	<body>
+		<img src="img/show.gif" >
+		<input type="button" name="" id="" value="显示" />
+		<input type="button" name="" id="" value="不显示" />
+		
+	</body>
+</html>

@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cda0c787-e374-4928-b4ac-80b3aa402228" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../LeetCode/src/main/java/CodingInterviewGuide/Chapter1/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/out/production/Algorithm/META-INF/Algorithm.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/advanced/day01/BFPRT.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/advanced/day01/BFPRT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/advanced/day01/KMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/advanced/day01/KMP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/advanced/day01/Manacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/advanced/day01/Manacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/advanced/day01/MaximalRectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/advanced/day01/MountainsAndFlame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/advanced/day01/ShortestHaveTwice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/advanced/day01/ShortestHaveTwice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/advanced/day01/T1SubtreeEqualsT2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/advanced/day01/T1SubtreeEqualsT2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/advanced/day02/AllLessNumSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/advanced/day02/AllLessNumSubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/advanced/day02/Code_03_FindNewTypeChar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/advanced/day02/Code_05_EnglishExpression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/advanced/day02/Code_06_ChineseExpression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/advanced/day02/SlidingWindowMaxArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/advanced/day02/SlidingWindowMaxArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/advanced/day04/Code_01_Building_Outline.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/advanced/day04/Code_02_LRU.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/advanced/day04/Code_03_LFU.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/advanced/day04/Code_04_BiggestSubBSTInTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/advanced/day04/Code_05_LongestSumSubArrayLength.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/advanced/day04/Code_06_Most_EOR.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/advanced/day04/Code_07_ExpressionCompute.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/advanced/day07/Code_02_LIS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/advanced/day08/Code_02_MaxSubMatrixSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/easy/day01/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/easy/day01/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/easy/day01/BucketSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/easy/day01/BucketSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/easy/day01/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/easy/day01/HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/easy/day01/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/easy/day01/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/easy/day01/MaxGap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/easy/day01/MaxGap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/easy/day01/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/easy/day01/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/easy/day01/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/easy/day01/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/easy/day03/ArrayToStackAndQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/easy/day03/ArrayToStackAndQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/easy/day03/CopyListWithRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/easy/day03/CopyListWithRandom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/easy/day03/FindFirstIntersectNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/easy/day03/FindFirstIntersectNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/easy/day03/IsPalindromeList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/easy/day03/IsPalindromeList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/easy/day03/PrintCommonPart.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/easy/day03/PrintCommonPart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/easy/day03/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/easy/day03/ReverseList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/easy/day04/IsBalancedTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/easy/day04/IsBalancedTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/easy/day04/PreInPosTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/src/main/java/com/gjxaiou/easy/day04/PreInPosTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JVM/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JVM/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JVM/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JVM/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JVM/src/main/java/com/gjxaiou/gc/FinalizeEscapeGC.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JVM/src/main/java/com/gjxaiou/gc/FinalizeEscapeGC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JVM/src/main/java/com/gjxaiou/gc/ReferenceCountingGC.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JVM/src/main/java/com/gjxaiou/gc/ReferenceCountingGC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JVM/src/main/java/com/gjxaiou/memory/MyTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JVM/src/main/java/com/gjxaiou/memory/MyTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JVM/src/main/java/com/gjxaiou/memory/MyTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JVM/src/main/java/com/gjxaiou/memory/MyTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JVM/src/main/java/com/gjxaiou/memory/MyTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JVM/src/main/java/com/gjxaiou/memory/MyTest3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java8NewFeature/src/main/java/com/gjxaiou/jdk8/lambdaAndFunctionInterface/FunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java8NewFeature/src/main/java/com/gjxaiou/jdk8/lambdaAndFunctionInterface/FunctionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java8NewFeature/src/main/java/com/gjxaiou/jdk8/lambdaAndFunctionInterface/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java8NewFeature/src/main/java/com/gjxaiou/jdk8/lambdaAndFunctionInterface/Test3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/aqs/FutureExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/aqs/FutureExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/atomic/AtomicExample4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/atomic/AtomicExample4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/atomic/AtomicExample5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/atomic/AtomicExample5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/atomic/AtomicExample6.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/atomic/AtomicExample6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/count/CountExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/count/CountExample1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/count/CountExample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/count/CountExample2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/publish/Escape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/publish/Escape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/publish/UnsafePublish.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/publish/UnsafePublish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/singleton/SingletonExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/singleton/SingletonExample1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/singleton/SingletonExample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/singleton/SingletonExample2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/sync/SynchronizedExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JavaConcurrency/concurrency/src/main/java/com/gjxaiou/concurrency/example/sync/SynchronizedExample1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LeetCode/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../LeetCode/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LeetCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../LeetCode/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo/SpringAop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo/src/main/java/com/gjxaiou/pojo/People.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo/src/main/java/com/gjxaiou/pojo/SpringLifeCycle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo/src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo/src/test/java/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_18_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpringDemo1/META-INF/SpringDemo1.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interview/Interview.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThinkingInJava4Code" beforeDir="false" afterPath="$PROJECT_DIR$/../../ThinkingInJava4Code" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/artifacts/o2o_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/.idea/artifacts/o2o_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__com_github_jai_imageio_jai_imageio_core_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__com_github_jai_imageio_jai_imageio_core_1_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__com_github_penggle_kaptcha_2_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__com_github_penggle_kaptcha_2_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__com_google_zxing_core_3_3_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__com_google_zxing_core_3_3_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__com_google_zxing_javase_3_3_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__com_google_zxing_javase_3_3_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__com_jhlabs_filters_2_0_235_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__com_jhlabs_filters_2_0_235_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__commons_collections_commons_collections_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__commons_collections_commons_collections_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__commons_lang_commons_lang_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__commons_lang_commons_lang_2_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__io_protostuff_protostuff_api_1_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__io_protostuff_protostuff_api_1_6_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__io_protostuff_protostuff_collectionschema_1_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__io_protostuff_protostuff_collectionschema_1_6_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__io_protostuff_protostuff_core_1_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__io_protostuff_protostuff_core_1_6_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__io_protostuff_protostuff_runtime_1_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__io_protostuff_protostuff_runtime_1_6_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__jaxen_jaxen_1_1_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__jaxen_jaxen_1_1_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__jstl_jstl_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__net_coobird_thumbnailator_0_4_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__net_coobird_thumbnailator_0_4_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__org_apache_taglibs_taglibs_standard_impl_1_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__org_chiknrice_concordion_spring_runner_1_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__org_chiknrice_concordion_spring_runner_1_0_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__org_dom4j_dom4j_2_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__org_dom4j_dom4j_2_0_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__org_springframework_spring_aop_5_2_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__org_springframework_spring_beans_5_2_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__org_springframework_spring_context_5_2_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__org_springframework_spring_core_5_2_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__org_springframework_spring_expression_5_2_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__org_springframework_spring_test_5_2_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__org_springframework_spring_tx_5_2_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__org_springframework_spring_web_5_2_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/o2o.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/o2o.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/classes/mapper/LocalAuthDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/classes/mapper/LocalAuthDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/classes/mapper/ProductCategoryDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/classes/mapper/ProductCategoryDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/classes/mapper/ProductDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/classes/mapper/ProductDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/classes/mapper/ProductImgDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/classes/mapper/ProductImgDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/classes/mapper/ShopCategoryDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/classes/mapper/ShopCategoryDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/classes/mapper/ShopDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/classes/mapper/ShopDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/classes/redis.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/classes/redis.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/classes/spring/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/classes/spring/spring-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/classes/spring/spring-redis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/classes/spring/spring-redis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/classes/spring/spring-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/classes/spring/spring-web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/html/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/html/frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/html/frontend/productDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/html/frontend/productDetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/html/frontend/shopDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/html/frontend/shopDetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/html/frontend/shopList.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/html/frontend/shopList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/html/local/accountBind.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/html/local/accountBind.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/html/local/changePsw.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/html/local/changePsw.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/html/local/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/html/local/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/html/shop/productCategoryManagement.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/html/shop/productCategoryManagement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/html/shop/productManagement.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/html/shop/productManagement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/html/shop/productOperation.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/html/shop/productOperation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/html/shop/shopList.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/html/shop/shopList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/html/shop/shopManagement.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/html/shop/shopManagement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/html/shop/shopoperation.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/html/shop/shopoperation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/css/frontend/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/css/frontend/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/css/frontend/productDetail.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/css/frontend/productDetail.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/css/frontend/shopDetail.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/css/frontend/shopDetail.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/css/frontend/shopList.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/css/frontend/shopList.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/css/shop/productCategoryManagement.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/css/shop/productCategoryManagement.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/css/shop/productManagement.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/css/shop/productManagement.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/css/shop/shopList.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/css/shop/shopList.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/css/shop/shopManagement.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/css/shop/shopManagement.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/js/common/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/js/common/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/js/frontend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/js/frontend/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/js/frontend/shopDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/js/frontend/shopDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/js/frontend/shopList.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/js/frontend/shopList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/js/local/accountBind.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/js/local/accountBind.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/js/local/changePsw.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/js/local/changePsw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/js/local/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/js/local/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/js/local/logout.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/js/local/logout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/js/shop/productCategoryManagement.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/js/shop/productCategoryManagement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/js/shop/productManagement.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/js/shop/productManagement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/js/shop/productOperation.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/js/shop/productOperation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/js/shop/shopList.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/js/shop/shopList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/js/shop/shopoperation.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/out/artifacts/o2o/resources/js/shop/shopoperation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/cache/JedisPoolWriper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/cache/JedisPoolWriper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/cache/JedisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/cache/JedisUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/dao/LocalAuthDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/dao/LocalAuthDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/dao/PersonInfoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/dao/PersonInfoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/dao/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/dao/ShopCategoryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/dao/ShopCategoryDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/dao/ShopDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/dao/ShopDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/dao/split/DynamicDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/dao/split/DynamicDataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/dao/split/DynamicDataSourceHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/dao/split/DynamicDataSourceHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/dao/split/DynamicDataSourceInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/dao/split/DynamicDataSourceInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/dto/ImageHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/dto/ImageHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/dto/PersonInfoExecution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/dto/PersonInfoExecution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/dto/ProductCategoryExecution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/dto/ProductCategoryExecution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/dto/ProductExecution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/dto/ProductExecution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/dto/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/dto/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/dto/ShopExecution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/dto/ShopExecution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/entity/Area.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/entity/Area.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/entity/HeadLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/entity/HeadLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/entity/LocalAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/entity/LocalAuth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/entity/PersonInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/entity/PersonInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/entity/ProductCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/entity/ProductCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/entity/ProductImg.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/entity/ProductImg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/entity/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/entity/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/entity/ShopCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/entity/ShopCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/entity/WeChatAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/entity/WeChatAuth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/enums/PersonInfoStateEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/enums/PersonInfoStateEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/enums/ProductCategoryStateEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/enums/ProductCategoryStateEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/enums/ProductStateEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/enums/ProductStateEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/enums/ShopStateEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/enums/ShopStateEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/exception/ShopOperationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/exception/ShopOperationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/interceptor/shopAdmin/ShopLoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/interceptor/shopAdmin/ShopLoginInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/interceptor/shopAdmin/ShopPermissionInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/interceptor/shopAdmin/ShopPermissionInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/service/AreaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/service/AreaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/service/CacheService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/service/CacheService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/service/LocalAuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/service/LocalAuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/service/PersonInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/service/PersonInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/service/ShopCategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/service/ShopCategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/service/ShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/service/ShopService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/service/impl/AreaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/service/impl/AreaServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/service/impl/CacheServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/service/impl/CacheServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/service/impl/HeadLineServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/service/impl/HeadLineServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/service/impl/LocalAuthServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/service/impl/LocalAuthServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/service/impl/PersonInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/service/impl/PersonInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/service/impl/ProductCategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/service/impl/ProductCategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/service/impl/ShopCategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/service/impl/ShopCategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/service/impl/ShopServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/service/impl/ShopServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/util/CodeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/util/CodeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/util/DESUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/util/DESUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/util/EncryptPropertyPlaceholderConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/util/EncryptPropertyPlaceholderConfigurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/util/HttpServletRequestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/util/HttpServletRequestUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/util/ImageUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/util/ImageUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/util/PageCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/util/PageCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/util/PathUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/util/PathUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/web/frontend/FrontController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/web/frontend/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/web/frontend/MainPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/web/frontend/ShopDetailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/web/frontend/ShopDetailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/web/frontend/ShopListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/web/frontend/ShopListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/web/local/LocalAuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/web/local/LocalAuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/web/shopadmin/ProductCategoryManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/web/shopadmin/ProductCategoryManagerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/web/shopadmin/ProductManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/web/shopadmin/ProductManagerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/web/shopadmin/ShopManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/web/shopadmin/ShopManagerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/web/shopadmin/shopAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/web/shopadmin/shopAdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/web/superadmin/AreaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/java/com/gjxaiou/web/superadmin/AreaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/resources/mapper/LocalAuthDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/resources/mapper/LocalAuthDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/resources/mapper/ProductCategoryDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/resources/mapper/ProductCategoryDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/resources/mapper/ProductDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/resources/mapper/ProductDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/resources/mapper/ProductImgDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/resources/mapper/ProductImgDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/resources/mapper/ShopCategoryDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/resources/mapper/ShopCategoryDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/resources/mapper/ShopDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/resources/mapper/ShopDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/resources/redis.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/resources/redis.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/resources/spring/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/resources/spring/spring-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/resources/spring/spring-redis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/resources/spring/spring-redis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/resources/spring/spring-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/resources/spring/spring-web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/webapp/WEB-INF/html/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/webapp/WEB-INF/html/frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/webapp/WEB-INF/html/frontend/productDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/webapp/WEB-INF/html/frontend/productDetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/webapp/WEB-INF/html/frontend/shopDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/webapp/WEB-INF/html/frontend/shopDetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/webapp/WEB-INF/html/frontend/shopList.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/webapp/WEB-INF/html/frontend/shopList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/webapp/WEB-INF/html/local/accountBind.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/webapp/WEB-INF/html/local/accountBind.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/webapp/WEB-INF/html/local/changePsw.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/webapp/WEB-INF/html/local/changePsw.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/webapp/WEB-INF/html/local/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/webapp/WEB-INF/html/local/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/webapp/WEB-INF/html/shop/productCategoryManagement.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/webapp/WEB-INF/html/shop/productCategoryManagement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/webapp/WEB-INF/html/shop/productManagement.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/webapp/WEB-INF/html/shop/productManagement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/webapp/WEB-INF/html/shop/productOperation.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/webapp/WEB-INF/html/shop/productOperation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/webapp/WEB-INF/html/shop/shopList.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/webapp/WEB-INF/html/shop/shopList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/webapp/WEB-INF/html/shop/shopManagement.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/webapp/WEB-INF/html/shop/shopManagement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/webapp/WEB-INF/html/shop/shopoperation.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/webapp/WEB-INF/html/shop/shopoperation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/css/frontend/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/css/frontend/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/css/frontend/productDetail.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/css/frontend/productDetail.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/css/frontend/shopDetail.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/css/frontend/shopDetail.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/css/frontend/shopList.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/css/frontend/shopList.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/css/shop/productCategoryManagement.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/css/shop/productCategoryManagement.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/css/shop/productManagement.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/css/shop/productManagement.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/css/shop/shopList.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/css/shop/shopList.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/css/shop/shopManagement.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/css/shop/shopManagement.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/js/common/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/js/common/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/js/frontend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/js/frontend/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/js/frontend/shopDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/js/frontend/shopDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/js/frontend/shopList.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/js/frontend/shopList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/js/local/accountBind.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/js/local/accountBind.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/js/local/changePsw.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/js/local/changePsw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/js/local/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/js/local/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/js/local/logout.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/js/local/logout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/js/shop/productCategoryManagement.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/js/shop/productCategoryManagement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/js/shop/productManagement.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/js/shop/productManagement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/js/shop/productOperation.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/js/shop/productOperation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/js/shop/shoplist.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/js/shop/shoplist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/js/shop/shopoperation.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/src/main/webapp/resources/js/shop/shopoperation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/target/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/target/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/target/classes/mapper/LocalAuthDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/target/classes/mapper/LocalAuthDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/target/classes/mapper/ProductCategoryDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/target/classes/mapper/ProductCategoryDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/target/classes/mapper/ProductDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/target/classes/mapper/ProductDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/target/classes/mapper/ProductImgDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/target/classes/mapper/ProductImgDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/target/classes/mapper/ShopCategoryDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/target/classes/mapper/ShopCategoryDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/target/classes/mapper/ShopDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/target/classes/mapper/ShopDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/target/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/target/classes/redis.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/target/classes/redis.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/target/classes/spring/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/target/classes/spring/spring-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/target/classes/spring/spring-redis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/target/classes/spring/spring-redis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../o2o/target/classes/spring/spring-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../o2o/target/classes/spring/spring-web.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XML" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\Program\VersionControl\Maven\Repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../VersionControl/Maven" />
+        <option name="userSettingsFile" value="E:\Program\VersionControl\Maven\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1QSpjVaL6iq1YBiCGKX0SLuYAuI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/People.java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gjxaiou.pojo" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="SpringDemo1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBeansView">
+    <option name="showFilesets" value="false" />
+    <option name="showImplicitBeans" value="false" />
+    <option name="showInfrastructureBeans" value="false" />
+    <option name="showDoc" value="false" />
+    <option name="showGraph" value="false" />
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cda0c787-e374-4928-b4ac-80b3aa402228" name="Default Changelist" comment="" />
+      <created>1567773986706</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567773986706</updated>
+      <workItem from="1567773988821" duration="3050000" />
+      <workItem from="1567777094443" duration="949000" />
+      <workItem from="1567778353754" duration="1592000" />
+      <workItem from="1567816719126" duration="1488000" />
+      <workItem from="1567821076159" duration="327000" />
+      <workItem from="1607762402869" duration="1277000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

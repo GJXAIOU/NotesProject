@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JavaEEDay42ContactSystem:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaEEDay42ContactSystem_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="JavaEEDay42ContactSystem/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JavaEEDay42ContactSystem" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../../../JARs/commons-beanutils-1.8.3-bin/commons-beanutils-1.8.3/commons-beanutils-1.8.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../JARs/junit-4.13-beta-3.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

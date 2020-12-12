@@ -1,0 +1,3 @@
+com\gjxaiou\config\HelloServiceAutoConfiguration.class
+com\gjxaiou\service\HelloService.class
+com\gjxaiou\stater\HelloProperties.class

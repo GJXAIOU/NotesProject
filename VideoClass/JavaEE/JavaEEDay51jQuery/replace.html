@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="js/jquery-3.4.1.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				$("#replace").click(function(){
+					// 点击button替换ul的第二个li
+					var newli = $("<li></li>").text("new")
+					$("ul li:eq(1)").replaceWith(newli)
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<input type="button" name="" id="replace" value="点击替换" />
+		<ul>
+			<li>111</li>
+			<li>222</li>
+			<li>333</li>
+		</ul>
+	</body>
+</html>

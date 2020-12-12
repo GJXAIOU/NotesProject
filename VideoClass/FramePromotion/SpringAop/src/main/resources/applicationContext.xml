@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+        xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:aop="http://www.springframework.org/schema/aop"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans3.0.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+    <!--需要在上面导入 AOP 命名空间-->
+
+    <!--首先配置通知类对象，在切面中进行引入-->
+    <bean id="myBefore" class="com.gjxaiou.advice.MyBeforeAdvice"></bean>
+    <bean id="myAfter" class="com.gjxaiou.advice.MyAfterAdvice"></bean>
+
+    <!--然后配置切面-->
+    <aop:config>
+        <!--配置切点，里面的路径是该方法的完整路径（包括参数）-->
+        <aop:pointcut id="mypoint"
+                      expression="execution(* com.gjxaiou.pointcut.AOPpointcut.AopPointcut())"/>
+
+        <!--为切面添加通知，pointcut-ref 为切点的 id-->
+        <aop:advisor advice-ref="myBefore" pointcut-ref="mypoint"></aop:advisor>
+        <aop:advisor advice-ref="myAfter" pointcut-ref="mypoint"></aop:advisor>
+    </aop:config>
+
+    <bean id = "pointcut" class="com.gjxaiou.pointcut.AOPpointcut"></bean>
+
+
+    <!--配置异常通知-->
+    <bean id="exceptionAdvice" class="com.gjxaiou.exception.MyThrowAdvice"></bean>
+    <aop:config>
+        <!-- 这里 ref 告诉 spring，这个 method 是哪一个类的，同时上面也要配 bean -->
+        <aop:aspect ref="exceptionAdvice">
+            <aop:pointcut id="mypoint"
+                          expression="execution(* com.gjxaiou.pointcut.AOPpointcut.AopPointcut())"/>
+            <!-- 这里的 method 是当告诉 spring，触发异常的时候调用的是哪一个方法,后面是针对于哪一个切点的;最后的 throwing 值为上面声明中的异常名-->
+            <aop:after-throwing method="MyException" pointcut-ref="mypoint"
+                                throwing="e"></aop:after-throwing>
+        </aop:aspect>
+    </aop:config>
+
+    <context:component-scan base-package="com.gjxaiou.advice,com.gjxaiou.pointcut"></context:component-scan>
+    <aop:aspectj-autoproxy proxy-target-class="true"></aop:aspectj-autoproxy>
+
+</beans>

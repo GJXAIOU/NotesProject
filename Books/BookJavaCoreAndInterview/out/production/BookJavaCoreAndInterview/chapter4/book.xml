@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<books>
+ <book id="01">
+  <name>Java</name>
+  <price>15</price>
+  <memo>good book</memo>
+ </book>
+ 
+<book id="02">
+<name>FrameWork</name>
+<price>20</price>
+<memo>new book</memo>
+</book>
+</books>

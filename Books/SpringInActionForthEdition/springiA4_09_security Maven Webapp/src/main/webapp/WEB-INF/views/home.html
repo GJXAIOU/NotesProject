@@ -1,0 +1,33 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+  <head>
+    <title>Spitter</title>
+    <link rel="stylesheet" 
+          type="text/css" 
+          th:href="@{/resources/style.css}"></link>
+  </head>
+  <body>
+  	<!-- thymeleaf的spring security方言。是否完成认证，如果true，主体内容中能够使用认证对象的name属性 -->
+    <div sec:authorize="isAuthenticated()">
+      Hello there...<span sec:authentication="name">user-name</span>
+    </div>
+  
+  	<!-- 如果有权限访问/admin，才会显示管理页面的链接 -->
+  	<span sec:authorize-url="/admin">
+  		<br><a th:href="@{/admin}">Admin</a>
+  	</span>
+  
+    <div id="header" th:include="page :: header"></div>
+  
+    <div id="content">
+      <h1>Welcome to Spitter</h1>
+  
+      <a th:href="@{/spittles}">Spittles</a>
+      <br/>
+      
+      View: <span th:text="${view}">unknown</span>
+    </div>
+    <div id="footer" th:include="page :: copy"></div>
+  </body>
+</html>

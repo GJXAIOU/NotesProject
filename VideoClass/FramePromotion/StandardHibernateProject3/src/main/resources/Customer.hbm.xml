@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping >
+    <class name="com.gjxaiou.pojo.Customer" table="customer">
+        <id name="cid" column="cid">
+            <generator class="native"></generator>
+        </id>
+
+        <property name="custName" column="custname"></property>
+        <property name="custLevel" column="custlevel"></property>
+        <property name="custSource" column="custsource"></property>
+        <property name="custPhone" column="custphone"></property>
+        <property name="custMobile" column="custmobile"></property>
+
+        <!-- 在客户映射文件中，使用 set 标签表示所有联系人
+			set标签里面有name属性：属性值写在客户实体类里面表示联系人的set集合名称（多的一方集合的属性名称）
+			inverse属性默认值：false不放弃关系维护，true表示放弃关系维护
+		-->
+        <set name="setLinkMan" inverse="true">
+            <!-- 一对多建表，需要外键建立关系
+				hibernate机制：双向维护外键，在一和多那一方都配置外键
+				column属性值：外键名称（多的一方外键名称）
+			 -->
+            <key column="clid"></key>
+            <!-- 客户所有的联系人，class里面写联系人实体类全路径（多的一方的类全路径） -->
+            <one-to-many class="com.gjxaiou.pojo.LinkMan"></one-to-many>
+        </set>
+    </class>
+</hibernate-mapping>

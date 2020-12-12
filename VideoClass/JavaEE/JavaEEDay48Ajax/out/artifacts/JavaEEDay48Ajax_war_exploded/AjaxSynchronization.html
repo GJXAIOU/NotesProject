@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+        <!-- JS和CSS代码一般写在head中，便于修改和维护 -->
+        <script type="text/javascript">
+            // 获取html标签的对象
+            // 这是浏览器窗口加载所有的HTML资源之后执行的回调函数,会在加载整个HTML资源之后,最后才执行
+            window.onload = function(){
+                var bbt = document.getElementById("but");
+                bbt.onclick = function(){
+                    // 这里开始ajax网络请求
+                    // 1.初始化对象；获取到一个对象,帮助我们完成网络请求
+                    var xhr = new XMLHttpRequest();
+                    // xhr在IE5和IE6中不支持,得使用:ActiveXObject代替
+                    if(xhr == null){
+                        xhr = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+
+                    /**将关注人的id和关注房间的id发送到Servlet
+                     * open 方法用于设置网络请求相关信息
+                     * 参数一：请求方式，分为GET和POST； 参数二：请求路径； 参数三：是否支持异步
+                     */
+                    xhr.open("GET", "follow?userId=123&roomId=456", false)
+
+                    // 2.发送请求
+                    xhr.send();
+
+                    // 3.发送之后获取服务器返回的数据
+                    var text = xhr.responseText;
+                    alert(text);
+
+                    if(text == 1){
+                        bbt.value = "已关注";
+                    }else {
+                        bbt.value = "关注失败";
+                    }
+                }
+            }
+        </script>
+	</head>
+
+	
+<body>
+     请点击“关注”按钮即可
+     <input type="button" value="关注" id="but">
+
+</body>
+</html>

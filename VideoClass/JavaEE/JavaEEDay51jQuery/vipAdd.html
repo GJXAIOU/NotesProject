@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>		
+		<script src="js/jquery-3.4.1.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				$(".del").click(function(){
+					// 获取当前点击的是哪一个删除按钮
+					$(this).parent().parent().remove()
+				})
+				
+				$(".copy").click(function(){
+					// 复制一条新的数据加入当前表格
+					// 注：table标签在被浏览器解析时候，浏览器会在table和tr之后加上标签 ：tbody
+					var newLine = $("table").find("tr:eq(1)").clone()
+					$("table").append(newLine)					
+				})
+				
+				// 点击哪一个标签，在表格最顶端加上一条数据，数据为点击的当前行数据
+				$(".add").click(function(){
+					$(this).parent().parent().clone(true).insertAfter($("table tr:first"))
+				})			
+			})
+		</script>
+	</head>
+	
+	<body>
+		<table border="0" cellspacing="0" cellpadding="" width="800">
+			<tr bgcolor="#FAEBD7">
+				<th>姓名</th>
+				<th>性别</th> 
+				<th>生日</th>
+				<th>&nbsp;&nbsp;</th>
+			</tr>
+			<tr bgcolor="azure">
+				<td>张三</td>
+				<td>男</td>
+				<td>123</td>
+				<td>
+					<img src="img/copy.png" class="copy" >
+					<img src="img/del.png" class="del" >
+				</td>
+			</tr>
+			<tr bgcolor="azure">
+				<td>李四</td>
+				<td>男</td>
+				<td>1234</td>
+				<td>
+					<img src="img/copy.png" class="copy" >
+					<img src="img/del.png" class="del" >
+				</td>
+			</tr>
+			<tr bgcolor="azure">
+				<td>王五</td>
+				<td>男</td>
+				<td>12345</td>	
+				<td>
+					<img src="img/copy.png" class="copy" >
+					<img src="img/del.png" class="del" >
+				</td>
+			</tr>
+		</table>
+		
+		<img src="img/add.png" class="add" >
+	</body>
+</html>

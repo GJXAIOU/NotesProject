@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.lzc.springia4</groupId>
+    <artifactId>springiA4_code</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>springiA4_12_nosql_neo4j</artifactId>
+  <name>springiA4_12_nosql_neo4j</name>
+  
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <dependencies>
+    <dependency>
+		<groupId>org.springframework.data</groupId>
+		<artifactId>spring-data-neo4j</artifactId>
+		<version>3.2.0.RELEASE</version>
+	</dependency>
+	<!-- 需要连接远程的Neo4j服务器时才需要配置，通过RESTful API来访问 -->
+    <!-- <dependency>
+		<groupId>org.springframework.data</groupId>
+		<artifactId>spring-data-neo4j-rest</artifactId>
+		<version>3.2.0.RELEASE</version>
+	</dependency> -->
+	<dependency>
+	    <groupId>org.neo4j</groupId>
+	    <artifactId>neo4j-cypher-dsl</artifactId>
+	    <version>2.0.4</version>
+	</dependency>
+	<!-- 读取不到，中央仓库没有该文件 -->
+	<!-- <dependency>
+	    <groupId>org.neo4j</groupId>
+	    <artifactId>neo4j-rest-graphdb</artifactId>
+	    <version>2.0.1</version>
+	</dependency> -->
+    <dependency>
+		<groupId>javax.validation</groupId>
+		<artifactId>validation-api</artifactId>
+		<version>2.0.1.Final</version>
+	</dependency>
+  </dependencies>
+</project>

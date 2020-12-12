@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+    <package name="global" extends="struts-default" namespace="/">
+        <global-results>
+            <result name = "success">/hello.jsp</result>
+        </global-results>
+
+        <action name="student" class="com.gjxaiou.action.StudentAction">
+            <result name="success">/world.jsp</result>
+        </action>
+        <action name="teacher" class="com.gjxaiou.action.TeacherAction">
+            <result name="success">/hello.jsp</result>
+        </action>
+
+    </package>
+
+    <package name="data" extends="struts-default" namespace="/">
+        <action name="form1" class="com.gjxaiou.action.Form1Action">
+            <result name ="success">/show.jsp</result>
+        </action>
+        <action name="form2" class="com.gjxaiou.action.Form2Action"></action>
+        <action name="form3" class="com.gjxaiou.action.Form3Action"></action>
+    </package>
+
+    <package name="encapsulation" extends="struts-default" namespace="/">
+        <action name="form4" class="com.gjxaiou.action.Form4Action"></action>
+    </package>
+</struts>

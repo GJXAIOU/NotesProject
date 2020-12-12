@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>身份证录入系统</title>
+</head>
+<body background="img/back.png">
+
+    <h2><b>身份证录入系统</b></h2>   <br>
+    <!--action : 提交数据的地址-->
+    <form action="upload" method = "post" enctype = "multipart/form-data">
+        身份证正面 [人像面] ：<input type="file" name = "front"/> <br>
+        身份证反面 [国徽面] : <input type="file" name = "back" > <br>
+        身份证号 : &nbsp; &nbsp;  <input type="text" name = "idcard"> <br>
+
+        提交：<input type="submit" value="提交">
+
+    </form>
+
+</body>
+</html>

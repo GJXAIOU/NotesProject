@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>省市之间层级联动</title>
+
+    <script>
+        window.onload = function () {
+            // 1-1监听到切换了
+            var s1 = document.getElementById("s1");
+            var s2 = document.getElementById("s2");
+            s1.onchange = function () {
+                // 1-2 获取切换之后标签的option的值
+                // 因为select没有value属性，js代码通过value属性获得的时是select当前被选中的option的value值；
+                var s1value = s1.value;
+
+                // 1-3 将option的组装移动到后台：
+                // 首先捕获到当前被选中的省的value之后，把value通过Ajax传到一个Servlet，Servlet获取到value之后根据
+                // value查找对应的市进行返回，最后Ajax获取服务器返回的数据进行添加option
+                s2.length = 0;
+                // 1-3-1 将s1value发送给后台的Servlet
+                var xhr = new XMLHttpRequest();
+                xhr.open("GET", "getCity?s1value=" + s1value, true);
+                xhr.send();
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState == 4){
+                        if(xhr.status == 200){
+                            // 从CityServlet服务器中返回的是一个json字符串，需要对其进行解析获取数据
+                            var jsonStr = xhr.responseText;
+
+                            // js可以直接将json字符串转换为一个js对象
+                            // 获取到的是一个js数组，里面封装了第二个select所需要的对象；示例：["" : "", "": ""],[]
+                            var obj = JSON.parse(jsonStr);
+
+                            // 循环向城市的选项中添加服务器返回的数据对应的option
+                            for (i = 0; i < obj.length; i++){
+                                s2.add(new Option(obj[i].text(), obj[i].value));
+                            }
+                        }
+                    }
+                }
+
+
+
+
+
+
+
+                // 少量数据下的方法
+                //  s1.length = 0;  将原来的清空
+                // if (s1value == "北京") {
+                //      s2.add(new option("东城", 1))
+                //      s2.add(new option("西城", 2))
+                // }
+                //
+                // if (s1value == "江苏") {
+                // }
+                //
+                // if (s1value == "上海") {
+                // }
+            }
+
+        }
+    </script>
+
+</head>
+<body>
+
+    <!-- 目的是实现层级联动 -->
+    <!-- 1. 监听第一个select切换的动作，值的变化 ：使用JS-->
+
+    省 ：<select id="s1" >
+            <option value="北京">北京</option>
+            <option value="江苏">江苏</option>
+            <option value="上海">上海</option>
+
+    </select>
+
+    市 ：<select id="s2">
+        <option value="东城">东城</option>
+        <option value="南京">南京</option>
+        <option value="黄浦">黄浦</option>
+
+    </select>
+
+</body>
+</html>

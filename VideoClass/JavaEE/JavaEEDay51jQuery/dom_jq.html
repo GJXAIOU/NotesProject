@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="js/jquery-3.4.1.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			// js和jQuery代码可以共存,但是jQuery函数只能由jQuery节点进行调用,同样dom对象只能由原生的方式或者属性进行操作
+			$(function(){
+				// 获取dom节点对象
+				var div1 = document.getElementById("div")
+				// 获取jq节点对象
+				var div2 = $("#div")
+				
+				div1.innerHTML = "div1.dom"
+				div2.html("div2.jq")
+				
+				// 如果dom对象先使用jq函数,需要进行类型转换
+				$(div1).html("div1.jq")
+			})
+		</script>
+	</head>
+	<body>
+		<div id="div">
+			默认值
+		</div>
+	</body>
+</html>

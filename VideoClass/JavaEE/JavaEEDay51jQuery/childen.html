@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="js/jquery-3.4.1.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				// 功能 : 将ul下面子元素颜色改变
+				// 原来方式: $("ul li").css("color", "red");
+				$("ul").children().css("color","red")
+				
+				// children配合过滤选择器使用
+				$("ul").children(":first").css("background-color","yellow")
+				$("ul").children(":gt(0)").css("background-color","blue")
+				
+				// find 配合选择器使用
+				$("ul").find("span").css("background-color","green")
+			})
+		</script>
+	</head>
+	<body>
+		<ul>
+			<li>li111</li>
+			<li>li222</li>
+			<li>li333</li>
+			<li><span>li444</span></li>
+		</ul>
+	</body>
+</html>

@@ -1,0 +1,12 @@
+# 8004 表示注册到 Zookeeper 服务器的支付服务提供者的端口号
+server:
+  port: 8004
+
+spring:
+  application:
+    # 服务别名
+    name: cloud-provider-payment
+  cloud:
+    zookeeper:
+      # ip地址为linux中的网络接口，2181为zookeeper的默认端口
+      connect-string: 192.168.238.151:2181

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		
+		<style type="text/css">
+			#nav .navsBox ul{
+				display: none;
+				list-style: none;
+			}
+			
+			#nav .navsBox ul li.onbg{
+				background-color: antiquewhite;
+			}
+		</style>
+		
+		<script src="js/jquery-3.4.1.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				// 点击显示和隐藏列表
+				$(".firstNav").click(function(){
+					$("#nav .navsBox ul").toggle()
+				})
+				
+				// 监听鼠标悬停
+				$("#nav .navsBox ul li").hover(
+					// 表示悬停在上面
+					function(){
+						// $(this)表示鼠标悬停在的li对象
+						$(this).addClass("onbg")
+					},
+					// 表示移开之后
+					function(){
+						$(this).removeClass("onbg")
+					}
+				)
+				
+			})
+		</script>	
+	</head>
+	
+
+	<body>
+		<div id="nav">
+			<div class="navsBox">
+				<div class="firstNav">购物特权</div>
+				<ul>
+					<li class="jedh"><a href="#">全额兑换</a></li>
+					<li class="jlbbyk"><a href="#">俱乐部包邮卡</a></li>
+					<li class="jwljb"><a href="#">购物领金币</a></li>
+					<li class="mrljb"><a href="#">每日领金币</a></li>
+					<li class="vipjtj"><a href="#">VIP 阶梯价</a></li>
+				</ul>
+				
+			</div>
+			
+		</div>
+	</body>
+</html>

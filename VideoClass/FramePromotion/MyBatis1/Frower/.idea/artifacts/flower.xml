@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="flower">
+    <output-path>$PROJECT_DIR$/out/artifacts/flower</output-path>
+    <root id="archive" name="flower.war">
+      <element id="dir-copy" path="$PROJECT_DIR$/src/WebContent" />
+    </root>
+  </artifact>
+</component>

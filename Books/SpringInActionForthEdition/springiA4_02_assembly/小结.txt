@@ -1,0 +1,10 @@
+装配Bean的三种方式：
+	1.自动化配置（隐式配置），涉及@autowired和@Component注解（或者@Inject和@Named），
+		利用@Configuration+@ComponentScan（或<context:component-scan>）进行扫描
+	2.基于Java的配置（显式配置），涉及@autowired和@Configuration+@Bean注解，可通过应用
+	3.基于Xml的配置（显式配置），涉及@autowired注解（只有修饰属性时必要）和<bean>标签
+	
+建议优先级：
+	1 > 2 > 3
+	通常情况，优先1，尤其是将自定义的POJO设置为Spring Bean；
+	第三方提供的POJO，优先选择2，因为无法配置@Component，不能选择1，同时比3更加强大、类型安全并且易于重构

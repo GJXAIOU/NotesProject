@@ -1,0 +1,4 @@
+# 为了让 HelloServiceAutoConfiguration 自动配置类生效
+# 这里是配置启动的时候要启动哪些自动配置类
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.gjxaiou.config.HelloServiceAutoConfiguration

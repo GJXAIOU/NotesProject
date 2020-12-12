@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>介绍页面</title>
+    <script>
+        window.onload = function () {
+           var bbt =  document.getElementById("star");
+           bbt.onclick = function () {
+               // 初始化对象
+               var xhr = new XMLHttpRequest();
+               if (xhr == null) {
+                   xhr = new ActiveXObject("Microsoft.XMLHTTP");
+               }
+
+               // 发送请求
+               xhr.open("GET", "star", true);
+               xhr.send();
+
+               // 接收请求
+               xhr.onreadystatechange = function () {
+                   if (xhr.readyState == 4) {
+                       if (xhr.status == 200){
+                           var text = xhr.responseText;
+                           if (text == 1){
+                               bbt.value = "已收藏";
+                           } else {
+                               bbt.value = "收藏失败";
+                           }
+                       }
+                   }
+               }
+           }
+        }
+    </script>
+
+</head>
+<body>
+
+    <img src="images/show.jpg" alt="哪吒" /> <br>
+
+    <input type="button"  value="收藏" id="star">
+
+   <p>影片信息</p>
+    <p> </p>
+
+</body>
+</html>

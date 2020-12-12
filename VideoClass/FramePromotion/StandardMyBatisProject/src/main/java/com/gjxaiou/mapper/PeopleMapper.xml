@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.gjxaiou.mapper.PeopleMapper">
+    <select id="selectAll" resultType="People">
+        select * from people
+    </select>
+
+    <select id="selectByGenderAndScore" resultType="People">
+        select * from people where gender=#{param1} and score=#{param2}
+    </select>
+
+    <select id="selectByGenderAndScore1" resultType="People">
+        select * from people where gender=#{gender} and score=#{score}
+    </select>
+    
+    
+    <select id="DynamicSelect" resultType="People">
+        select * from people where  1 = 1
+        <if test="gender != null and gender != ''">
+            and gender=#{gender}
+        </if>
+        <if test="gender != null and gender != ''">
+            and score=#{score}
+        </if>
+    </select>
+
+
+</mapper>

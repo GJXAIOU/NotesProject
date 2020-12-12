@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <!--    action路径是一个处理文件的Servlet-->
+    <!--method这里为POST，因为可能上传的文件较大，而POST没有文件大小限制-->
+<!--    上传文件表单中，要加上enctype属性，具体见图片-->
+    <form action="upload" method="post" enctype="multipart/form-data">
+
+        <input type="text" name="test">
+        <!--这里点击input就打开文件系统-->
+        选择一个文件：<input type="file" name="file"> <br>
+        提交：<input type="submit" value="提交">
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,19 @@
+server:
+  port: 9004
+
+# 注入 Nacos
+spring:
+  application:
+    name: nacos-payment-provider
+  cloud:
+    nacos:
+      discovery:
+        # 配置 Nacos 地址
+        server-addr: localhost:8848
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

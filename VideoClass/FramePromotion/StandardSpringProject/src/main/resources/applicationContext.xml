@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- id 是获取该对象的标识，目的是为了以后方便的获取使用该对象； class 表示具体创建的是哪个类对象-->
+    <bean id="people" class="com.gjxaiou.pojo.People">
+        <property name="id" value="12"></property>
+        <property name="name" value="chenliu"></property>
+        <property name="gender" value="女" ></property>
+        <property name="score" value="13"></property>
+        <property name="tel" value="123243"></property>
+        <property name="list">
+            <list>
+                <!--虽然这里存放 String 数据类型，但是值不使用 ""-->
+                <value>1</value>
+                <value>2</value>
+                <value>3</value>
+            </list>
+        </property>
+        <property name="set">
+            <set>
+                <value>1</value>
+                <value>2</value>
+                <value>3</value>
+            </set>
+        </property>
+        <property name="map">
+            <map>
+                <entry key="a" value="b"></entry>
+                <entry key="c" value="d"></entry>
+                <entry key="e" value="f"></entry>
+            </map>
+        </property>
+    </bean>
+
+
+    <!--使用实例工厂创建对象-->
+        <!--首先创建一个工厂-->
+    <bean id="factory" class="com.gjxaiou.factory.PeopleFactory"></bean>
+        <!--根据工厂创建对象，factory-bean 对应工厂 id，factory-method 对应创建对象方法-->
+    <bean id="factoryPeople" factory-bean="factory" factory-method="newInstance"></bean>
+
+    <!--使用静态工厂创建对象-->
+        <!--不需要创建工厂，直接创建对象，只需要指明工厂类可以直接使用工厂中的方法-->
+    <bean id="staticFactoryPeople" class="com.gjxaiou.factory.StaticPeopleFactory"
+          factory-method="newInstance"></bean>
+
+
+    <!--依赖注入-->
+    <bean id="bdi" class="com.gjxaiou.pojo.BDI">
+        <property name="num" value="23"></property>
+        <property name="height" value="34"></property>
+    </bean>
+
+    <bean id="adi" class="com.gjxaiou.pojo.ADI">
+        <property name="bdi" ref="bdi"></property>
+    </bean>
+
+</beans>
