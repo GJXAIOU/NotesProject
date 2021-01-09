@@ -1,16 +1,13 @@
-package com.gjxaiou;
+package com.gjxaiou.swagger2020;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-/**
- * @Author GJXAIOU
- * @Date 2020/1/6 20:45
- */
 @SpringBootApplication
-public class start {
+public class Swagger2020Application {
+
     public static void main(String[] args) {
-        SpringApplication.run(start.class, args);
+        SpringApplication.run(Swagger2020Application.class, args);
     }
+
 }
-// 输入：http://localhost:8080/hello 进行测试
