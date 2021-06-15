@@ -13,6 +13,4 @@ public class Client {
         increaseThread.start();
         decreaseThread.start();
     }
-
-
 }
