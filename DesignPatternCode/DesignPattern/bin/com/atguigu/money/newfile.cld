@@ -720,7 +720,7 @@
                                             </org.eclipse.ui.views.properties.PropertyDescriptor>
                                           </propertyDescriptors>
                                           <stereoType></stereoType>
-                                          <name>com.atguigu.money.State</name>
+                                          <name>com.gjxaiou.money.State</name>
                                         </source>
                                         <target class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
                                         <bendpoints/>
