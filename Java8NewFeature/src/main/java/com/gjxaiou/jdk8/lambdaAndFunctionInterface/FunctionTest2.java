@@ -6,7 +6,7 @@ public class FunctionTest2 {
     public static void main(String[] args) {
         FunctionTest2 test = new FunctionTest2();
         // 先应用后面，然后应用前面
-        System.out.println(test.compute(1, value -> value + " world", value -> value + " hello "));
+        System.out.println(test.compute(1, value -> value + " hello", value -> value + " world"));
         // 先应用前面，然后应用后面
         System.out.println(test.compute2(2, value -> value + " hello ", value -> value + "world"));
     }
